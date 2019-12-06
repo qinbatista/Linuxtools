@@ -1,0 +1,42 @@
+{
+	"server": "0.0.0.0",
+	"local_address": "127.0.0.1",
+	"timeout": 300,
+	"method": "aes-256-cfb",
+	"port_password": {
+		"7000": "gflkdjwow",
+		"7001": "gflkdjwow",
+		"7002": "zxjknvz",
+		"7003": "oooxkgdhqq",
+		"7004": "ashfiqu",
+		"7005": "xzwtet",
+		"7006": "fiwiwq",
+		"7007": "oiwhqiq",
+		"7008": "lkjfiq",
+		"7009": "joqmlas",
+		"7010": "qidfhggnk1",
+
+		"7011": "gflkdjwow",
+		"7012": "zxjknvz",
+		"7013": "oooxkgdhqq",
+		"7014": "ashfiqu",
+		"7015": "xzwtet",
+		"7016": "fiwiwq",
+		"7017": "oiwhqiq",
+		"7018": "lkjfiq",
+		"7019": "joqmlas",
+		"7020": "qidfhggnk1",
+
+
+		"7021": "gflkdjwow",
+		"7022": "zxjknvz",
+		"7023": "oooxkgdhqq",
+		"7024": "ashfiqu",
+		"7025": "xzwtet",
+		"7026": "fiwiwq",
+		"7027": "oiwhqiq",
+		"7028": "lkjfiq",
+		"7029": "joqmlas",
+		"7030": "qidfhggnk1"
+	}
+}
