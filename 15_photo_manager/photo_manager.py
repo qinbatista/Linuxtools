@@ -3,7 +3,7 @@ from datetime import datetime
 import os
 
 def get_time():
-	current_time = datetime.now().strftime("%Y-%m-%d")
+	current_time = datetime.now().strftime("%Y-%m")
 	current_folder = os.path.abspath(os.path.dirname(__file__))+"/"+current_time
 	if not os.path.exists(current_folder):os.makedirs(current_folder)
 	return current_time, current_folder
