@@ -1,0 +1,3 @@
+FROM python:3.7-alpine
+ADD 02_Cliect.py /
+CMD [ "python" ,"/02_Cliect.py"]
