@@ -56,7 +56,7 @@ def SyncDNSHost():
 	global IPList,NumberList
 	for index,i in enumerate(IPList):
 		HostContext.append(i+" remote"+str(NumberList[index])+".magicwandai.com\n")
-	file_object_read = open(+"./MyDNSHost",'w',encoding="utf8")
+	file_object_read = open("./MyDNSHost",'w',encoding="utf8")
 	try:
 		file_object_read.writelines(HostContext)
 	finally:
