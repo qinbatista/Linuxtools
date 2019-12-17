@@ -21,8 +21,6 @@ def change_shall_premssion(name):
 def create_user():
 	name = input("user name:")
 	os.system("adduser "+name)
-	os.system("su "+name)
-	os.system("ssh-keygen")
 	change_shall_premssion(name)
 
 def list_user():
@@ -35,6 +33,8 @@ def list_user():
 	return file_name_lists[int(input('input your choice(integer only):'))]
 
 def add_ssh_to_user(name, key):
+	if os.path.exists("/home/" + name + "/.ssh/")==False:os.system("mkdir "+"/home/" + name + "/.ssh/")
+	if os.path.exists("/home/" + name + "/.ssh/")==False:os.system("touch authorized_keys")
 	with open("/home/" + name + "/.ssh/authorized_keys", mode='a', encoding="utf8") as file:
 		file.writelines(key)
 	print(f'{name}/.ssh/authorized_keys added:{key}')
