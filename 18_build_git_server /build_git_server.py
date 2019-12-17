@@ -35,21 +35,30 @@ def list_user():
 def add_ssh_to_user(name, key):
 	if os.path.exists("/home/" + name + "/.ssh/")==False:os.system("mkdir "+"/home/" + name + "/.ssh/")
 	if os.path.exists("/home/" + name + "/.ssh/")==False:os.system("touch authorized_keys")
+	os.system('chmod 700 ~/.ssh/')
+	os.system('chmod 600 ~/.ssh/*')
 	with open("/home/" + name + "/.ssh/authorized_keys", mode='a', encoding="utf8") as file:
 		file.writelines(key+"\n")
 	print(f'/home/{name}/.ssh/authorized_keys added:{key}')
 
-def create_git_repositories(name, repositories):
-	
+def create_git_repositories(repositories):
+	name = list_user()
+	os.system('mkdir '+ name)
+	os.system('chown name /'+ name+"/")
+	os.system('chmod 700 /'+ name+"/")
+	os.system('git init --bare '+'/'+name+'/'+repositories+'.git')
 def main():
 	while True:
 		print("1: create user")
 		print("2: add ssh key to user")
+		print("3: create a repositories")
 		choice = input('input your choice:')
 		if choice == '1':
 			create_user()
 		elif choice == '2':
 			add_ssh_to_user(list_user(),input('input your ssh public key:'))
+		elif choice =='3':
+			create_git_repositories(input('input repositories name:'))
 		else:
 			print("exit")
 
