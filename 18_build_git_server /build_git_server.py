@@ -21,6 +21,8 @@ def change_shall_premssion(name):
 def create_user():
 	name = input("user name:")
 	os.system("adduser "+name)
+	os.system("su "+name)
+	os.system("ssh-keygen")
 	change_shall_premssion(name)
 
 def list_user():
