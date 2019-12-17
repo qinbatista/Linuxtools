@@ -36,19 +36,20 @@ def add_ssh_to_user(name, key):
 	if os.path.exists("/home/" + name + "/.ssh/")==False:os.system("mkdir "+"/home/" + name + "/.ssh/")
 	if os.path.exists("/home/" + name + "/.ssh/")==False:os.system("touch authorized_keys")
 	with open("/home/" + name + "/.ssh/authorized_keys", mode='a', encoding="utf8") as file:
-		file.writelines(key)
-	print(f'{name}/.ssh/authorized_keys added:{key}')
+		file.writelines(key+"\n")
+	print(f'/home/{name}/.ssh/authorized_keys added:{key}')
 
 def main():
-	print("1: create user")
-	print("2: add ssh key to user")
-	choice = input('input your choice:')
-	if choice == '1':
-		create_user()
-	elif choice == '2':
-		add_ssh_to_user(list_user(),input('input your ssh public key:'))
-	else:
-		print("exit")
+	while True:
+		print("1: create user")
+		print("2: add ssh key to user")
+		choice = input('input your choice:')
+		if choice == '1':
+			create_user()
+		elif choice == '2':
+			add_ssh_to_user(list_user(),input('input your ssh public key:'))
+		else:
+			print("exit")
 
 if __name__ == '__main__':
 	main()
