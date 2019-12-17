@@ -12,9 +12,7 @@ bufsize = 1024
 addr = (host,port) 
 udpServer = socket(AF_INET,SOCK_DGRAM)
 udpServer.bind(addr) #开始监听
-def PythonLocation():
-	# return os.path.dirname(os.path.realpath(__file__))
-	return "/root/magicwandaisample/03_DDNS"
+
 def ReplaceKeyWord(_Path,keyword,nextLine):
 	print("_Path="+_Path)
 	if os.path.isfile(_Path):
@@ -45,9 +43,9 @@ def get_host_ip():
 	return ip
 def DeployDNS():
 	os.system("apt-get -y install dnsmasq")
-	os.system("cp "+PythonLocation()+"/dnsmasq.conf /etc/dnsmasq.conf")
-	ReplaceKeyWord(PythonLocation()+"/dnsmasq.conf","listen-address=","listen-address="+get_host_ip()+",127.0.0.1")
-	os.system("cp "+PythonLocation()+"/MyDNSHost /etc/hosts")
+	os.system("cp "+"./dnsmasq.conf /etc/dnsmasq.conf")
+	ReplaceKeyWord("./dnsmasq.conf","listen-address=","listen-address="+get_host_ip()+",127.0.0.1")
+	os.system("cp "+"./MyDNSHost /etc/hosts")
 	os.system("/etc/init.d/dnsmasq restart")
 def main():
 	thread1 = threading.Thread(target=run,name="线程1",args=("123","123"))
@@ -58,13 +56,13 @@ def SyncDNSHost():
 	global IPList,NumberList
 	for index,i in enumerate(IPList):
 		HostContext.append(i+" remote"+str(NumberList[index])+".magicwandai.com\n")
-	file_object_read = open(PythonLocation()+"/MyDNSHost",'w',encoding="utf8")
+	file_object_read = open(+"./MyDNSHost",'w',encoding="utf8")
 	try:
 		file_object_read.writelines(HostContext)
 	finally:
 		file_object_read.close()
 	threading.Timer(20,SyncDNSHost).start()
-	os.system("cp "+PythonLocation()+"/MyDNSHost /etc/hosts")
+	os.system("cp "+"./MyDNSHost /etc/hosts")
 	os.system("/etc/init.d/dnsmasq restart")
 IPList=[]
 MacList=[]

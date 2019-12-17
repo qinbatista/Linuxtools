@@ -39,6 +39,8 @@ def add_ssh_to_user(name, key):
 		file.writelines(key+"\n")
 	print(f'/home/{name}/.ssh/authorized_keys added:{key}')
 
+def create_git_repositories(name, repositories):
+	
 def main():
 	while True:
 		print("1: create user")
