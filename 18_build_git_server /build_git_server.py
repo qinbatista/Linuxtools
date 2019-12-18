@@ -29,7 +29,7 @@ def list_user():
 	'''
 	file_name_lists = os.listdir('/home')
 	for index, name in enumerate(file_name_lists):
-		print(f'{index}:{name}')
+		print(f'[{index}]\t{name}')
 	return file_name_lists[int(input('input your choice(integer only):'))]
 
 def add_ssh_to_user(name, key):
@@ -43,15 +43,17 @@ def add_ssh_to_user(name, key):
 
 def create_git_repositories(repositories):
 	name = list_user()
-	os.system('mkdir /'+ name)
+	if os.path.exists("/home/" + name + "/.ssh/")==False:os.system('mkdir /'+ name)
 	os.system('chown '+name+' /'+ name+"/")
 	os.system('chmod 700 /'+ name+"/")
 	os.system('git init --bare '+'/'+name+'/'+repositories+'.git')
+	print(f'[success]\tgit clone ssh://{name}@remote2.magicwandai.com:10022/{name}/{repositories}.git')
+
 def main():
 	while True:
-		print("1: create user")
-		print("2: add ssh key to user")
-		print("3: create a repositories")
+		print("[1]\tcreate user")
+		print("[2]\tadd ssh key to user")
+		print("[3]\tcreate a repositories")
 		choice = input('input your choice:')
 		if choice == '1':
 			create_user()
@@ -61,6 +63,7 @@ def main():
 			create_git_repositories(input('input repositories name:'))
 		else:
 			print("exit")
+			break
 
 if __name__ == '__main__':
 	main()
