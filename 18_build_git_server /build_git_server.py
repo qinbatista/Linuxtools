@@ -43,8 +43,8 @@ def add_ssh_to_user(name, key):
 
 def create_git_repositories(repositories):
 	name = list_user()
-	os.system('mkdir '+ name)
-	os.system('chown name /'+ name+"/")
+	os.system('mkdir /'+ name)
+	os.system('chown '+name+' /'+ name+"/")
 	os.system('chmod 700 /'+ name+"/")
 	os.system('git init --bare '+'/'+name+'/'+repositories+'.git')
 def main():
