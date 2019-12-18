@@ -3,13 +3,14 @@ from socket import *
 import threading
 import time
 import uuid
-host  = 'magicwandai.com' # 这是客户端的电脑的ip
+host  = '' # 这是客户端的电脑的ip
 # host  = '192.168.0.105' # 这是客户端的电脑的ip
 port = 12345 #接口选择大于10000的，避免冲突
 bufsize = 1024  #定义缓冲大小
 addr = (host,port) # 元祖形式
 serial_number = ""
 def main():
+	host = input('Input your ddns server domain name or IP adrress:')
 	thread1 = threading.Thread(target=run,name="线程1",args=("123","123"))
 	thread1.start()
 def get_mac_address(): 
