@@ -51,16 +51,16 @@ def create_git_repositories(repositories):
 
 def main():
 	while True:
-		print("[1]\tcreate user")
-		print("[2]\tadd ssh key to user")
-		print("[3]\tcreate a repositories")
-		choice = input('input your choice:')
+		print("[1]\tCreate user")
+		print("[2]\tAdd ssh key to user")
+		print("[3]\tCreate a repositories")
+		choice = input('Input your choice:')
 		if choice == '1':
 			create_user()
 		elif choice == '2':
-			add_ssh_to_user(list_user(),input('input your ssh public key:'))
+			add_ssh_to_user(list_user(),input('Input your ssh public key:'))
 		elif choice =='3':
-			create_git_repositories(input('input repositories name:'))
+			create_git_repositories(input('Input repositories name:'))
 		else:
 			print("exit")
 			break
