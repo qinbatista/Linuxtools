@@ -45,6 +45,8 @@ def DeployDNS():
 	os.system("apt-get -y install dnsmasq")
 	os.system("cp "+"./dnsmasq.conf /etc/dnsmasq.conf")
 	ReplaceKeyWord("./dnsmasq.conf","listen-address=","listen-address="+get_host_ip()+",127.0.0.1")
+	os.system("echo 'conf-dir=/etc/dnsmasq.d/,*.conf' > /etc/dnsmasq.conf")
+	os.system(f'echo "user=root" >> /etc/dnsmasq.conf')
 	os.system("cp "+"./MyDNSHost /etc/hosts")
 	os.system("/etc/init.d/dnsmasq restart")
 def main():
@@ -61,6 +63,7 @@ def SyncDNSHost():
 		file_object_read.writelines(HostContext)
 	finally:
 		file_object_read.close()
+	print("restart in every 20s")
 	threading.Timer(20,SyncDNSHost).start()
 	os.system("cp "+"./MyDNSHost /etc/hosts")
 	os.system("/etc/init.d/dnsmasq restart")
@@ -70,7 +73,6 @@ NumberList=[]
 def run(param1,param2):
 	DeployDNS()
 	global IPList,MacList,NumberList
-	DeployDNS()
 	IPList = []
 	MacList = []
 	NumberList = []
@@ -97,4 +99,5 @@ def run(param1,param2):
 	udpServer.close()
 
 if __name__ == '__main__':
+	get_host_ip()
 	main()
