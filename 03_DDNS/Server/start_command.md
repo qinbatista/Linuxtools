@@ -1,7 +1,6 @@
 ###Start command
 
 ```dockerfile
-docker run -itdv /Users/youfolder/photo_manager:/photo_manager photo_manager 
-
+docker run -it -p 80:80 -p 53:53 -p 12345:12345 debian_test
 ```
 
