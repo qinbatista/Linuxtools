@@ -173,7 +173,7 @@ class DDNSServer:
 
 if __name__ == '__main__':
 	ddns = DDNSServer(12345,'magicwandai.com')
-	# ddns.get_host_ip()
-	# ddns.deploy_ddns_server()
-	# ddns.start_sync_ddns_config_thread()
+	ddns.get_host_ip()
+	ddns.deploy_ddns_server()
+	ddns.start_sync_ddns_config_thread()
 	ddns.start_recive_ddns_config_thread()

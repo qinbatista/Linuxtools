@@ -1,8 +1,29 @@
-FROM python:3.7-alpine
-ADD * /
+FROM debian
+ADD * ./
+COPY libsodium-1.0.10.tar.gz ./libsodium-1.0.10.tar.gz
+
 RUN apt-get update
-RUN apt-get -y install dnsmasq
-RUN apt-get -y install python3
-EXPOSE 12345
-VOLUME [ "/Repositories" ]
-CMD [ "python3" ,"/01_Server.py"]
+RUN apt-get -y install python3 python3-distutils sudo git tar build-essential
+#aria2 screen ssh make gcc sudo vim wget curl proxychains locales
+
+#install youtube-dl
+RUN python3 get-pip.py
+#install ssr
+RUN chmod +x ./ssr
+RUN mv ./ssr /usr/local/sbin/
+RUN ssr install
+#set config
+COPY config.json /root/.local/share/shadowsocksr/config.json
+COPY sshd_config /root/ssh/sshd_config
+COPY proxychains.conf /etc/proxychains.conf
+#build libsodium-1.0.10
+RUN tar xzvf ./libsodium-1.0.10.tar.gz
+RUN ./libsodium-1.0.10/configure
+RUN make -j8 && make install
+RUN echo /usr/local/lib > /etc/ld.so.conf.d/usr_local_lib.conf
+RUN ldconfig
+
+WORKDIR /root
+
+EXPOSE 22
+CMD [ "service" ,"ssh","start"]

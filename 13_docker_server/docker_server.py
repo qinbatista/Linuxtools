@@ -13,7 +13,7 @@ def DeployServer():
 	os.system("git clone http://git.mrwang.pw/Reed/Linux_ssr_script.git")
 	os.system("cd Linux_ssr_script && chmod +x ./ssr")
 	os.chdir(os.getcwd()+"/Linux_ssr_script")
-	os.system("sudo mv ./ssr /usr/local/sbin/")
+	os.system("mv ./ssr /usr/local/sbin/")
 	os.system("ssr install")
 	os.chdir(os.getcwd()+"/../")
 	os.system("cp config.json /root/.local/share/shadowsocksr/config.json")
