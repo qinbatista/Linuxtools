@@ -27,4 +27,4 @@ RUN echo /usr/local/lib > /etc/ld.so.conf.d/usr_local_lib.conf
 RUN ldconfig
 WORKDIR /root
 EXPOSE 22
-CMD  service ssh start && tail -f /dev/null
+CMD  service ssh start && tail -f /dev/null &
