@@ -6,6 +6,6 @@ def main():
 	os.system('service ssh start')
 	while True:
 		new_ssh = input('input your id_rsa.pub:')
-		os.system(new_ssh+'>>~/.ssh/authorized_keys')
+		os.system('echo '+new_ssh+'>>~/.ssh/authorized_keys')
 if __name__ == '__main__':
     main()
