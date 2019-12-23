@@ -21,8 +21,7 @@ RUN ./libsodium-1.0.10/configure
 RUN make -j8 && make install
 RUN echo /usr/local/lib > /etc/ld.so.conf.d/usr_local_lib.conf
 RUN ldconfig
-
 WORKDIR /root
-
 EXPOSE 22
 CMD [ "service" ,"ssh","start"]
+ENTRYPOINT /usr/sbin/sshd -D
