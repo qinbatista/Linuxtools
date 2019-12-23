@@ -43,11 +43,11 @@ def add_ssh_to_user(name, key):
 
 def create_git_repositories(repositories):
 	name = list_user()
-	if os.path.exists("/home/" + name + "/.ssh/")==False:os.system('mkdir /'+ name)
-	os.system('chown '+name+' /'+ name+"/")
-	os.system('chmod 700 /'+ name+"/")
-	os.system('git init --bare '+'/'+name+'/'+repositories+'.git')
-	print(f'[success]\tgit clone ssh://{name}@remote2.magicwandai.com:10022/{name}/{repositories}.git')
+	if os.path.exists("/home/" + name + "/.ssh/")==False:os.system('mkdir /Repositories/'+ name)
+	os.system('chown '+name+' /Repositories/'+ name+"/")
+	os.system('chmod 700 /Repositories/'+ name+"/")
+	os.system('git init --bare '+'/Repositories/'+name+'/'+repositories+'.git')
+	print(f'[success]\tgit clone ssh://{name}@remote2.magicwandai.com:10022/Repositories/{name}/{repositories}.git')
 
 def main():
 	while True:
@@ -61,9 +61,7 @@ def main():
 			add_ssh_to_user(list_user(),input('Input your ssh public key:'))
 		elif choice =='3':
 			create_git_repositories(input('Input repositories name:'))
-		else:
-			print("exit")
-			break
+
 
 if __name__ == '__main__':
 	main()
