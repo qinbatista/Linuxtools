@@ -10,5 +10,4 @@ RUN mkdir ~/.ssh/
 RUN touch ~/.ssh/authorized_keys
 WORKDIR /root
 EXPOSE 22
-CMD ["python3","/docker_server.py" ]
-#CMD  service ssh start && tail -f /dev/null &
+CMD  service ssh start && tail -f /dev/null &
