@@ -25,6 +25,14 @@ RUN ./libsodium-1.0.10/configure
 RUN make -j8 && make install
 RUN echo /usr/local/lib > /etc/ld.so.conf.d/usr_local_lib.conf
 RUN ldconfig
+
+#set for aria2
+RUN mkdir ~/.aria2
+RUN touch ~/.aria2/aria2.session
+RUN touch ~/.aria2/aria2.log
+RUN mv ./aria2.conf ~/.aria2/aria2.conf
+
+
 WORKDIR /root
 EXPOSE 22
 CMD ["python3","/docker_server.py" ]
