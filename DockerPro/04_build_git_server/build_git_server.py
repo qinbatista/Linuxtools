@@ -47,7 +47,7 @@ def create_git_repositories(repositories):
 	os.system('chown '+name+' /Repositories/'+ name+"/")
 	os.system('chmod 700 /Repositories/'+ name+"/")
 	os.system('git init --bare '+'/Repositories/'+name+'/'+repositories+'.git')
-	print(f'[success]\tgit clone ssh://{name}@remote2.magicwandai.com:10022/Repositories/{name}/{repositories}.git')
+	print(f'[success]\tgit clone ssh://{name}@127.0.0.1:10022/Repositories/{name}/{repositories}.git')
 
 def main():
 	while True:
