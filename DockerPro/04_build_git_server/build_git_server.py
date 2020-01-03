@@ -52,10 +52,10 @@ def create_git_repositories(repositories):
 def show_all_repositories():
 	file_name_lists = os.listdir('/home')
 	for index, name in enumerate(file_name_lists):
-		print(f'[{index}]\t{name}')
+		print(f'-{index}:{name}')
 		repositories_list  = os.listdir('/home/'+name)
 		for index, repos_name in enumerate(repositories_list):
-			print(f'\t\t{repos_name}')
+			print(f'--{repos_name}')
 
 
 
