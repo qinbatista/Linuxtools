@@ -44,9 +44,9 @@ def add_ssh_to_user(name, key):
 def create_git_repositories(repositories):
 	name = list_user()
 	if os.path.exists("/home/" + name + "/.ssh/")==False:os.system('mkdir /Repositories/'+ name)
-	os.system('chown '+name+' /Repositories/'+ repositories+"/")
-	os.system('chmod 700 /Repositories/'+ repositories+"/")
 	os.system('git init --bare '+'/Repositories/'+name+'/'+repositories+'.git')
+	os.system('chown -R '+name+":"+name+' /Repositories/'+ name+'/'+repositories+".git")
+	os.system('chmod 700 /Repositories/'+ name+"/")
 	print(f'[success]\tgit clone ssh://{name}@localhost:10022/Repositories/{name}/{repositories}.git')
 
 def show_all_repositories():
