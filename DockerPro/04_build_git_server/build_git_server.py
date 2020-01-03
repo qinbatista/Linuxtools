@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 import sys, os, platform
 def get_desktop():
 	return os.path.join(os.path.expanduser("~"), 'Desktop')
