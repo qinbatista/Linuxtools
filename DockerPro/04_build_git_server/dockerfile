@@ -1,8 +1,5 @@
 FROM python:3.7-alpine
 ADD * /
-RUN apt-get update
-RUN apt-get -y install dnsmasq
-RUN apt-get -y install python3
-EXPOSE 12345
+EXPOSE 10010
 VOLUME [ "/Repositories" ]
 CMD [ "python3" ,"/01_Server.py"]

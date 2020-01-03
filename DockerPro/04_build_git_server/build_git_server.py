@@ -47,13 +47,24 @@ def create_git_repositories(repositories):
 	os.system('chown '+name+' /Repositories/'+ name+"/")
 	os.system('chmod 700 /Repositories/'+ name+"/")
 	os.system('git init --bare '+'/Repositories/'+name+'/'+repositories+'.git')
-	print(f'[success]\tgit clone ssh://{name}@127.0.0.1:10022/Repositories/{name}/{repositories}.git')
+	print(f'[success]\tgit clone ssh://{name}@localhost:10010/Repositories/{name}/{repositories}.git')
+
+def show_all_repositories():
+	file_name_lists = os.listdir('/home')
+	for index, name in enumerate(file_name_lists):
+		print(f'[{index}]\t{name}')
+		repositories_list  = os.listdir('/home/'+name)
+		for index, repos_name in enumerate(repositories_list):
+			print(f'\t\t{repos_name}')
+
+
 
 def main():
 	while True:
 		print("[1]\tCreate user")
 		print("[2]\tAdd ssh key to user")
 		print("[3]\tCreate a repositories")
+		print("[4]\tShow all repositories info")
 		choice = input('Input your choice:')
 		if choice == '1':
 			create_user()
@@ -61,6 +72,8 @@ def main():
 			add_ssh_to_user(list_user(),input('Input your ssh public key:'))
 		elif choice =='3':
 			create_git_repositories(input('Input repositories name:'))
+		elif choice == '4':
+			show_all_repositories()
 
 
 if __name__ == '__main__':
