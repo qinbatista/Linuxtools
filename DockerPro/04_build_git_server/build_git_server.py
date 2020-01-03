@@ -45,6 +45,7 @@ def create_git_repositories(repositories):
 	name = list_user()
 	if os.path.exists("/home/" + name + "/.ssh/")==False:os.system('mkdir /Repositories/'+ name)
 	os.system('git init --bare '+'/Repositories/'+name+'/'+repositories+'.git')
+	os.system('chown -R '+name+":"+name+' /Repositories/'+ name)
 	os.system('chown -R '+name+":"+name+' /Repositories/'+ name+'/'+repositories+".git")
 	os.system('chmod 700 /Repositories/'+ name+"/")
 	print(f'[success]\tgit clone ssh://{name}@localhost:10022/Repositories/{name}/{repositories}.git')
@@ -56,7 +57,7 @@ def show_all_repositories():
 		print(f'-{name}')
 		repositories_list  = os.listdir('/Repositories/'+name)
 		for index, repos_name in enumerate(repositories_list):
-			print(f'	--{repos_name}\tgit clone ssh://{name}@localhost:10022/Repositories/{name}/{repos_name}.git')
+			print(f'	--{repos_name}\tgit clone ssh://{name}@localhost:10022/Repositories/{name}/{repos_name}')
 	print("------------------------")
 
 
