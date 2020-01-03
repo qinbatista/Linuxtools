@@ -56,7 +56,7 @@ def show_all_repositories():
 		print(f'-{name}')
 		repositories_list  = os.listdir('/Repositories/'+name)
 		for index, repos_name in enumerate(repositories_list):
-			print(f'	--{repos_name}:git clone ssh://{name}@localhost:10022/Repositories/{name}/{repos_name}.git')
+			print(f'	--{repos_name}\tgit clone ssh://{name}@localhost:10022/Repositories/{name}/{repos_name}.git')
 	print("------------------------")
 
 
