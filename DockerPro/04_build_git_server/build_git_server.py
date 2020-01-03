@@ -50,12 +50,12 @@ def create_git_repositories(repositories):
 	print(f'[success]\tgit clone ssh://{name}@localhost:10010/Repositories/{name}/{repositories}.git')
 
 def show_all_repositories():
-	file_name_lists = os.listdir('/home')
+	file_name_lists = os.listdir('/Repositories')
 	for index, name in enumerate(file_name_lists):
-		print(f'-{index}:{name}')
-		repositories_list  = os.listdir('/home/'+name)
+		print(f'-{name}')
+		repositories_list  = os.listdir('/Repositories/'+name)
 		for index, repos_name in enumerate(repositories_list):
-			print(f'--{repos_name}')
+			print(f'	--{repos_name}')
 
 
 
