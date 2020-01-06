@@ -18,7 +18,6 @@ class DDNSServer:
 		self.seconds = 10
 	def deploy_ddns_server(self):
 		os.system("apt-get -y install dnsmasq")
-		os.system("cp "+"./dnsmasq.conf /etc/dnsmasq.conf")
 		with open('./dnsmasq.conf','r',encoding="utf8") as file:
 			all_the_text = file.readlines()
 			for i in all_the_text:
@@ -28,6 +27,7 @@ class DDNSServer:
 			file.writelines(self.dnsmasq_conf)
 		os.system(f"echo 'conf-dir=/etc/dnsmasq.d/,*.conf' >> /etc/dnsmasq.conf")
 		os.system(f'echo "user=root" >> /etc/dnsmasq.conf')
+		os.system("cp "+"./dnsmasq.conf /etc/dnsmasq.conf")
 		os.system("cp "+"./MyDNSHost /etc/hosts")
 	def get_host_ip(self):
 		try:
