@@ -34,6 +34,5 @@ RUN mv ./aria2.conf ~/.aria2/aria2.conf
 
 VOLUME [ "/downloads" ]
 WORKDIR /root
-EXPOSE 22 6881-6999/udp 6881-6999/tcp
-CMD ["python3","/docker_server.py" ]
-#CMD  service ssh start && tail -f /dev/null &
+EXPOSE 22 8000-8030/udp 8000-8030/tcp
+CMD ["python3","/docker_server.py"]
