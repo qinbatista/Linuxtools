@@ -4,7 +4,7 @@ import socket
 import threading
 from socket import *
 from time import ctime
-
+import time
 class DDNSServer:
 	def __init__(self,port=12345,domain_name=''):
 		self.addr = ('',port)
@@ -39,16 +39,20 @@ class DDNSServer:
 		print("this machine's ip:"+ip)
 		return ip
 	def sync_ddns_host_config(self):
-		HostContext=[]
-		for index,ip in enumerate(self.ip_list):
-			HostContext.append(ip+" "+str(self.client_require_domain_name[index])+"."+self.domain_name+"\n")
-		with open("./MyDNSHost",'w',encoding="utf8") as file:
-			file.writelines(HostContext)
-		os.system("cp "+"./MyDNSHost /etc/hosts")
-		os.system("/etc/init.d/dnsmasq restart")
+		while True:
+			print('sync_ddns_host_config')
+			HostContext=[]
+			for index,ip in enumerate(self.ip_list):
+				HostContext.append(ip+" "+str(self.client_require_domain_name[index])+"."+self.domain_name+"\n")
+			with open("./MyDNSHost",'w',encoding="utf8") as file:
+				file.writelines(HostContext)
+			os.system("cp "+"./MyDNSHost /etc/hosts")
+			os.system("/etc/init.d/dnsmasq restart")
+			time.sleep(10)
 	def start_sync_ddns_config_thread(self):
 		print('Next refresh:'+str(self.seconds)+'s')
-		threading.Timer(self.seconds,self.sync_ddns_host_config).start()
+		thread1 = threading.Thread(target=self.sync_ddns_host_config)
+		thread1.start()
 	def recive_udp_message(self,name,args):
 		while True:
 			data,addr = self.udpServer.recvfrom(1024)
