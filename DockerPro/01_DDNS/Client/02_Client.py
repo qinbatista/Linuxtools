@@ -3,8 +3,8 @@ from socket import *
 import threading
 import time
 import uuid
-host  = '127.0.0.1' # 这是客户端的电脑的ip
-serial_number = "office2"
+host  = 'qinbatista.com' # 这是客户端的电脑的ip
+serial_number = "cqhome"
 port = 12345 #接口选择大于10000的，避免冲突
 bufsize = 1024  #定义缓冲大小
 
