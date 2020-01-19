@@ -82,7 +82,7 @@ class DDNSServer:
 		thread1.start()
 
 if __name__ == '__main__':
-	domain_name = 'singmaan.com'
+	domain_name = ''
 	if domain_name =='': domain_name = input('input your domain name:')
 	ddns = DDNSServer(12345,domain_name)
 	ddns.get_host_ip()
