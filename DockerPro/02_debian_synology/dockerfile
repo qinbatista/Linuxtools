@@ -7,7 +7,7 @@ RUN apt-get -y install python3 rsync python3-distutils sudo git tar build-essent
 
 #install youtube-dl
 RUN python3 get-pip.py
-RUN pip3 install youtube-dl
+RUN pip3 install youtube-dl instagram-scraper
 RUN mkdir ~/.ssh/
 RUN touch ~/.ssh/authorized_keys
 #echo yourpublickey>>~/.ssh/authorized_keys
@@ -32,7 +32,7 @@ RUN touch ~/.aria2/aria2.session
 RUN touch ~/.aria2/aria2.log
 RUN mv ./aria2.conf ~/.aria2/aria2.conf
 
-VOLUME [ "/downloads" ]
+VOLUME [ "/download" ]
 WORKDIR /root
-EXPOSE 22 80 7000 8080 8000-8030/udp 8000-8030/tcp
+EXPOSE 22 80 7000 8080 8000-8030/udp 8000-8030/tcp 18184
 CMD ["python3","/docker_server.py"]
