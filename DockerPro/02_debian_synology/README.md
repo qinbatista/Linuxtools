@@ -1,5 +1,5 @@
 #### RUN
-
+> 22：ssh，18184：下载工具 80:网站
 ```
-docker run -it -p 10022:22 -p 6881-6999:6881-6999 qinbatista/debian_synology
+docker run -itv /root/download:/download -p 10022:22 -p 10080:80 -p 18184:18184  qinbatista/debian_synology
 ```

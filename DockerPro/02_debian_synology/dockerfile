@@ -34,5 +34,5 @@ RUN mv ./aria2.conf ~/.aria2/aria2.conf
 
 VOLUME [ "/download" ]
 WORKDIR /root
-EXPOSE 22 80 7000 8080 8000-8030/udp 8000-8030/tcp 18184
+EXPOSE 22 80  7000-8030/udp 7000-8030/tcp 18184
 CMD ["python3","/docker_server.py"]
