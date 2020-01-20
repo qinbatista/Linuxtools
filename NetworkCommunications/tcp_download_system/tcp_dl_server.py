@@ -4,6 +4,7 @@ import sys
 import ssl
 import json
 import os
+import threading
 class QinServer:
 	def __init__(self, host: str = '', port: int = 18184):
 		self._host = host
@@ -16,8 +17,9 @@ class QinServer:
 		address = writer.get_extra_info('peername')
 		data = await reader.readuntil(b'\r\n')
 		resp = data.decode().strip()
-		message,msg_type =self.parse_message(resp)
-		writer.write(b'get your message:'+(self.__mission_manager(message,msg_type)).encode('utf-8')+"->".encode('utf-8')+message.encode('utf-8')+b'\r\n')
+		message,msg_type,proxy =self.__parse_message(resp)
+		await self.__mission_manager(message,msg_type,proxy)
+		writer.write(b'start downloading'+"->".encode('utf-8')+message.encode('utf-8')+b'\r\n')
 		await writer.drain()
 
 	def start_server(self):
@@ -39,20 +41,22 @@ class QinServer:
 			print('closing event loop')
 			event_loop.close()
 
-	def parse_message(self,msg):
+	def __parse_message(self,msg):
 		my_json = json.loads(msg)
-		return my_json["message"],my_json["type"]
+		return my_json["message"],my_json["type"],my_json["proxy"]
 
-	def __mission_manager(self,message,type):
-		if type == "youtube_dl":
-			os.system('proxychains youtube_dl '+message)
-			return "[youtube_dl] downloading:"+message
-		elif type == "wget":
-			os.system('proxychains wget '+message)
-			return "[wget] downloading:"+message
-		elif type =="instagram-scraper":
-			os.system('proxychains instagram-scraper '+message)
-			return "[instagram-scraper] downloading:"+message
+	def __command(self,command,args):
+		os.system(command)
+
+	def __thread_download(self,command):
+		thread1 = threading.Thread(target=self.__command, name="t1",args=(command,''))
+		thread1.start()
+
+	async def __mission_manager(self,message,type,proxy):
+		if proxy!='': proxy = 'proxychains'
+		if   type == "youtube-dl": self.__thread_download(f'{proxy} {type} {message}')
+		elif type == "wget": self.__thread_download(f'{proxy} {type} {message}')
+		elif type == "instagram-scraper": self.__thread_download(f'{proxy} {type} {message}')
 
 if __name__ == "__main__":
 	qs = QinServer()

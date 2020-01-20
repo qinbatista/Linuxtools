@@ -1,10 +1,12 @@
 import ssl
 import asyncio
+import socket
+import os
 class QinClient:
 	def __init__(self, host: str = '127.0.0.1', port: int = 18184):
-		self._host = host
+		self._host = socket.gethostbyname(host)
 		self._port = port
-		self.crt = '/Users/batista/MyProject/lukseunserversys/gate/cert/mycert.crt'
+		self.crt = os.path.abspath(os.path.join(os.path.dirname(__file__), '../tcp_download_system'))+'/ssl_cert/mycert.crt'
 
 	async def send_message(self, message: str) -> dict:
 		'''
@@ -25,5 +27,5 @@ class QinClient:
 		return resp
 if __name__ == "__main__":
 	qc = QinClient()
-	result = asyncio.run(qc.send_message('{"message":"aaaa","type":"youtube_dl"}'))
+	result = asyncio.run(qc.send_message('{"message":"https://www.youtube.com/watch?v=lmr8lBZV1RQ","type":"youtube-dl","proxy":""}'))
 	print(result)
