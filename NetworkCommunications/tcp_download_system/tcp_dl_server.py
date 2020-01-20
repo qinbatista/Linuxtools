@@ -3,7 +3,7 @@ import asyncio
 import sys
 import ssl
 import json
-
+import os
 class QinServer:
 	def __init__(self, host: str = '127.0.0.1', port: int = 10000):
 		self._host = host
@@ -45,11 +45,14 @@ class QinServer:
 
 	def __mission_manager(self,message,type):
 		if type == "youtube_dl":
-			return "[youtube_dl] downloading"
+			os.system('proxychains youtube_dl '+message)
+			return "[youtube_dl] downloading:"+message
 		elif type == "wget":
-			return "[wget] downloading"
-		else:
-			return "[none]"
+			os.system('proxychains wget '+message)
+			return "[wget] downloading:"+message
+		elif type =="instagram-scraper":
+			os.system('proxychains instagram-scraper '+message)
+			return "[instagram-scraper] downloading:"+message
 
 if __name__ == "__main__":
 	qs = QinServer()
