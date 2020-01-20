@@ -5,11 +5,11 @@ import ssl
 import json
 import os
 class QinServer:
-	def __init__(self, host: str = '127.0.0.1', port: int = 10000):
+	def __init__(self, host: str = '', port: int = 18184):
 		self._host = host
 		self._port = port
-		self._crt = '/Users/batista/MyProject/lukseunserversys/gate/cert/mycert.crt'
-		self._key = '/Users/batista/MyProject/lukseunserversys/gate/cert/rsa_private.key'
+		self._crt = os.path.abspath(os.path.join(os.path.dirname(__file__), '../tcp_download_system'))+'/ssl_cert/mycert.crt'
+		self._key = os.path.abspath(os.path.join(os.path.dirname(__file__), '../tcp_download_system'))+'/ssl_cert/rsa_private.key'
 		self._password = 'lukseun1'
 
 	async def __echo(self,reader, writer):

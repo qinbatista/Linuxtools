@@ -1,7 +1,7 @@
 import ssl
 import asyncio
 class QinClient:
-	def __init__(self, host: str = '127.0.0.1', port: int = 10000):
+	def __init__(self, host: str = '127.0.0.1', port: int = 18184):
 		self._host = host
 		self._port = port
 		self.crt = '/Users/batista/MyProject/lukseunserversys/gate/cert/mycert.crt'
