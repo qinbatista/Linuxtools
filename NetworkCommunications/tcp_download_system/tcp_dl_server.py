@@ -14,8 +14,8 @@ class QinServer:
 		self._key = os.path.abspath(os.path.join(os.path.dirname(__file__), '../tcp_download_system'))+'/ssl_cert/rsa_private.key'
 		self._password = 'lukseun1'
 		self._exclude_files=['ssl_cert','tcp_dl_client.py','tcp_dl_server.py','.DS_Store']
-		self._root_folder = '/root/download' #'/Users/batista/Desktop/download'
-		self._cache_folder = '/root/deliveried' #'/Users/batista/Desktop/deliveried'
+		self._root_folder = '/Users/batista/Desktop/download'#'/root/download' #'/Users/batista/Desktop/download'
+		self._cache_folder = '/Users/batista/Desktop/deliveried'#'/root/deliveried' #'/Users/batista/Desktop/deliveried'
 
 	async def __echo(self,reader, writer):
 		address = writer.get_extra_info('peername')
@@ -60,8 +60,8 @@ class QinServer:
 			if file_name not in self._exclude_files:
 				has_file=True
 				if not os.path.exists(f'{self._root_folder}/{current_time}'):os.makedirs(f'{self._root_folder}/{current_time}')
-				if not os.path.exists(f'{self._root_folder}/deliveried'):os.makedirs(f'{self._root_folder}/deliveried')
-				if not os.path.exists(f'{self._root_folder}/deliveried/{current_time}'):os.makedirs(f'{self._root_folder}/deliveried/{current_time}')
+				if not os.path.exists(f'{self._cache_folder}'):os.makedirs(f'{self._cache_folder}')
+				if not os.path.exists(f'{self._cache_folder}/{current_time}'):os.makedirs(f'{self._cache_folder}/{current_time}')
 				print(f'------------ mv {file_name} /{self._root_folder}/{current_time}/{file_name}')
 				os.system(f'mv {file_name} /{self._root_folder}/{current_time}/{file_name}')
 				#sync files
