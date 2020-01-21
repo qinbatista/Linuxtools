@@ -14,7 +14,8 @@ class QinServer:
 		self._key = os.path.abspath(os.path.join(os.path.dirname(__file__), '../tcp_download_system'))+'/ssl_cert/rsa_private.key'
 		self._password = 'lukseun1'
 		self._exclude_files=['ssl_cert','tcp_dl_client.py','tcp_dl_server.py','.DS_Store']
-		self._root_folder = '/root/download' #'/Users/batista/Desktop/GameAPK'
+		self._root_folder = '/root/download' #'/Users/batista/Desktop/download'
+		self._cache_folder = '/root/deliveried' #'/Users/batista/Desktop/deliveried'
 
 	async def __echo(self,reader, writer):
 		address = writer.get_extra_info('peername')
@@ -62,7 +63,7 @@ class QinServer:
 				os.system(f'mv {file_name} {self._root_folder}/{current_time}/{file_name}')
 		#sync files
 		os.system(f'rsync -avz --progress -e "ssh -p 10022" {self._root_folder}/{current_time} root@cqhome.qinbatista.com:{self._root_folder}/{current_time}')
-		os.system(f'mv /root/download/{current_time}/* /root/deliveried/{current_time}')
+		os.system(f'mv {self._root_folder}/{current_time}/* {self._cache_folder}/{current_time}')
 
 	def __thread_download(self,command):
 		thread1 = threading.Thread(target=self.__command, name="t1",args=(command,''))
