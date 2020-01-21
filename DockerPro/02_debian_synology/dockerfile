@@ -32,7 +32,7 @@ RUN touch ~/.aria2/aria2.session
 RUN touch ~/.aria2/aria2.log
 RUN mv ./aria2.conf ~/.aria2/aria2.conf
 
-VOLUME [ "/download" ]
+VOLUME [ "/root/download" ]
 WORKDIR /root
 EXPOSE 22 80  7000-8030/udp 7000-8030/tcp 18184
 CMD ["python3","/docker_server.py"]

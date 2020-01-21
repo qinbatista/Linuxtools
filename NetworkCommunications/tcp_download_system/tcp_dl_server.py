@@ -4,6 +4,7 @@ import sys
 import ssl
 import json
 import os
+from datetime import datetime
 import threading
 class QinServer:
 	def __init__(self, host: str = '', port: int = 18184):
@@ -12,6 +13,8 @@ class QinServer:
 		self._crt = os.path.abspath(os.path.join(os.path.dirname(__file__), '../tcp_download_system'))+'/ssl_cert/mycert.crt'
 		self._key = os.path.abspath(os.path.join(os.path.dirname(__file__), '../tcp_download_system'))+'/ssl_cert/rsa_private.key'
 		self._password = 'lukseun1'
+		self._exclude_files=['ssl_cert','tcp_dl_client.py','tcp_dl_server.py','.DS_Store']
+		self._root_folder = '/root/download' #'/Users/batista/Desktop/GameAPK'
 
 	async def __echo(self,reader, writer):
 		address = writer.get_extra_info('peername')
@@ -46,7 +49,17 @@ class QinServer:
 		return my_json["message"],my_json["type"],my_json["proxy"]
 
 	def __command(self,command,args):
+		#download files
 		os.system(command)
+		#move files
+		file_name_lists = os.listdir('.')
+		for file_name in file_name_lists:
+			if file_name not in self._exclude_files:
+				current_time = datetime.now().strftime("%Y-%m-%d")
+				if not os.path.exists(f'{self._root_folder}/{current_time}'):os.makedirs(f'{self._root_folder}/{current_time}')
+				os.system(f'cp {file_name}  {self._root_folder}/{current_time}/{file_name}')
+		#sync files
+		os.system(f'rsync -avz --progress -e "ssh -p 10022" /root/download root@cqhome.qinbatista.com:/root/download')
 
 	def __thread_download(self,command):
 		thread1 = threading.Thread(target=self.__command, name="t1",args=(command,''))
@@ -58,6 +71,8 @@ class QinServer:
 		elif type == "wget": self.__thread_download(f'{proxy} {type} {message}')
 		elif type == "instagram-scraper": self.__thread_download(f'{proxy} {type} {message}')
 
+
 if __name__ == "__main__":
 	qs = QinServer()
 	qs.start_server()
+
