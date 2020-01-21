@@ -62,12 +62,11 @@ class QinServer:
 				if not os.path.exists(f'{self._root_folder}/{current_time}'):os.makedirs(f'{self._root_folder}/{current_time}')
 				if not os.path.exists(f'{self._root_folder}/deliveried'):os.makedirs(f'{self._root_folder}/deliveried')
 				if not os.path.exists(f'{self._root_folder}/deliveried/{current_time}'):os.makedirs(f'{self._root_folder}/deliveried/{current_time}')
-				print(f'------------ mv {file_name} {self._root_folder}/{current_time}/{file_name}')
-				os.system(f'mv {file_name} {self._root_folder}/{current_time}/{file_name}')
-		#sync files
-		if has_file==True:
-			os.system(f'rsync -avz --progress -e "ssh -p 10022" {self._root_folder}/{current_time} root@cqhome.qinbatista.com:{self._root_folder}/')
-			os.system(f'mv {self._root_folder}/{current_time}/ {self._cache_folder}/{current_time}')
+				print(f'------------ mv {file_name} /{self._root_folder}/{current_time}/{file_name}')
+				os.system(f'mv {file_name} /{self._root_folder}/{current_time}/{file_name}')
+				#sync files
+				os.system(f'rsync -avz --progress -e "ssh -p 10022" /{self._root_folder}/{current_time} root@cqhome.qinbatista.com:{self._root_folder}/')
+				os.system(f'mv {self._root_folder}/{current_time}/ /{self._cache_folder}/{current_time}')
 
 	def __thread_download(self,command):
 		thread1 = threading.Thread(target=self.__command, name="t1",args=(command,''))
