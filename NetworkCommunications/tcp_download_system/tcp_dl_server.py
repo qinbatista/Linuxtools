@@ -57,9 +57,11 @@ class QinServer:
 			if file_name not in self._exclude_files:
 				current_time = datetime.now().strftime("%Y-%m-%d")
 				if not os.path.exists(f'{self._root_folder}/{current_time}'):os.makedirs(f'{self._root_folder}/{current_time}')
-				os.system(f'cp {file_name}  {self._root_folder}/{current_time}/{file_name}')
+				if not os.path.exists(f'{self._root_folder}/deliveried'):os.makedirs(f'{self._root_folder}/deliveried')
+				os.system(f'mv {file_name} {self._root_folder}/{current_time}/{file_name}')
 		#sync files
-		os.system(f'rsync -avz --progress -e "ssh -p 10022" /root/download root@cqhome.qinbatista.com:/root/download')
+		os.system(f'rsync -avz --progress -e "ssh -p 10022" {self._root_folder}/{current_time} root@cqhome.qinbatista.com:{self._root_folder}/{current_time}')
+		os.system(f'mv /root/download/{current_time} /root/deliveried/{current_time}')
 
 	def __thread_download(self,command):
 		thread1 = threading.Thread(target=self.__command, name="t1",args=(command,''))
