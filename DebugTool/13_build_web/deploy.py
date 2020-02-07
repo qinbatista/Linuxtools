@@ -3,7 +3,7 @@ import socket
 import threading
 from time import ctime
 
-def DeployServer(web_path):
+def DeployServer():
 	os.chdir(os.getcwd())
 	web_path = "singmaan_web"
 	os.system("git clone https://qinbatista:qinyupeng1@bitbucket.org/qinbatista/singmaan_web.git")
