@@ -5,6 +5,8 @@ from time import ctime
 
 def DeployServer(web_path):
 	os.chdir(os.getcwd())
+	web_path = "singmaan_web"
+	os.system("git clone https://qinbatista:qinyupeng1@bitbucket.org/qinbatista/singmaan_web.git")
 	os.system("apt-get update")
 	os.system("apt-get -y install apache2")
 	os.system("cp -rf "+web_path+" /var/www/")
@@ -14,4 +16,4 @@ def DeployServer(web_path):
 	os.system("/etc/init.d/apache2 restart")
 
 if __name__ == '__main__':
-	DeployServer(input('input your web path:'))
+	DeployServer()
