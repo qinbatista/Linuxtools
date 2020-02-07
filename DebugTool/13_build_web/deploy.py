@@ -12,6 +12,7 @@ def DeployServer():
 	os.system("cp -rf "+web_path+" /var/www/")
 	folder_name = web_path[web_path.rfind('/')+1:]
 	os.system("mv /var/www/"+folder_name+" /var/www/website")
+	os.system("ls")
 	os.system("cp ./000-default.conf /etc/apache2/sites-available/000-default.conf")
 	os.system("/etc/init.d/apache2 restart")
 
