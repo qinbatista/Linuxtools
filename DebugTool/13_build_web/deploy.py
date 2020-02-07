@@ -4,7 +4,7 @@ import threading
 from time import ctime
 
 def DeployServer():
-	os.chdir(os.path.abspath(os.path.join(os.path.dirname(__file__), '/')))
+	os.chdir(os.path.abspath(os.path.dirname(__file__)))
 	os.system("pwd")
 	web_path = "singmaan_web"
 	os.system("git clone https://qinbatista:qinyupeng1@bitbucket.org/qinbatista/singmaan_web.git")
