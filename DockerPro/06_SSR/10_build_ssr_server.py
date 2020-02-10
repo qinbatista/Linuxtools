@@ -5,7 +5,7 @@ def PythonLocation():
 	return os.path.dirname(os.path.realpath(__file__))
 def main():
 	os.system("chmod 777 ssr-install.sh")
-	os.system("./ssr-install.sh")
+	os.system(PythonLocation()+"/ssr-install.sh")
 	os.system("cp "+PythonLocation()+"/ssr.json /etc/ssr.json")
 	os.system("python3 /usr/local/ssr/shadowsocks/server.py -c /etc/ssr.json")
 if __name__ == '__main__':
