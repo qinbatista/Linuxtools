@@ -90,6 +90,8 @@ class DDNSServer:
 
 if __name__ == '__main__':
 	domain_name = 'qinbatista.com'
+	while True:
+		pass
 	# if domain_name =='': domain_name = input('input your domain name:')
 	# ddns = DDNSServer(12345,domain_name)
 	# ddns.get_host_ip()
