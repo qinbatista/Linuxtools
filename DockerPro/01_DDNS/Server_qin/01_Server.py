@@ -90,9 +90,9 @@ class DDNSServer:
 
 if __name__ == '__main__':
 	domain_name = 'qinbatista.com'
-	if domain_name =='': domain_name = input('input your domain name:')
-	ddns = DDNSServer(12345,domain_name)
-	ddns.get_host_ip()
-	ddns.deploy_ddns_server()
-	ddns.start_sync_ddns_config_thread()
-	ddns.start_recive_ddns_config_thread()
+	# if domain_name =='': domain_name = input('input your domain name:')
+	# ddns = DDNSServer(12345,domain_name)
+	# ddns.get_host_ip()
+	# ddns.deploy_ddns_server()
+	# ddns.start_sync_ddns_config_thread()
+	# ddns.start_recive_ddns_config_thread()

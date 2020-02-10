@@ -3,5 +3,6 @@ ADD * /
 RUN apt-get update
 RUN apt-get -y install dnsmasq
 RUN apt-get -y install python3
+RUN apt-get -y install dnsutils
 EXPOSE 12345/udp 12345/tcp 53/udp 53/tcp 
 CMD [ "python3" ,"/01_Server.py"]
