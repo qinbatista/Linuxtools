@@ -14,6 +14,8 @@ def DeployServer():
 	os.system("pip3 install instagram-scraper")
 	os.system("curl -fsSL https://get.docker.com -o get-docker.sh")
 	os.system("sh get-docker.sh")
+	os.system("docker pull qinbatista/ssr")
+	os.system("docker run -itd -p 7000-7030:7000-7030  qinbatista/ssr")
 
 
 if __name__ == '__main__':
