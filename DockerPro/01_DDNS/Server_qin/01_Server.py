@@ -45,11 +45,16 @@ class DDNSServer:
 			HostContext=[]
 			for index,ip in enumerate(self.ip_list):
 				HostContext.append(ip+" "+str(self.client_require_domain_name[index])+"."+self.domain_name+"\n")
+			print('sync_ddns_host_config1')
 			with open("/MyDNSHost",'w',encoding="utf8") as file:
 				file.writelines(HostContext)
+			print('sync_ddns_host_config2')
 			print("MyDNSHost:"+str(HostContext))
+			print('sync_ddns_host_config3')
 			os.system("cp "+"/MyDNSHost /etc/hosts")
+			print('sync_ddns_host_config4')
 			os.system("/etc/init.d/dnsmasq restart")
+			print('sync_ddns_host_config5')
 			time.sleep(10)
 	def start_sync_ddns_config_thread(self):
 		print('Next refresh:'+str(self.seconds)+'s')
