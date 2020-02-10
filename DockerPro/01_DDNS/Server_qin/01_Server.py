@@ -36,6 +36,7 @@ class DDNSServer:
 			ip = s.getsockname()[0]
 		finally:
 			s.close()
+		ip = '45.32.180.178'
 		print("this machine's ip:"+ip)
 		return ip
 	def sync_ddns_host_config(self):
@@ -46,6 +47,7 @@ class DDNSServer:
 				HostContext.append(ip+" "+str(self.client_require_domain_name[index])+"."+self.domain_name+"\n")
 			with open("./MyDNSHost",'w',encoding="utf8") as file:
 				file.writelines(HostContext)
+			print("MyDNSHost:"+HostContext)
 			os.system("cp "+"./MyDNSHost /etc/hosts")
 			os.system("/etc/init.d/dnsmasq restart")
 			time.sleep(10)
