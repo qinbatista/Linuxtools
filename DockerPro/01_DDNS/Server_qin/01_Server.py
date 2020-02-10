@@ -18,17 +18,17 @@ class DDNSServer:
 		self.seconds = 10
 	def deploy_ddns_server(self):
 		os.system("apt-get -y install dnsmasq")
-		with open('./dnsmasq.conf','r',encoding="utf8") as file:
+		with open('/dnsmasq.conf','r',encoding="utf8") as file:
 			all_the_text = file.readlines()
 			for i in all_the_text:
 				if(i.find('listen-address=')!=-1):self.dnsmasq_conf.append("listen-address="+self.get_host_ip()+",127.0.0.1"+"\n")
 				else:self.dnsmasq_conf.append(i)
-		with open('./dnsmasq.conf','w',encoding="utf8") as file:
+		with open('/dnsmasq.conf','w',encoding="utf8") as file:
 			file.writelines(self.dnsmasq_conf)
 		os.system(f"echo 'conf-dir=/etc/dnsmasq.d/,*.conf' >> /etc/dnsmasq.conf")
 		os.system(f'echo "user=root" >> /etc/dnsmasq.conf')
-		os.system("cp "+"./dnsmasq.conf /etc/dnsmasq.conf")
-		os.system("cp "+"./MyDNSHost /etc/hosts")
+		os.system("cp "+"/dnsmasq.conf /etc/dnsmasq.conf")
+		os.system("cp "+"/MyDNSHost /etc/hosts")
 	def get_host_ip(self):
 		try:
 			s = socket(AF_INET, SOCK_DGRAM)
@@ -45,10 +45,10 @@ class DDNSServer:
 			HostContext=[]
 			for index,ip in enumerate(self.ip_list):
 				HostContext.append(ip+" "+str(self.client_require_domain_name[index])+"."+self.domain_name+"\n")
-			with open("./MyDNSHost",'w',encoding="utf8") as file:
+			with open("/MyDNSHost",'w',encoding="utf8") as file:
 				file.writelines(HostContext)
 			print("MyDNSHost:"+str(HostContext))
-			os.system("cp "+"./MyDNSHost /etc/hosts")
+			os.system("cp "+"/MyDNSHost /etc/hosts")
 			os.system("/etc/init.d/dnsmasq restart")
 			time.sleep(10)
 	def start_sync_ddns_config_thread(self):
