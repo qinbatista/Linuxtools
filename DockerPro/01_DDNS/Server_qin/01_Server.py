@@ -18,17 +18,17 @@ class DDNSServer:
 		self.seconds = 10
 	def deploy_ddns_server(self):
 		os.system("apt-get -y install dnsmasq")
-		with open('/dnsmasq.conf','r',encoding="utf8") as file:
+		with open('./dnsmasq.conf','r',encoding="utf8") as file:
 			all_the_text = file.readlines()
 			for i in all_the_text:
 				if(i.find('listen-address=')!=-1):self.dnsmasq_conf.append("listen-address="+self.get_host_ip()+",127.0.0.1"+"\n")
 				else:self.dnsmasq_conf.append(i)
-		with open('/dnsmasq.conf','w',encoding="utf8") as file:
+		with open('./dnsmasq.conf','w',encoding="utf8") as file:
 			file.writelines(self.dnsmasq_conf)
 		os.system(f"echo 'conf-dir=/etc/dnsmasq.d/,*.conf' >> /etc/dnsmasq.conf")
 		os.system(f'echo "user=root" >> /etc/dnsmasq.conf')
-		os.system("cp "+"/dnsmasq.conf /etc/dnsmasq.conf")
-		os.system("cp "+"/MyDNSHost /etc/hosts")
+		os.system("cp "+"./dnsmasq.conf /etc/dnsmasq.conf")
+		os.system("cp "+"./MyDNSHost /etc/hosts")
 	def get_host_ip(self):
 		try:
 			s = socket(AF_INET, SOCK_DGRAM)
@@ -36,7 +36,6 @@ class DDNSServer:
 			ip = s.getsockname()[0]
 		finally:
 			s.close()
-		ip = '45.32.180.178'
 		print("this machine's ip:"+ip)
 		return ip
 	def sync_ddns_host_config(self):
@@ -45,16 +44,10 @@ class DDNSServer:
 			HostContext=[]
 			for index,ip in enumerate(self.ip_list):
 				HostContext.append(ip+" "+str(self.client_require_domain_name[index])+"."+self.domain_name+"\n")
-			print('sync_ddns_host_config1')
-			with open("/MyDNSHost",'w',encoding="utf8") as file:
+			with open("./MyDNSHost",'w',encoding="utf8") as file:
 				file.writelines(HostContext)
-			print('sync_ddns_host_config2')
-			print("MyDNSHost:"+str(HostContext))
-			print('sync_ddns_host_config3')
-			os.system("cp "+"/MyDNSHost /etc/hosts")
-			print('sync_ddns_host_config4')
+			os.system("cp "+"./MyDNSHost /etc/hosts")
 			os.system("/etc/init.d/dnsmasq restart")
-			print('sync_ddns_host_config5')
 			time.sleep(10)
 	def start_sync_ddns_config_thread(self):
 		print('Next refresh:'+str(self.seconds)+'s')
@@ -90,11 +83,9 @@ class DDNSServer:
 
 if __name__ == '__main__':
 	domain_name = 'qinbatista.com'
-	while True:
-		pass
-	# if domain_name =='': domain_name = input('input your domain name:')
-	# ddns = DDNSServer(12345,domain_name)
-	# ddns.get_host_ip()
-	# ddns.deploy_ddns_server()
-	# ddns.start_sync_ddns_config_thread()
-	# ddns.start_recive_ddns_config_thread()
+	if domain_name =='': domain_name = input('input your domain name:')
+	ddns = DDNSServer(12345,domain_name)
+	ddns.get_host_ip()
+	ddns.deploy_ddns_server()
+	ddns.start_sync_ddns_config_thread()
+	ddns.start_recive_ddns_config_thread()
