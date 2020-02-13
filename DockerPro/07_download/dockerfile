@@ -28,12 +28,12 @@ RUN ldconfig
 
 #set for aria2
 RUN mkdir ~/.aria2
-RUN touch ~/.aria2/aria2.session
+RUN touch ~/.aria2/aria2.sessions
 RUN touch ~/.aria2/aria2.log
 RUN mv ./aria2.conf ~/.aria2/aria2.conf
 RUN echo ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQD25f9wjWwVxBiEz8KRA81MzQ4TLIp7rv8Cuim31DidcaIfWeCdqGLfoniik5RAMXGSX5xRufWwd2yAub/z5d11TGN1ei3Tz/u3Z2eY+rJlF1vHP1E5DLEz2p7dA9w0H7hjs1swLeIlQnQHHQRQULum29VJxuXFJLg6kdIeJGsq4YGXKtwvC4r8J0GdoZeXTEOCu9CMYjbNgRw3V4Rfr0sXWC8pvrdWUH8GxkYto29CBF9nX0JcZMjtMWeP1rMNwSgw3+/2vydsIXVsD+jcxVXTL6NqgU5n9UWd93sFrFPFIK3XmofEFfYrYKSyYwF9bJccPaEhaQbdPgMLk5D8/e6z root@qinbatista-debian_synology1 >>  ~/.ssh/authorized_keys
-
+RUN ls
 VOLUME [ "/root/download" ]
 WORKDIR /root
 EXPOSE 18184 10022
-CMD ["python3","./tcp_dl_server.py"]
+CMD ["python3","/tcp_dl_server.py"]
