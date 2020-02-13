@@ -35,5 +35,5 @@ RUN echo ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQD25f9wjWwVxBiEz8KRA81MzQ4TLIp7rv8
 
 VOLUME [ "/root/download" ]
 WORKDIR /root
-EXPOSE 18184
-CMD ["python3","/tcp_dl_server.py"]
+EXPOSE 18184 10022
+CMD ["python3","./tcp_dl_server.py"]
