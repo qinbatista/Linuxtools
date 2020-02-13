@@ -10,8 +10,8 @@ class QinServer:
 	def __init__(self, host: str = '', port: int = 18184):
 		self._host = host
 		self._port = port
-		self._crt = os.path.abspath(os.path.join(os.path.dirname(__file__), '../tcp_download_system'))+'/ssl_cert/mycert.crt'
-		self._key = os.path.abspath(os.path.join(os.path.dirname(__file__), '../tcp_download_system'))+'/ssl_cert/rsa_private.key'
+		self._crt = os.path.abspath(os.path.join(os.path.dirname(__file__), '../07_download'))+'/ssl_cert/mycert.crt'
+		self._key = os.path.abspath(os.path.join(os.path.dirname(__file__), '../07_download'))+'/ssl_cert/rsa_private.key'
 		self._password = 'lukseun1'
 		self._exclude_files=['ssl_cert','tcp_dl_client.py','tcp_dl_server.py','.DS_Store']
 		self._root_folder = '/Users/batista/Desktop/download'#'/root/download' #'/Users/batista/Desktop/download'
