@@ -3,7 +3,7 @@ import asyncio
 import socket
 import os
 class QinClient:
-	def __init__(self, host: str = '127.0.0.1', port: int = 18184):
+	def __init__(self, host: str = 'qinbatista.com', port: int = 18184):
 		self._host = socket.gethostbyname(host)
 		self._port = port
 		self.crt = os.path.abspath(os.path.join(os.path.dirname(__file__), '../tcp_download_system'))+'/ssl_cert/mycert.crt'
