@@ -51,17 +51,17 @@ class QinServer:
 
 	def __command(self,command,args):
 		#download files
-		print("111")
+		# print("111")
 		os.system(command)
-		print("222")
-		while os.path.exists(file_name):
-			print('1')
-		file_name_lists = os.listdir('.')
+		# print("222")
+		# while os.path.exists(file_name):
+		# 	print('1')
+		# file_name_lists = os.listdir('.')
 		# print(file_name_lists)
-		for file_name in file_name_lists:
+		# for file_name in file_name_lists:
 		# 	print(1)
-			if file_name not in self._exclude_files:
-				os.system(f'mv {file_name} /{self._root_folder}/{file_name}')
+			# if file_name not in self._exclude_files:
+			# 	os.system(f'mv {file_name} /{self._root_folder}/{file_name}')
 		# 		#sync files
 		# 		print(4)
 		# 		os.system(f'rsync -avz --progress -e "ssh -p 10022" /{self._root_folder} root@cqhome.qinbatista.com:{self._root_folder}/')
