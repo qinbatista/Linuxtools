@@ -10,14 +10,12 @@ class QinServer:
 	def __init__(self, host: str = '', port: int = 18184):
 		self._host = host
 		self._port = port
-		self._crt = os.path.abspath(os.path.join(os.path.dirname(__file__), '../07_download'))+'/ssl_cert/mycert.crt'
-		self._key = os.path.abspath(os.path.join(os.path.dirname(__file__), '../07_download'))+'/ssl_cert/rsa_private.key'
-		print(self._crt)
-		print(self._key)
+		self._crt = '/mycert.crt'
+		self._key = '/rsa_private.key'
 		self._password = 'lukseun1'
 		self._exclude_files=['ssl_cert','tcp_dl_client.py','tcp_dl_server.py','.DS_Store']
-		self._root_folder = '/Users/batista/Desktop/download'#'/root/download' #'/Users/batista/Desktop/download'
-		self._cache_folder = '/Users/batista/Desktop/deliveried'#'/root/deliveried' #'/Users/batista/Desktop/deliveried'
+		self._root_folder = '/root/download'#'/root/download' #'/Users/batista/Desktop/download'
+		self._cache_folder = '/root/download/deliveried'#'/root/deliveried' #'/Users/batista/Desktop/deliveried'
 
 	async def __echo(self,reader, writer):
 		address = writer.get_extra_info('peername')
