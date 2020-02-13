@@ -52,11 +52,11 @@ class QinServer:
 	def __command(self,command,args):
 		#download files
 		# print("111")
-		os.system(command)
+		print(os.system(command))
 		# print("222")
+		print(str(os.listdir('.')))
 		# while os.path.exists(file_name):
-		# 	print('1')
-		# file_name_lists = os.listdir('.')
+			# print('1')
 		# print(file_name_lists)
 		# for file_name in file_name_lists:
 		# 	print(1)
