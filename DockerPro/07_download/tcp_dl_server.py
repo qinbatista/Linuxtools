@@ -62,7 +62,7 @@ class QinServer:
 		print("mkdir")
 		os.system('ls')
 		os.system('pwd')
-		os.chdir('~/'+task_id)
+		os.chdir('~/download/'+task_id)
 		print("task_id")
 		os.system('ls')
 		os.system('pwd')
