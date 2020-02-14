@@ -27,5 +27,5 @@ class QinClient:
 		return resp
 if __name__ == "__main__":
 	qc = QinClient()
-	result = asyncio.run(qc.send_message('{"message":"https://www.youtube.com/watch?v=akCOiIzNszg&list=PLqgfngs2pxpQEQtx5JVNWjB00wWk4rZi6&index=2&t=0s","type":"youtube-dl","proxy":""}'))
+	result = asyncio.run(qc.send_message('{"message":"https://www.youtube.com/watch?v=NkdoWDl2oQc","type":"youtube-dl","proxy":""}'))
 	print(result)

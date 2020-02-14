@@ -15,8 +15,8 @@ class QinServer:
 		self._key = '/rsa_private.key'
 		self._password = 'lukseun1'
 		self._exclude_files=['ssl_cert','tcp_dl_client.py','tcp_dl_server.py','.DS_Store']
-		self._root_folder = '/root/download'#'/root/download' #'/Users/batista/Desktop/download'
-		self._cache_folder = '/root/download/deliveried'#'/root/deliveried' #'/Users/batista/Desktop/deliveried'
+		self._root_folder = '~/download'#'/root/download' #'/Users/batista/Desktop/download'
+		self._cache_folder = '~/deliveried'#'/root/deliveried' #'/Users/batista/Desktop/deliveried'
 
 	async def __echo(self,reader, writer):
 		address = writer.get_extra_info('peername')
@@ -55,8 +55,13 @@ class QinServer:
 		print("command:"+command)
 		p = subprocess.Popen(command, stdout=subprocess.PIPE, shell=True)
 		p.wait()
-		# print("222")
 		print(str(os.listdir('.')))
+		p = subprocess.Popen(f'rsync -avz --progress -e "ssh -p 10022" {self._root_folder} root@cqhome.qinbatista.com:{self._root_folder}/', stdout=subprocess.PIPE, shell=True)
+		p.wait()
+		for file in os.listdir('.'):
+			print(f"mv {file} {self._cache_folder}/{file}")
+			os.system(f"mv {file} {self._cache_folder}/{file}")
+
 		# while os.path.exists(file_name):
 			# print('1')
 		# print(file_name_lists)
@@ -81,9 +86,9 @@ class QinServer:
 
 
 if __name__ == "__main__":
-	qs = QinServer()
-	qs.start_server()
-	p = subprocess.Popen("", stdout=subprocess.PIPE, shell=True)
+	# qs = QinServer()
+	# qs.start_server()
+	p = subprocess.Popen('youtube-dl https://www.youtube.com/watch?v=20LTayRXtAg', stdout=subprocess.PIPE, shell=True)
 	# (output, err) = p.communicate()
 	#This makes the wait possible
 	p.wait()
