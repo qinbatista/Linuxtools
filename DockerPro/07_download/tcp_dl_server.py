@@ -8,7 +8,7 @@ from datetime import datetime
 import threading
 import subprocess
 import time
-
+from subprocess import Popen, PIPE
 class QinServer:
 	def __init__(self, host: str = '', port: int = 18184):
 		self._host = host
@@ -91,11 +91,11 @@ if __name__ == "__main__":
 	current_milli_time = lambda: int(round(time.time() * 1000))
 	task_id = current_milli_time()
 	os.system("cat  ~/.ssh/id_rsa.pub")
-	p = subprocess.Popen('rsync -avz --progress -e "ssh -p 10022" ~/download root@cqhome.qinbatista.com:~/download/', stdout=subprocess.PIPE, shell=True)
+	p = subprocess.Popen(['rsync -avz --progress -e "ssh -p 10022" ~/download root@cqhome.qinbatista.com:~/download/', '-S'],stdout=PIPE, stdin=PIPE, stderr=PIPE,universal_newlines=True)
 	(output, err) = p.communicate(input="{}\n".format("yes"))
 	# os.system('rsync -avz --progress -e "ssh -p 10022" ~/download root@cqhome.qinbatista.com:~/download/')
-	qs = QinServer()
-	qs.start_server()
+	# qs = QinServer()
+	# qs.start_server()
 
 
 	# p = subprocess.Popen('youtube-dl https://www.youtube.com/watch?v=20LTayRXtAg', stdout=subprocess.PIPE, shell=True)
