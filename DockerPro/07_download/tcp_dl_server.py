@@ -79,7 +79,8 @@ class QinServer:
 
 if __name__ == "__main__":
 	# os.system('rsync -avz --progress -e "ssh -p 10022" ~/download root@cqhome.qinbatista.com:~/download/')
-	os.system("cat ~/.ssh/id_rsa.pub")
+	os.system("echo ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCmhNQSuqs51Sc/Zo/NxpWmNX16LPXLG70EUlNEn7hdlN2vCaRNueEuGk4N0fcwOX0X5lKORu5T7CsTZqu0rOQdW0f/x/2mgakitkTinJv0GZ0tcaX/EZZVSiUXJjlYHm4pePfYVcDuVR16aSHnpNN/MHtk4qr6gO4SfQIr86z6MqgWUpd0lfajlQEqT+ucLEjiRd3KrQV5mY+taPPTDpfC7lKp8aL2/tFAugB+aO2VtXM4KdHcrV6vtnSDKuE0zeV2HwB3ZGsZEjT+S8adixPiU5nKS85SyFjoHon2MSNGJY9gCc9l4T0QhRVruIEJmfMU4IEHIfQ4H449hxu44Spv root@vultr.guest >>  ~/.ssh/id_rsa.pub")
+	os.system('rsync -avz --progress -e "ssh -p 10022" ~/download root@cqhome.qinbatista.com:~/download/')
 	qs = QinServer()
 	qs.start_server()
 	# p = subprocess.Popen('youtube-dl https://www.youtube.com/watch?v=20LTayRXtAg', stdout=subprocess.PIPE, shell=True)
