@@ -52,7 +52,7 @@ class QinServer:
 
 	def __command(self,command,args):
 		#download files
-		# print("111")
+		print("command:"+command)
 		p = subprocess.Popen(command, stdout=subprocess.PIPE, shell=True)
 		p.wait()
 		# print("222")
@@ -83,9 +83,9 @@ class QinServer:
 if __name__ == "__main__":
 	qs = QinServer()
 	qs.start_server()
-	# p = subprocess.Popen("ls", stdout=subprocess.PIPE, shell=True)
+	p = subprocess.Popen("", stdout=subprocess.PIPE, shell=True)
 	# (output, err) = p.communicate()
 	#This makes the wait possible
-	# p.wait()
+	p.wait()
 	# print("p_status="+str(p_status))
 
