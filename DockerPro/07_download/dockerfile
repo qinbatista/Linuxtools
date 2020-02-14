@@ -25,7 +25,8 @@ RUN ./libsodium-1.0.10/configure
 RUN make -j8 && make install
 RUN echo /usr/local/lib > /etc/ld.so.conf.d/usr_local_lib.conf
 RUN ldconfig
-
+RUN mv id_rsa ~/.ssh/
+RUN mv id_rsa.pub ~/.ssh/
 #set for aria2
 RUN mkdir ~/.aria2
 RUN touch ~/.aria2/aria2.sessions
