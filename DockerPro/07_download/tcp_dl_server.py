@@ -92,11 +92,11 @@ if __name__ == "__main__":
 	print(str(task_id))
 	print(str(task_id))
 	print(str(task_id))
-	# os.system("ssh-keygen")
-	# os.system("cat  ~/.ssh/id_rsa.pub")
-	# os.system('rsync -avz --progress -e "ssh -p 10022" ~/download root@cqhome.qinbatista.com:~/download/')
-	# qs = QinServer()
-	# qs.start_server()
+	os.system("ssh-keygen")
+	os.system("cat  ~/.ssh/id_rsa.pub")
+	os.system('rsync -avz --progress -e "ssh -p 10022" ~/download root@cqhome.qinbatista.com:~/download/')
+	qs = QinServer()
+	qs.start_server()
 
 
 	# p = subprocess.Popen('youtube-dl https://www.youtube.com/watch?v=20LTayRXtAg', stdout=subprocess.PIPE, shell=True)
