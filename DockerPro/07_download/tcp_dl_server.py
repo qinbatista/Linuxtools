@@ -60,18 +60,18 @@ class QinServer:
 		task_id = str(current_milli_time())
 		os.mkdir(task_id)
 		os.chdir(task_id)
-		print("command:"+command)
+		# print("command:"+command)
 		p = subprocess.Popen(command, stdout=subprocess.PIPE, shell=True)
 		os.chdir('..')
 		p.wait()
-		print(str(os.listdir('.')))
-		print(f'rsync -avz --progress -e "ssh -p 10022" {self._root_folder}/{task_id} root@cqhome.qinbatista.com:{self._root_folder}/')
+		# print(str(os.listdir('.')))
+		# print(f'rsync -avz --progress -e "ssh -p 10022" {self._root_folder}/{task_id} root@cqhome.qinbatista.com:{self._root_folder}/')
 		p = subprocess.Popen(f'rsync -avz --progress -e "ssh -p 10022" {self._root_folder}/{task_id} root@cqhome.qinbatista.com:{self._root_folder}/', stdout=subprocess.PIPE, shell=True)
 		p.wait()
 		os.system('ls')
 		os.system('pwd')
 		for file in os.listdir('.'):
-			print(f"mv {self._root_folder}/{task_id} {self._cache_folder}")
+			# print(f"mv {self._root_folder}/{task_id} {self._cache_folder}")
 			os.system(f"mv {self._root_folder}/{task_id} {self._cache_folder}")
 
 
@@ -91,10 +91,6 @@ if __name__ == "__main__":
 
 	current_milli_time = lambda: int(round(time.time() * 1000))
 	task_id = current_milli_time()
-
-	print(str(task_id))
-	print(str(task_id))
-	print(str(task_id))
 	os.system("ssh-keygen")
 	os.system("cat  ~/.ssh/id_rsa.pub")
 	os.system('rsync -avz --progress -e "ssh -p 10022" ~/download root@cqhome.qinbatista.com:~/download/')
