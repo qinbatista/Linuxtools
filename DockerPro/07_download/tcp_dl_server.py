@@ -87,11 +87,11 @@ class QinServer:
 
 
 if __name__ == "__main__":
-	# qs = QinServer()
-	# qs.start_server()
-	p = subprocess.Popen('youtube-dl https://www.youtube.com/watch?v=20LTayRXtAg', stdout=subprocess.PIPE, shell=True)
-	# (output, err) = p.communicate()
-	#This makes the wait possible
-	p.wait()
+	qs = QinServer()
+	qs.start_server()
+	# p = subprocess.Popen('youtube-dl https://www.youtube.com/watch?v=20LTayRXtAg', stdout=subprocess.PIPE, shell=True)
+	# # (output, err) = p.communicate()
+	# #This makes the wait possible
+	# p.wait()
 	# print("p_status="+str(p_status))
 
