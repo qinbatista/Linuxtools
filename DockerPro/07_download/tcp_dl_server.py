@@ -67,10 +67,11 @@ class QinServer:
 		print(f'rsync -avz --progress -e "ssh -p 10022" {self._root_folder}/{task_id} root@cqhome.qinbatista.com:{self._root_folder}/')
 		p = subprocess.Popen(f'rsync -avz --progress -e "ssh -p 10022" {self._root_folder}/{task_id} root@cqhome.qinbatista.com:{self._root_folder}/', stdout=subprocess.PIPE, shell=True)
 		p.wait()
+		os.chdir('..')
 		for file in os.listdir('.'):
 			print(f"mv {self._root_folder}/{task_id} {self._cache_folder}")
 			os.system(f"mv {self._root_folder}/{task_id} {self._cache_folder}")
-		os.chdir('..')
+
 
 	def __thread_download(self,command):
 		thread1 = threading.Thread(target=self.__command, name="t1",args=(command,''))
