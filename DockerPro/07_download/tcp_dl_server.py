@@ -62,8 +62,8 @@ class QinServer:
 		# p = subprocess.Popen(f'rsync -avz --progress -e "ssh -p 10022" {self._root_folder} root@cqhome.qinbatista.com:{self._root_folder}/', stdout=subprocess.PIPE, shell=True)
 		# p.wait()
 		for file in os.listdir('.'):
-			print(f"mv {file} {self._cache_folder}/{file}")
-			os.system(f"mv {file} {self._cache_folder}/{file}")
+			print(f"mv {self._root_folder}/{file} {self._cache_folder}/{file}")
+			os.system(f"mv {self._root_folder}/{file} {self._cache_folder}/{file}")
 
 		# while os.path.exists(file_name):
 			# print('1')
