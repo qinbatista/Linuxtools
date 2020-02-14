@@ -57,9 +57,9 @@ class QinServer:
 	def __command(self,command,args):
 		#download files
 		current_milli_time = lambda: int(round(time.time() * 1000))
-		task_id = current_milli_time()
-		os.mkdir(str(task_id))
-		os.chdir(str(task_id))
+		task_id = str(current_milli_time())
+		os.mkdir(task_id)
+		os.chdir(task_id)
 		print("command:"+command)
 		p = subprocess.Popen(command, stdout=subprocess.PIPE, shell=True)
 		p.wait()
@@ -85,11 +85,20 @@ class QinServer:
 
 
 if __name__ == "__main__":
-	os.system("ssh-keygen")
-	os.system("cat  ~/.ssh/id_rsa.pub")
-	os.system('rsync -avz --progress -e "ssh -p 10022" ~/download root@cqhome.qinbatista.com:~/download/')
-	qs = QinServer()
-	qs.start_server()
+
+	current_milli_time = lambda: int(round(time.time() * 1000))
+	task_id = current_milli_time()
+
+	print(str(task_id))
+	print(str(task_id))
+	print(str(task_id))
+	# os.system("ssh-keygen")
+	# os.system("cat  ~/.ssh/id_rsa.pub")
+	# os.system('rsync -avz --progress -e "ssh -p 10022" ~/download root@cqhome.qinbatista.com:~/download/')
+	# qs = QinServer()
+	# qs.start_server()
+
+
 	# p = subprocess.Popen('youtube-dl https://www.youtube.com/watch?v=20LTayRXtAg', stdout=subprocess.PIPE, shell=True)
 	# # (output, err) = p.communicate()
 	# #This makes the wait possible
