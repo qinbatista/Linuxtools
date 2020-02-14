@@ -74,6 +74,7 @@ class QinServer:
 		if   type == "youtube-dl": self.__thread_download(f'{proxy} {type} {message}')
 		elif type == "wget": self.__thread_download(f'{proxy} {type} {message}')
 		elif type == "instagram-scraper": self.__thread_download(f'{proxy} {type} {message}')
+		elif type == "aria2c": self.__thread_download(f'{proxy} {type} {message}')
 
 
 if __name__ == "__main__":
