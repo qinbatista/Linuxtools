@@ -16,7 +16,9 @@ class QinServer:
 		self._password = 'lukseun1'
 		self._exclude_files=['ssl_cert','tcp_dl_client.py','tcp_dl_server.py','.DS_Store']
 		self._root_folder = '~/download'#'/root/download' #'/Users/batista/Desktop/download'
+		if not os.path.exists(self._root_folder):os.makedirs(self._root_folder)
 		self._cache_folder = '~/deliveried'#'/root/deliveried' #'/Users/batista/Desktop/deliveried'
+		if not os.path.exists(self._cache_folder):os.makedirs(self._cache_folder)
 
 	async def __echo(self,reader, writer):
 		address = writer.get_extra_info('peername')
