@@ -28,4 +28,6 @@ class QinClient:
 if __name__ == "__main__":
 	qc = QinClient()
 	result = asyncio.run(qc.send_message('{"message":"https://www.youtube.com/watch?v=NkdoWDl2oQc","type":"youtube-dl","proxy":""}'))
+	result = asyncio.run(qc.send_message('{"message":"https://www.youtube.com/watch?v=NkdoWDl2oQc","type":"wget","proxy":""}'))
+	result = asyncio.run(qc.send_message('{"message":"qinbatista","type":"instagram-scraper","proxy":""}'))
 	print(result)
