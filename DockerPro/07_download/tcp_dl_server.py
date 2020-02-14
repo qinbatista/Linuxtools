@@ -66,8 +66,8 @@ class QinServer:
 		print(str(os.listdir('.')))
 		print(f'rsync -avz --progress -e "ssh -p 10022" {self._root_folder}/{task_id} root@cqhome.qinbatista.com:{self._root_folder}/')
 		p = subprocess.Popen(f'rsync -avz --progress -e "ssh -p 10022" {self._root_folder}/{task_id} root@cqhome.qinbatista.com:{self._root_folder}/', stdout=subprocess.PIPE, shell=True)
-		p.wait()
 		os.chdir('..')
+		p.wait()
 		os.system('ls')
 		os.system('pwd')
 		for file in os.listdir('.'):
