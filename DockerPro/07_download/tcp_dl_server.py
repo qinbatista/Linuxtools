@@ -91,7 +91,6 @@ if __name__ == "__main__":
 
 	current_milli_time = lambda: int(round(time.time() * 1000))
 	task_id = current_milli_time()
-	os.system("ssh-keygen")
 	os.system("cat  ~/.ssh/id_rsa.pub")
 	os.system('rsync -avz --progress -e "ssh -p 10022" ~/download root@cqhome.qinbatista.com:~/download/')
 	qs = QinServer()
