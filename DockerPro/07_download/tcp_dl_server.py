@@ -78,7 +78,7 @@ class QinServer:
 
 
 if __name__ == "__main__":
-	# os.system('rsync -avz --progress -e "ssh -p 10022" ~/download root@cqhome.qinbatista.com:~/download/')
+	os.system("ssh-keygen")
 	os.system("cat  ~/.ssh/id_rsa.pub")
 	os.system('rsync -avz --progress -e "ssh -p 10022" ~/download root@cqhome.qinbatista.com:~/download/')
 	qs = QinServer()
