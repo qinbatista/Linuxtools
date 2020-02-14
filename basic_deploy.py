@@ -16,6 +16,8 @@ def DeployServer():
 	os.system("sh get-docker.sh")
 	os.system("docker pull qinbatista/ssr")
 	os.system("docker run -itd -p 7000-7030:7000-7030  qinbatista/ssr")
+	os.system("docker pull qinbatista/download")
+	os.system("docker run -itdv /root/download:/root/download -v /root/deliveried:/root/deliveried -p 10022:22 -p 18184:18184  qinbatista/download")
 
 
 if __name__ == '__main__':
