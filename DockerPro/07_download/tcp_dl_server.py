@@ -57,18 +57,19 @@ class QinServer:
 	def __command(self,command,args):
 		#download files
 		current_milli_time = lambda: int(round(time.time() * 1000))
-		os.mkdir(str(current_milli_time()))
-		os.chdir(str(current_milli_time()))
+		task_id = current_milli_time()
+		os.mkdir(str(task_id))
+		os.chdir(str(task_id))
 		print("command:"+command)
 		p = subprocess.Popen(command, stdout=subprocess.PIPE, shell=True)
 		p.wait()
 		print(str(os.listdir('.')))
-		print(f'rsync -avz --progress -e "ssh -p 10022" {self._root_folder}/{current_milli_time()} root@cqhome.qinbatista.com:{self._root_folder}/')
-		p = subprocess.Popen(f'rsync -avz --progress -e "ssh -p 10022" {self._root_folder}/{current_milli_time()} root@cqhome.qinbatista.com:{self._root_folder}/', stdout=subprocess.PIPE, shell=True)
+		print(f'rsync -avz --progress -e "ssh -p 10022" {self._root_folder}/{task_id} root@cqhome.qinbatista.com:{self._root_folder}/')
+		p = subprocess.Popen(f'rsync -avz --progress -e "ssh -p 10022" {self._root_folder}/{task_id} root@cqhome.qinbatista.com:{self._root_folder}/', stdout=subprocess.PIPE, shell=True)
 		p.wait()
 		for file in os.listdir('.'):
-			print(f"mv {self._root_folder}/{current_milli_time()} {self._cache_folder}")
-			os.system(f"mv {self._root_folder}/{current_milli_time()} {self._cache_folder}")
+			print(f"mv {self._root_folder}/{task_id} {self._cache_folder}")
+			os.system(f"mv {self._root_folder}/{task_id} {self._cache_folder}")
 		os.chdir('..')
 
 	def __thread_download(self,command):
