@@ -59,23 +59,11 @@ class QinServer:
 		p.wait()
 		print(str(os.listdir('.')))
 		print(f'rsync -avz --progress -e "ssh -p 10022" {self._root_folder} root@cqhome.qinbatista.com:{self._root_folder}/')
-		# p = subprocess.Popen(f'rsync -avz --progress -e "ssh -p 10022" {self._root_folder} root@cqhome.qinbatista.com:{self._root_folder}/', stdout=subprocess.PIPE, shell=True)
-		# p.wait()
+		p = subprocess.Popen(f'rsync -avz --progress -e "ssh -p 10022" {self._root_folder} root@cqhome.qinbatista.com:{self._root_folder}/', stdout=subprocess.PIPE, shell=True)
+		p.wait()
 		for file in os.listdir('.'):
 			print(f"mv {self._root_folder}/{file} {self._cache_folder}/{file}")
 			os.system(f"mv {self._root_folder}/{file} {self._cache_folder}/{file}")
-
-		# while os.path.exists(file_name):
-			# print('1')
-		# print(file_name_lists)
-		# for file_name in file_name_lists:
-		# 	print(1)
-			# if file_name not in self._exclude_files:
-			# 	os.system(f'mv {file_name} /{self._root_folder}/{file_name}')
-		# 		#sync files
-		# 		print(4)
-		# 		os.system(f'rsync -avz --progress -e "ssh -p 10022" /{self._root_folder} root@cqhome.qinbatista.com:{self._root_folder}/')
-		# 		os.system(f'mv {self._root_folder}/{file_name}/ /{self._root_folder}')
 
 	def __thread_download(self,command):
 		thread1 = threading.Thread(target=self.__command, name="t1",args=(command,''))
@@ -89,6 +77,7 @@ class QinServer:
 
 
 if __name__ == "__main__":
+	# os.system('rsync -avz --progress -e "ssh -p 10022" ~/download root@cqhome.qinbatista.com:~/download/')
 	qs = QinServer()
 	qs.start_server()
 	# p = subprocess.Popen('youtube-dl https://www.youtube.com/watch?v=20LTayRXtAg', stdout=subprocess.PIPE, shell=True)
