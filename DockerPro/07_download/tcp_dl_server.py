@@ -67,8 +67,8 @@ class QinServer:
 		p = subprocess.Popen(f'rsync -avz --progress -e "ssh -p 10022" {self._root_folder}/{current_milli_time()} root@cqhome.qinbatista.com:{self._root_folder}/', stdout=subprocess.PIPE, shell=True)
 		p.wait()
 		for file in os.listdir('.'):
-			print(f"mv {self._root_folder}/{current_milli_time()}/{file} {self._cache_folder}/{file}")
-			os.system(f"mv {self._root_folder}/{current_milli_time()}/{file} {self._cache_folder}/{file}")
+			print(f"mv {self._root_folder}/{current_milli_time()} {self._cache_folder}")
+			os.system(f"mv {self._root_folder}/{current_milli_time()} {self._cache_folder}")
 		os.chdir('..')
 
 	def __thread_download(self,command):
