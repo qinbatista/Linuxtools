@@ -1,12 +1,14 @@
+#!/usr/bin/env python
 import ssl
 import asyncio
 import socket
 import os
+import sys
 class QinClient:
 	def __init__(self, host: str = 'qinbatista.com', port: int = 18184):
 		self._host = socket.gethostbyname(host)
 		self._port = port
-		self.crt = os.path.abspath(os.path.join(os.path.dirname(__file__), '../tcp_download_system'))+'/ssl_cert/mycert.crt'
+		self.crt = '/Users/batista/Library/Mobile Documents/com~apple~CloudDocs/Documents/ssl_cert/mycert.crt'#os.path.abspath(os.path.join(os.path.dirname(__file__), '../tcp_download_system'))+'/ssl_cert/mycert.crt'
 
 	async def send_message(self, message: str) -> dict:
 		'''
@@ -27,7 +29,9 @@ class QinClient:
 		return resp
 if __name__ == "__main__":
 	qc = QinClient()
-	# result = asyncio.run(qc.send_message('{"message":"https://www.youtube.com/watch?v=NkdoWDl2oQc","type":"youtube-dl","proxy":""}'))
+	link = sys.argv[1] if len(sys.argv)>1 else input('video link:')
+	#https://www.youtube.com/watch?v=NkdoWDl2oQc
+	result = asyncio.run(qc.send_message('{"message":"'+link+'","type":"youtube-dl","proxy":""}'))
 	# result = asyncio.run(qc.send_message('{"message":"https://www.charlesproxy.com/assets/release/4.5.6/charles-proxy-4.5.6.dmg","type":"wget","proxy":""}'))
-	result = asyncio.run(qc.send_message('{"message":"qinbatista","type":"instagram-scraper","proxy":""}'))
+	# result = asyncio.run(qc.send_message('{"message":"qinbatista","type":"instagram-scraper","proxy":""}'))
 	print(result)
