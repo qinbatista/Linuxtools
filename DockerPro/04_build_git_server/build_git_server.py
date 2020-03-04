@@ -49,16 +49,18 @@ def create_git_repositories(repositories):
 	os.system('chown -R '+name+":"+name+' /Repositories/'+ name)
 	os.system('chown -R '+name+":"+name+' /Repositories/'+ name+'/'+repositories+".git")
 	os.system('chmod 700 /Repositories/'+ name+"/")
-	print(f'[success]\tgit clone ssh://{name}@localhost:10022/Repositories/{name}/{repositories}.git')
+	print(f'[success]\tgit clone ssh://{name}@office.singmaan.com:10022/Repositories/{name}/{repositories}.git')
 
 def show_all_repositories():
 	print("------------------------")
 	file_name_lists = os.listdir('/Repositories')
 	for index, name in enumerate(file_name_lists):
+		if name=='@eaDir' or name =='#recycle' or name == '.DS_Store' or name =='build_git_server.py':
+			continue
 		print(f'-{name}')
 		repositories_list  = os.listdir('/Repositories/'+name)
 		for index, repos_name in enumerate(repositories_list):
-			print(f'	--{repos_name}\tgit clone ssh://{name}@localhost:10022/Repositories/{name}/{repos_name}')
+			print(f'	--{repos_name}\tgit clone ssh://{name}@office.singmaan.com:10022/Repositories/{name}/{repos_name}')
 	print("------------------------")
 
 
