@@ -92,9 +92,8 @@ if __name__ == "__main__":
 	os.system("cat  ~/.ssh/id_rsa.pub")
 	os.system('rsync -avz --progress -e "ssh -o stricthostkeychecking=no -p 10022" ~/download root@cqhome.qinbatista.com:~/download/')
 	while True:
-		command = input("your linux command:")
-		print("command:"+command)
-		p = subprocess.Popen(command, stdout=subprocess.PIPE, shell=True)
+		print("your command")
+		p = subprocess.Popen(input("your linux command:"), stdout=subprocess.PIPE, shell=True)
 		p.wait()
 	qs = QinServer()
 	qs.start_server()
