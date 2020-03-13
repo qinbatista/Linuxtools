@@ -17,8 +17,8 @@ class QinServer:
 		self._key = '/rsa_private.key'
 		self._password = 'lukseun1'
 		self._exclude_files=['ssl_cert','tcp_dl_client.py','tcp_dl_server.py','.DS_Store']
-		self._root_folder = '~/download'
-		self._cache_folder = '~/deliveried'
+		self._root_folder = '/root/download'
+		self._cache_folder = '/root/deliveried'
 		# if not os.path.exists(self._root_folder):os.makedirs(self._root_folder)
 		# if not os.path.exists(self._cache_folder):os.makedirs(self._cache_folder)
 
@@ -86,7 +86,6 @@ class QinServer:
 		elif type == "aria2c": self.__thread_download(f'{proxy} {type} {message}')
 
 if __name__ == "__main__":
-
 	current_milli_time = lambda: int(round(time.time() * 1000))
 	task_id = current_milli_time()
 	os.system("cat  ~/.ssh/id_rsa.pub")
