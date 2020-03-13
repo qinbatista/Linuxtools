@@ -62,7 +62,6 @@ class QinServer:
 		os.chdir(task_id)
 		print("command:"+command)
 		p = subprocess.Popen(command, stdout=subprocess.PIPE, shell=True)
-		os.chdir('..')
 		p.wait()
 		print(str(os.listdir('.')))
 		# print(f'rsync -avz --progress -e "ssh -p 10022" {self._root_folder}/{task_id} root@cqhome.qinbatista.com:{self._root_folder}/')
@@ -71,8 +70,8 @@ class QinServer:
 		os.system('ls')
 		os.system('pwd')
 		for file in os.listdir('.'):
-			# print(f"mv {self._root_folder}/{task_id} {self._cache_folder}")
-			os.system(f"mv {self._root_folder}/{task_id} {self._cache_folder}")
+			print(f"mv {self._root_folder}/{task_id}/* {self._cache_folder}......")
+			os.system(f"mv {self._root_folder}/{task_id}/* {self._cache_folder}")
 
 
 	def __thread_download(self,command):
@@ -92,6 +91,11 @@ if __name__ == "__main__":
 	task_id = current_milli_time()
 	os.system("cat  ~/.ssh/id_rsa.pub")
 	os.system('rsync -avz --progress -e "ssh -o stricthostkeychecking=no -p 10022" ~/download root@cqhome.qinbatista.com:~/download/')
+	while True:
+		command = input("your linux command:")
+		print("command:"+command)
+		p = subprocess.Popen(command, stdout=subprocess.PIPE, shell=True)
+		p.wait()
 	qs = QinServer()
 	qs.start_server()
 
