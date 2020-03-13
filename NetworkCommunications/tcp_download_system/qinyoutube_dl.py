@@ -29,7 +29,7 @@ class QinClient:
 		return resp
 if __name__ == "__main__":
 	qc = QinClient()
-	link = 'https://www.youtube.com/watch?v=TBT0tvn6zf0&t=817s'#sys.argv[1] if len(sys.argv)>1 else input('video link:')
+	link = sys.argv[1] if len(sys.argv)>1 else input('video link:')
 	#https://www.youtube.com/watch?v=NkdoWDl2oQc
 	result = asyncio.run(qc.send_message('{"message":"'+link+'","type":"youtube-dl","proxy":""}'))
 	# result = asyncio.run(qc.send_message('{"message":"https://www.charlesproxy.com/assets/release/4.5.6/charles-proxy-4.5.6.dmg","type":"wget","proxy":""}'))
