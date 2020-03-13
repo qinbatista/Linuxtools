@@ -1,0 +1,4 @@
+FROM python:3.7-alpine
+ADD * /
+EXPOSE 12345 80
+CMD [ "python" ,"/02_Client.py"]

@@ -4,7 +4,7 @@ import threading
 import time
 import uuid
 host  = '149.28.126.7' # 这是客户端的电脑的ip
-serial_number = "cqhome"
+serial_number = "mac"
 port = 12345 #接口选择大于10000的，避免冲突
 bufsize = 1024  #定义缓冲大小
 
