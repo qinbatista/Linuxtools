@@ -58,8 +58,8 @@ class QinServer:
 		#download files
 		current_milli_time = lambda: int(round(time.time() * 1000))
 		task_id = str(current_milli_time())
-		os.mkdir(task_id)
-		os.chdir(task_id)
+		os.mkdir(f'{self._root_folder}/{task_id}')
+		os.chdir(f'{self._root_folder}/{task_id}')
 		print("command:"+command)
 		p = subprocess.Popen(command, stdout=subprocess.PIPE, shell=True)
 		p.wait()
