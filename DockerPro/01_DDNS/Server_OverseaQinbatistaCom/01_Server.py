@@ -46,7 +46,8 @@ class DDNSServer:
 				HostContext.append(ip+" "+str(self.client_require_domain_name[index])+"."+self.domain_name+"\n")
 			with open("./MyDNSHost",'w',encoding="utf8") as file:
 				file.writelines(HostContext)
-			os.system("cp "+"./MyDNSHost /etc/hosts")
+			os.system("cat ./MyDNSHost")
+			os.system("cp ./MyDNSHost /etc/hosts")
 			os.system("/etc/init.d/dnsmasq restart")
 			time.sleep(10)
 	def start_sync_ddns_config_thread(self):
