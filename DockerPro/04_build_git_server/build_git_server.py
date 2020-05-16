@@ -55,12 +55,16 @@ def show_all_repositories():
 	print("------------------------")
 	file_name_lists = os.listdir('/Repositories')
 	for index, name in enumerate(file_name_lists):
-		if name=='@eaDir' or name =='#recycle' or name == '.DS_Store' or name =='build_git_server.py':
+		if name.rfind("#recycle")!=-1 or name.rfind("@eaDir")!=-1:
 			continue
 		print(f'-{name}')
 		repositories_list  = os.listdir('/Repositories/'+name)
 		for index, repos_name in enumerate(repositories_list):
-			print(f'	--{repos_name}\tgit clone ssh://{name}@office.singmaan.com:10022/Repositories/{name}/{repos_name}')
+			if repos_name.rfind(".git")==-1:
+				continue
+			print(f'	[{repos_name}]\t')
+			print(f'	git clone ssh://{name}@office.singmaan.com:10022/Repositories/{name}/{repos_name}')
+			print(f'	\t')
 	print("------------------------")
 
 
