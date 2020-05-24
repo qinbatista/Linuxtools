@@ -80,7 +80,7 @@ class QinServer:
 
 	async def __mission_manager(self,message,type,proxy):
 		if proxy!='': proxy = 'proxychains'
-		if   type == "youtube-dl": self.__thread_download(f'{proxy} {type} {message}')
+		if   type == "youtube-dl": self.__thread_download(f'{proxy} {type} -f bestvideo+bestaudio {message}')
 		elif type == "wget": self.__thread_download(f'{proxy} {type} {message}')
 		elif type == "instagram-scraper": self.__thread_download(f'{proxy} {type} {message}')
 		elif type == "aria2c": self.__thread_download(f'{proxy} {type} {message}')
