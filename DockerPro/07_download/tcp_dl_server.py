@@ -28,7 +28,7 @@ class QinServer:
 		resp = data.decode().strip()
 		message,msg_type,proxy =self.__parse_message(resp)
 		await self.__mission_manager(message,msg_type,proxy)
-		writer.write(b'start downloading'+"->".encode('utf-8')+self.__command.encode('utf-8')+b'\r\n')
+		writer.write(b'start downloading'+"->".encode('utf-8')+message.encode('utf-8')+b'\r\n')
 		await writer.drain()
 
 	def start_server(self):
