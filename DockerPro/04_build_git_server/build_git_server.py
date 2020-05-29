@@ -42,6 +42,17 @@ def add_ssh_to_user(name, key):
 		file.writelines(key+"\n")
 	print(f'/home/{name}/.ssh/authorized_keys added:{key}')
 
+def add_ssh_to_all_user(key):
+	name_list = os.listdir('/home')
+	for name in name_list:
+		if os.path.exists("/home/" + name + "/.ssh/")==False:os.system("mkdir "+"/home/" + name + "/.ssh/")
+		if os.path.exists("/home/" + name + "/.ssh/")==False:os.system("touch authorized_keys")
+		os.system('chmod 700 ~/.ssh/')
+		os.system('chmod 600 ~/.ssh/*')
+		with open("/home/" + name + "/.ssh/authorized_keys", mode='a', encoding="utf8") as file:
+			file.writelines(key+"\n")
+		print(f'/home/{name}/.ssh/authorized_keys added:{key}')
+
 def create_git_repositories(repositories):
 	name = list_user()
 	if os.path.exists("/home/" + name + "/.ssh/")==False:os.system('mkdir /Repositories/'+ name)
@@ -75,6 +86,7 @@ def main():
 		print("[2]\tAdd ssh key to user")
 		print("[3]\tCreate a repositories")
 		print("[4]\tShow all repositories info")
+		print("[5]\tAdd ssh key to all users")
 		choice = input('Input your choice:')
 		if choice == '1':
 			create_user()
@@ -84,6 +96,8 @@ def main():
 			create_git_repositories(input('Input repositories name:'))
 		elif choice == '4':
 			show_all_repositories()
+		elif choice == '5':
+			add_ssh_to_all_user(input('Input your ssh public key:'))
 
 
 if __name__ == '__main__':
