@@ -2,9 +2,7 @@ FROM python:3.7
 ADD http_server.py /
 ADD requirements.txt /
 
-RUN apk --update add py-pip openssl linux-headers ca-certificates py-openssl wget gcc libressl-dev musl-dev libffi-dev
 RUN pip install --upgrade pip
-RUN pip install cryptography==2.1.4
 RUN pip install -r requirements.txt
 
 VOLUME ["/OperationLives"]
