@@ -1,6 +1,12 @@
 FROM python:3.7-alpine
 ADD http_server.py /
-RUN apt-get update
+
+RUN apt-get update \
+    && apt-get install -y --no-install-recommends gcc and-build-dependencies \
+    && rm -rf /var/lib/apt/lists/* \
+    && pip install cryptography \
+    && apt-get purge -y --auto-remove gcc and-build-dependencies
+
 RUN apt-get -y gcc
 RUN pip install aiohttp==3.5.4
 RUN pip install aiomysql==0.0.20
