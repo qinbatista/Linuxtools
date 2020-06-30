@@ -54,7 +54,7 @@ class GameManager:
 	def _get_all_config(self):
 		folder_list = os.listdir(self.__root_OperationLives)
 		for folder_name in folder_list:
-			if folder_name.find(".")==-1 or folder_name.find("@")==-1:
+			if folder_name.find(".")==-1 and folder_name.find("@")==-1:
 				with open(self.__root_OperationLives+'/'+folder_name+'/'+self.__updateverify_file_name, 'r') as f:
 					my_json = json.load(f)
 					self.__get_all_update_verify[folder_name] = my_json
