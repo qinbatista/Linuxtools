@@ -9,7 +9,10 @@ from aiohttp import web
 
 class GameManager:
 	def __init__(self, worlds = []):
-		pass
+		self.__updateverify_file_name = 'updateverify.json'
+		self.__root_OperationLives = '/root/OperationLives'
+		self.__get_all_update_verify = dict()
+		self._get_all_config()
 	async def _connect_sql(self):
 		self._pool = await aiomysql.create_pool(
 				maxsize = 20,
@@ -47,6 +50,16 @@ class GameManager:
 				return await cursor.execute(statement)
 	def _message_typesetting(self, status: int, message: str, data: dict = {}) -> dict:
 		return {"status": status, "message": message, "data": data}
+
+	def _get_all_config(self):
+		folder_list = os.listdir(self.__root_OperationLives)
+		for folder_name in folder_list:
+			if folder_name.find(".")==-1:
+				with open(self.__root_OperationLives+'/'+folder_name+'/'+self.__updateverify_file_name, 'r') as f:
+					my_json = json.load(f)
+					self.__get_all_update_verify[folder_name] = my_json
+		print("dic="+str(self.__get_all_update_verify))
+
 	async def function_hello(self, world: int, unique_id: str):
 		# card_info = await self._execute_statement(world, f'select vip_card_type from player where unique_id="{unique_id}"')
 		return self._message_typesetting(200,"this is message",{"status":"200","wtf":"a"})
@@ -55,6 +68,11 @@ class GameManager:
 		# card_info = await self._execute_statement(world, f'select vip_card_type from player where unique_id="{unique_id}"')
 		return self._message_typesetting(200,"this is message",{"status":"200","wtf":"a"})
 
+	async def get_update_verify(self, game_name: str):
+		if game_name in self.__get_all_update_verify:
+			return self._message_typesetting(200,"success",{"status":"200","result":self.__get_all_update_verify[game_name]})
+		else:
+			return self._message_typesetting(201,"failed",{"status":"200","result":"no such game:"+game_name})
 
 
 
@@ -64,6 +82,16 @@ def _json_response(body: dict = "", **kwargs) -> web.Response:
 	kwargs['body'] = json.dumps(body or kwargs['kwargs']).encode('utf-8')
 	kwargs['content_type'] = 'text/json'
 	return web.Response(**kwargs)
+
+#json param, get OperationLives
+#http://localhost:9988/function_hello_query?game_name=ww1
+@ROUTES.post('/get_update_verify')
+async def _get_update_verify(request: web.Request) -> web.Response:
+	query =  request.query
+	result = await (request.app['MANAGER']).get_update_verify(query['gamename'])
+	return _json_response(result)
+
+
 
 #json param, get result from request post
 #http://localhost:9988/function_hello_json
