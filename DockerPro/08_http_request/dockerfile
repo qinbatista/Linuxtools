@@ -1,17 +1,10 @@
 FROM python:3.7-alpine
 ADD http_server.py /
 ADD requirements.txt /
-RUN apk add --no-cache \
-        libressl-dev \
-        musl-dev \
-        libffi-dev && \
-    pip install --no-cache-dir cryptography==2.1.4 && \
-    apk del \
-        libressl-dev \
-        musl-dev \
-        libffi-dev
+
 RUN apk --update add py-pip openssl linux-headers ca-certificates py-openssl wget gcc libressl-dev musl-dev libffi-dev
 RUN pip install --upgrade pip
+RUN pip install cryptography==2.1.4
 RUN pip install -r requirements.txt
 
 VOLUME ["/OperationLives"]
