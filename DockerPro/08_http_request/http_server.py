@@ -5,8 +5,6 @@ import time
 import json
 import random
 import aiomysql
-import requests
-import calendar
 from aiohttp import web
 
 class GameManager:
