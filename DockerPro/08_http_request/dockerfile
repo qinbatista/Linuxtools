@@ -1,6 +1,6 @@
 FROM python:3.7-alpine
 ADD http_server.py /
-RUN pip install aiomysql == 0.0.20
-RUN pip install aiohttp == 3.5.4
+RUN pip install aiomysql = 0.0.20
+RUN pip install aiohttp = 3.5.4
 VOLUME ["/OperationLives"]
 CMD [ "python" ,"/http_server.py"]
