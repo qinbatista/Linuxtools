@@ -2,7 +2,7 @@ FROM python:3.7-alpine
 ADD http_server.py /
 ADD requirements.txt /
 
-RUN apk --update add py-pip openssl ca-certificates py-openssl wget gcc libzbar-dev
+RUN apk --update add py-pip openssl linux-headers ca-certificates py-openssl wget gcc libzbar-dev
 RUN pip install --upgrade pip
 RUN pip install -r requirements.txt
 
