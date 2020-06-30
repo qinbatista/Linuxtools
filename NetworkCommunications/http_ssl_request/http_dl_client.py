@@ -66,8 +66,8 @@ class httpClient(object):
 if __name__ == "__main__":
 
 	my_requests = np.array([
-		['182.92.1.245:9988/function_hello',{"world":0,"unique_id":"aabb"}] for _ in range(1)
-		# ['localhost:9988/function_hello',{"world":0,"unique_id":"aabb"}] for _ in range(1)
+		['localhost:9988/function_hello_json',{"world":0,"unique_id":"aabb"}], #for _ in range(1)
+		['hostlocal:9988/function_hello_query?world=0&unique_id=aabbaaaaaaaaa',""] #for _ in range(1)
 		])
 	# my_requests_addition = np.array([['www.bing.com',{}] for _ in range(1)])
 	# all_requests = np.concatenate((my_requests,my_requests_addition))
