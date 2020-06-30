@@ -7,6 +7,6 @@ docker run -itv /root/OperationLives:/root/OperationLives -p 9988:9988  qinbatis
 > build
 
 ```
-docker build -t qinbatista/OperationLivesRequest
+docker build -t qinbatista/operationlivesrequest .
 ```
 
