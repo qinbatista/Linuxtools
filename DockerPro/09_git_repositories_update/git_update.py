@@ -11,8 +11,8 @@ class GameManager:
 		self.__get_all_update_verify = dict()
 		self._get_all_config()
 
-	def _message_typesetting(self, status: int, message: str, data: dict = {}) -> dict:
-		return {"status": status, "message": message, "data": data}
+	def _message_typesetting(self):
+		print("_message_typesetting")
 
 	def _get_all_config(self):
 		thread1 = threading.Thread(target=self._config_update)
