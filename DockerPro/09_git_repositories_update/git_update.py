@@ -45,6 +45,7 @@ class GameManager:
 
 def run():
 	gm = GameManager()
+	gm._message_typesetting()
 
 
 if __name__ == '__main__':
