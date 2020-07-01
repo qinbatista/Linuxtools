@@ -9,7 +9,6 @@ class GameManager:
 		self.__updateverify_file_name = 'updateverify.json'
 		self.__root_OperationLives = '/root/repositories'
 		self.__get_all_update_verify = dict()
-		self._get_all_config()
 
 	def _message_typesetting(self):
 		print("_message_typesetting")
@@ -45,7 +44,7 @@ class GameManager:
 
 def run():
 	gm = GameManager()
-	gm._message_typesetting()
+	gm._get_all_config()
 
 
 if __name__ == '__main__':
