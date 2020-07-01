@@ -1,7 +1,7 @@
 #### RUN
 > 22：ssh，18184：下载工具 80:网站
 ```
-docker run -itv /root/OperationLives:/root/repositories qinbatista/gitrepositoriesupdate
+docker run -itv /root/repositories:/root/repositories qinbatista/gitrepositoriesupdate
 ```
 
 > build
