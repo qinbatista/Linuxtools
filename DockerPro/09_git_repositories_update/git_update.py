@@ -22,11 +22,14 @@ class GameManager:
 		while True:
 			print("updated _config_update")
 			folder_list = os.listdir(self.__root_OperationLives)
+			print("folder_list="+folder_list)
 			for folder_name in folder_list:
 				if folder_name.find(".")==-1 and folder_name.find("@")==-1:
+					os.system("pwd")
 					os.chdir(self.__root_OperationLives+'/'+folder_name)
 					os.system("git pull")
 					os.chdir(self.__root_OperationLives)
+					os.system("pwd")
 					print("updated repositoriy:"+folder_name)
 			time.sleep(10)
 	async def function_hello(self, world: int, unique_id: str):
