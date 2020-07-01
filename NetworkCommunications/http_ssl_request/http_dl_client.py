@@ -22,6 +22,7 @@ class httpClient(object):
 		async with ClientSession(timeout=timeout) as session:
 			self.__analysis_url_param()
 			for index, url in enumerate(self._urls):
+				print("__run url="+url)
 				task = asyncio.ensure_future(self.__bound_fetch(sem, url,self._params[index],session))
 				tasks.append(task)
 			self.result = await asyncio.gather(*tasks)
@@ -29,12 +30,15 @@ class httpClient(object):
 	async def __fetch(self, url, param, session):
 		try:
 			if param=={}:
+				print("get="+url)
 				async with session.get(url) as response:
 					# print(response.status)
 					# print(await response.text())
 					return await response.text("utf-8")
 			else:
-				async with session.post(url, data=param) as response:
+				url = "http://localhost:9988/get_update_verify?gamename=ww1"
+				print("post="+url)
+				async with session.post(url) as response:
 					# print(response.status)
 					# print(await response.text())
 					return await response.text("utf-8")
@@ -42,6 +46,7 @@ class httpClient(object):
 			return "timeout:"+url
 
 	async def __bound_fetch(self, sem, url,param, session):
+		print("__bound_fetch url="+url)
 		async with sem:
 			return await self.__fetch(url, param, session)
 
@@ -67,13 +72,14 @@ if __name__ == "__main__":
 
 	my_requests = np.array([
 		# ['141.164.49.199:9988/function_hello_json',{"world":0,"unique_id":"aabb"}], #for _ in range(1)
-		["localhost:9988/get_update_verify?gamename=ww1&gameid=123",""] #for _ in range(1)
+		["localhost:9988/get_update_verify?gamename=ww1",""] #for _ in range(1)
 		])
 	# my_requests_addition = np.array([['www.bing.com',{}] for _ in range(1)])
 	# all_requests = np.concatenate((my_requests,my_requests_addition))
 
 	myurls = my_requests[:,0]
 	myparams =my_requests[:,1]
+	print("myurls="+str(myurls))
 	hc = httpClient(urls = myurls,params = myparams)
 	result = hc.access()
 	print(str(result))

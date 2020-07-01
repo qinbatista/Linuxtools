@@ -6,7 +6,7 @@ import json
 import random
 import aiomysql
 from aiohttp import web
-
+import threading
 class GameManager:
 	def __init__(self, worlds = []):
 		self.__updateverify_file_name = 'updateverify.json'
@@ -52,14 +52,25 @@ class GameManager:
 		return {"status": status, "message": message, "data": data}
 
 	def _get_all_config(self):
-		folder_list = os.listdir(self.__root_OperationLives)
-		for folder_name in folder_list:
-			if folder_name.find(".")==-1 and folder_name.find("@")==-1:
-				with open(self.__root_OperationLives+'/'+folder_name+'/'+self.__updateverify_file_name, 'r') as f:
-					my_json = json.load(f)
-					self.__get_all_update_verify[folder_name] = my_json
-		print("dic="+str(self.__get_all_update_verify))
+		thread1 = threading.Thread(target=self._config_update)
+		thread1.start()
 
+	def _config_update(self):
+		while True:
+			folder_list = os.listdir(self.__root_OperationLives)
+			for folder_name in folder_list:
+				if folder_name.find(".")==-1 and folder_name.find("@")==-1:
+					os.chdir(self.__root_OperationLives+'/'+folder_name)
+					os.system("git pull")
+					os.chdir(self.__root_OperationLives)
+
+			for folder_name in folder_list:
+				if folder_name.find(".")==-1 and folder_name.find("@")==-1:
+					with open(self.__root_OperationLives+'/'+folder_name+'/'+self.__updateverify_file_name, 'r') as f:
+						my_json = json.load(f)
+						self.__get_all_update_verify[folder_name] = my_json
+			print("dic="+str(self.__get_all_update_verify))
+			time.sleep(10)
 	async def function_hello(self, world: int, unique_id: str):
 		# card_info = await self._execute_statement(world, f'select vip_card_type from player where unique_id="{unique_id}"')
 		return self._message_typesetting(200,"this is message",{"status":"200","wtf":"a"})
@@ -78,16 +89,18 @@ class GameManager:
 
 
 ROUTES = web.RouteTableDef()
+
+
 def _json_response(body: dict = "", **kwargs) -> web.Response:
 	kwargs['body'] = json.dumps(body or kwargs['kwargs']).encode('utf-8')
 	kwargs['content_type'] = 'text/json'
 	return web.Response(**kwargs)
 
 #json param, get OperationLives
-#http://localhost:9988/function_hello_query?game_name=ww1
+#http://localhost:9988/get_update_verify?game_name=ww1
 @ROUTES.post('/get_update_verify')
 async def _get_update_verify(request: web.Request) -> web.Response:
-	query =  request.query
+	query = request.query
 	result = await (request.app['MANAGER']).get_update_verify(query['gamename'])
 	return _json_response(result)
 
