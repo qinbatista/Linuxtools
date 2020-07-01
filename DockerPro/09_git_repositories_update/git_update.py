@@ -7,25 +7,27 @@ import threading
 class GameManager:
 	def __init__(self, worlds = []):
 		self.__updateverify_file_name = 'updateverify.json'
-		self.__root_OperationLives = '/root/repositories'
+		self.__root_OperationLives = '/Users/batista/Desktop/OperationLives'
 		self.__get_all_update_verify = dict()
 
 	def _message_typesetting(self):
 		print("_message_typesetting")
 
 	def _get_all_config(self):
+		print("updated thread")
 		thread1 = threading.Thread(target=self._config_update)
 		thread1.start()
 
 	def _config_update(self):
 		while True:
+			print("updated _config_update")
 			folder_list = os.listdir(self.__root_OperationLives)
 			for folder_name in folder_list:
 				if folder_name.find(".")==-1 and folder_name.find("@")==-1:
 					os.chdir(self.__root_OperationLives+'/'+folder_name)
 					os.system("git pull")
 					os.chdir(self.__root_OperationLives)
-				print("updated repositoriy:"+folder_name)
+					print("updated repositoriy:"+folder_name)
 			time.sleep(10)
 	async def function_hello(self, world: int, unique_id: str):
 		# card_info = await self._execute_statement(world, f'select vip_card_type from player where unique_id="{unique_id}"')
