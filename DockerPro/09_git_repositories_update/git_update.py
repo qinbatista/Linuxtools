@@ -28,7 +28,7 @@ class GameManager:
 					os.system("git pull")
 					os.chdir(self.__root_OperationLives)
 					print("updated repositoriy:"+folder_name)
-			time.sleep(3600)
+			time.sleep(10)
 	async def function_hello(self, world: int, unique_id: str):
 		# card_info = await self._execute_statement(world, f'select vip_card_type from player where unique_id="{unique_id}"')
 		return self._message_typesetting(200,"this is message",{"status":"200","wtf":"a"})
