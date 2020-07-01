@@ -1,4 +1,4 @@
-FROM debian:alpine
+FROM debian:9-slim
 ADD git_update.py /
 
 RUN apt-get update
