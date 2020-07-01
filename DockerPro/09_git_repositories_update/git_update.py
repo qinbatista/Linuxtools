@@ -22,7 +22,7 @@ class GameManager:
 		while True:
 			print("updated _config_update")
 			folder_list = os.listdir(self.__root_OperationLives)
-			print("folder_list="+folder_list)
+			print("folder_list="+str(folder_list))
 			for folder_name in folder_list:
 				if folder_name.find(".")==-1 and folder_name.find("@")==-1:
 					os.system("pwd")
