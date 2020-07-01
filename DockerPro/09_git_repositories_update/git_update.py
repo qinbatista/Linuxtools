@@ -7,7 +7,7 @@ import threading
 class GameManager:
 	def __init__(self, worlds = []):
 		self.__updateverify_file_name = 'updateverify.json'
-		self.__root_OperationLives = '/Users/batista/Desktop/OperationLives'
+		self.__root_OperationLives = '/root/repositories'
 		self.__get_all_update_verify = dict()
 
 	def _message_typesetting(self):
