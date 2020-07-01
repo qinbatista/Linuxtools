@@ -1,0 +1,9 @@
+FROM debian:alpine
+ADD git_update.py /
+
+RUN apt-get update
+RUN apt-get -y install python3 git
+
+
+VOLUME ["/root/repositories"]
+CMD [ "python3" ,"/git_update.py"]

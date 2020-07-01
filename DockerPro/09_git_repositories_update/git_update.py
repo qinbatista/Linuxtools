@@ -10,7 +10,7 @@ import threading
 class GameManager:
 	def __init__(self, worlds = []):
 		self.__updateverify_file_name = 'updateverify.json'
-		self.__root_OperationLives = '/root/OperationLives'
+		self.__root_OperationLives = '/root/repositories'
 		self.__get_all_update_verify = dict()
 		self._get_all_config()
 	async def _connect_sql(self):
@@ -63,14 +63,7 @@ class GameManager:
 					os.chdir(self.__root_OperationLives+'/'+folder_name)
 					os.system("git pull")
 					os.chdir(self.__root_OperationLives)
-
-			for folder_name in folder_list:
-				if folder_name.find(".")==-1 and folder_name.find("@")==-1:
-					with open(self.__root_OperationLives+'/'+folder_name+'/'+self.__updateverify_file_name, 'r') as f:
-						my_json = json.load(f)
-						self.__get_all_update_verify[folder_name] = my_json
-			print("dic="+str(self.__get_all_update_verify))
-			time.sleep(3600*24)
+			time.sleep(10)
 	async def function_hello(self, world: int, unique_id: str):
 		# card_info = await self._execute_statement(world, f'select vip_card_type from player where unique_id="{unique_id}"')
 		return self._message_typesetting(200,"this is message",{"status":"200","wtf":"a"})
