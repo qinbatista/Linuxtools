@@ -20,9 +20,9 @@ class GameManager:
 
 	def _config_update(self):
 		while True:
-			print("updated _config_update")
+			# print("updated _config_update")
 			folder_list = os.listdir(self.__root_OperationLives)
-			print("folder_list="+str(folder_list))
+			# print("folder_list="+str(folder_list))
 			for folder_name in folder_list:
 				if folder_name.find(".")==-1 and folder_name.find("@")==-1:
 					os.system("pwd")
@@ -30,8 +30,8 @@ class GameManager:
 					os.system("git pull")
 					os.chdir(self.__root_OperationLives)
 					os.system("pwd")
-					print("updated repositoriy:"+folder_name)
-			time.sleep(10)
+					# print("updated repositoriy:"+folder_name)
+			time.sleep(3600)
 	async def function_hello(self, world: int, unique_id: str):
 		# card_info = await self._execute_statement(world, f'select vip_card_type from player where unique_id="{unique_id}"')
 		return self._message_typesetting(200,"this is message",{"status":"200","wtf":"a"})
