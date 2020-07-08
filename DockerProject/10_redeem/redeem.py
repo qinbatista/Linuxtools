@@ -1,4 +1,3 @@
-
 import os
 import sys
 import time
@@ -9,9 +8,16 @@ from aiohttp import web
 import threading
 class GameManager:
 	def __init__(self, worlds = []):
-		self.__updateverify_file_name = 'updateverify.json'
-		self.__root_OperationLives = '/root/redeem_list'
+		self.__reedem_codes_file = 'redeem'
+		self.__root_OperationLives = '/root/redeemsystem'#'/Users/batista/Desktop'#'/root/redeemsystem'
+		self.__game_list = '/root/OperationLives'#'/Users/batista/SingmaanProject/OperationLives'#'/root/OperationLives'
+		self.__game_names = []
+		self.__max_redeems = 100
 		self.__redeem_codes = dict()
+		self.__redeem_codes_list = []
+		self.__all_redeem_codes = {}
+		self.__count = 0
+		self.__reedem_code_version = 0
 		self._set_all_config()
 	async def _connect_sql(self):
 		self._pool = await aiomysql.create_pool(
@@ -69,24 +75,92 @@ class GameManager:
 		thread1.start()
 
 	def _config_update(self):
-		for i in range(0,10):
-			self.__redeem_codes[self.generate_verification_code()] = 0
-		# while True:
-		# 	folder_list = os.listdir(self.__root_OperationLives)
-		# 	for folder_name in folder_list:
-		# 		if folder_name.find(".")==-1 and folder_name.find("@")==-1:
-		# 			os.chdir(self.__root_OperationLives+'/'+folder_name)
-		# 			os.system("git pull")
-		# 			os.chdir(self.__root_OperationLives)
+		while True:
+			self.__reedem_code_version = self.__reedem_code_version+1
+			self.__game_names = []
+			self.__redeem_codes = dict()
+			self.__redeem_codes_list = []
+			self.__all_redeem_codes = {}
+			folder_list = os.listdir(self.__game_list)
+			for game_name in folder_list:
+				if game_name.rfind("")!=-1 and game_name.rfind(".")!=-1:
+					continue
+				print(game_name)
+				self.__game_names.append(game_name)
+				for i in range(0,self.__max_redeems):
+					self.__redeem_codes_list.append(self.generate_verification_code())
+				self.__redeem_codes_list = sorted(set(self.__redeem_codes_list), key = self.__redeem_codes_list.index)
+				for index,i in enumerate(range(0,len(self.__redeem_codes_list))):
+					number = index%5
+					self.__redeem_codes[self.generate_verification_code()] = number
+				self.__save_config(game_name)
+			self.__count = 60*60*24*30
+			while self.__count!=0:
+				self.__count-=1
+				time.sleep(1)
 
-		# 	for folder_name in folder_list:
-		# 		if folder_name.find(".")==-1 and folder_name.find("@")==-1:
-		# 			with open(self.__root_OperationLives+'/'+folder_name+'/'+self.__updateverify_file_name, 'r') as f:
-		# 				my_json = json.load(f)
-		# 				self.__get_all_update_verify[folder_name] = my_json
-		# 	print("dic="+str(self.__get_all_update_verify))
-		# 	time.sleep(3600*24)
-		print(self.__redeem_codes)
+	def __save_config(self,game_name):
+			all_codes = {}
+			layer_list0 = {}
+			layer_list1 = {}
+			layer_list2 = {}
+			layer_list3 = {}
+			layer_list4 = {}
+			layer_list5 = {}
+			layer_list6 = {}
+			layer_list7 = {}
+			layer_list8 = {}
+			layer_list9 = {}
+			for index,code in enumerate(self.__redeem_codes):
+				number = index%10
+				if number ==0:
+					layer_list0[code]=str(number)
+				if number ==1:
+					layer_list1[code]=str(number)
+				if number ==2:
+					layer_list2[code]=str(number)
+				if number ==3:
+					layer_list3[code]=str(number)
+				if number ==4:
+					layer_list4[code]=str(number)
+				if number ==5:
+					layer_list5[code]=str(number)
+				if number ==6:
+					layer_list6[code]=str(number)
+				if number ==7:
+					layer_list7[code]=str(number)
+				if number ==8:
+					layer_list8[code]=str(number)
+				if number ==9:
+					layer_list9[code]=str(number)
+			all_codes = {**layer_list0, **layer_list1, **layer_list2, **layer_list3, **layer_list4, **layer_list5, **layer_list6, **layer_list7, **layer_list8, **layer_list9}
+			with open(f"{self.__root_OperationLives}/{self.__reedem_codes_file}_{game_name}_V{self.__reedem_code_version}.json",mode='w',encoding="utf8") as file_context:
+				all_codes_string = json.dumps(all_codes)
+				file_context.write(all_codes_string)
+			# print("all_codes="+str(all_codes))
+			self.__all_redeem_codes[game_name]=all_codes
+			self.__redeem_codes = dict()
+			self.__redeem_codes_list = []
+
+
+	async def redeem(self, game_name:str, redeem_code:str):
+		if game_name not in self.__game_names:
+			return self._message_typesetting(400,"error",{"status":"200","message":"don't have such name"})
+		if  redeem_code not in self.__all_redeem_codes[game_name]:
+			return self._message_typesetting(401,"error",{"status":"200","message":"don't have such redeem codes"})
+		result = self.__all_redeem_codes[game_name][redeem_code]
+		if result!=-1:
+			self.__all_redeem_codes[game_name][redeem_code]=-1
+			return self._message_typesetting(200,"redeem success",{"result":result})
+		else:
+			return self._message_typesetting(201,"redeem codes had been used",{"result":result})
+
+	async def expiretime(self):
+		m, s = divmod(self.__count, 60)
+		h, m = divmod(m, 60)
+		d, h = divmod(h, 24)
+		return self._message_typesetting(200,"redeem success",{"time":"%02ddays:%02dhours:%02dminutes:%02dseconds" % (d, h, m, s)})
+
 	async def function_hello(self, world: int, unique_id: str):
 		# card_info = await self._execute_statement(world, f'select vip_card_type from player where unique_id="{unique_id}"')
 		return self._message_typesetting(200,"this is message",{"status":"200","wtf":"a"})
@@ -94,12 +168,6 @@ class GameManager:
 	async def function_hello_noparam(self):
 		# card_info = await self._execute_statement(world, f'select vip_card_type from player where unique_id="{unique_id}"')
 		return self._message_typesetting(200,"this is message",{"status":"200","wtf":"a"})
-
-	async def get_update_verify(self, game_name: str):
-		if game_name in self.__get_all_update_verify:
-			return self._message_typesetting(200,"success",{"status":"200","result":self.__get_all_update_verify[game_name]})
-		else:
-			return self._message_typesetting(201,"failed",{"status":"200","result":"no such game:"+game_name})
 
 
 
@@ -112,18 +180,27 @@ def _json_response(body: dict = "", **kwargs) -> web.Response:
 	kwargs['content_type'] = 'text/json'
 	return web.Response(**kwargs)
 
-#json param, get OperationLives
-#http://localhost:9988/get_update_verify?game_name=ww1
-@ROUTES.post('/get_update_verify')
-async def _get_update_verify(request: web.Request) -> web.Response:
-	query = request.query
-	result = await (request.app['MANAGER']).get_update_verify(query['gamename'])
-	return _json_response(result)
-
 
 
 #json param, get result from request post
-#http://localhost:9988/function_hello_json
+#http://localhost:9989/redeem
+@ROUTES.post('/redeem')
+async def _redeem(request: web.Request) -> web.Response:
+	post = await request.post()
+	print("post="+str(post))
+	result = await (request.app['MANAGER']).redeem(post['gamename'], post['redeemcode'])
+	return _json_response(result)
+
+#no param, get result directly
+#http://localhost:9989/expiretime
+@ROUTES.get('/expiretime')
+async def _expiretime(request: web.Request) -> web.Response:
+	post = await request.post()
+	result = await (request.app['MANAGER']).expiretime()
+	return _json_response(result)
+
+#json param, get result from request post
+#http://localhost:9989/function_hello_json
 @ROUTES.post('/function_hello_json')
 async def _function_hello_json(request: web.Request) -> web.Response:
 	post = await request.post()
@@ -132,7 +209,7 @@ async def _function_hello_json(request: web.Request) -> web.Response:
 
 
 #json param, get result from request query
-#http://localhost:9988/function_hello_query?world=0&unique_id=aabbaaaaaaaaa
+#http://localhost:9989/function_hello_query?world=0&unique_id=aabbaaaaaaaaa
 @ROUTES.post('/function_hello_query')
 async def _function_hello_query(request: web.Request) -> web.Response:
 	query =  request.query
@@ -140,7 +217,7 @@ async def _function_hello_query(request: web.Request) -> web.Response:
 	return _json_response(result)
 
 #no param, get result directly
-#http://localhost:9988/function_hello_noparam
+#http://localhost:9989/function_hello_noparam
 @ROUTES.get('/function_hello_noparam')
 async def _function_hello_noparam(request: web.Request) -> web.Response:
 	post = await request.post()
@@ -151,7 +228,7 @@ def run():
 	app = web.Application()
 	app.add_routes(ROUTES)
 	app['MANAGER'] = GameManager()
-	web.run_app(app, port = "9988")
+	web.run_app(app, port = "9989")
 
 
 if __name__ == '__main__':

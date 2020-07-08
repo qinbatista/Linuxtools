@@ -71,6 +71,7 @@ class GameManager:
 						self.__get_all_update_verify[folder_name] = my_json
 			print("dic="+str(self.__get_all_update_verify))
 			time.sleep(3600*24)
+
 	async def function_hello(self, world: int, unique_id: str):
 		# card_info = await self._execute_statement(world, f'select vip_card_type from player where unique_id="{unique_id}"')
 		return self._message_typesetting(200,"this is message",{"status":"200","wtf":"a"})

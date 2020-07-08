@@ -35,10 +35,16 @@ class httpClient(object):
 					# print(response.status)
 					# print(await response.text())
 					return await response.text("utf-8")
+			# else:
+			# 	print("post="+url)
+			# 	async with session.post(url) as response:
+			# 		# print(response.status)
+			# 		# print(await response.text())
+			# 		return await response.text("utf-8")
 			else:
-				url = "http://localhost:9988/get_update_verify?gamename=ww1"
+				#this param will send in body
 				print("post="+url)
-				async with session.post(url) as response:
+				async with session.post(url, data=param) as response:
 					# print(response.status)
 					# print(await response.text())
 					return await response.text("utf-8")
@@ -71,8 +77,8 @@ class httpClient(object):
 if __name__ == "__main__":
 
 	my_requests = np.array([
-		# ['141.164.49.199:9988/function_hello_json',{"world":0,"unique_id":"aabb"}], #for _ in range(1)
-		["localhost:9988/get_update_verify?gamename=ww1",""] #for _ in range(1)
+		['localhost:9988/redeem',{"gamename":"brickroyal","redeemcode":"5SuYPd"}], #for _ in range(1)
+		# ["localhost:9988/get_update_verify?gamename=ww1",""] #for _ in range(1)
 		])
 	# my_requests_addition = np.array([['www.bing.com',{}] for _ in range(1)])
 	# all_requests = np.concatenate((my_requests,my_requests_addition))
