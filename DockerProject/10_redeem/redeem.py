@@ -12,7 +12,7 @@ class GameManager:
 		self.__root_OperationLives = '/root/redeemsystem'#'/Users/batista/Desktop'#'/root/redeemsystem'
 		self.__game_list = '/root/OperationLives'#'/Users/batista/SingmaanProject/OperationLives'#'/root/OperationLives'
 		self.__game_names = []
-		self.__max_redeems = 100
+		self.__max_redeems = 40000
 		self.__redeem_codes = dict()
 		self.__redeem_codes_list = []
 		self.__all_redeem_codes = {}
