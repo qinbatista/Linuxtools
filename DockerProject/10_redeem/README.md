@@ -1,7 +1,7 @@
 #### RUN
 > 22：ssh，18184：下载工具 80:网站
 ```
-docker run -itv /root/OperationLives:/root/OperationLives -v /root/redeemsystem:/root/redeemsystem -p 9988:9988  qinbatista/redeemsystem
+docker run -itv /root/OperationLives:/root/OperationLives -v /root/redeemsystem:/root/redeemsystem -p 9989:9989  qinbatista/redeemsystem
 ```
 
 > build
