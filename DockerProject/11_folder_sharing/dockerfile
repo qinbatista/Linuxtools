@@ -4,5 +4,5 @@ ADD requirements.txt /
 RUN pip install --upgrade pip
 RUN pip install -r requirements.txt
 
-VOLUME ["/root/download_folder", "/root/download_folder"]
+VOLUME ["/root/download_folder"]
 CMD [ "python" ,"/ftp_server.py"]
