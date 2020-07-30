@@ -1,8 +1,8 @@
 FROM python:3.7-slim
-ADD redeem.py /
+ADD ftp_server.py /
 ADD requirements.txt /
 RUN pip install --upgrade pip
 RUN pip install -r requirements.txt
 
-VOLUME ["/root/redeemsystem", "/root/OperationLives"]
-CMD [ "python" ,"/redeem.py"]
+VOLUME ["/root/download_folder", "/root/download_folder"]
+CMD [ "python" ,"/ftp_server.py"]
