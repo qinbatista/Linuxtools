@@ -3,14 +3,15 @@ from pyftpdlib.handlers import FTPHandler
 from pyftpdlib.servers import FTPServer
 import os
 import random
+import time
 class FtpManager:
 	def __init__(self, port):
 		self.__reedem_codes_file = 'redeem'
-		self.__download_folder = "/root/download_folder/"#"/Users/batista/Desktop/" #~/download_folder/
+		self.__download_folder = "/Users/batista/Desktop/"#"/Users/batista/Desktop/" #~/download_folder/
 		self.__readme = "README.txt" #~/download_folder/
 		self.__port = 9998
 		self.__access_URL = "ftp://office.singmaan.com:"+str(self.__port) #~/download_folder/
-
+		self.folder_name = self.__list_folder(self.__download_folder)
 	def	__list_folder(self, _path):
 		List = []
 		for i in os.listdir(_path):
@@ -37,11 +38,10 @@ class FtpManager:
 			file_context.write(_context)
 
 	def start_server(self):
-		folder_name = self.__list_folder(self.__download_folder)
-		print("folder_name="+str(folder_name))
+		print("folder_name="+str(self.folder_name))
 		#实例化DummyAuthorizer来创建ftp用户
 		authorizer = DummyAuthorizer()
-		for my_name in folder_name:
+		for my_name in self.folder_name:
 		# 参数：用户名，密码，目录，权限
 			my_password = self.generate_verification_code()
 			print(f"URL:		{self.__access_URL}\nPathName:	{self.__download_folder+my_name}\nUserName:	{my_name}\nPassword:	{my_password}\n")
@@ -54,6 +54,14 @@ class FtpManager:
 		# 参数：IP，端口，handler
 		server = FTPServer(('', self.__port), handler)
 		server.serve_forever()
+
+	def detecting(self):
+		while True:
+			detecting_folder = self.__list_folder(self.__download_folder)
+			if len(detecting_folder)==self.folder_name:
+				time.sleep(1)
+			else:
+				self.folder_name = detecting_folder
 
 
 if __name__ == '__main__':
