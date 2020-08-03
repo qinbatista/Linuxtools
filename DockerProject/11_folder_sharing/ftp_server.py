@@ -5,7 +5,7 @@ import os
 import random
 import time
 class FtpManager:
-	def __init__(self, port):
+	def __init__(self):
 		self.__reedem_codes_file = 'redeem'
 		self.__download_folder = "/root/download_folder/"#"/Users/batista/Desktop/" #/root/download_folder/
 		self.__readme = "README.txt" #~/download_folder/
@@ -65,5 +65,5 @@ class FtpManager:
 
 
 if __name__ == '__main__':
-	my_ftp = FtpManager(9988)
+	my_ftp = FtpManager()
 	my_ftp.start_server()

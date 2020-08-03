@@ -3,6 +3,6 @@ ADD ftp_server.py /
 ADD requirements.txt /
 RUN pip install --upgrade pip
 RUN pip install -r requirements.txt
-
+EXPOSE 21/udp 21/tcp 22/udp 22/tcp 9998/udp 9998/tcp
 VOLUME ["/root/download_folder"]
 CMD [ "python" ,"/ftp_server.py"]
