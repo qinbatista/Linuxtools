@@ -9,10 +9,11 @@ import threading
 class GameManager:
 	def __init__(self, worlds = []):
 		self.__reedem_codes_file = 'redeem'
-		self.__root_OperationLives = '/root/redeemsystem'#'/Users/batista/Desktop'#'/root/redeemsystem'
-		self.__game_list = '/root/OperationLives'#'/Users/batista/SingmaanProject/OperationLives'#'/root/OperationLives'
+		self.__root_OperationLives = "/root/redeemsystem"#'/Users/batista/Desktop'#'/root/redeemsystem'
+		self.__game_list = "/root/OperationLives"#'/Users/batista/SingmaanProject/OperationLives'#'/root/OperationLives'
 		self.__game_names = []
-		self.__max_redeems = 40000
+		self.__max_redeems = 1000#40000
+		self.__item_quantity = 20
 		self.__redeem_codes = dict()
 		self.__redeem_codes_list = []
 		self.__all_redeem_codes = {}
@@ -87,7 +88,7 @@ class GameManager:
 					continue
 				print(game_name)
 				self.__game_names.append(game_name)
-				for i in range(0,self.__max_redeems):
+				for i in range(0,self.__max_redeems*self.__item_quantity):
 					self.__redeem_codes_list.append(self.generate_verification_code())
 				self.__redeem_codes_list = sorted(set(self.__redeem_codes_list), key = self.__redeem_codes_list.index)
 				for index,i in enumerate(range(0,len(self.__redeem_codes_list))):
@@ -99,48 +100,32 @@ class GameManager:
 				self.__count-=1
 				time.sleep(1)
 
+	def __merge_dic(self,x,y):
+		z = x.copy()
+		z.update(y)
+		return z
+
 	def __save_config(self,game_name):
-			all_codes = {}
-			layer_list0 = {}
-			layer_list1 = {}
-			layer_list2 = {}
-			layer_list3 = {}
-			layer_list4 = {}
-			layer_list5 = {}
-			layer_list6 = {}
-			layer_list7 = {}
-			layer_list8 = {}
-			layer_list9 = {}
-			for index,code in enumerate(self.__redeem_codes):
-				number = index%10
-				if number ==0:
-					layer_list0[code]=str(number)
-				if number ==1:
-					layer_list1[code]=str(number)
-				if number ==2:
-					layer_list2[code]=str(number)
-				if number ==3:
-					layer_list3[code]=str(number)
-				if number ==4:
-					layer_list4[code]=str(number)
-				if number ==5:
-					layer_list5[code]=str(number)
-				if number ==6:
-					layer_list6[code]=str(number)
-				if number ==7:
-					layer_list7[code]=str(number)
-				if number ==8:
-					layer_list8[code]=str(number)
-				if number ==9:
-					layer_list9[code]=str(number)
-			all_codes = {**layer_list0, **layer_list1, **layer_list2, **layer_list3, **layer_list4, **layer_list5, **layer_list6, **layer_list7, **layer_list8, **layer_list9}
-			with open(f"{self.__root_OperationLives}/{self.__reedem_codes_file}_{game_name}_V{self.__reedem_code_version}.json",mode='w',encoding="utf8") as file_context:
-				all_codes_string = json.dumps(all_codes)
-				file_context.write(all_codes_string)
-			# print("all_codes="+str(all_codes))
-			self.__all_redeem_codes[game_name]=all_codes
-			self.__redeem_codes = dict()
-			self.__redeem_codes_list = []
+		all_codes = {}
+		layer_list = {}
+		for i in range(self.__item_quantity+1):
+			layer_list[i]={}
+
+		for index,code in enumerate(self.__redeem_codes):
+			number = index%self.__item_quantity
+			layer_list[number][code]=str(number)
+
+		for i in range(self.__item_quantity):
+			all_codes = self.__merge_dic(all_codes,layer_list[i])
+		# all_codes = {**layer_list0, **layer_list1, **layer_list2, **layer_list3, **layer_list4, **layer_list5, **layer_list6, **layer_list7, **layer_list8, **layer_list9}
+
+		with open(f"{self.__root_OperationLives}/{self.__reedem_codes_file}_{game_name}_V{self.__reedem_code_version}.json",mode='w',encoding="utf8") as file_context:
+			all_codes_string = json.dumps(all_codes)
+			file_context.write(all_codes_string)
+		# print("all_codes="+str(all_codes))
+		self.__all_redeem_codes[game_name]=all_codes
+		self.__redeem_codes = dict()
+		self.__redeem_codes_list = []
 
 
 	async def redeem(self, game_name:str, redeem_code:str):
