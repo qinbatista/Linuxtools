@@ -4,7 +4,7 @@ import time
 class FtpManager:
 	def __init__(self):
 		self.__reedem_codes_file = 'redeem'
-		self.__download_folder = "/Users/batista/Desktop/"#"/Users/batista/Desktop/" #/root/download_folder/
+		self.__download_folder = "/root/download_folder/"#"/Users/batista/Desktop/" #/root/download_folder/
 		self.__readme = "README.txt" #~/download_folder/
 		self.__port = 9998
 		self.__access_URL = "http://office.singmaan.com:"+str(self.__port) #~/download_folder/
