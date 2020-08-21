@@ -1,17 +1,15 @@
-from pyftpdlib.authorizers import DummyAuthorizer
-from pyftpdlib.handlers import FTPHandler
-from pyftpdlib.servers import FTPServer
 import os
 import random
 import time
 class FtpManager:
 	def __init__(self):
 		self.__reedem_codes_file = 'redeem'
-		self.__download_folder = "/root/download_folder/"#"/Users/batista/Desktop/" #/root/download_folder/
+		self.__download_folder = "/Users/batista/Desktop/"#"/Users/batista/Desktop/" #/root/download_folder/
 		self.__readme = "README.txt" #~/download_folder/
 		self.__port = 9998
-		self.__access_URL = "ftp://office.singmaan.com:"+str(self.__port) #~/download_folder/
+		self.__access_URL = "http://office.singmaan.com:"+str(self.__port) #~/download_folder/
 		self.folder_name = self.__list_folder(self.__download_folder)
+
 	def	__list_folder(self, _path):
 		List = []
 		for i in os.listdir(_path):
@@ -39,21 +37,26 @@ class FtpManager:
 
 	def start_server(self):
 		print("folder_name="+str(self.folder_name))
+		os.chdir(self.__download_folder)
+		os.system("python3 -m http.server "+str(self.__port))
 		#实例化DummyAuthorizer来创建ftp用户
-		authorizer = DummyAuthorizer()
-		for my_name in self.folder_name:
-		# 参数：用户名，密码，目录，权限
-			my_password = self.generate_verification_code()
-			print(f"URL:		{self.__access_URL}\nPathName:	{self.__download_folder+my_name}\nUserName:	{my_name}\nPassword:	{my_password}\n")
-			self.create_file(self.__download_folder+"/"+my_name+"/"+self.__readme, f"URL:		{self.__access_URL}\nPathName:	{self.__download_folder+my_name}\nUserName:	{my_name}\nPassword:	{my_password}\n")
-			authorizer.add_user(my_name, my_password, self.__download_folder+my_name, perm='elradfmwMT')
-		# 匿名登录
-		# authorizer.add_anonymous('/home/nobody')
-		handler = FTPHandler
-		handler.authorizer = authorizer
-		# 参数：IP，端口，handler
-		server = FTPServer(('', self.__port), handler)
-		server.serve_forever()
+		# authorizer = DummyAuthorizer()
+		# for my_name in self.folder_name:
+		# # 参数：用户名，密码，目录，权限
+		# 	my_password = self.generate_verification_code()
+		# 	print(f"URL:		{self.__access_URL}\nPathName:	{self.__download_folder+my_name}\nUserName:	{my_name}\nPassword:	{my_password}\n")
+		# 	self.create_file(self.__download_folder+"/"+my_name+"/"+self.__readme, f"URL:		{self.__access_URL}\nPathName:	{self.__download_folder+my_name}\nUserName:	{my_name}\nPassword:	{my_password}\n")
+		# 	print("my_name="+my_name)
+		# 	print("my_password="+my_password)
+		# 	print("self.__download_folder+my_name="+self.__download_folder+my_name)
+		# 	authorizer.add_user(my_name, my_password, self.__download_folder+my_name, perm='elradfmwMT')
+		# # 匿名登录
+		# # authorizer.add_anonymous('/home/nobody')
+		# handler = FTPHandler
+		# handler.authorizer = authorizer
+		# # 参数：IP，端口，handler
+		# server = FTPServer(('', self.__port), handler)
+		# server.serve_forever()
 
 	def detecting(self):
 		while True:
