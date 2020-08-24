@@ -210,6 +210,7 @@ async def _function_hello_noparam(request: web.Request) -> web.Response:
 	return _json_response(result)
 
 def run():
+	print("version:1.0")
 	app = web.Application()
 	app.add_routes(ROUTES)
 	app['MANAGER'] = GameManager()

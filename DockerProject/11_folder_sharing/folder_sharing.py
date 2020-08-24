@@ -68,5 +68,6 @@ class FtpManager:
 
 
 if __name__ == '__main__':
+	print("version:2.0")
 	my_ftp = FtpManager()
 	my_ftp.start_server()
