@@ -1,12 +1,12 @@
 #### RUN
-> 22：ssh，18184：下载工具 80:网站
+> set
 ```
-docker run -itv /root/OperationLives:/root/OperationLives -v /root/redeemsystem:/root/redeemsystem -p 9989:9989  qinbatista/redeemsystem
+docker run -itv /root/OperationLives:/root/OperationLives -p 10001:10001  qinbatista/configrequest
 ```
 
 > build
 
 ```
-docker build -t qinbatista/redeemsystem .
+docker build -t qinbatista/configrequest .
 ```
 
