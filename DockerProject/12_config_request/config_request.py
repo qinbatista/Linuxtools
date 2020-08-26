@@ -10,7 +10,7 @@ class GameManager:
 	def __init__(self, worlds = []):
 		self.__iap_list_file = "iap_list.json"
 		self.__updateverify_file = "updateverify.json"
-		self.__game_list = "/Users/batista/SingmaanProject/OperationLives"#'/Users/batista/SingmaanProject/OperationLives'#'/root/OperationLives'
+		self.__game_list = '/root/OperationLives'#'/Users/batista/SingmaanProject/OperationLives'#'/root/OperationLives'
 		self.__game_names = []
 		self.__all_iap_config = {}
 		self.__all_updateverify_config = {}
@@ -24,21 +24,28 @@ class GameManager:
 		thread1.start()
 
 	def _config_update(self):
-		folder_list = os.listdir(self.__game_list)
-		for game_name in folder_list:
-			if game_name.rfind("")!=-1 and game_name.rfind(".")!=-1:
-				continue
-			#add iap_list.json
-			if os.path.exists(f"{self.__game_list}/{game_name}/{self.__iap_list_file}"):
-				with open(f"{self.__game_list}/{game_name}/{self.__iap_list_file}", 'r') as f:
-					print(game_name+":iap_list")
-					self.__all_iap_config[game_name] = json.dumps(f.readlines())
+		while True:
+			print("start reading config")
+			self.__all_iap_config = {}
+			self.__all_updateverify_config = {}
+			folder_list = os.listdir(self.__game_list)
+			for game_name in folder_list:
+				if game_name.rfind("")!=-1 and game_name.rfind(".")!=-1:
+					continue
+				#add iap_list.json
+				if os.path.exists(f"{self.__game_list}/{game_name}/{self.__iap_list_file}"):
+					with open(f"{self.__game_list}/{game_name}/{self.__iap_list_file}", 'r') as f:
+						print(game_name+":iap_list")
+						self.__all_iap_config[game_name] = json.load(f)
 
-			#add updateverify.json
-			if os.path.exists(f"{self.__game_list}/{game_name}/{self.__updateverify_file}"):
-				with open(f"{self.__game_list}/{game_name}/{self.__updateverify_file}", 'r') as f:
-					print(game_name+":updateverify")
-					self.__all_updateverify_config[game_name] = json.dumps(f.readlines())
+				#add updateverify.json
+				if os.path.exists(f"{self.__game_list}/{game_name}/{self.__updateverify_file}"):
+					with open(f"{self.__game_list}/{game_name}/{self.__updateverify_file}", 'r') as f:
+						print(game_name+":updateverify")
+						self.__all_updateverify_config[game_name] = json.load(f)
+			print("end reading config")
+			time.sleep(60*60*24)
+			print("restart reading config")
 
 	async def get_iap(self, game_name:str):
 		if game_name not in self.__all_iap_config:
