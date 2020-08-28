@@ -10,10 +10,12 @@ class GameManager:
 	def __init__(self, worlds = []):
 		self.__iap_list_file = "iap_list.json"
 		self.__updateverify_file = "updateverify.json"
-		self.__game_list = '/root/OperationLives'#'/Users/batista/SingmaanProject/OperationLives'#'/root/OperationLives'
+		self.__store_file = "store.json"
+		self.__game_list = '/Users/batista/SingmaanProject/OperationLives'#'/Users/batista/SingmaanProject/OperationLives'#'/root/OperationLives'
 		self.__game_names = []
 		self.__all_iap_config = {}
 		self.__all_updateverify_config = {}
+		self.__all_store_config = {}
 		self._set_all_config()
 
 	def _message_typesetting(self, status: int, message: str, data: dict = {}) -> dict:
@@ -35,14 +37,18 @@ class GameManager:
 				#add iap_list.json
 				if os.path.exists(f"{self.__game_list}/{game_name}/{self.__iap_list_file}"):
 					with open(f"{self.__game_list}/{game_name}/{self.__iap_list_file}", 'r') as f:
-						print(game_name+":iap_list")
 						self.__all_iap_config[game_name] = json.load(f)
 
 				#add updateverify.json
 				if os.path.exists(f"{self.__game_list}/{game_name}/{self.__updateverify_file}"):
 					with open(f"{self.__game_list}/{game_name}/{self.__updateverify_file}", 'r') as f:
-						print(game_name+":updateverify")
 						self.__all_updateverify_config[game_name] = json.load(f)
+
+				#add store.json
+				if os.path.exists(f"{self.__game_list}/{game_name}/{self.__store_file}"):
+					with open(f"{self.__game_list}/{game_name}/{self.__store_file}", 'r') as f:
+						print(game_name+":store")
+						self.__all_store_config[game_name] = json.load(f)
 			print("end reading config")
 			time.sleep(60*60*24)
 			print("restart reading config")
@@ -58,6 +64,12 @@ class GameManager:
 			return self._message_typesetting(400,"error",{"status":"200","message":"don't have such game config:"+game_name})
 		else:
 			return self._message_typesetting(200,"got config success",{"result":self.__all_updateverify_config[game_name]})
+
+	async def store(self, game_name:str):
+		if game_name not in self.__all_store_config:
+			return self._message_typesetting(400,"error",{"status":"200","message":"don't have such game config:"+game_name})
+		else:
+			return self._message_typesetting(200,"got config success",{"result":self.__all_store_config[game_name]})
 
 ROUTES = web.RouteTableDef()
 def _json_response(body: dict = "", **kwargs) -> web.Response:
@@ -81,6 +93,13 @@ async def _get_update_verify(request: web.Request) -> web.Response:
 	result = await (request.app['MANAGER']).get_update_verify(query['gamename'])
 	return _json_response(result)
 
+#json param, get OperationLives
+#http://localhost:10001/get_update_verify?game_name=ww1
+@ROUTES.post('/store')
+async def _store(request: web.Request) -> web.Response:
+	query = request.query
+	result = await (request.app['MANAGER']).store(query['gamename'])
+	return _json_response(result)
 
 
 def run():
