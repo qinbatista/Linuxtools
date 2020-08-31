@@ -11,7 +11,7 @@ class GameManager:
 		self.__iap_list_file = "iap_list.json"
 		self.__updateverify_file = "updateverify.json"
 		self.__store_file = "store.json"
-		self.__game_list = '/Users/batista/SingmaanProject/OperationLives'#'/Users/batista/SingmaanProject/OperationLives'#'/root/OperationLives'
+		self.__game_list = '/root/OperationLives'#'/Users/batista/SingmaanProject/OperationLives'#'/root/OperationLives'
 		self.__game_names = []
 		self.__all_iap_config = {}
 		self.__all_updateverify_config = {}
