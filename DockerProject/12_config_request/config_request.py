@@ -94,7 +94,7 @@ async def _get_update_verify(request: web.Request) -> web.Response:
 	return _json_response(result)
 
 #json param, get OperationLives
-#http://localhost:10001/get_update_verify?game_name=ww1
+#http://office.singmaan.com:10001/store?game_name=TerraGenesis
 @ROUTES.post('/store')
 async def _store(request: web.Request) -> web.Response:
 	query = request.query
