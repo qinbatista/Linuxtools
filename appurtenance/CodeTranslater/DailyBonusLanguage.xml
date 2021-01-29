@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+  <ref link="daily_bonus_monday_name">
+    <string lang="en">Daily Bonus - Monday</string>
+    <string lang="fr">Bonus quotidien - Lundi</string>
+    <string lang="it">Bonus del giorno - Lunedì</string>
+    <string lang="de">Tagesbonus – Montag</string>
+    <string lang="es">Bonificación diaria - Lunes</string>
+    <string lang="pt">Bônus diário - Segunda-feira</string>
+  </ref>
+  <ref link="daily_bonus_tuesday_name">
+    <string lang="en">Daily Bonus - Tuesday</string>
+    <string lang="fr">Bonus quotidien - Mardi</string>
+    <string lang="it">Bonus del giorno - Martedì</string>
+    <string lang="de">Tagesbonus – Dienstag</string>
+    <string lang="es">Bonificación diaria - Martes</string>
+    <string lang="pt">Bônus diário - Terça-feira</string>
+  </ref>
+  <ref link="daily_bonus_wednesday_name">
+    <string lang="en">Daily Bonus - Wednesday</string>
+    <string lang="fr">Bonus quotidien - Mercredi</string>
+    <string lang="it">Bonus del giorno - Mercoledì</string>
+    <string lang="de">Tagesbonus – Mittwoch</string>
+    <string lang="es">Bonificación diaria - Miércoles</string>
+    <string lang="pt">Bônus diário - Quarta-feira</string>
+  </ref>
+  <ref link="daily_bonus_thursday_name">
+    <string lang="en">Daily Bonus - Thursday</string>
+    <string lang="fr">Bonus quotidien - Jeudi</string>
+    <string lang="it">Bonus del giorno - Giovedì</string>
+    <string lang="de">Tagesbonus – Donnerstag</string>
+    <string lang="es">Bonificación diaria - Jueves</string>
+    <string lang="pt">Bônus diário - Quinta-feira</string>
+  </ref>
+  <ref link="daily_bonus_friday_name">
+    <string lang="en">Daily Bonus - Friday</string>
+    <string lang="fr">Bonus quotidien - Vendredi</string>
+    <string lang="it">Bonus del giorno - Venerdì</string>
+    <string lang="de">Tagesbonus – Freitag</string>
+    <string lang="es">Bonificación diaria - Viernes</string>
+    <string lang="pt">Bônus diário - Sexta-feira</string>
+  </ref>
+  <ref link="daily_bonus_saturday_name">
+    <string lang="en">Daily Bonus - Saturday</string>
+    <string lang="fr">Bonus quotidien - Samedi</string>
+    <string lang="it">Bonus del giorno - Sabato</string>
+    <string lang="de">Tagesbonus – Samstag</string>
+    <string lang="es">Bonificación diaria - Sábado</string>
+    <string lang="pt">Bônus diário - Sábado</string>
+  </ref>
+  <ref link="daily_bonus_sunday_name">
+    <string lang="en">Daily Bonus - Sunday</string>
+    <string lang="fr">Bonus quotidien - Dimanche</string>
+    <string lang="it">Bonus del giorno - Domenica</string>
+    <string lang="de">Tagesbonus – Sonntag</string>
+    <string lang="es">Bonificación diaria - Domingo</string>
+    <string lang="pt">Bônus diário - Domingo</string>
+  </ref>
+</data>

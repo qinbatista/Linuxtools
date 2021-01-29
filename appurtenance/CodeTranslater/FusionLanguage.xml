@@ -1,0 +1,983 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+    <ref link="fusion_1_name">
+        <string lang="en">Bubbo Schematic</string>
+        <string lang="fr">Bubbo Schéma</string>
+        <string lang="it">Bubbo Progetto</string>
+        <string lang="de">Bubbo Bauplan</string>
+        <string lang="es">Bubbo Esquema</string>
+        <string lang="pt">Bubbo Fórmula</string>
+    </ref>
+    <ref link="fusion_2_name">
+        <string lang="en">Prof. Gak Schematic</string>
+        <string lang="fr">Prof. Gak Schéma</string>
+        <string lang="it">Prof. Gak Progetto</string>
+        <string lang="de">Prof. Gak Bauplan</string>
+        <string lang="es">Prof. Gak Esquema</string>
+        <string lang="pt">Prof. Gak Fórmula</string>
+    </ref>
+    <ref link="fusion_3_name">
+        <string lang="en">Pengz Schematic</string>
+        <string lang="fr">Pengz Schéma</string>
+        <string lang="it">Pengz Progetto</string>
+        <string lang="de">Pengz Bauplan</string>
+        <string lang="es">Pengz Esquema</string>
+        <string lang="pt">Pengz Fórmula</string>
+    </ref>
+    <ref link="fusion_4_name">
+        <string lang="en">Booty Schematic</string>
+        <string lang="fr">Booty Schéma</string>
+        <string lang="it">Booty Progetto</string>
+        <string lang="de">Booty Bauplan</string>
+        <string lang="es">Booty Esquema</string>
+        <string lang="pt">Booty Fórmula</string>
+    </ref>
+    <ref link="fusion_5_name">
+        <string lang="en">Melvinsteins Schematic</string>
+        <string lang="fr">Melvinsteins Schéma</string>
+        <string lang="it">Melvinsteins Progetto</string>
+        <string lang="de">Melvinsteins Bauplan</string>
+        <string lang="es">Melvinsteins Esquema</string>
+        <string lang="pt">Melvinsteins Fórmula</string>
+    </ref>
+    <ref link="fusion_6_name">
+        <string lang="en">Shrampz Schematic</string>
+        <string lang="fr">Shrampz Schéma</string>
+        <string lang="it">Shrampz Progetto</string>
+        <string lang="de">Shrampz Bauplan</string>
+        <string lang="es">Shrampz Esquema</string>
+        <string lang="pt">Shrampz Fórmula</string>
+    </ref>
+    <ref link="fusion_7_name">
+        <string lang="en">Jemm Schematic</string>
+        <string lang="fr">Jemm Schéma</string>
+        <string lang="it">Jemm Progetto</string>
+        <string lang="de">Jemm Bauplan</string>
+        <string lang="es">Jemm Esquema</string>
+        <string lang="pt">Jemm Fórmula</string>
+    </ref>
+    <ref link="fusion_8_name">
+        <string lang="en">Bor'lan Schematic</string>
+        <string lang="fr">Bor'lan Schéma</string>
+        <string lang="it">Bor'lan Progetto</string>
+        <string lang="de">Bor'lan Bauplan</string>
+        <string lang="es">Bor'lan Esquema</string>
+        <string lang="pt">Bor'lan Fórmula</string>
+    </ref>
+    <ref link="fusion_9_name">
+        <string lang="en">Robby Schematic</string>
+        <string lang="fr">Robby Schéma</string>
+        <string lang="it">Robby Progetto</string>
+        <string lang="de">Robby Bauplan</string>
+        <string lang="es">Robby Esquema</string>
+        <string lang="pt">Robby Fórmula</string>
+    </ref>
+    <ref link="fusion_10_name">
+        <string lang="en">Yobo Schematic</string>
+        <string lang="fr">Yobo Schéma</string>
+        <string lang="it">Yobo Progetto</string>
+        <string lang="de">Yobo Bauplan</string>
+        <string lang="es">Yobo Esquema</string>
+        <string lang="pt">Yobo Fórmula</string>
+    </ref>
+    <ref link="fusion_11_name">
+        <string lang="en">Rina Schematic</string>
+        <string lang="fr">Rina Schéma</string>
+        <string lang="it">Rina Progetto</string>
+        <string lang="de">Rina Bauplan</string>
+        <string lang="es">Rina Esquema</string>
+        <string lang="pt">Rina Fórmula</string>
+    </ref>
+    <ref link="fusion_12_name">
+        <string lang="en">Mr. Bob Schematic</string>
+        <string lang="fr">Mr. Bob Schéma</string>
+        <string lang="it">Mr. Bob Progetto</string>
+        <string lang="de">Mr. Bob Bauplan</string>
+        <string lang="es">Mr. Bob Esquema</string>
+        <string lang="pt">Mr. Bob Fórmula</string>
+    </ref>
+    <ref link="fusion_13_name">
+        <string lang="en">Narchie Schematic</string>
+        <string lang="fr">Narchie Schéma</string>
+        <string lang="it">Narchie Progetto</string>
+        <string lang="de">Narchie Bauplan</string>
+        <string lang="es">Narchie Esquema</string>
+        <string lang="pt">Narchie Fórmula</string>
+    </ref>
+    <ref link="fusion_14_name">
+        <string lang="en">Na'Man Schematic</string>
+        <string lang="fr">Na'Man Schéma</string>
+        <string lang="it">Na'Man Progetto</string>
+        <string lang="de">Na'Man Bauplan</string>
+        <string lang="es">Na'Man Esquema</string>
+        <string lang="pt">Na'Man Fórmula</string>
+    </ref>
+    <ref link="fusion_15_name">
+        <string lang="en">Jugg Schematic</string>
+        <string lang="fr">Jugg Schéma</string>
+        <string lang="it">Jugg Progetto</string>
+        <string lang="de">Jugg Bauplan</string>
+        <string lang="es">Jugg Esquema</string>
+        <string lang="pt">Jugg Fórmula</string>
+    </ref>
+    <ref link="fusion_16_name">
+        <string lang="en">Krives Schematic</string>
+        <string lang="fr">Krives Schéma</string>
+        <string lang="it">Krives Progetto</string>
+        <string lang="de">Krives Bauplan</string>
+        <string lang="es">Krives Esquema</string>
+        <string lang="pt">Krives Fórmula</string>
+    </ref>
+    <ref link="fusion_17_name">
+        <string lang="en">Es'Skeletrad Schematic</string>
+        <string lang="fr">Es'Skeletrad Schéma</string>
+        <string lang="it">Es'Skeletrad Progetto</string>
+        <string lang="de">Es'Skeletrad Bauplan</string>
+        <string lang="es">Es'Skeletrad Esquema</string>
+        <string lang="pt">Es'Skeletrad Fórmula</string>
+    </ref>
+    <ref link="fusion_18_name">
+        <string lang="en">Naukmo Schematic</string>
+        <string lang="fr">Naukmo Schéma</string>
+        <string lang="it">Naukmo Progetto</string>
+        <string lang="de">Naukmo Bauplan</string>
+        <string lang="es">Naukmo Esquema</string>
+        <string lang="pt">Naukmo Fórmula</string>
+    </ref>
+    <ref link="fusion_19_name">
+        <string lang="en">Cuerade Schematic</string>
+        <string lang="fr">Cuerade Schéma</string>
+        <string lang="it">Cuerade Progetto</string>
+        <string lang="de">Cuerade Bauplan</string>
+        <string lang="es">Cuerade Esquema</string>
+        <string lang="pt">Cuerade Fórmula</string>
+    </ref>
+    <ref link="fusion_20_name">
+        <string lang="en">Dillzilla Schematic</string>
+        <string lang="fr">Dillzilla Schéma</string>
+        <string lang="it">Dillzilla Progetto</string>
+        <string lang="de">Dillzilla Bauplan</string>
+        <string lang="es">Dillzilla Esquema</string>
+        <string lang="pt">Dillzilla Fórmula</string>
+    </ref>
+    <ref link="fusion_21_name">
+        <string lang="en">Squibbo Schematic</string>
+        <string lang="fr">Squibbo Schéma</string>
+        <string lang="it">Squibbo Progetto</string>
+        <string lang="de">Squibbo Bauplan</string>
+        <string lang="es">Squibbo Esquema</string>
+        <string lang="pt">Squibbo Fórmula</string>
+    </ref>
+    <ref link="fusion_22_name">
+        <string lang="en">Nosdomdom Schematic</string>
+        <string lang="fr">Nosdomdom Schéma</string>
+        <string lang="it">Nosdomdom Progetto</string>
+        <string lang="de">Nosdomdom Bauplan</string>
+        <string lang="es">Nosdomdom Esquema</string>
+        <string lang="pt">Nosdomdom Fórmula</string>
+    </ref>
+    <ref link="fusion_23_name">
+        <string lang="en">Quirk Schematic</string>
+        <string lang="fr">Quirk Schéma</string>
+        <string lang="it">Quirk Progetto</string>
+        <string lang="de">Quirk Bauplan</string>
+        <string lang="es">Quirk Esquema</string>
+        <string lang="pt">Quirk Fórmula</string>
+    </ref>
+    <ref link="fusion_24_name">
+        <string lang="en">Blargnar Schematic</string>
+        <string lang="fr">Blargnar Schéma</string>
+        <string lang="it">Blargnar Progetto</string>
+        <string lang="de">Blargnar Bauplan</string>
+        <string lang="es">Blargnar Esquema</string>
+        <string lang="pt">Blargnar Fórmula</string>
+    </ref>
+    <ref link="fusion_25_name">
+        <string lang="en">Olxaroth Schematic</string>
+        <string lang="fr">Olxaroth Schéma</string>
+        <string lang="it">Olxaroth Progetto</string>
+        <string lang="de">Olxaroth Bauplan</string>
+        <string lang="es">Olxaroth Esquema</string>
+        <string lang="pt">Olxaroth Fórmula</string>
+    </ref>
+    <ref link="fusion_26_name">
+        <string lang="en">Es'Skelegro Schematic</string>
+        <string lang="fr">Es'Skelegro Schéma</string>
+        <string lang="it">Es'Skelegro Progetto</string>
+        <string lang="de">Es'Skelegro Bauplan</string>
+        <string lang="es">Es'Skelegro Esquema</string>
+        <string lang="pt">Es'Skelegro Fórmula</string>
+    </ref>
+    <ref link="fusion_27_name">
+        <string lang="en">Grengey Schematic</string>
+        <string lang="fr">Grengey Schéma</string>
+        <string lang="it">Grengey Progetto</string>
+        <string lang="de">Grengey Bauplan</string>
+        <string lang="es">Grengey Esquema</string>
+        <string lang="pt">Grengey Fórmula</string>
+    </ref>
+    <ref link="fusion_28_name">
+        <string lang="en">Gemmroid Schematic</string>
+        <string lang="fr">Gemmroid Schéma</string>
+        <string lang="it">Gemmroid Progetto</string>
+        <string lang="de">Gemmroid Bauplan</string>
+        <string lang="es">Gemmroid Esquema</string>
+        <string lang="pt">Gemmroid Fórmula</string>
+    </ref>
+    <ref link="fusion_29_name">
+        <string lang="en">Grolum Schematic</string>
+        <string lang="fr">Grolum Schéma</string>
+        <string lang="it">Grolum Progetto</string>
+        <string lang="de">Grolum Bauplan</string>
+        <string lang="es">Grolum Esquema</string>
+        <string lang="pt">Grolum Fórmula</string>
+    </ref>
+    <ref link="fusion_30_name">
+        <string lang="en">Patcho Schematic</string>
+        <string lang="fr">Patcho Schéma</string>
+        <string lang="it">Patcho Progetto</string>
+        <string lang="de">Patcho Bauplan</string>
+        <string lang="es">Patcho Esquema</string>
+        <string lang="pt">Patcho Fórmula</string>
+    </ref>
+    <ref link="fusion_31_name">
+        <string lang="en">Zirg Schematic</string>
+        <string lang="fr">Zirg Schéma</string>
+        <string lang="it">Zirg Progetto</string>
+        <string lang="de">Zirg Bauplan</string>
+        <string lang="es">Zirg Esquema</string>
+        <string lang="pt">Zirg Fórmula</string>
+    </ref>
+    <ref link="fusion_32_name">
+        <string lang="en">Zammy Schematic</string>
+        <string lang="fr">Zammy Schéma</string>
+        <string lang="it">Zammy Progetto</string>
+        <string lang="de">Zammy Bauplan</string>
+        <string lang="es">Zammy Esquema</string>
+        <string lang="pt">Zammy Fórmula</string>
+    </ref>
+    <ref link="fusion_33_name">
+        <string lang="en">Trixie Schematic</string>
+        <string lang="fr">Trixie Schéma</string>
+        <string lang="it">Trixie Progetto</string>
+        <string lang="de">Trixie Bauplan</string>
+        <string lang="es">Trixie Esquema</string>
+        <string lang="pt">Trixie Fórmula</string>
+    </ref>
+    <ref link="fusion_34_name">
+        <string lang="en">Saerugg Schematic</string>
+        <string lang="fr">Saerugg Schéma</string>
+        <string lang="it">Saerugg Progetto</string>
+        <string lang="de">Saerugg Bauplan</string>
+        <string lang="es">Saerugg Esquema</string>
+        <string lang="pt">Saerugg Fórmula</string>
+    </ref>
+    <ref link="fusion_35_name">
+        <string lang="en">Warffin Schematic</string>
+        <string lang="fr">Warffin Schéma</string>
+        <string lang="it">Warffin Progetto</string>
+        <string lang="de">Warffin Bauplan</string>
+        <string lang="es">Warffin Esquema</string>
+        <string lang="pt">Warffin Fórmula</string>
+    </ref>
+    <ref link="fusion_36_name">
+        <string lang="en">Kov'or Schematic</string>
+        <string lang="fr">Kov'or Schéma</string>
+        <string lang="it">Kov'or Progetto</string>
+        <string lang="de">Kov'or Bauplan</string>
+        <string lang="es">Kov'or Esquema</string>
+        <string lang="pt">Kov'or Fórmula</string>
+    </ref>
+    <ref link="fusion_37_name">
+        <string lang="en">Rolace Schematic</string>
+        <string lang="fr">Rolace Schéma</string>
+        <string lang="it">Rolace Progetto</string>
+        <string lang="de">Rolace Bauplan</string>
+        <string lang="es">Rolace Esquema</string>
+        <string lang="pt">Rolace Fórmula</string>
+    </ref>
+    <ref link="fusion_38_name">
+        <string lang="en">Stasson Schematic</string>
+        <string lang="fr">Stasson Schéma</string>
+        <string lang="it">Stasson Progetto</string>
+        <string lang="de">Stasson Bauplan</string>
+        <string lang="es">Stasson Esquema</string>
+        <string lang="pt">Stasson Fórmula</string>
+    </ref>
+    <ref link="fusion_39_name">
+        <string lang="en">Terrump Schematic</string>
+        <string lang="fr">Terrump Schéma</string>
+        <string lang="it">Terrump Progetto</string>
+        <string lang="de">Terrump Bauplan</string>
+        <string lang="es">Terrump Esquema</string>
+        <string lang="pt">Terrump Fórmula</string>
+    </ref>
+    <ref link="fusion_40_name">
+        <string lang="en">Mimeido Schematic</string>
+        <string lang="fr">Mimeido Schéma</string>
+        <string lang="it">Mimeido Progetto</string>
+        <string lang="de">Mimeido Bauplan</string>
+        <string lang="es">Mimeido Esquema</string>
+        <string lang="pt">Mimeido Fórmula</string>
+    </ref>
+    <ref link="fusion_41_name">
+        <string lang="en">Asst. Oak Schematic</string>
+        <string lang="fr">Asst. Oak Schéma</string>
+        <string lang="it">Asst. Oak Progetto</string>
+        <string lang="de">Asst. Oak Bauplan</string>
+        <string lang="es">Asst. Oak Esquema</string>
+        <string lang="pt">Asst. Oak Fórmula</string>
+    </ref>
+    <ref link="fusion_42_name">
+        <string lang="en">Junior Schematic</string>
+        <string lang="fr">Junior Schéma</string>
+        <string lang="it">Junior Progetto</string>
+        <string lang="de">Junior Bauplan</string>
+        <string lang="es">Junior Esquema</string>
+        <string lang="pt">Junior Fórmula</string>
+    </ref>
+    <ref link="fusion_43_name">
+        <string lang="en">Quirinus Schematic</string>
+        <string lang="fr">Quirinus Schéma</string>
+        <string lang="it">Quirinus Progetto</string>
+        <string lang="de">Quirinus Bauplan</string>
+        <string lang="es">Quirinus Esquema</string>
+        <string lang="pt">Quirinus Fórmula</string>
+    </ref>
+    <ref link="fusion_44_name">
+        <string lang="en">Wemmbo Schematic</string>
+        <string lang="fr">Wemmbo Schéma</string>
+        <string lang="it">Wemmbo Progetto</string>
+        <string lang="de">Wemmbo Bauplan</string>
+        <string lang="es">Wemmbo Esquema</string>
+        <string lang="pt">Wemmbo Fórmula</string>
+    </ref>
+    <ref link="fusion_45_name">
+        <string lang="en">Korgz Schematic</string>
+        <string lang="fr">Korgz Schéma</string>
+        <string lang="it">Korgz Progetto</string>
+        <string lang="de">Korgz Bauplan</string>
+        <string lang="es">Korgz Esquema</string>
+        <string lang="pt">Korgz Fórmula</string>
+    </ref>
+    <ref link="fusion_46_name">
+        <string lang="en">Bobodom Schematic</string>
+        <string lang="fr">Bobodom Schéma</string>
+        <string lang="it">Bobodom Progetto</string>
+        <string lang="de">Bobodom Bauplan</string>
+        <string lang="es">Bobodom Esquema</string>
+        <string lang="pt">Bobodom Fórmula</string>
+    </ref>
+    <ref link="fusion_47_name">
+        <string lang="en">Bebeguin Schematic</string>
+        <string lang="fr">Bebeguin Schéma</string>
+        <string lang="it">Bebeguin Progetto</string>
+        <string lang="de">Bebeguin Bauplan</string>
+        <string lang="es">Bebeguin Esquema</string>
+        <string lang="pt">Bebeguin Fórmula</string>
+    </ref>
+    <ref link="fusion_48_name">
+        <string lang="en">Mummite Schematic</string>
+        <string lang="fr">Mummite Schéma</string>
+        <string lang="it">Mummite Progetto</string>
+        <string lang="de">Mummite Bauplan</string>
+        <string lang="es">Mummite Esquema</string>
+        <string lang="pt">Mummite Fórmula</string>
+    </ref>
+    <ref link="fusion_49_name">
+        <string lang="en">Amrul Schematic</string>
+        <string lang="fr">Amrul Schéma</string>
+        <string lang="it">Amrul Progetto</string>
+        <string lang="de">Amrul Bauplan</string>
+        <string lang="es">Amrul Esquema</string>
+        <string lang="pt">Amrul Fórmula</string>
+    </ref>
+    <ref link="fusion_50_name">
+        <string lang="en">Tealkers Schematic</string>
+        <string lang="fr">Tealkers Schéma</string>
+        <string lang="it">Tealkers Progetto</string>
+        <string lang="de">Tealkers Bauplan</string>
+        <string lang="es">Tealkers Esquema</string>
+        <string lang="pt">Tealkers Fórmula</string>
+    </ref>
+    <ref link="fusion_51_name">
+        <string lang="en">Pargz Schematic</string>
+        <string lang="fr">Pargz Schéma</string>
+        <string lang="it">Pargz Progetto</string>
+        <string lang="de">Pargz Bauplan</string>
+        <string lang="es">Pargz Esquema</string>
+        <string lang="pt">Pargz Fórmula</string>
+    </ref>
+    <ref link="fusion_52_name">
+        <string lang="en">Groger Schematic</string>
+        <string lang="fr">Groger Schéma</string>
+        <string lang="it">Groger Progetto</string>
+        <string lang="de">Groger Bauplan</string>
+        <string lang="es">Groger Esquema</string>
+        <string lang="pt">Groger Fórmula</string>
+    </ref>
+    <ref link="fusion_53_name">
+        <string lang="en">Remmyt Schematic</string>
+        <string lang="fr">Remmyt Schéma</string>
+        <string lang="it">Remmyt Progetto</string>
+        <string lang="de">Remmyt Bauplan</string>
+        <string lang="es">Remmyt Esquema</string>
+        <string lang="pt">Remmyt Fórmula</string>
+    </ref>
+    <ref link="fusion_54_name">
+        <string lang="en">Beido Schematic</string>
+        <string lang="fr">Beido Schéma</string>
+        <string lang="it">Beido Progetto</string>
+        <string lang="de">Beido Bauplan</string>
+        <string lang="es">Beido Esquema</string>
+        <string lang="pt">Beido Fórmula</string>
+    </ref>
+    <ref link="fusion_55_name">
+        <string lang="en">Astally Schematic</string>
+        <string lang="fr">Astally Schéma</string>
+        <string lang="it">Astally Progetto</string>
+        <string lang="de">Astally Bauplan</string>
+        <string lang="es">Astally Esquema</string>
+        <string lang="pt">Astally Fórmula</string>
+    </ref>
+    <ref link="fusion_56_name">
+        <string lang="en">Immyt Schematic</string>
+        <string lang="fr">Immyt Schéma</string>
+        <string lang="it">Immyt Progetto</string>
+        <string lang="de">Immyt Bauplan</string>
+        <string lang="es">Immyt Esquema</string>
+        <string lang="pt">Immyt Fórmula</string>
+    </ref>
+    <ref link="fusion_57_name">
+        <string lang="en">Itra Schematic</string>
+        <string lang="fr">Itra Schéma</string>
+        <string lang="it">Itra Progetto</string>
+        <string lang="de">Itra Bauplan</string>
+        <string lang="es">Itra Esquema</string>
+        <string lang="pt">Itra Fórmula</string>
+    </ref>
+    <ref link="fusion_58_name">
+        <string lang="en">Minlim Schematic</string>
+        <string lang="fr">Minlim Schéma</string>
+        <string lang="it">Minlim Progetto</string>
+        <string lang="de">Minlim Bauplan</string>
+        <string lang="es">Minlim Esquema</string>
+        <string lang="pt">Minlim Fórmula</string>
+    </ref>
+    <ref link="fusion_59_name">
+        <string lang="en">Bummih Schematic</string>
+        <string lang="fr">Bummih Schéma</string>
+        <string lang="it">Bummih Progetto</string>
+        <string lang="de">Bummih Bauplan</string>
+        <string lang="es">Bummih Esquema</string>
+        <string lang="pt">Bummih Fórmula</string>
+    </ref>
+    <ref link="fusion_60_name">
+        <string lang="en">Melv'goon Schematic</string>
+        <string lang="fr">Melv'goon Schéma</string>
+        <string lang="it">Melv'goon Progetto</string>
+        <string lang="de">Melv'goon Bauplan</string>
+        <string lang="es">Melv'goon Esquema</string>
+        <string lang="pt">Melv'goon Fórmula</string>
+    </ref>
+    <ref link="fusion_61_name">
+        <string lang="en">Jacked Schematic</string>
+        <string lang="fr">Jacked Schéma</string>
+        <string lang="it">Jacked Progetto</string>
+        <string lang="de">Jacked Bauplan</string>
+        <string lang="es">Jacked Esquema</string>
+        <string lang="pt">Jacked Fórmula</string>
+    </ref>
+    <ref link="fusion_62_name">
+        <string lang="en">Rolesker Schematic</string>
+        <string lang="fr">Rolesker Schéma</string>
+        <string lang="it">Rolesker Progetto</string>
+        <string lang="de">Rolesker Bauplan</string>
+        <string lang="es">Rolesker Esquema</string>
+        <string lang="pt">Rolesker Fórmula</string>
+    </ref>
+    <ref link="fusion_63_name">
+        <string lang="en">Remruade Schematic</string>
+        <string lang="fr">Remruade Schéma</string>
+        <string lang="it">Remruade Progetto</string>
+        <string lang="de">Remruade Bauplan</string>
+        <string lang="es">Remruade Esquema</string>
+        <string lang="pt">Remruade Fórmula</string>
+    </ref>
+    <ref link="fusion_64_name">
+        <string lang="en">Gozum Schematic</string>
+        <string lang="fr">Gozum Schéma</string>
+        <string lang="it">Gozum Progetto</string>
+        <string lang="de">Gozum Bauplan</string>
+        <string lang="es">Gozum Esquema</string>
+        <string lang="pt">Gozum Fórmula</string>
+    </ref>
+    <ref link="fusion_65_name">
+        <string lang="en">Cozaa Schematic</string>
+        <string lang="fr">Cozaa Schéma</string>
+        <string lang="it">Cozaa Progetto</string>
+        <string lang="de">Cozaa Bauplan</string>
+        <string lang="es">Cozaa Esquema</string>
+        <string lang="pt">Cozaa Fórmula</string>
+    </ref>
+    <ref link="fusion_66_name">
+        <string lang="en">Zoak Schematic</string>
+        <string lang="fr">Zoak Schéma</string>
+        <string lang="it">Zoak Progetto</string>
+        <string lang="de">Zoak Bauplan</string>
+        <string lang="es">Zoak Esquema</string>
+        <string lang="pt">Zoak Fórmula</string>
+    </ref>
+    <ref link="fusion_67_name">
+        <string lang="en">Zubbo Schematic</string>
+        <string lang="fr">Zubbo Schéma</string>
+        <string lang="it">Zubbo Progetto</string>
+        <string lang="de">Zubbo Bauplan</string>
+        <string lang="es">Zubbo Esquema</string>
+        <string lang="pt">Zubbo Fórmula</string>
+    </ref>
+    <ref link="fusion_68_name">
+        <string lang="en">Zino Schematic</string>
+        <string lang="fr">Zino Schéma</string>
+        <string lang="it">Zino Progetto</string>
+        <string lang="de">Zino Bauplan</string>
+        <string lang="es">Zino Esquema</string>
+        <string lang="pt">Zino Fórmula</string>
+    </ref>
+    <ref link="fusion_69_name">
+        <string lang="en">Zobblestein Schematic</string>
+        <string lang="fr">Zobblestein Schéma</string>
+        <string lang="it">Zobblestein Progetto</string>
+        <string lang="de">Zobblestein Bauplan</string>
+        <string lang="es">Zobblestein Esquema</string>
+        <string lang="pt">Zobblestein Fórmula</string>
+    </ref>
+    <ref link="fusion_70_name">
+        <string lang="en">Bluz Schematic</string>
+        <string lang="fr">Bluz Schéma</string>
+        <string lang="it">Bluz Progetto</string>
+        <string lang="de">Bluz Bauplan</string>
+        <string lang="es">Bluz Esquema</string>
+        <string lang="pt">Bluz Fórmula</string>
+    </ref>
+    <ref link="fusion_71_name">
+        <string lang="en">Zagno Schematic</string>
+        <string lang="fr">Zagno Schéma</string>
+        <string lang="it">Zagno Progetto</string>
+        <string lang="de">Zagno Bauplan</string>
+        <string lang="es">Zagno Esquema</string>
+        <string lang="pt">Zagno Fórmula</string>
+    </ref>
+    <ref link="fusion_72_name">
+        <string lang="en">Lardoz Schematic</string>
+        <string lang="fr">Lardoz Schéma</string>
+        <string lang="it">Lardoz Progetto</string>
+        <string lang="de">Lardoz Bauplan</string>
+        <string lang="es">Lardoz Esquema</string>
+        <string lang="pt">Lardoz Fórmula</string>
+    </ref>
+    
+    
+    
+    <ref link="fusion_73_name">
+        <string lang="en">Garekk Schematic</string>
+        <string lang="fr">Garekk Schéma</string>
+        <string lang="it">Garekk Progetto</string>
+        <string lang="de">Garekk Bauplan</string>
+        <string lang="es">Garekk Esquema</string>
+        <string lang="pt">Garekk Fórmula</string>
+    </ref>
+    <ref link="fusion_74_name">
+        <string lang="en">Tilge Schematic</string>
+        <string lang="fr">Tilge Schéma</string>
+        <string lang="it">Tilge Progetto</string>
+        <string lang="de">Tilge Bauplan</string>
+        <string lang="es">Tilge Esquema</string>
+        <string lang="pt">Tilge Fórmula</string>
+    </ref>
+    <ref link="fusion_75_name">
+        <string lang="en">Drek Schematic</string>
+        <string lang="fr">Drek Schéma</string>
+        <string lang="it">Drek Progetto</string>
+        <string lang="de">Drek Bauplan</string>
+        <string lang="es">Drek Esquema</string>
+        <string lang="pt">Drek Fórmula</string>
+    </ref>
+    <ref link="fusion_76_name">
+        <string lang="en">Velk Schematic</string>
+        <string lang="fr">Velk Schéma</string>
+        <string lang="it">Velk Progetto</string>
+        <string lang="de">Velk Bauplan</string>
+        <string lang="es">Velk Esquema</string>
+        <string lang="pt">Velk Fórmula</string>
+    </ref>
+    <ref link="fusion_77_name">
+        <string lang="en">Meaty Schematic</string>
+        <string lang="fr">Meaty Schéma</string>
+        <string lang="it">Meaty Progetto</string>
+        <string lang="de">Meaty Bauplan</string>
+        <string lang="es">Meaty Esquema</string>
+        <string lang="pt">Meaty Fórmula</string>
+    </ref>
+    <ref link="fusion_78_name">
+        <string lang="en">Torlag Schematic</string>
+        <string lang="fr">Torlag Schéma</string>
+        <string lang="it">Torlag Progetto</string>
+        <string lang="de">Torlag Bauplan</string>
+        <string lang="es">Torlag Esquema</string>
+        <string lang="pt">Torlag Fórmula</string>
+    </ref>
+    <ref link="fusion_79_name">
+        <string lang="en">Yorlag Schematic</string>
+        <string lang="fr">Yorlag Schéma</string>
+        <string lang="it">Yorlag Progetto</string>
+        <string lang="de">Yorlag Bauplan</string>
+        <string lang="es">Yorlag Esquema</string>
+        <string lang="pt">Yorlag Fórmula</string>
+    </ref>
+    <ref link="fusion_80_name">
+        <string lang="en">Gorlag Schematic</string>
+        <string lang="fr">Gorlag Schéma</string>
+        <string lang="it">Gorlag Progetto</string>
+        <string lang="de">Gorlag Bauplan</string>
+        <string lang="es">Gorlag Esquema</string>
+        <string lang="pt">Gorlag Fórmula</string>
+    </ref>
+    
+    
+    
+    <ref link="fusion_81_name">
+        <string lang="en">Ninjih Schematic</string>
+        <string lang="fr">Ninjih Schéma</string>
+        <string lang="it">Ninjih Progetto</string>
+        <string lang="de">Ninjih Bauplan</string>
+        <string lang="es">Ninjih Esquema</string>
+        <string lang="pt">Ninjih Fórmula</string>
+    </ref>
+    <ref link="fusion_82_name">
+        <string lang="en">Iva Schematic</string>
+        <string lang="fr">Iva Schéma</string>
+        <string lang="it">Iva Progetto</string>
+        <string lang="de">Iva Bauplan</string>
+        <string lang="es">Iva Esquema</string>
+        <string lang="pt">Iva Fórmula</string>
+    </ref>
+    <ref link="fusion_83_name">
+        <string lang="en">Penja Schematic</string>
+        <string lang="fr">Penja Schéma</string>
+        <string lang="it">Penja Progetto</string>
+        <string lang="de">Penja Bauplan</string>
+        <string lang="es">Penja Esquema</string>
+        <string lang="pt">Penja Fórmula</string>
+    </ref>
+    <ref link="fusion_84_name">
+        <string lang="en">Nubbo Schematic</string>
+        <string lang="fr">Nubbo Schéma</string>
+        <string lang="it">Nubbo Progetto</string>
+        <string lang="de">Nubbo Bauplan</string>
+        <string lang="es">Nubbo Esquema</string>
+        <string lang="pt">Nubbo Fórmula</string>
+    </ref>
+    <ref link="fusion_85_name">
+        <string lang="en">Bruja Schematic</string>
+        <string lang="fr">Bruja Schéma</string>
+        <string lang="it">Bruja Progetto</string>
+        <string lang="de">Bruja Bauplan</string>
+        <string lang="es">Bruja Esquema</string>
+        <string lang="pt">Bruja Fórmula</string>
+    </ref>
+    <ref link="fusion_86_name">
+        <string lang="en">The Champs Schematic</string>
+        <string lang="fr">Les Champions Schéma</string>
+        <string lang="it">I Campioni Progetto</string>
+        <string lang="de">Die Meister Bauplan</string>
+        <string lang="es">Los Campeones Esquema</string>
+        <string lang="pt">Os Campeões Fórmula</string>
+    </ref>
+    <ref link="fusion_87_name">
+        <string lang="en">Yenji Schematic</string>
+        <string lang="fr">Yenji Schéma</string>
+        <string lang="it">Yenji Progetto</string>
+        <string lang="de">Yenji Bauplan</string>
+        <string lang="es">Yenji Esquema</string>
+        <string lang="pt">Yenji Fórmula</string>
+    </ref>
+    <ref link="fusion_88_name">
+        <string lang="en">Drya Schematic</string>
+        <string lang="fr">Drya Schéma</string>
+        <string lang="it">Drya Progetto</string>
+        <string lang="de">Drya Bauplan</string>
+        <string lang="es">Drya Esquema</string>
+        <string lang="pt">Drya Fórmula</string>
+    </ref>
+    <ref link="fusion_89_name">
+        <string lang="en">The Master Schematic</string>
+        <string lang="fr">Le Maître Schéma</string>
+        <string lang="it">Il Capo Progetto</string>
+        <string lang="de">Der Meister Bauplan</string>
+        <string lang="es">El Maestro Esquema</string>
+        <string lang="pt">O Mestre Fórmula</string>
+    </ref>
+    
+    
+    <ref link="fusion_90_name">
+        <string lang="en">Dropo Schematic</string>
+        <string lang="fr">Dropo Schéma</string>
+        <string lang="it">Dropo Progetto</string>
+        <string lang="de">Dropo Bauplan</string>
+        <string lang="es">Dropo Esquema</string>
+        <string lang="pt">Dropo Fórmula</string>
+    </ref>
+    <ref link="fusion_91_name">
+        <string lang="en">Stuvin Schematic</string>
+        <string lang="fr">Stuvin Schéma</string>
+        <string lang="it">Stuvin Progetto</string>
+        <string lang="de">Stuvin Bauplan</string>
+        <string lang="es">Stuvin Esquema</string>
+        <string lang="pt">Stuvin Fórmula</string>
+    </ref>
+    <ref link="fusion_92_name">
+        <string lang="en">Úlairius Schematic</string>
+        <string lang="fr">Úlairius Schéma</string>
+        <string lang="it">Úlairius Progetto</string>
+        <string lang="de">Úlairius Bauplan</string>
+        <string lang="es">Úlairius Esquema</string>
+        <string lang="pt">Úlairius Fórmula</string>
+    </ref>
+    <ref link="fusion_93_name">
+        <string lang="en">Cheb Schematic</string>
+        <string lang="fr">Cheb Schéma</string>
+        <string lang="it">Cheb Progetto</string>
+        <string lang="de">Cheb Bauplan</string>
+        <string lang="es">Cheb Esquema</string>
+        <string lang="pt">Cheb Fórmula</string>
+    </ref>
+    <ref link="fusion_94_name">
+        <string lang="en">Rogomz Schematic</string>
+        <string lang="fr">Rogomz Schéma</string>
+        <string lang="it">Rogomz Progetto</string>
+        <string lang="de">Rogomz Bauplan</string>
+        <string lang="es">Rogomz Esquema</string>
+        <string lang="pt">Rogomz Fórmula</string>
+    </ref>
+    <ref link="fusion_95_name">
+        <string lang="en">Moboz Schematic</string>
+        <string lang="fr">Moboz Schéma</string>
+        <string lang="it">Moboz Progetto</string>
+        <string lang="de">Moboz Bauplan</string>
+        <string lang="es">Moboz Esquema</string>
+        <string lang="pt">Moboz Fórmula</string>
+    </ref>
+    <ref link="fusion_96_name">
+        <string lang="en">Capt. Wombomz Schematic</string>
+        <string lang="fr">Capt. Wombomz Schéma</string>
+        <string lang="it">Capt. Wombomz Progetto</string>
+        <string lang="de">Capt. Wombomz Bauplan</string>
+        <string lang="es">Capt. Wombomz Esquema</string>
+        <string lang="pt">Capt. Wombomz Fórmula</string>
+    </ref>
+    <ref link="fusion_97_name">
+        <string lang="en">Gozzy Schematic</string>
+        <string lang="fr">Gozzy Schéma</string>
+        <string lang="it">Gozzy Progetto</string>
+        <string lang="de">Gozzy Bauplan</string>
+        <string lang="es">Gozzy Esquema</string>
+        <string lang="pt">Gozzy Fórmula</string>
+    </ref>
+    <ref link="fusion_98_name">
+        <string lang="en">Walkom Schematic</string>
+        <string lang="fr">Walkom Schéma</string>
+        <string lang="it">Walkom Progetto</string>
+        <string lang="de">Walkom Bauplan</string>
+        <string lang="es">Walkom Esquema</string>
+        <string lang="pt">Walkom Fórmula</string>
+    </ref>
+    <ref link="fusion_99_name">
+        <string lang="en">Rombolio Schematic</string>
+        <string lang="fr">Rombolio Schéma</string>
+        <string lang="it">Rombolio Progetto</string>
+        <string lang="de">Rombolio Bauplan</string>
+        <string lang="es">Rombolio Esquema</string>
+        <string lang="pt">Rombolio Fórmula</string>
+    </ref>
+    <ref link="fusion_100_name">
+        <string lang="en">Zingo Schematic</string>
+        <string lang="fr">Zingo Schéma</string>
+        <string lang="it">Zingo Progetto</string>
+        <string lang="de">Zingo Bauplan</string>
+        <string lang="es">Zingo Esquema</string>
+        <string lang="pt">Zingo Fórmula</string>
+    </ref>
+    <ref link="fusion_101_name">
+        <string lang="en">Loghir Schematic</string>
+        <string lang="fr">Loghir Schéma</string>
+        <string lang="it">Loghir Progetto</string>
+        <string lang="de">Loghir Bauplan</string>
+        <string lang="es">Loghir Esquema</string>
+        <string lang="pt">Loghir Fórmula</string>
+    </ref>
+    <ref link="fusion_102_name">
+        <string lang="en">RoboBuddy 2.0 Schematic</string>
+        <string lang="fr">RoboBuddy 2.0 Schéma</string>
+        <string lang="it">RoboBuddy 2.0 Progetto</string>
+        <string lang="de">RoboBuddy 2.0 Bauplan</string>
+        <string lang="es">RoboBuddy 2.0 Esquema</string>
+        <string lang="pt">RoboBuddy 2.0 Fórmula</string>
+    </ref>
+    
+    
+    <ref link="fusion_103_name">
+        <string lang="en">Ergos Schematic</string>
+        <string lang="fr">Ergos Schéma</string>
+        <string lang="it">Ergos Progetto</string>
+        <string lang="de">Ergos Bauplan</string>
+        <string lang="es">Ergos Esquema</string>
+        <string lang="pt">Ergos Fórmula</string>
+    </ref>
+    <ref link="fusion_104_name">
+        <string lang="en">D3-M0N Schematic</string>
+        <string lang="fr">D3-M0N Schéma</string>
+        <string lang="it">D3-M0N Progetto</string>
+        <string lang="de">D3-M0N Bauplan</string>
+        <string lang="es">D3-M0N Esquema</string>
+        <string lang="pt">D3-M0N Fórmula</string>
+    </ref>
+    <ref link="fusion_105_name">
+        <string lang="en">Zorgim Schematic</string>
+        <string lang="fr">Zorgim Schéma</string>
+        <string lang="it">Zorgim Progetto</string>
+        <string lang="de">Zorgim Bauplan</string>
+        <string lang="es">Zorgim Esquema</string>
+        <string lang="pt">Zorgim Fórmula</string>
+    </ref>
+    <ref link="fusion_106_name">
+        <string lang="en">Clavid Schematic</string>
+        <string lang="fr">Clavid Schéma</string>
+        <string lang="it">Clavid Progetto</string>
+        <string lang="de">Clavid Bauplan</string>
+        <string lang="es">Clavid Esquema</string>
+        <string lang="pt">Clavid Fórmula</string>
+    </ref>
+    <ref link="fusion_107_name">
+        <string lang="en">Omo Schematic</string>
+        <string lang="fr">Omo Schéma</string>
+        <string lang="it">Omo Progetto</string>
+        <string lang="de">Omo Bauplan</string>
+        <string lang="es">Omo Esquema</string>
+        <string lang="pt">Omo Fórmula</string>
+    </ref>
+    <ref link="fusion_108_name">
+        <string lang="en">Ragmar Schematic</string>
+        <string lang="fr">Ragmar Schéma</string>
+        <string lang="it">Ragmar Progetto</string>
+        <string lang="de">Ragmar Bauplan</string>
+        <string lang="es">Ragmar Esquema</string>
+        <string lang="pt">Ragmar Fórmula</string>
+    </ref>
+    <ref link="fusion_109_name">
+        <string lang="en">Drazig Schematic</string>
+        <string lang="fr">Drazig Schéma</string>
+        <string lang="it">Drazig Progetto</string>
+        <string lang="de">Drazig Bauplan</string>
+        <string lang="es">Drazig Esquema</string>
+        <string lang="pt">Drazig Fórmula</string>
+    </ref>
+    <ref link="fusion_110_name">
+        <string lang="en">Rarzok Schematic</string>
+        <string lang="fr">Rarzok Schéma</string>
+        <string lang="it">Rarzok Progetto</string>
+        <string lang="de">Rarzok Bauplan</string>
+        <string lang="es">Rarzok Esquema</string>
+        <string lang="pt">Rarzok Fórmula</string>
+    </ref>
+    <ref link="fusion_111_name">
+        <string lang="en">Drenath Schematic</string>
+        <string lang="fr">Drenath Schéma</string>
+        <string lang="it">Drenath Progetto</string>
+        <string lang="de">Drenath Bauplan</string>
+        <string lang="es">Drenath Esquema</string>
+        <string lang="pt">Drenath Fórmula</string>
+    </ref>
+    
+    <ref link="fusion_112_name">
+        <string lang="en">Trigginz Schematic</string>
+        <string lang="fr">Trigginz Schéma</string>
+        <string lang="it">Trigginz Progetto</string>
+        <string lang="de">Trigginz Bauplan</string>
+        <string lang="es">Trigginz Esquema</string>
+        <string lang="pt">Trigginz Fórmula</string>
+    </ref>
+    
+    <ref link="fusion_113_name">
+        <string lang="en">Tinsel Schematic</string>
+        <string lang="fr">Tinsel Schéma</string>
+        <string lang="it">Tinsel Progetto</string>
+        <string lang="de">Tinsel Bauplan</string>
+        <string lang="es">Tinsel Esquema</string>
+        <string lang="pt">Tinsel Fórmula</string>
+    </ref>
+    
+    <ref link="fusion_114_name">
+        <string lang="en">Holimenz Schematic</string>
+        <string lang="fr">Holimenz Schéma</string>
+        <string lang="it">Holimenz Progetto</string>
+        <string lang="de">Holimenz Bauplan</string>
+        <string lang="es">Holimenz Esquema</string>
+        <string lang="pt">Holimenz Fórmula</string>
+    </ref>
+    
+    <ref link="fusion_115_name">
+        <string lang="en">Chelf Schematic</string>
+        <string lang="fr">Chelf Schéma</string>
+        <string lang="it">Chelf Progetto</string>
+        <string lang="de">Chelf Bauplan</string>
+        <string lang="es">Chelf Esquema</string>
+        <string lang="pt">Chelf Fórmula</string>
+    </ref>
+    
+    <ref link="fusion_116_name">
+        <string lang="en">Scrooge Schematic</string>
+        <string lang="fr">Scrooge Schéma</string>
+        <string lang="it">Scrooge Progetto</string>
+        <string lang="de">Scrooge Bauplan</string>
+        <string lang="es">Scrooge Esquema</string>
+        <string lang="pt">Scrooge Fórmula</string>
+    </ref>
+    
+    <ref link="fusion_117_name">
+        <string lang="en">Rudolffin Schematic</string>
+        <string lang="fr">Rudolffin Schéma</string>
+        <string lang="it">Rudolffin Progetto</string>
+        <string lang="de">Rudolffin Bauplan</string>
+        <string lang="es">Rudolffin Esquema</string>
+        <string lang="pt">Rudolffin Fórmula</string>
+    </ref>
+    
+    <ref link="fusion_118_name">
+        <string lang="en">X-M4S Schematic</string>
+        <string lang="fr">X-M4S Schéma</string>
+        <string lang="it">X-M4S Progetto</string>
+        <string lang="de">X-M4S Bauplan</string>
+        <string lang="es">X-M4S Esquema</string>
+        <string lang="pt">X-M4S Fórmula</string>
+    </ref>
+    
+    <ref link="fusion_119_name">
+        <string lang="en">Kringle Schematic</string>
+        <string lang="fr">Kringle Schéma</string>
+        <string lang="it">Kringle Progetto</string>
+        <string lang="de">Kringle Bauplan</string>
+        <string lang="es">Kringle Esquema</string>
+        <string lang="pt">Kringle Fórmula</string>
+    </ref>
+    
+    <ref link="fusion_120_name">
+        <string lang="en">Gingermic Schematic</string>
+        <string lang="fr">Gingermic Schéma</string>
+        <string lang="it">Gingermic Progetto</string>
+        <string lang="de">Gingermic Bauplan</string>
+        <string lang="es">Gingermic Esquema</string>
+        <string lang="pt">Gingermic Fórmula</string>
+    </ref>
+    
+</data>

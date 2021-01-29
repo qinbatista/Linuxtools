@@ -1,0 +1,894 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+    <ref link="error_code_0_desc">
+        <string lang="en">?</string>
+    </ref>
+    <ref link="error_code_1_desc">
+        <string lang="en">Incorrect password</string>
+        <string lang="fr">Mot de passe incorrect</string>
+        <string lang="it">Password non corretta</string>
+        <string lang="de">Falsches Passwort</string>
+        <string lang="es">Contraseña incorrecta</string>
+        <string lang="pt">Senha incorreta.</string>
+    </ref>
+    <ref link="error_code_2_desc">
+        <string lang="en">Error logging in</string>
+        <string lang="fr">Erreur de connexion</string>
+        <string lang="it">Errore di accesso</string>
+        <string lang="de">Fehler bei der Anmeldung</string>
+        <string lang="es">Error al iniciar sesión</string>
+        <string lang="pt">Ocorreu um erro ao iniciar a sessão.</string>
+    </ref>
+    <ref link="error_code_3_desc">
+        <string lang="en">Error creating account</string>
+        <string lang="fr">Erreur de création de compte</string>
+        <string lang="it">Errore di creazione account</string>
+        <string lang="de">Fehler beim Erstellen des Kontos</string>
+        <string lang="es">Error al crear la cuenta</string>
+        <string lang="pt">Ocorreu um erro ao criar a conta.</string>
+    </ref>
+    <ref link="error_code_4_desc">
+        <string lang="en">Username or password is incorrect</string>
+        <string lang="fr">Nom d'utilisateur ou mot de passe incorrect</string>
+        <string lang="it">Nome utente o password non corretti</string>
+        <string lang="de">Benutzername oder Passwort sind falsch</string>
+        <string lang="es">Nombre de usuario o contraseña incorrectos</string>
+        <string lang="pt">Nome de usuário ou senha incorretos.</string>
+    </ref>
+    <ref link="error_code_5_desc">
+        <string lang="en">Account is already logged in</string>
+        <string lang="fr">Le compte est déjà connecté</string>
+        <string lang="it">Questo account ha già eseguito l'accesso</string>
+        <string lang="de">Konto ist bereits angemeldet</string>
+        <string lang="es">Ya se ha iniciado sesión en la cuenta</string>
+        <string lang="pt">Esta conta já está em sessão.</string>
+    </ref>
+    <ref link="error_code_6_desc">
+        <string lang="en">Email is already in use</string>
+        <string lang="fr">Adresse e-mail déjà prise</string>
+        <string lang="it">E-mail già in uso</string>
+        <string lang="de">E-Mail-Adresse wird bereits verwendet</string>
+        <string lang="es">La dirección de correo electrónico ya existe</string>
+        <string lang="pt">Este email já está em uso.</string>
+    </ref>
+    <ref link="error_code_7_desc">
+        <string lang="en">Name is already in use</string>
+        <string lang="fr">Nom déjà pris</string>
+        <string lang="it">Nome già in uso</string>
+        <string lang="de">Name wird bereits verwendet</string>
+        <string lang="es">El nombre ya existe</string>
+        <string lang="pt">Este nome já está em uso.</string>
+    </ref>
+    <ref link="error_code_8_desc">
+        <string lang="en">Already logged out</string>
+        <string lang="fr">Déjà déconnecté</string>
+        <string lang="it">Questo account si è già disconnesso</string>
+        <string lang="de">Bereits abgemeldet</string>
+        <string lang="es">Ya se ha cerrado la sesión</string>
+        <string lang="pt">Já está desconectado.</string>
+    </ref>
+    <ref link="error_code_9_desc">
+        <string lang="en">Player does not exist</string>
+        <string lang="fr">Le joueur n'existe pas</string>
+        <string lang="it">Il giocatore non esiste</string>
+        <string lang="de">Spieler existiert nicht</string>
+        <string lang="es">El jugador no existe</string>
+        <string lang="pt">Este jogador não existe.</string>
+    </ref>
+    <ref link="error_code_10_desc">
+        <string lang="en">You cannot add yourself as a friend</string>
+        <string lang="fr">Tu ne peux pas t'ajouter en tant qu'ami</string>
+        <string lang="it">Non puoi aggiungere te stesso come amico</string>
+        <string lang="de">Du kannst dich nicht selbst als Freund hinzufügen</string>
+        <string lang="es">No puedes añadirte a ti mismo como amigo</string>
+        <string lang="pt">Você não pode adicionar a si mesmo como amigo.</string>
+    </ref>
+    <ref link="error_code_11_desc">
+        <string lang="en">You are already friends with this player</string>
+        <string lang="fr">Tu es déjà ami avec ce joueur</string>
+        <string lang="it">Questo giocatore è già tuo amico</string>
+        <string lang="de">Du bist bereits mit diesem Spieler befreundet</string>
+        <string lang="es">Ya eres amigo de este jugador</string>
+        <string lang="pt">Você já é amigo deste jogador.</string>
+    </ref>
+    <ref link="error_code_12_desc">
+        <string lang="en">You already have a friend request from this player</string>
+        <string lang="fr">Tu as déjà reçu une demande d'ami de ce joueur</string>
+        <string lang="it">Hai già una richiesta di amicizia da questo giocatore</string>
+        <string lang="de">Du hast bereits eine Freundschaftsanfrage von diesem Spieler</string>
+        <string lang="es">Ya tienes una solicitud de amistad de este jugador</string>
+        <string lang="pt">Você já tem um pedido de amizade deste jogador.</string>
+    </ref>
+    <ref link="error_code_13_desc">
+        <string lang="en">You have already sent a friend request to this player</string>
+        <string lang="fr">Tu as déjà envoyé une demande d'ami à ce joueur</string>
+        <string lang="it">Hai già inviato una richiesta di amicizia a questo giocatore</string>
+        <string lang="de">Du hast diesem Spieler bereits eine Freundschaftsanfrage gesendet</string>
+        <string lang="es">Ya has enviado una solicitud de amistad a este jugador</string>
+        <string lang="pt">Você já enviou um pedido de amizade a este jogador.</string>
+    </ref>
+    <ref link="error_code_14_desc">
+        <string lang="en">This player already has the maximum amount of friend requests</string>
+        <string lang="fr">Ce joueur a déjà atteint le nombre maximum de demandes d'ami</string>
+        <string lang="it">Questo giocatore ha già ricevuto il massimo di richieste di amicizia</string>
+        <string lang="de">Dieser Spieler hat bereits die maximal mögliche Anzahl an Freundschaftsanfragen erhalten</string>
+        <string lang="es">Este jugador ya tiene la cantidad máxima de solicitudes de amistad</string>
+        <string lang="pt">Este jogador já atingiu o máximo de pedidos de amizade.</string>
+    </ref>
+    <ref link="error_code_15_desc">
+        <string lang="en">You already have the maximum amount of friends</string>
+        <string lang="fr">Tu as déjà atteint le nombre maximum d'amis</string>
+        <string lang="it">Hai già il numero massimo di amici</string>
+        <string lang="de">Du hast bereits die maximal mögliche Anzahl an Freunden hinzugefügt</string>
+        <string lang="es">Ya tienes la cantidad máxima de amigos</string>
+        <string lang="pt">Você já atingiu o máximo de pedidos de amizade.</string>
+    </ref>
+    <ref link="error_code_16_desc">
+        <string lang="en">This player already has the maximum amount of friends</string>
+        <string lang="fr">Ce joueur a déjà atteint le nombre maximum d'amis</string>
+        <string lang="it">Questo giocatore ha già il numero massimo di amici</string>
+        <string lang="de">Dieser Spieler hat bereits die maximal mögliche Anzahl an Freunden hinzugefügt</string>
+        <string lang="es">Este jugador ya tiene la cantidad máxima de amigos</string>
+        <string lang="pt">Este jogador já atingiu o máximo de amigos.</string>
+    </ref>
+    <ref link="error_code_17_desc">
+        <string lang="en">You do not have a friend request from this player</string>
+        <string lang="fr">Tu n'as pas reçu de demande d'ami de ce joueur</string>
+        <string lang="it">Non hai una richiesta di amicizia da questo giocatore</string>
+        <string lang="de">Du hast keine Freundschaftsanfrage von diesem Spieler</string>
+        <string lang="es">No tienes una solicitud de amistad de este jugador</string>
+        <string lang="pt">Você não tem um pedido de amizade deste jogador.</string>
+    </ref>
+    <ref link="error_code_18_desc">
+        <string lang="en">You are not currently friends with this player</string>
+        <string lang="fr">Tu n'es pas ami avec ce joueur</string>
+        <string lang="it">Questo giocatore non è tuo amico</string>
+        <string lang="de">Du bist im Moment nicht mit diesem Spieler befreundet</string>
+        <string lang="es">En este momento no eres amigo de este jugador</string>
+        <string lang="pt">Você não é amigo deste jogador.</string>
+    </ref>
+    <ref link="error_code_19_desc">
+        <string lang="en">You must have a #value1# equipped to do this</string>
+        <string lang="fr">Pour effectuer cette opération, tu dois disposer d'un(e) #value1# dans ton équipement</string>
+        <string lang="it">Per fare questo devi avere l'oggetto #value1# assegnato</string>
+        <string lang="de">Nur möglich, wenn #value1# ausgerüstet ist</string>
+        <string lang="es">Debes tener equipado #value1# para poder hacer esto</string>
+        <string lang="pt">Você precisa equipar #value1# para fazer isto.</string>
+    </ref>
+    <ref link="error_code_24_desc">
+        <string lang="en">There is a new update available for download</string>
+        <string lang="fr">Une nouvelle mise à jour est disponible en téléchargement</string>
+        <string lang="it">C'è un nuovo aggiornamento da scaricare</string>
+        <string lang="de">Es steht ein neues Update zum Download bereit</string>
+        <string lang="es">Hay una nueva actualización disponible para la descarga</string>
+        <string lang="pt">Há uma atualização disponível para baixar.</string>
+    </ref>
+    <ref link="error_code_25_desc">
+        <string lang="en">There is a new update required to play</string>
+        <string lang="fr">Une nouvelle mise à jour obligatoire est disponible</string>
+        <string lang="it">Serve un nuovo aggiornamento per giocare</string>
+        <string lang="de">Zum Spielen ist ein neues Update erforderlich</string>
+        <string lang="es">Hay una nueva actualización que es necesaria para jugar</string>
+        <string lang="pt">É necessário baixar a atualização para jogar.</string>
+    </ref>
+    <ref link="error_code_26_desc">
+        <string lang="en">You have already looted this event</string>
+        <string lang="fr">Tu as déjà pillé cet événement</string>
+        <string lang="it">Hai già ricevuto il bottino di questo evento</string>
+        <string lang="de">Du hast dieses Event bereits geplündert</string>
+        <string lang="es">Ya has saqueado este evento</string>
+        <string lang="pt">Você já saqueou este evento.</string>
+    </ref>
+    <ref link="error_code_27_desc">
+        <string lang="en">There is no event currently running</string>
+        <string lang="fr">Aucun événement n'est actuellement en cours</string>
+        <string lang="it">Non ci sono eventi in corso</string>
+        <string lang="de">Es läuft gerade kein Event</string>
+        <string lang="es">No hay ningún evento en curso</string>
+        <string lang="pt">Não há eventos no momento.</string>
+    </ref>
+    <ref link="error_code_28_desc">
+        <string lang="en">Unable to find opponents</string>
+        <string lang="fr">Adversaires introuvables</string>
+        <string lang="it">Impossibile trovare avversari</string>
+        <string lang="de">Es konnten keine Gegner gefunden werden</string>
+        <string lang="es">No es posible encontrar adversarios</string>
+        <string lang="pt">Impossível encontrar adversários.</string>
+    </ref>
+    <ref link="error_code_29_desc">
+        <string lang="en">Unable to load replay</string>
+        <string lang="fr">Replay impossible à charger</string>
+        <string lang="it">Impossibile caricare il replay</string>
+        <string lang="de">Wiederholung konnte nicht geladen werden</string>
+        <string lang="es">No se puede cargar la repetición</string>
+        <string lang="pt">Impossível carregar o replay.</string>
+    </ref>
+    <ref link="error_code_30_desc">
+        <string lang="en">You cannot craft an item with something you currently have equipped</string>
+        <string lang="fr">Tu ne peux pas fabriquer un objet avec quelque chose dont tu es actuellement équipé</string>
+        <string lang="it">Non puoi creare un oggetto con l'equipaggiamento assegnato</string>
+        <string lang="de">Du kannst keinen Gegenstand mit einem aktuell ausgerüsteten Gegenstand fertigen</string>
+        <string lang="es">No puedes crear un objeto con algo que tienes equipado</string>
+        <string lang="pt">Não é possível fabricar itens enquanto a matéria-prima está equipada</string>
+    </ref>
+    <ref link="error_code_31_desc">
+        <string lang="en">You cannot use more than #value1# #value2# per unit in a Dungeon</string>
+        <string lang="fr">Tu ne peux pas utiliser plus de #value1# #value2# par unité dans un donjon</string>
+        <string lang="it">Non puoi usare più di #value1# #value2# per unità in un dungeon</string>
+        <string lang="de">Du kannst in einem Verlies höchstens #value1# #value2# pro Einheit verwenden</string>
+        <string lang="es">No puedes usar más de #value1# #value2# por unidad en una mazmorra</string>
+        <string lang="pt">Não é possível usar mais de #value1# #value2# por unidade em uma Masmorra.</string>
+    </ref>
+    <ref link="error_code_32_desc">
+        <string lang="en">Your stats are already reset</string>
+        <string lang="fr">Tes stats sont déjà réinitialisées</string>
+        <string lang="it">Hai già resettato le statistiche</string>
+        <string lang="de">Deine Werte sind bereits zurückgesetzt</string>
+        <string lang="es">Tus estadísticas ya se han restablecido</string>
+        <string lang="pt">Seus atributos já estão zerados.</string>
+    </ref>
+    <ref link="error_code_33_desc">
+        <string lang="en">You can already customize your appearance</string>
+        <string lang="fr">Tu peux déjà personnaliser ton apparence</string>
+        <string lang="it">Puoi già personalizzare il tuo aspetto</string>
+        <string lang="de">Du hast dein Aussehen bereits angepasst</string>
+        <string lang="es">Ya puedes personalizar tu aspecto</string>
+        <string lang="pt">Você já pode personalizar sua aparência.</string>
+    </ref>
+    <ref link="error_code_34_desc">
+        <string lang="en">You can already change your class</string>
+        <string lang="fr">Tu peux déjà changer de classe</string>
+        <string lang="it">Puoi già cambiare classe</string>
+        <string lang="de">Du kannst deine Klasse bereits ändern</string>
+        <string lang="es">Ya puedes cambiar tu clase</string>
+        <string lang="pt">Você já pode alterar sua classe.</string>
+    </ref>
+    <ref link="error_code_35_desc">
+        <string lang="en">Your account has been banned</string>
+        <string lang="fr">Ton compte a été banni</string>
+        <string lang="it">Il tuo account ha ricevuto un ban</string>
+        <string lang="de">Dein Konto wurde gesperrt</string>
+        <string lang="es">Tu cuenta ha sido inhabilitada</string>
+        <string lang="pt">Sua conta foi banida.</string>
+    </ref>
+    <ref link="error_code_36_desc">
+        <string lang="en">You do not have anymore of this item</string>
+        <string lang="fr">Tu n'as plus aucun de ces objets</string>
+        <string lang="it">Non hai più copie di questo oggetto</string>
+        <string lang="de">Du besitzt diesen Gegenstand nicht</string>
+        <string lang="es">Ya no tienes más unidades de este objeto</string>
+        <string lang="pt">Seu estoque deste item acabou.</string>
+    </ref>
+    <ref link="error_code_37_desc">
+        <string lang="en">You have been muted for #value1# for #value2#</string>
+        <string lang="fr">Tu as été réduit au silence pendant #value2# pour cause de #value1#</string>
+        <string lang="it">Ti abbiamo silenziato in chat per #value1# per #value2#</string>
+        <string lang="de">Du wurdest wegen #value1# #value2# lang stummgeschaltet</string>
+        <string lang="es">Has sido silenciado durante #value1# por #value2#</string>
+        <string lang="pt">Você foi silenciado por #value1# por #value2#.</string>
+    </ref>
+    <ref link="error_code_38_desc">
+        <string lang="en">You shouldn't talk to yourself...</string>
+        <string lang="fr">Tu ne devrais pas parler tout seul...</string>
+        <string lang="it">Non sta bene parlare da soli...</string>
+        <string lang="de">Man führt keine Selbstgespräche ...</string>
+        <string lang="es">No deberías hablar contigo mismo...</string>
+        <string lang="pt">Você não devia falar consigo mesmo...</string>
+    </ref>
+    <ref link="error_code_39_desc">
+        <string lang="en">Player is currently offline</string>
+        <string lang="fr">Ce joueur est actuellement déconnecté</string>
+        <string lang="it">Il giocatore è offline</string>
+        <string lang="de">Spieler ist momentan offline</string>
+        <string lang="es">El jugador está desconectado</string>
+        <string lang="pt">O jogador está offline.</string>
+    </ref>
+    <ref link="error_code_40_desc">
+        <string lang="en">Invalid purchase</string>
+        <string lang="fr">Achat non valide</string>
+        <string lang="it">Acquisto non valido</string>
+        <string lang="de">Ungültiger Kauf</string>
+        <string lang="es">Compra no válida</string>
+        <string lang="pt">Compra inválida.</string>
+    </ref>
+    <ref link="error_code_41_desc">
+        <string lang="en">Invalid quantity</string>
+        <string lang="fr">Quantité non valide</string>
+        <string lang="it">Quantità non valida</string>
+        <string lang="de">Ungültige Menge</string>
+        <string lang="es">Cantidad no válida</string>
+        <string lang="pt">Quantidade inválida.</string>
+    </ref>
+    <ref link="error_code_42_desc">
+        <string lang="en">Invalid currency</string>
+        <string lang="fr">Monnaie non valide</string>
+        <string lang="it">Valuta non valida</string>
+        <string lang="de">Ungültige Währung</string>
+        <string lang="es">Moneda no válida</string>
+        <string lang="pt">Moeda de troca inválida.</string>
+    </ref>
+    <ref link="error_code_43_desc">
+        <string lang="en">Invalid diffuculty</string>
+        <string lang="fr">Difficulté non valide</string>
+        <string lang="it">Difficoltà non valida</string>
+        <string lang="de">Ungültige Schwierigkeit</string>
+        <string lang="es">Dificultad no válida</string>
+        <string lang="pt">Dificuldade inválida.</string>
+    </ref>
+    <ref link="error_code_45_desc">
+        <string lang="en">Battles have been temporarily disabled</string>
+        <string lang="fr">Les combats ont été temporairement désactivés</string>
+        <string lang="it">Le battaglie sono state temporaneamente disattivate</string>
+        <string lang="de">Schlachten wurden vorübergehend deaktiviert</string>
+        <string lang="es">Las batallas se han desactivado temporalmente</string>
+        <string lang="pt">As batalhas foram temporariamente desativadas.</string>
+    </ref>
+    <ref link="error_code_46_desc">
+        <string lang="en">Dungeons have been temporarily disabled</string>
+        <string lang="fr">Les donjons ont été temporairement désactivés</string>
+        <string lang="it">I dungeon sono stati temporaneamente disattivati</string>
+        <string lang="de">Verliese wurden vorübergehend deaktiviert</string>
+        <string lang="es">Las mazmorras se han desactivado temporalmente</string>
+        <string lang="pt">As masmorras foram temporariamente desativadas.</string>
+    </ref>
+    <ref link="error_code_47_desc">
+        <string lang="en">Item does not exist</string>
+        <string lang="fr">L'objet n'existe pas</string>
+        <string lang="it">L'oggetto non esiste</string>
+        <string lang="de">Gegenstand existiert nicht</string>
+        <string lang="es">El objeto no existe</string>
+        <string lang="pt">O item não existe.</string>
+    </ref>
+    <ref link="error_code_48_desc">
+        <string lang="en">Invalid item</string>
+        <string lang="fr">Objet non valide</string>
+        <string lang="it">Oggetto non valido</string>
+        <string lang="de">Ungültiger Gegenstand</string>
+        <string lang="es">Objeto no válido</string>
+        <string lang="pt">Item inválido.</string>
+    </ref>
+    <ref link="error_code_49_desc">
+        <string lang="en">You cannot exchange an item you currently have equipped</string>
+        <string lang="fr">Tu ne peux pas échanger un objet dont tu es actuellement équipé</string>
+        <string lang="it">Non puoi scambiare un oggetto attualmente assegnato</string>
+        <string lang="de">Du kannst einen Gegenstand, den du gerade ausgerüstet hast, nicht tauschen</string>
+        <string lang="es">No puedes intercambiar un objeto que tienes equipado</string>
+        <string lang="pt">Não é possível desmontar um item que está equipado.</string>
+    </ref>
+    <ref link="error_code_50_desc">
+        <string lang="en">You cannot upgrade an item with an item you currently have equipped</string>
+        <string lang="fr">Tu ne peux pas procéder à une amélioration avec un objet dont tu es actuellement équipé</string>
+        <string lang="it">Non puoi potenziare un oggetto con un oggetto attualmente assegnato</string>
+        <string lang="de">Du kannst einen Gegenstand nicht mit einem aktuell ausgerüsteten Gegenstand upgraden</string>
+        <string lang="es">No puedes mejorar un objeto con otro objeto que tienes equipado</string>
+        <string lang="pt">Não é possível evoluir um item com outro que está equipado.</string>
+    </ref>
+    <ref link="error_code_51_desc">
+        <string lang="en">This player has friend requests currently disabled</string>
+        <string lang="fr">Ce joueur dispose de demandes d'ami désactivées</string>
+        <string lang="it">Le richieste di amicizia di questo giocatore sono disattivate</string>
+        <string lang="de">Dieser Spieler hat Freundschaftsanfragen im Moment deaktiviert</string>
+        <string lang="es">Este jugador tiene desactivadas las solicitudes de amistad</string>
+        <string lang="pt">Este jogador desativou os pedidos de amizade.</string>
+    </ref>
+    <ref link="error_code_52_desc">
+        <string lang="en">You are already in a guild</string>
+        <string lang="fr">Tu es déjà membre d'une guilde</string>
+        <string lang="it">Sei già in una gilda</string>
+        <string lang="de">Du bist bereits in einer Gilde</string>
+        <string lang="es">Ya perteneces a un gremio</string>
+        <string lang="pt">Você já está em uma guilda.</string>
+    </ref>
+    <ref link="error_code_53_desc">
+        <string lang="en">You are currently not in a guild</string>
+        <string lang="fr">Tu n'es actuellement membre d'aucune guilde</string>
+        <string lang="it">Al momento non sei in una gilda</string>
+        <string lang="de">Du bist im Moment in keiner Gilde</string>
+        <string lang="es">Ahora no perteneces a un gremio</string>
+        <string lang="pt">Você não está em uma guilda.</string>
+    </ref>
+    <ref link="error_code_54_desc">
+        <string lang="en">Guild name is already taken</string>
+        <string lang="fr">Ce nom de guilde est déjà pris</string>
+        <string lang="it">Nome della gilda già in uso</string>
+        <string lang="de">Gildenname ist bereits vergeben</string>
+        <string lang="es">El nombre del gremio ya ha sido elegido</string>
+        <string lang="pt">Este nome de guilda já existe.</string>
+    </ref>
+    <ref link="error_code_55_desc">
+        <string lang="en">Guild initials are already taken</string>
+        <string lang="fr">Ces initiales de guilde sont déjà prises</string>
+        <string lang="it">Iniziali della gilda già in uso</string>
+        <string lang="de">Gildeninitialen sind bereits vergeben</string>
+        <string lang="es">Las iniciales del gremio ya han sido elegidas</string>
+        <string lang="pt">Estas iniciais de guilda já existem.</string>
+    </ref>
+    <ref link="error_code_56_desc">
+        <string lang="en">Unable to create guild</string>
+        <string lang="fr">Création de la guilde impossible</string>
+        <string lang="it">Impossibile creare la gilda</string>
+        <string lang="de">Konnte Gilde nicht erstellen</string>
+        <string lang="es">No es posible crear un gremio</string>
+        <string lang="pt">Impossível criar guilda.</string>
+    </ref>
+    <ref link="error_code_57_desc">
+        <string lang="en">You cannot invite yourself to the guild</string>
+        <string lang="fr">Tu ne peux pas t'inviter toi-même dans la guilde</string>
+        <string lang="it">Non puoi invitare te stesso nella gilda</string>
+        <string lang="de">Du kannst dich nicht selbst in die Gilde einladen</string>
+        <string lang="es">No puedes invitarte a ti mismo al gremio</string>
+        <string lang="pt">Você não pode convidar a si mesmo para a guilda.</string>
+    </ref>
+    <ref link="error_code_58_desc">
+        <string lang="en">You do not have permission to do this</string>
+        <string lang="fr">Tu n'es pas autorisé à effectuer cette opération</string>
+        <string lang="it">Non hai l'autorizzazione a fare questo</string>
+        <string lang="de">Du hast keine Erlaubnis dazu</string>
+        <string lang="es">No tienes permiso para hacer esto</string>
+        <string lang="pt">Você não tem permissão para fazer isso.</string>
+    </ref>
+    <ref link="error_code_59_desc">
+        <string lang="en">This player is already a member of a guild</string>
+        <string lang="fr">Ce joueur est déjà membre d'une guilde</string>
+        <string lang="it">Questo giocatore è già membro di una gilda</string>
+        <string lang="de">Dieser Spieler ist bereits Mitglied einer Gilde</string>
+        <string lang="es">Este jugador ya es miembro de un gremio</string>
+        <string lang="pt">Este jogador já é membro de uma guilda.</string>
+    </ref>
+    <ref link="error_code_60_desc">
+        <string lang="en">This player has already been invited to your guild</string>
+        <string lang="fr">Ce joueur a déjà été invité à rejoindre ta guilde</string>
+        <string lang="it">Questo giocatore è già stato invitato nella tua gilda</string>
+        <string lang="de">Dieser Spieler wurde bereits in deine Gilde eingeladen</string>
+        <string lang="es">Este jugador ya ha sido invitado a tu gremio</string>
+        <string lang="pt">Este jogador já foi convidado para a sua guilda.</string>
+    </ref>
+    <ref link="error_code_61_desc">
+        <string lang="en">You have no pending invites to join this guild</string>
+        <string lang="fr">Tu n'as aucune invitation en attente pour rejoindre cette guilde</string>
+        <string lang="it">Non hai inviti in sospeso a unirti a questa gilda</string>
+        <string lang="de">Du hast keine ausstehenden Einladungen, dieser Gilde beizutreten</string>
+        <string lang="es">No tienes invitaciones pendientes para unirse a este gremio</string>
+        <string lang="pt">Você não tem convites para entrar nesta guilda.</string>
+    </ref>
+    <ref link="error_code_62_desc">
+        <string lang="en">Guild is currently full</string>
+        <string lang="fr">La guilde est actuellement complète</string>
+        <string lang="it">La gilda al momento è al completo</string>
+        <string lang="de">Gilde ist momentan voll</string>
+        <string lang="es">El gremio está lleno</string>
+        <string lang="pt">A guilda está cheia.</string>
+    </ref>
+    <ref link="error_code_63_desc">
+        <string lang="en">This guild has been disbanded</string>
+        <string lang="fr">Cette guilde a été dissoute</string>
+        <string lang="it">La gilda è stata sciolta</string>
+        <string lang="de">Diese Gilde wurde aufgelöst</string>
+        <string lang="es">Este gremio ha sido desmantelado</string>
+        <string lang="pt">Esta guilda foi desfeita.</string>
+    </ref>
+    <ref link="error_code_64_desc">
+        <string lang="en">Not enough #value1#</string>
+        <string lang="fr">#value1# insuffisant(e)</string>
+        <string lang="it">Non hai abbastanza #value1#</string>
+        <string lang="de">Nicht genügend #value1#</string>
+        <string lang="es">No hay suficiente #value1#</string>
+        <string lang="pt">#value1# insuficiente.</string>
+    </ref>
+    <ref link="error_code_65_desc">
+        <string lang="en">Your guild does not meet the level requirements to purchase this</string>
+        <string lang="fr">Ta guilde ne remplit pas les conditions nécessaires pour acheter ceci</string>
+        <string lang="it">La tua gilda non soddisfa i requisiti di livello per questo acquisto</string>
+        <string lang="de">Deine Gilde erfüllt nicht die Levelvoraussetzung für diesen Kauf</string>
+        <string lang="es">Tu gremio no cumple los requisitos de nivel para comprar esto</string>
+        <string lang="pt">Sua guilda não atingiu os requisitos de nível para comprar isto.</string>
+    </ref>
+    <ref link="error_code_66_desc">
+        <string lang="en">You must promote someone else to guild leader before leaving</string>
+        <string lang="fr">Tu dois promouvoir quelqu'un d'autre à la tête de la guilde avant de pouvoir la quitter</string>
+        <string lang="it">Devi promuovere qualcun altro a capo della gilda prima di abbandonarla</string>
+        <string lang="de">Du musst jemand anderen zum Gildenführer befördern, bevor du austrittst</string>
+        <string lang="es">Debes ascender a otra persona a líder del gremio antes de marcharte</string>
+        <string lang="pt">É preciso promover alguém a líder da guilda antes de sair.</string>
+    </ref>
+    <ref link="error_code_67_desc">
+        <string lang="en">You must be the guild leader can disband the guild</string>
+        <string lang="fr">Tu dois être à la tête de la guilde pour pouvoir la dissoudre</string>
+        <string lang="it">Solo il capo può sciogliere una gilda</string>
+        <string lang="de">Du musst Gildenführer sein, um die Gilde aufzulösen</string>
+        <string lang="es">Debes ser líder del gremio para desmantelar el gremio</string>
+        <string lang="pt">Você precisa ser o líder para desfazer a guilda.</string>
+    </ref>
+    <ref link="error_code_68_desc">
+        <string lang="en">You cannot use any more #value2# on this unit</string>
+        <string lang="fr">Tu ne peux pas utiliser d'autres #value2# sur cette unité</string>
+        <string lang="it">Non puoi più usare #value2# su questa unità</string>
+        <string lang="de">Du kannst keine weiteren #value2# auf diese Einheit verwenden</string>
+        <string lang="es">No puedes usar más #value2# en esta unidad</string>
+        <string lang="pt">Você não pode usar mais #value2# nesta unidade.</string>
+    </ref>
+    <ref link="error_code_69_desc">
+        <string lang="en">You cannot use any #value1# in this battle</string>
+        <string lang="fr">Tu ne peux utiliser de #value1# dans ce combat</string>
+        <string lang="it">Non puoi usare #value1# in questa battaglia</string>
+        <string lang="de">Du kannst keine #value1# in dieser Schlacht verwenden</string>
+        <string lang="es">No puedes usar #value2# en esta batalla</string>
+        <string lang="pt">Você não pode usar #value1# nesta batalha.</string>
+    </ref>
+    <ref link="error_code_70_desc">
+        <string lang="en">You cannot kick yourself from the guild</string>
+        <string lang="fr">Tu ne peux pas te renvoyer de la guilde</string>
+        <string lang="it">Non puoi espellere te stesso dalla gilda</string>
+        <string lang="de">Du kannst dich nicht selbst aus der Gilde ausschließen</string>
+        <string lang="es">No puedes echarte a ti mismo del gremio</string>
+        <string lang="pt">Você não pode expulsar a si mesmo da guilda.</string>
+    </ref>
+    <ref link="error_code_71_desc">
+        <string lang="en">You cannot promote yourself in the guild</string>
+        <string lang="fr">Tu ne peux pas te promouvoir toi-même au sein de la guilde</string>
+        <string lang="it">Non puoi promuovere te stesso nella gilda</string>
+        <string lang="de">Du kannst dich nicht selbst in der Gilde befördern</string>
+        <string lang="es">No puedes ascenderte a ti mismo en el gremio</string>
+        <string lang="pt">Você não pode promover a si mesmo na guilda.</string>
+    </ref>
+    <ref link="error_code_72_desc">
+        <string lang="en">You cannot demote yourself in the guild</string>
+        <string lang="fr">Tu ne peux pas te rétrograder toi-même au sein de la guilde</string>
+        <string lang="it">Non puoi degradare te stesso nella gilda</string>
+        <string lang="de">Du kannst dich nicht selbst in der Gilde degradieren</string>
+        <string lang="es">No puedes bajar tu categoría en el gremio</string>
+        <string lang="pt">Você não pode rebaixar a si mesmo na guilda.</string>
+    </ref>
+    <ref link="error_code_73_desc">
+        <string lang="en">You are not in the same guild as this player</string>
+        <string lang="fr">Ce joueur et toi n'appartenez pas à la même guilde</string>
+        <string lang="it">Non sei nella stessa gilda di questo giocatore</string>
+        <string lang="de">Du bist nicht in derselben Gilde wie dieser Spieler</string>
+        <string lang="es">No perteneces al mismo gremio que este jugador</string>
+        <string lang="pt">Você não está na mesma guilda deste jogador.</string>
+    </ref>
+    <ref link="error_code_74_desc">
+        <string lang="en">This guild does not exist</string>
+        <string lang="fr">Cette guilde n'existe pas</string>
+        <string lang="it">La gilda non esiste</string>
+        <string lang="de">Diese Gilde existiert nicht</string>
+        <string lang="es">Este gremio no existe</string>
+        <string lang="pt">Esta guilda não existe.</string>
+    </ref>
+    <ref link="error_code_75_desc">
+        <string lang="en">You have already applied to this guild</string>
+        <string lang="fr">Tu as déjà déposé une demande d'adhésion à cette guilde</string>
+        <string lang="it">Hai già presentato domanda a questa gilda</string>
+        <string lang="de">Du hast dich bereits bei dieser Gilde beworben</string>
+        <string lang="es">No has solicitado el acceso a este gremio</string>
+        <string lang="pt">Você já se inscreveu nesta guilda.</string>
+    </ref>
+    <ref link="error_code_76_desc">
+        <string lang="en">This player has not applied to your guild</string>
+        <string lang="fr">Ce joueur n'a pas demandé à rejoindre ta guilde</string>
+        <string lang="it">Questo giocatore non ha fatto domanda alla tua gilda</string>
+        <string lang="de">Dieser Spieler hat sich nicht bei deiner Gilde beworben</string>
+        <string lang="es">Este jugador no ha solicitado el acceso a tu gremio</string>
+        <string lang="pt">Este jogador não se inscreveu para a sua guilda.</string>
+    </ref>
+    <ref link="error_code_77_desc">
+        <string lang="en">This player has already been muted</string>
+        <string lang="fr">Ce joueur a déjà été réduit au silence</string>
+        <string lang="it">Questo giocatore è già silenziato</string>
+        <string lang="de">Dieser Spieler wurde bereits stummgeschaltet</string>
+        <string lang="es">Este jugador ya ha sido silenciado</string>
+        <string lang="pt">Este jogador já foi silenciado.</string>
+    </ref>
+    <ref link="error_code_78_desc">
+        <string lang="en">None of your units need any #value1# at this time</string>
+        <string lang="fr">Aucune de tes unités n'a besoin de #value1# pour le moment</string>
+        <string lang="it">Nessuna delle tue unità ha bisogno di #value1# al momento</string>
+        <string lang="de">Keine deiner Einheiten benötigt im Moment #value1#</string>
+        <string lang="es">Ninguna de tus unidades necesita #value1# en este momento</string>
+        <string lang="pt">Nenhuma das suas unidades precisa de #value1# no momento.</string>
+    </ref>
+    <ref link="error_code_79_desc">
+        <string lang="en">You are unable to view ads at this time</string>
+        <string lang="fr">Tu n'as pas accès aux publicités pour le moment</string>
+        <string lang="it">Al momento non puoi guardare spot</string>
+        <string lang="de">Du kannst im Moment keine Werbung ansehen</string>
+        <string lang="es">En este momento no puedes ver anuncios</string>
+        <string lang="pt">Você não pode ver anúncios no momento.</string>
+    </ref>
+    <ref link="error_code_80_desc">
+        <string lang="en">You have already challenged someone to a duel</string>
+        <string lang="fr">Tu as déjà défié quelqu'un en duel</string>
+        <string lang="it">Hai già sfidato qualcuno a duello</string>
+        <string lang="de">Du hast bereits jemanden zu einem Duell herausgefordert</string>
+        <string lang="es">Ya has desafiado a alguien a un duelo</string>
+        <string lang="pt">Você já desafiou alguém para um duelo.</string>
+    </ref>
+    <ref link="error_code_81_desc">
+        <string lang="en">You have not challenged someone to a duel</string>
+        <string lang="fr">Tu n'as défié personne en duel</string>
+        <string lang="it">Non hai sfidato nessuno a duello</string>
+        <string lang="de">Du hast noch niemanden zu einem Duell herausgefordert</string>
+        <string lang="es">No has desafiado a nadie a un duelo</string>
+        <string lang="pt">Você não desafiou ninguém para um duelo.</string>
+    </ref>
+    <ref link="error_code_82_desc">
+        <string lang="en">This player is offline</string>
+        <string lang="fr">Ce joueur n'est pas connecté</string>
+        <string lang="it">Questo giocatore è offline</string>
+        <string lang="de">Dieser Spieler ist offline</string>
+        <string lang="es">Este jugador está desconectado</string>
+        <string lang="pt">Este jogador está offline.</string>
+    </ref>
+    <ref link="error_code_83_desc">
+        <string lang="en">You cannot duel someone while they are in a dungeon</string>
+        <string lang="fr">Tu ne peux pas défier en duel quelqu'un qui se trouve dans un donjon</string>
+        <string lang="it">Non puoi duellare con qualcuno quando è in un dungeon</string>
+        <string lang="de">Du kannst dich nicht mit jemandem duellieren, der sich in einem Verlies befindet</string>
+        <string lang="es">No puedes enfrentarte en duelo a alguien mientras esté en una mazmorra</string>
+        <string lang="pt">Você não pode duelar contra alguém que está em uma masmorra.</string>
+    </ref>
+    <ref link="error_code_84_desc">
+        <string lang="en">You cannot duel someone while they are in a battle</string>
+        <string lang="fr">Tu ne peux pas défier en duel quelqu'un qui combat</string>
+        <string lang="it">Non puoi duellare con qualcuno quando è in battaglia</string>
+        <string lang="de">Du kannst dich nicht mit jemandem duellieren, der sich in einer Schlacht befindet</string>
+        <string lang="es">No puedes enfrentarte en duelo a alguien mientras esté en una batalla</string>
+        <string lang="pt">Você não pode duelar contra alguém que está em batalha.</string>
+    </ref>
+    <ref link="error_code_85_desc">
+        <string lang="en">This player has you ignored</string>
+        <string lang="fr">Ce joueur t'a ignoré</string>
+        <string lang="it">Questo giocatore ti sta ignorando</string>
+        <string lang="de">Dieser Spieler ignoriert dich</string>
+        <string lang="es">Este jugador te ignora</string>
+        <string lang="pt">Este jogador ignorou você.</string>
+    </ref>
+    <ref link="error_code_86_desc">
+        <string lang="en">This player is already dueling someone else</string>
+        <string lang="fr">Ce joueur se bat déjà en duel avec quelqu'un d'autre</string>
+        <string lang="it">Questo giocatore sta già duellando con qualcun altro</string>
+        <string lang="de">Dieser Spieler duelliert sich bereits mit jemand anderem</string>
+        <string lang="es">Este jugador ya se está enfrentando en duelo a otra persona</string>
+        <string lang="pt">Este jogador já está duelando contra outra pessoa.</string>
+    </ref>
+    <ref link="error_code_87_desc">
+        <string lang="en">This player is not currently in town</string>
+        <string lang="fr">Ce joueur n'est actuellement pas en ville</string>
+        <string lang="it">Questo giocatore al momento non è al villaggio</string>
+        <string lang="de">Dieser Spieler befindet sich momentan nicht in der Stadt</string>
+        <string lang="es">Este jugador no está en la ciudad</string>
+        <string lang="pt">Este jogador não está na cidade.</string>
+    </ref>
+    <ref link="error_code_88_desc">
+        <string lang="en">This player is not currently challenging you to a duel</string>
+        <string lang="fr">Ce joueur ne te défie pas en duel pour le moment</string>
+        <string lang="it">Questo giocatore al momento non ti sta sfidando a duello</string>
+        <string lang="de">Dieser Spieler fordert dich momentan nicht zu einem Duell heraus</string>
+        <string lang="es">Este jugador no te está desafiando a un duelo</string>
+        <string lang="pt">Este jogador não desafiou você para um duelo.</string>
+    </ref>
+    <ref link="error_code_89_desc">
+        <string lang="en">You cannot duel someone while you are in a dungeon</string>
+        <string lang="fr">Tu ne peux pas défier quelqu'un en duel lorsque tu es dans un donjon</string>
+        <string lang="it">Non puoi duellare con qualcuno quando sei in un dungeon</string>
+        <string lang="de">Du kannst dich nicht mit jemandem duellieren, wenn du dich in einem Verlies befindest</string>
+        <string lang="es">No puedes enfrentarte en duelo a alguien mientras tú estés en una mazmorra</string>
+        <string lang="pt">Você não pode duelar contra alguém enquanto está em uma masmorra.</string>
+    </ref>
+    <ref link="error_code_90_desc">
+        <string lang="en">You cannot duel someone while you are in a battle</string>
+        <string lang="fr">Tu ne peux pas défier quelqu'un en duel lorsque tu combats</string>
+        <string lang="it">Non puoi duellare con qualcuno quando sei in battaglia</string>
+        <string lang="de">Du kannst dich nicht mit jemandem duellieren, wenn du dich in einer Schlacht befindest</string>
+        <string lang="es">No puedes enfrentarte en duelo a alguien mientras tú estés en una batalla</string>
+        <string lang="pt">Você não pode duelar contra alguém enquanto está em batalha.</string>
+    </ref>
+    <ref link="error_code_91_desc">
+        <string lang="en">You cannot duel someone unless you are in town</string>
+        <string lang="fr">Tu ne peux pas défier quelqu'un en duel lorsque tu n'es pas en ville</string>
+        <string lang="it">Non puoi duellare con qualcuno se non sei al villaggio</string>
+        <string lang="de">Du kannst dich nur mit jemandem duellieren, wenn du dich in einer Stadt befindest</string>
+        <string lang="es">No puedes enfrentarte en duelo a alguien a menos que estés en la ciudad</string>
+        <string lang="pt">Você não pode duelar contra alguém enquanto está na cidade.</string>
+    </ref>
+    <ref link="error_code_92_desc">
+        <string lang="en">You are already being challenged to a duel</string>
+        <string lang="fr">Quelqu'un t'a déjà défié en duel</string>
+        <string lang="it">Ti hanno già sfidato a duello</string>
+        <string lang="de">Du wurdest bereits von jemandem zu einem Duell herausgefordert</string>
+        <string lang="es">Ya te están desafiando a un duelo</string>
+        <string lang="pt">Você já foi desafiado para um duelo.</string>
+    </ref>
+    <ref link="error_code_93_desc">
+        <string lang="en">You cannot duel yourself</string>
+        <string lang="fr">Tu ne peux pas te battre en duel avec toi-même</string>
+        <string lang="it">Non puoi duellare con te stesso</string>
+        <string lang="de">Du kannst dich nicht mit dir selbst duellieren</string>
+        <string lang="es">No puedes enfrentarte en duelo a ti mismo</string>
+        <string lang="pt">Você não pode duelar contra si mesmo.</string>
+    </ref>
+    <ref link="error_code_94_desc">
+        <string lang="en">You cannot ignore yourself</string>
+        <string lang="fr">Tu ne peux pas t'ignorer toi-même</string>
+        <string lang="it">Non puoi ignorare te stesso</string>
+        <string lang="de">Du kannst dich nicht selbst ignorieren</string>
+        <string lang="es">No puedes ignorarte a ti mismo</string>
+        <string lang="pt">Você não pode ignorar a si mesmo.</string>
+    </ref>
+    <ref link="error_code_95_desc">
+        <string lang="en">You must own at least #value1# #value2# to do this</string>
+        <string lang="fr">Tu dois posséder au moins #value1# #value2# pour effectuer cette opération</string>
+        <string lang="it">Per fare questo devi avere almeno #value1# #value2#</string>
+        <string lang="de">Du benötigst dafür mindestens #value1# #value2#</string>
+        <string lang="es">Para hacer esto, necesitas tener al menos #value1# #value2#</string>
+        <string lang="pt">Você precisa ter pelo menos #value1# #value2# para fazer isto.</string>
+    </ref>
+    <ref link="error_code_97_desc">
+        <string lang="en">You've already learned this #value1# in this slot</string>
+        <string lang="fr">Tu as déjà appris ce(tte) #value1# à cet emplacement</string>
+        <string lang="it">Hai già appreso #value1# in questo slot</string>
+        <string lang="de">Du hast diesen #value1# bereits in diesem Platz gelernt</string>
+        <string lang="es">En este hueco ya has aprendido esto: #value1#</string>
+        <string lang="pt">Você já aprendeu #value1# neste espaço.</string>
+    </ref>
+    <ref link="error_code_98_desc">
+        <string lang="en">You do not have the necessary items for this</string>
+        <string lang="fr">Tu ne disposes pas des objets nécessaires pour effectuer cette opération</string>
+        <string lang="it">Non hai gli oggetti necessari per questo</string>
+        <string lang="de">Du hast nicht die erforderlichen Gegenstände</string>
+        <string lang="es">No tienes los objetos necesarios para hacer esto</string>
+        <string lang="pt">Você não possui os itens necessários para isto.</string>
+    </ref>
+    <ref link="error_code_99_desc">
+        <string lang="en">This player is not currently muted</string>
+        <string lang="fr">Ce joueur n'est actuellement pas réduit au silence</string>
+        <string lang="it">Questo giocatore al momento non è silenziato</string>
+        <string lang="de">Dieser Spieler ist momentan nicht stummgeschaltet</string>
+        <string lang="es">Este jugador está ahora silenciado</string>
+        <string lang="pt">Este jogador não está silenciado.</string>
+    </ref>
+    <ref link="error_code_100_desc">
+        <string lang="en">You have already entered this event with a different guild</string>
+        <string lang="fr">Tu as déjà accédé à cet événement avec une autre guilde</string>
+        <string lang="it">Partecipi già a questo evento con un'altra gilda</string>
+        <string lang="de">Du hast dich bereits mit einer anderen Gilde für dieses Event angemeldet</string>
+        <string lang="es">Ya has accedido a este evento con un gremio diferente</string>
+        <string lang="pt">Você já entrou neste evento com uma guilda diferente.</string>
+    </ref>
+    <ref link="error_code_101_desc">
+        <string lang="en">Your guild already has #value1# members in this event</string>
+        <string lang="fr">Ta guilde dispose déjà de #value1# membres dans cet événement</string>
+        <string lang="it">La tua gilda ha già #value1# membri in questo evento</string>
+        <string lang="de">Deine Gilde hat bereits #value1# Mitglieder in diesem Event</string>
+        <string lang="es">Tu gremio ya tiene #value1# miembros en este evento</string>
+        <string lang="pt">Sua guilda já tem #value1# membros neste evento.</string>
+    </ref>
+    <ref link="error_code_102_desc">
+        <string lang="en">This player is logged in on another server and cannot currently duel you</string>
+        <string lang="fr">Ce joueur est connecté sur un autre serveur et ne peut pas actuellement vous duel</string>
+        <string lang="it">Questo lettore è connesso su un altro server e non può attualmente si duello</string>
+        <string lang="de">Dieser Spieler ist auf einem anderen Server angemeldet und kann dich derzeit nicht durchsetzen</string>
+        <string lang="es">Este reproductor ha iniciado sesión en otro servidor y actualmente no puede duelo</string>
+        <string lang="pt">Este jogador está conectado em outro servidor e não pode duelar atualmente</string>
+    </ref>
+    <ref link="error_code_103_desc">
+        <string lang="en">This player has duel requests currently disabled</string>
+        <string lang="fr">Ce joueur a des demandes de duel actuellement désactivées</string>
+        <string lang="it">Questo giocatore ha richieste duello attualmente disabilitate</string>
+        <string lang="de">Dieser Spieler hat Duell-Anfragen derzeit deaktiviert</string>
+        <string lang="es">Este jugador tiene dudas actualmente deshabilitadas</string>
+        <string lang="pt">Este jogador tem pedidos de duelos atualmente desativados</string>
+    </ref>
+    <ref link="error_code_105_desc">
+        <string lang="en">You cannot leave your guild while participating in the current GvG Event</string>
+        <string lang="fr">Vous ne pouvez quitter votre guilde tout en participant à l’événement current du GcG</string>
+        <string lang="it">Non puoi lasciare tua gilda mentre partecipa all'evento corrente di GvG</string>
+        <string lang="de">Sie können nicht eure Gilde verlassen, während der Teilnahme an der aktuellen GvG-Veranstaltung</string>
+        <string lang="es">No deja el gremio durante su participación en el actual evento GcG</string>
+        <string lang="pt">Você não pode deixar sua guilda enquanto participava do evento atual de GvG</string>
+    </ref>
+    <ref link="error_code_106_desc">
+        <string lang="en">This player is participating in the current GvG Event and cannot be kicked</string>
+        <string lang="fr">Ce lecteur participe à l’événement current du GcG et ne peut pas être expulsé</string>
+        <string lang="it">Questo giocatore è partecipano alla manifestazione di GvG corrente e non può essere preso a calci</string>
+        <string lang="de">Dieser Spieler ist an der aktuellen GvG-Veranstaltung teilnehmen und kann nicht gekickt werden</string>
+        <string lang="es">Este jugador está participando en el actual evento GcG y no patada</string>
+        <string lang="pt">Este jogador está participando do evento de GvG atual e não pode ser expulso</string>
+    </ref>
+    <ref link="error_code_107_desc">
+        <string lang="en">You cannot disband your guild while participating in the current GvG Event</string>
+        <string lang="fr">Vous ne pouvez pas dissoudre votre guilde tout en participant à l’événement current du GcG</string>
+        <string lang="it">Si non può sciogliere la tua gilda mentre partecipa all'evento corrente di GvG</string>
+        <string lang="de">Sie können nicht eure Gilde auflösen, während der Teilnahme an der aktuellen GvG-Veranstaltung</string>
+        <string lang="es">No puede disolver tu gremio durante su participación en el actual evento GcG</string>
+        <string lang="pt">Você não pode dissolver sua guilda enquanto participava do evento atual de GvG</string>
+    </ref>
+    <ref link="error_code_108_desc">
+        <string lang="en">You cannot leave or be removed from your Guild while participating in this event. Do you want to continue?</string>
+        <string lang="fr">Vous ne peut pas quitter ou être retiré de votre guilde, tout en participant à cet événement. Voulez-vous continuer ?</string>
+        <string lang="it">Tu non puoi lasciare o essere rimosso dalla tua gilda durante la partecipazione a questo evento. Si desidera continuare?</string>
+        <string lang="de">Sie können nicht verlassen oder eure Gilde während der Teilnahme an dieser Veranstaltung entnommen werden. Möchten Sie fortfahren?</string>
+        <string lang="es">No se puede dejar o quitar de su gremio durante su participación en este evento. ¿Desea continuar?</string>
+        <string lang="pt">Você não pode sair ou ser removido de sua guilda ao participar deste evento. Você quer continuar?</string>
+    </ref>
+    <ref link="error_code_109_desc">
+        <string lang="en">You cannot do this while you are in a dungeon</string>
+        <string lang="fr">Vous ne pouvez faire cela alors que vous êtes dans un donjon</string>
+        <string lang="it">Non puoi farlo mentre si è in un dungeon</string>
+        <string lang="de">Sie können dies nicht, während Sie in einem Verlies sind</string>
+        <string lang="es">Usted no puede hacerlo mientras estás en una mazmorra</string>
+        <string lang="pt">Não pode fazer isso enquanto você está em um calabouço</string>
+    </ref>
+    <ref link="error_code_110_desc">
+        <string lang="en">You cannot do this while you are in a battle</string>
+        <string lang="fr">Vous ne pouvez faire cela alors que vous êtes dans une bataille</string>
+        <string lang="it">Non puoi farlo mentre sei in una battaglia</string>
+        <string lang="de">Sie können dies nicht, während Sie in einer Schlacht sind</string>
+        <string lang="es">Usted no puede hacerlo mientras estás en una batalla</string>
+        <string lang="pt">Não pode fazer isso enquanto você está em uma batalha</string>
+    </ref>
+    <ref link="error_code_111_desc">
+        <string lang="en">You cannot have more than ^#value1#^ of this #value2# in your #value3#</string>
+        <string lang="fr">Vous ne pouvez pas avoir plus de ^#value1#^ de ce #value2# dans votre #value3#</string>
+        <string lang="it">Non puoi avere più di ^#value1#^ di questo #value2# nel tuo #value3#</string>
+        <string lang="de">Du kannst nicht mehr als ^#value1#^ von diesem #value2# in deinem #value3# haben</string>
+        <string lang="es">Usted no puede tener más de ^#value1#^ de este #value2# en su #value3#</string>
+        <string lang="pt">Você não pode ter mais de ^#value1#^ deste #value2# no seu #value3#</string>
+    </ref>
+    <ref link="error_code_112_desc">
+        <string lang="en">You cannot have more than ^#value1#^ #value2# at any given time</string>
+        <string lang="fr">Vous ne pouvez pas avoir plus de ^#value1#^ #value2# à un moment donné</string>
+        <string lang="it">Non potete avere più di ^#value1#^ #value2# in un dato momento</string>
+        <string lang="de">Du kannst zu keinem Zeitpunkt mehr als ^#value1#^ #value2# haben</string>
+        <string lang="es">No puede tener más de ^#value1#^ #value2# en un momento dado</string>
+        <string lang="pt">Você não pode ter mais de ^#value1#^ #value2# em qualquer momento</string>
+    </ref>
+    <ref link="error_code_113_desc">
+        <string lang="en">You cannot use this item at this time</string>
+        <string lang="fr">Vous ne pouvez pas utiliser cet objet à ce moment-ci</string>
+        <string lang="it">Non è possibile utilizzare questo elemento in questo momento</string>
+        <string lang="de">Sie können diesen Artikel zu diesem Zeitpunkt nicht verwenden</string>
+        <string lang="es">No puede utilizar este elemento en este momento</string>
+        <string lang="pt">Você não pode usar este item neste momento</string>
+    </ref>
+    <ref link="error_code_114_desc">
+        <string lang="en">Room is full</string>
+        <string lang="fr">La pièce est pleine</string>
+        <string lang="it">La stanza è piena</string>
+        <string lang="de">Zimmer ist voll</string>
+        <string lang="es">La habitación está llena</string>
+        <string lang="pt">O quarto está cheio</string>
+    </ref>
+    <ref link="error_code_115_desc">
+        <string lang="en">Room is no longer available</string>
+        <string lang="fr">La pièce n'est plus disponible</string>
+        <string lang="it">La camera non è più disponibile</string>
+        <string lang="de">Zimmer ist nicht mehr verfügbar</string>
+        <string lang="es">Habitación ya no está disponible</string>
+        <string lang="pt">O quarto já não está disponível</string>
+    </ref>
+    <ref link="error_code_116_desc">
+        <string lang="en">You have already purchased this item</string>
+        <string lang="fr">Vous avez déjà acheté cet article</string>
+        <string lang="it">Hai già acquistato questo elemento</string>
+        <string lang="de">Sie haben diesen Artikel bereits gekauft</string>
+        <string lang="es">Ya ha comprado este artículo</string>
+        <string lang="pt">Você já comprou este item</string>
+    </ref>
+    <ref link="error_code_117_desc">
+        <string lang="en">You cannot have more than ^#value1#^ #value2# at any given time</string>
+        <string lang="fr">Vous ne pouvez pas avoir plus de ^#value1#^ #value2# à un moment donné</string>
+        <string lang="it">Non potete avere più di ^#value1#^ #value2# in un dato momento</string>
+        <string lang="de">Du kannst zu keinem Zeitpunkt mehr als ^#value1#^ #value2# haben</string>
+        <string lang="es">No puede tener más de ^#value1#^ #value2# en un momento dado</string>
+        <string lang="pt">Você não pode ter mais de ^#value1#^ #value2# em qualquer momento</string>
+    </ref>
+    <ref link="error_code_118_desc">
+        <string lang="en">Not enough #value1#</string>
+        <string lang="fr">#value1# insuffisant(e)</string>
+        <string lang="it">Non hai abbastanza #value1#</string>
+        <string lang="de">Nicht genügend #value1#</string>
+        <string lang="es">No hay suficiente #value1#</string>
+        <string lang="pt">#value1# insuficiente.</string>
+    </ref>
+</data>

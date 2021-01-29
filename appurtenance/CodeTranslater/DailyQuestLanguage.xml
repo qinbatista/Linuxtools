@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+  <ref link="daily_quest_pvpeventwins_common_name">
+    <string lang="en">Brawler</string>
+    <string lang="fr">Bagarreur</string>
+    <string lang="it">Rissaiolo</string>
+    <string lang="de">Schläger</string>
+    <string lang="es">Matón</string>
+    <string lang="pt">Brigão</string>
+  </ref>
+  <ref link="daily_quest_pvpeventwins_rare_name">
+    <string lang="en">Challenger</string>
+    <string lang="fr">Challenger</string>
+    <string lang="it">Sfidante</string>
+    <string lang="de">Herausforderer</string>
+    <string lang="es">Desafiador</string>
+    <string lang="pt">Desafiante</string>
+  </ref>
+  <ref link="daily_quest_pvpeventwins_epic_name">
+    <string lang="en">Champion</string>
+    <string lang="fr">Champion</string>
+    <string lang="it">Campione</string>
+    <string lang="de">Meister</string>
+    <string lang="es">Campeón</string>
+    <string lang="pt">Campeão</string>
+  </ref>
+  <ref link="daily_quest_pveencounterwins_common_name">
+    <string lang="en">Eliminate</string>
+    <string lang="fr">Élimination</string>
+    <string lang="it">Eliminazione</string>
+    <string lang="de">Eliminieren</string>
+    <string lang="es">Eliminación</string>
+    <string lang="pt">Eliminação</string>
+  </ref>
+  <ref link="daily_quest_pveencounterwins_rare_name">
+    <string lang="en">Wipeout</string>
+    <string lang="fr">Annihilation</string>
+    <string lang="it">Eccidio</string>
+    <string lang="de">Niedergang</string>
+    <string lang="es">Aniquilación</string>
+    <string lang="pt">Aniquilação</string>
+  </ref>
+  <ref link="daily_quest_pveencounterwins_epic_name">
+    <string lang="en">Exterminate</string>
+    <string lang="fr">Extermination</string>
+    <string lang="it">Disinfestazione</string>
+    <string lang="de">Kammerjäger</string>
+    <string lang="es">Exterminio</string>
+    <string lang="pt">Extermínio</string>
+  </ref>
+  <ref link="daily_quest_pveenemieskilled_common_name">
+    <string lang="en">Cleaning Crew</string>
+    <string lang="fr">Équipe de nettoyage</string>
+    <string lang="it">Impresa delle pulizie</string>
+    <string lang="de">Putztrupp</string>
+    <string lang="es">Equipo de limpieza</string>
+    <string lang="pt">Equipe da Limpeza</string>
+  </ref>
+  <ref link="daily_quest_pveenemieskilled_rare_name">
+    <string lang="en">Takin' out the trash</string>
+    <string lang="fr">Grand ménage</string>
+    <string lang="it">Buttiamo la spazzatura</string>
+    <string lang="de">Müllabfuhr</string>
+    <string lang="es">Sacar la basura</string>
+    <string lang="pt">Tirando os lixos</string>
+  </ref>
+  <ref link="daily_quest_pveenemieskilled_epic_name">
+    <string lang="en">Slayer</string>
+    <string lang="fr">Tueur</string>
+    <string lang="it">Sterminatore</string>
+    <string lang="de">Metzler</string>
+    <string lang="es">Exterminador</string>
+    <string lang="pt">Matador</string>
+  </ref>
+  <ref link="daily_quest_pvebosswins_common_name">
+    <string lang="en">Overthrow</string>
+    <string lang="fr">Renversement</string>
+    <string lang="it">Rivolta</string>
+    <string lang="de">Stürzen</string>
+    <string lang="es">Derrocamiento</string>
+    <string lang="pt">Revolução</string>
+  </ref>
+  <ref link="daily_quest_pvebosswins_rare_name">
+    <string lang="en">Regicide</string>
+    <string lang="fr">Régicide</string>
+    <string lang="it">Regicidio</string>
+    <string lang="de">Königsmord</string>
+    <string lang="es">Regicidio</string>
+    <string lang="pt">Regicida</string>
+  </ref>
+  <ref link="daily_quest_pvebosswins_epic_name">
+    <string lang="en">Like a Boss</string>
+    <string lang="fr">Comme un boss</string>
+    <string lang="it">Un vero boss</string>
+    <string lang="de">Bossmodus</string>
+    <string lang="es">Como un jefe</string>
+    <string lang="pt">Chefe é Chefe</string>
+  </ref>
+  <ref link="daily_quest_dungeoncompletes_common_name">
+    <string lang="en">Pillage</string>
+    <string lang="fr">Pillage</string>
+    <string lang="it">Saccheggio</string>
+    <string lang="de">Plündern</string>
+    <string lang="es">Pillaje</string>
+    <string lang="pt">Pilhagem</string>
+  </ref>
+  <ref link="daily_quest_dungeoncompletes_rare_name">
+    <string lang="en">Siegebreaker</string>
+    <string lang="fr">Briseur de siège</string>
+    <string lang="it">Spezza l'assedio</string>
+    <string lang="de">Belagerungsbrecher</string>
+    <string lang="es">Rompeasedio</string>
+    <string lang="pt">Destruidor de Cercos</string>
+  </ref>
+  <ref link="daily_quest_dungeoncompletes_epic_name">
+    <string lang="en">Take the Stronghold</string>
+    <string lang="fr">Prise du bastion</string>
+    <string lang="it">Assalta il forte</string>
+    <string lang="de">Festungssturm</string>
+    <string lang="es">Tomar el baluarte</string>
+    <string lang="pt">Conquista da Fortaleza</string>
+  </ref>
+  <ref link="daily_quest_dungeontreasures_common_name">
+    <string lang="en">Collector</string>
+    <string lang="fr">Collectionneur</string>
+    <string lang="it">Collezionista</string>
+    <string lang="de">Sammler</string>
+    <string lang="es">Coleccionista</string>
+    <string lang="pt">Coletor</string>
+  </ref>
+  <ref link="daily_quest_dungeontreasures_rare_name">
+    <string lang="en">Scavenger</string>
+    <string lang="fr">Charognard</string>
+    <string lang="it">Caccia al tesoro</string>
+    <string lang="de">Plünderer</string>
+    <string lang="es">Carroñero</string>
+    <string lang="pt">Catador</string>
+  </ref>
+  <ref link="daily_quest_dungeontreasures_epic_name">
+    <string lang="en">Hoarder</string>
+    <string lang="fr">Entasseur compulsif</string>
+    <string lang="it">Accumulatore</string>
+    <string lang="de">Hamsterer</string>
+    <string lang="es">Acaparador</string>
+    <string lang="pt">Acumulador</string>
+  </ref>
+  <ref link="daily_quest_dungeonsolo_common_name">
+    <string lang="en">One man army</string>
+    <string lang="fr">Homme providentiel</string>
+    <string lang="it">Esercito di un sol uomo</string>
+    <string lang="de">Ein-Mann-Armee</string>
+    <string lang="es">Ejército de un solo hombre</string>
+    <string lang="pt">Exército de um Homem Só</string>
+  </ref>
+  <ref link="daily_quest_dungeonsolo_rare_name">
+    <string lang="en">Lone wolf</string>
+    <string lang="fr">Loup solitaire</string>
+    <string lang="it">Lupo solitario</string>
+    <string lang="de">Einsamer Wolf</string>
+    <string lang="es">Lobo solitario</string>
+    <string lang="pt">Lobo Solitário</string>
+  </ref>
+  <ref link="daily_quest_dungeonsolo_epic_name">
+    <string lang="en">The Nomad</string>
+    <string lang="fr">Le Nomade</string>
+    <string lang="it">Nomade</string>
+    <string lang="de">Der Nomade</string>
+    <string lang="es">El nómada</string>
+    <string lang="pt">O Nômade</string>
+  </ref>
+  <ref link="daily_quest_dungeonfamiliars_common_name">
+    <string lang="en">Renegade</string>
+    <string lang="fr">Renégat</string>
+    <string lang="it">Rinnegato</string>
+    <string lang="de">Abtrünniger</string>
+    <string lang="es">Renegado</string>
+    <string lang="pt">Renegado</string>
+  </ref>
+  <ref link="daily_quest_dungeonfamiliars_rare_name">
+    <string lang="en">Hard Headed</string>
+    <string lang="fr">Tête brûlée</string>
+    <string lang="it">Testa dura</string>
+    <string lang="de">Sturkopf</string>
+    <string lang="es">Cabezota</string>
+    <string lang="pt">Cabeça Dura</string>
+  </ref>
+  <ref link="daily_quest_dungeonfamiliars_epic_name">
+    <string lang="en">Recluse</string>
+    <string lang="fr">Reclus</string>
+    <string lang="it">Recluso</string>
+    <string lang="de">Eremit</string>
+    <string lang="es">Recluso</string>
+    <string lang="pt">Recluso</string>
+  </ref>
+  <ref link="daily_quest_pvpeventwins_desc">
+    <string lang="en">Defeat [value] opponents in PvP</string>
+    <string lang="fr">Bats [value] adversaires en mode JcJ</string>
+    <string lang="it">Sconfiggi [value] avversari in PvP</string>
+    <string lang="de">Besiege [value] Gegner im PvP</string>
+    <string lang="es">Derrota a [value] rivales en JcJ.</string>
+    <string lang="pt">Derrote [value] adversários no JxJ</string>
+  </ref>
+  <ref link="daily_quest_pveencounterwins_desc">
+    <string lang="en">Defeat [value] encounters in dungeons</string>
+    <string lang="fr">Remporte [value] rencontres en mode Donjon</string>
+    <string lang="it">Sconfiggi [value] incontri nei dungeon</string>
+    <string lang="de">Gewinne [value] Kämpfe in Verliesen</string>
+    <string lang="es">Supera [value] encuentros en mazmorras.</string>
+    <string lang="pt">Derrote [value] confrontos nas masmorras</string>
+  </ref>
+  <ref link="daily_quest_pveencounterwins_hard_desc">
+    <string lang="en">Defeat [value] encounters in Hard dungeons</string>
+    <string lang="fr">Remporte [value] rencontres en mode Donjon Difficile</string>
+    <string lang="it">Sconfiggi [value] incontri nei dungeon difficili</string>
+    <string lang="de">Gewinne [value] Kämpfe in schweren Verliesen</string>
+    <string lang="es">Supera [value] encuentros en mazmorras difíciles.</string>
+    <string lang="pt">Derrote [value] confrontos em masmorras difíceis</string>
+  </ref>
+  <ref link="daily_quest_pveencounterwins_heroic_desc">
+    <string lang="en">Defeat [value] encounters in Heroic dungeons</string>
+    <string lang="fr">Remporte [value] rencontres en mode Donjon Héroïque</string>
+    <string lang="it">Sconfiggi [value] incontri nei dungeon eroici</string>
+    <string lang="de">Gewinne [value] Kämpfe in heldenhaften Verliesen</string>
+    <string lang="es">Supera [value] encuentros en mazmorras heroicas.</string>
+    <string lang="pt">Derrote [value] confrontos em masmorras heroicas</string>
+  </ref>
+  <ref link="daily_quest_pveenemieskilled_desc">
+    <string lang="en">Defeat [value] enemies in dungeons</string>
+    <string lang="fr">Bats [value] ennemis en mode Donjon</string>
+    <string lang="it">Sconfiggi [value] nemici nei dungeon</string>
+    <string lang="de">Besiege [value] Feinde in Verliesen</string>
+    <string lang="es">Derrota a [value] enemigos en mazmorras.</string>
+    <string lang="pt">Derrote [value] inimigos em masmorras</string>
+  </ref>
+  <ref link="daily_quest_pveenemieskilled_hard_desc">
+    <string lang="en">Defeat [value] enemies in Hard dungeons</string>
+    <string lang="fr">Bats [value] ennemis en mode Donjon Difficile</string>
+    <string lang="it">Sconfiggi [value] nemici nei dungeon difficili</string>
+    <string lang="de">Besiege [value] Feinde in schweren Verliesen</string>
+    <string lang="es">Derrota a [value] enemigos en mazmorras difíciles.</string>
+    <string lang="pt">Derrote [value] inimigos em masmorras difíceis</string>
+  </ref>
+  <ref link="daily_quest_pveenemieskilled_heroic_desc">
+    <string lang="en">Defeat [value] enemies in Heroic dungeons</string>
+    <string lang="fr">Bats [value] ennemis en mode Donjon Héroïque</string>
+    <string lang="it">Sconfiggi [value] nemici nei dungeon eroici</string>
+    <string lang="de">Besiege [value] Feinde in heldenhaften Verliesen</string>
+    <string lang="es">Derrota a [value] enemigos en mazmorras heroicas.</string>
+    <string lang="pt">Derrote [value] inimigos em masmorras heroicas</string>
+  </ref>
+  <ref link="daily_quest_pvebosswins_desc">
+    <string lang="en">Defeat [value] bosses in dungeons</string>
+    <string lang="fr">Bats [value] boss en mode Donjon</string>
+    <string lang="it">Sconfiggi [value] boss nei dungeon</string>
+    <string lang="de">Besiege [value] Bosse in Verliesen</string>
+    <string lang="es">Derrota a [value] jefes en mazmorras.</string>
+    <string lang="pt">Derrote [value] chefes nas masmorras</string>
+  </ref>
+  <ref link="daily_quest_pvebosswins_hard_desc">
+    <string lang="en">Defeat [value] bosses in Hard dungeons</string>
+    <string lang="fr">Bats [value] boss en mode Donjon Difficile</string>
+    <string lang="it">Sconfiggi [value] boss nei dungeon difficili</string>
+    <string lang="de">Besiege [value] Bosse in schweren Verliesen</string>
+    <string lang="es">Derrota a [value] jefes en mazmorras difíciles.</string>
+    <string lang="pt">Derrote [value] chefes em masmorras difíceis</string>
+  </ref>
+  <ref link="daily_quest_pvebosswins_heroic_desc">
+    <string lang="en">Defeat [value] bosses in Heroic dungeons</string>
+    <string lang="fr">Bats [value] boss en mode Donjon Héroïque</string>
+    <string lang="it">Sconfiggi [value] boss nei dungeon eroici</string>
+    <string lang="de">Besiege [value] Bosse in heldenhaften Verliesen</string>
+    <string lang="es">Derrota a [value] jefes en mazmorras heroicas.</string>
+    <string lang="pt">Derrote [value] chefes em masmorras heroicas</string>
+  </ref>
+  <ref link="daily_quest_dungeoncompletes_desc">
+    <string lang="en">Complete [value] dungeons</string>
+    <string lang="fr">Termine [value] quêtes Donjon</string>
+    <string lang="it">Completa [value] dungeon</string>
+    <string lang="de">Schließe [value] Verliese ab</string>
+    <string lang="es">Completa [value] mazmorras.</string>
+    <string lang="pt">Termine [value] masmorras</string>
+  </ref>
+  <ref link="daily_quest_dungeoncompletes_hard_desc">
+    <string lang="en">Complete [value] Hard dungeons</string>
+    <string lang="fr">Termine [value] quêtes Donjon Difficiles</string>
+    <string lang="it">Completa [value] dungeon difficili</string>
+    <string lang="de">Schließe [value] schwere Verliese ab</string>
+    <string lang="es">Completa [value] mazmorras difíciles.</string>
+    <string lang="pt">Termine [value] masmorras difíceis</string>
+  </ref>
+  <ref link="daily_quest_dungeoncompletes_heroic_desc">
+    <string lang="en">Complete [value] Heroic dungeons</string>
+    <string lang="fr">Termine [value] quêtes Donjon Héroïques</string>
+    <string lang="it">Completa [value] dungeon eroici</string>
+    <string lang="de">Schließe [value] heldenhafte Verliese ab</string>
+    <string lang="es">Completa [value] mazmorras heroicas.</string>
+    <string lang="pt">Termine [value] masmorras heroicas</string>
+  </ref>
+  <ref link="daily_quest_dungeontreasures_desc">
+    <string lang="en">Loot [value] treasure chests in dungeons</string>
+    <string lang="fr">Pille [value] coffres aux trésors en mode Donjon</string>
+    <string lang="it">Svuota [value] forzieri del tesoro nei dungeon</string>
+    <string lang="de">Plündere [value] Schatzkisten in Verliesen</string>
+    <string lang="es">Saquea [value] cofres del tesoro en mazmorras.</string>
+    <string lang="pt">Abra [value] baús de tesouro nas masmorras</string>
+  </ref>
+  <ref link="daily_quest_dungeontreasures_hard_desc">
+    <string lang="en">Loot [value] treasure chests in Hard dungeons</string>
+    <string lang="fr">Pille [value] coffres aux trésors en mode Donjon Difficile</string>
+    <string lang="it">Svuota [value] forzieri del tesoro nei dungeon difficili</string>
+    <string lang="de">Plündere [value] Schatzkisten in schweren Verliesen</string>
+    <string lang="es">Saquea [value] cofres del tesoro en mazmorras difíciles.</string>
+    <string lang="pt">Abra [value] baús de tesouro em masmorras difíceis</string>
+  </ref>
+  <ref link="daily_quest_dungeontreasures_heroic_desc">
+    <string lang="en">Loot [value] treasure chests in Heroic dungeons</string>
+    <string lang="fr">Pille [value] coffres aux trésors en mode Donjon Héroïque</string>
+    <string lang="it">Svuota [value] forzieri del tesoro nei dungeon eroici</string>
+    <string lang="de">Plündere [value] Schatzkisten in heldenhaften Verliesen</string>
+    <string lang="es">Saquea [value] cofres del tesoro en mazmorras heroicas.</string>
+    <string lang="pt">Abra [value] baús de tesouro em masmorras heroicas</string>
+  </ref>
+  <ref link="daily_quest_dungeonsolo_desc">
+    <string lang="en">Defeat [value] dungeon solo</string>
+    <string lang="fr">Remporte [value] quête(s) Donjon en solo</string>
+    <string lang="it">Sconfiggi [value] dungeon in solitaria</string>
+    <string lang="de">Schließe [value] Verliessolo ab</string>
+    <string lang="es">Supera [value] mazmorras en solitario.</string>
+    <string lang="pt">Derrote [value] masmorra(s) sozinho</string>
+  </ref>
+  <ref link="daily_quest_dungeonsolo_hard_desc">
+    <string lang="en">Defeat [value] Hard dungeon solo</string>
+    <string lang="fr">Remporte [value] quête(s) Donjon Difficile(s) en solo</string>
+    <string lang="it">Sconfiggi [value] dungeon difficili in solitaria</string>
+    <string lang="de">Schließe [value] schweres Verliessolo ab</string>
+    <string lang="es">Supera [value] mazmorra difíciles en solitario.</string>
+    <string lang="pt">Derrote [value] masmorra(s) no modo difícil sozinho</string>
+  </ref>
+  <ref link="daily_quest_dungeonsolo_heroic_desc">
+    <string lang="en">Defeat [value] Heroic dungeon solo</string>
+    <string lang="fr">Remporte [value] quête(s) Donjon Héroïque(s) en solo</string>
+    <string lang="it">Sconfiggi [value] dungeon eroici in solitaria</string>
+    <string lang="de">Schließe [value] heldenhaftes Verliessolo ab</string>
+    <string lang="es">Supera [value] mazmorras heroicas en solitario.</string>
+    <string lang="pt">Derrote [value] masmorra(s) heroica(s) sozinho</string>
+  </ref>
+  <ref link="daily_quest_dungeonfamiliars_desc">
+    <string lang="en">Defeat [value] dungeons without other players</string>
+    <string lang="fr">Remporte [value] quêtes Donjon sans autres joueurs</string>
+    <string lang="it">Sconfiggi [value] dungeon senza altri giocatori</string>
+    <string lang="de">Schließe [value] Verliese ohne andere Spieler ab</string>
+    <string lang="es">Supera [value] mazmorras sin otros jugadores.</string>
+    <string lang="pt">Derrote [value] masmorras sem outros jogadores</string>
+  </ref>
+  <ref link="daily_quest_dungeonfamiliars_hard_desc">
+    <string lang="en">Defeat [value] Hard dungeons without other players</string>
+    <string lang="fr">Remporte [value] quêtes Donjon Difficiles sans autres joueurs</string>
+    <string lang="it">Sconfiggi [value] dungeon difficili senza altri giocatori</string>
+    <string lang="de">Schließe [value] schwere Verliese ohne andere Spieler ab</string>
+    <string lang="es">Supera [value] mazmorras difíciles sin otros jugadores.</string>
+    <string lang="pt">Derrote [value] masmorras difíceis sem outros jogadores</string>
+  </ref>
+  <ref link="daily_quest_dungeonfamiliars_heroic_desc">
+    <string lang="en">Defeat [value] Heroic dungeons without other players</string>
+    <string lang="fr">Remporte [value] quêtes Donjon Héroïques sans autres joueurs</string>
+    <string lang="it">Sconfiggi [value] dungeon eroici senza altri giocatori</string>
+    <string lang="de">Schließe [value] heldenhafte Verliese ohne andere Spieler ab</string>
+    <string lang="es">Supera [value] mazmorras heroicas sin otros jugadores.</string>
+    <string lang="pt">Derrote [value] masmorras difíceis sem outros jogadores</string>
+  </ref>
+</data>

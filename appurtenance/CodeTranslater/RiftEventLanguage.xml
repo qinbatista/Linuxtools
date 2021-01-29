@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+    <ref link="rift_help_desc">
+        <string lang="en">- Choose the difficulty of your dungeon and compete with others on the leaderboards. The highest difficulty allowed by default is equivilant to the hardest dungeon you have completed through questing.!break!!break!- Every time you clear a dungeon at your highest available difficulty, you will unlock the next difficulty.!break!!break!- Each time you complete a trial, you will gain points equal to the difficulty you selected. If you fail the trial, you will only earn a portion of those points based on your progression.!break!!break!- You must defeat every enemy within the trial to complete it.!break!!break!- Each difficulty is tied to a difficulty tier. Within each tier, different items will drop from the enemies in the dungeon.</string>
+        <string lang="fr">- Choisis le niveau de difficulté de ton donjon et tente de devancer les autres joueurs au classement. Le niveau de difficulté maximum autorisé par défaut équivaut au donjon le plus difficile que tu as terminé lors d'une quête.!break!!break!- Chaque fois que tu réussis un donjon à ton niveau de difficulté le plus élevé, tu déverrouilles le niveau de difficulté suivant.!break!!break!- Chaque fois que tu réussis une épreuve, tu gagnes les points correspondant au niveau de difficulté que tu as sélectionné. Si tu échoues, tu ne gagnes qu'une partie de ces points, proportionnellement à ta progression.!break!!break!- Tu dois battre tous les ennemis de l'épreuve pour la réussir.!break!!break!- Chaque niveau de difficulté est associé à un palier. À chaque palier, différents objets seront abandonnés par les ennemis présents dans le donjon.</string>
+        <string lang="it">- Scegli la difficoltà del dungeon e competi con gli altri giocatori nelle classifiche. La difficoltà massima ammessa per impostazione predefinita è il dungeon più difficile che hai completato nelle missioni.!break!!break!- Ogni volta che superi un dungeon alla difficoltà massima possibile, sbloccherai la difficoltà successiva.!break!!break!- Ogni volta che completi una prova ricevi punti pari alla difficoltà scelta. Se fallisci la prova otterrai solo parte di quei punti, in base ai tuoi progressi.!break!!break!- Devi sconfiggere tutti i nemici entro la prova per completarla.!break!!break!- Ogni difficoltà è collegata a un grado di difficoltà. Ciascun grado fa generare oggetti diversi quando sconfiggi nemici nel dungeon.</string>
+        <string lang="de">- Wähle die Schwierigkeit deines Verlieses und miss dich mit anderen in der Bestenliste. Die höchste standardmäßig erlaubte Schwierigkeit entspricht dem schwersten Verlies, das du durch Quests abgeschlossen hast.!break!!break!- Jedes Mal, wenn du ein Verlies auf der höchsten verfügbaren Schwierigkeit abschließt, wird die nächste Schwierigkeit freigeschaltet.!break!!break!- Jedes Mal, wenn du eine Prüfung abschließt, erhältst du Punkte auf Basis der gewählten Schwierigkeit. Wenn es dir nicht gelingt, die Prüfung abzuschließen, erhältst du nur einen Teil dieser Punkte, basierend auf deinem Fortschritt.!break!!break!- Du musst jeden Feind in der Prüfung besiegen, um diese abzuschließen.!break!!break!- Jede Schwierigkeit ist mit einer Schwierigkeitsstufe verbunden. In jeder Stufe lassen die Gegner im Verlies andere Gegenstände fallen.</string>
+        <string lang="es">- Selecciona la dificultad de tu mazmorra y compite con otros en los marcadores. La mayor dificultad permitida por defecto equivale a la mazmorra más difícil que has completado a través de las misiones.!break!!break!- Cada vez que superes una mazmorra con tu nivel de dificultad más alto disponible, desbloquearás el siguiente nivel de dificultad.!break!!break!- Cada vez que completes una prueba, ganarás una cantidad de puntos equivalente a la dificultad que hayas seleccionado. Si fallas la prueba, solo conseguirás una parte de esos puntos según tu progresión.!break!!break!- Debes derrotar a todos los enemigos dentro de la prueba para completarla.!break!!break!- Cada dificultad está vinculada a un nivel de dificultad. Dentro de cada nivel, los enemigos soltarán distintos objetos en la mazmorra.</string>
+        <string lang="pt">- Escolha a dificuldade da masmorra para competir com outros jogadores no Placar. Normalmente a maior dificuldade disponível é equivalente à masmorra mais difícil que você concluiu nas missões.!break!!break!- A cada vez que você conclui uma masmorra na maior dificuldade disponível, você desbloqueia o próximo grau de dificuldade.!break!!break!- A cada vez que você conclui um desafio, você ganha pontos de acordo com a dificuldade escolhida. Se você falhar no desafio, receberá apenas uma parcela dos pontos proporcional ao seu progresso.!break!!break!- Você precisa derrotar todos os inimigos para concluir o desafio.!break!!break!- Cada grau de dificuldade altera os itens que caem dos inimigos na masmorra.</string>
+    </ref>
+    <ref link="rift_event_1_name">
+        <string lang="en">Magi</string>
+    </ref>
+    <ref link="rift_event_2_name">
+        <string lang="en">Ogok</string>
+    </ref>
+    <ref link="rift_event_3_name">
+        <string lang="en">Nokai</string>
+    </ref>
+    <ref link="rift_event_4_name">
+        <string lang="en">Vryn</string>
+    </ref>
+    <ref link="rift_event_5_name">
+        <string lang="en">Voik</string>
+    </ref>
+    <ref link="rift_event_6_name">
+        <string lang="en">Ora</string>
+    </ref>
+    <ref link="rift_event_7_name">
+        <string lang="en">Dar</string>
+    </ref>
+    <ref link="rift_event_8_name">
+        <string lang="en">Dej</string>
+    </ref>
+    <ref link="rift_event_9_name">
+        <string lang="en">Gael</string>
+    </ref>
+    <ref link="rift_event_10_name">
+        <string lang="en">Quindi</string>
+    </ref>
+    <ref link="rift_event_11_name">
+        <string lang="en">Primal</string>
+    </ref>
+    <ref link="rift_event_12_name">
+        <string lang="en">Phir</string>
+    </ref>
+    <ref link="rift_event_13_name">
+        <string lang="en">Vryn</string>
+    </ref>
+    <ref link="rift_event_14_name">
+        <string lang="en">Astaroth</string>
+    </ref>
+    <ref link="rift_event_15_name">
+        <string lang="en">Boogie</string>
+    </ref>
+    <ref link="rift_event_16_name">
+        <string lang="en">Vex</string>
+    </ref>
+    <ref link="rift_event_17_name">
+        <string lang="en">Voik</string>
+    </ref>
+    <ref link="rift_event_18_name">
+        <string lang="en">Meta</string>
+    </ref>
+    <ref link="rift_event_19_name">
+        <string lang="en">Minor</string>
+    </ref>
+    <ref link="rift_event_20_name">
+        <string lang="en">Major</string>
+    </ref>
+    <ref link="rift_event_21_name">
+        <string lang="en">Ogok</string>
+    </ref>
+    <ref link="rift_event_24_name">
+        <string lang="en">Nox</string>
+    </ref>
+    <ref link="rift_event_25_name">
+        <string lang="en">Tol</string>
+    </ref>
+</data>

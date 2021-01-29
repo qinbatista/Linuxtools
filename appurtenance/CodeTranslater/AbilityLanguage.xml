@@ -1,0 +1,3050 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+    <ref link="ability_damage_enemyfront_desc">
+        <string lang="en">Deals #value1# damage to the closest enemy</string>
+        <string lang="fr">Inflige #value1# de dégâts à l'ennemi le plus proche</string>
+        <string lang="it">Infligge #value1# di danno al nemico più vicino</string>
+        <string lang="de">Fügt dem Feind, der sich am wenigsten weit entfernt befindet, #value1# Schaden zu.</string>
+        <string lang="es">Provoca #value1# puntos de daños al enemigo más cercano.</string>
+        <string lang="pt">Causa #value1# de dano ao inimigo mais perto</string>
+    </ref>
+    <ref link="ability_damage_enemyfront_damageself_desc">
+        <string lang="en">Deals #value1# damage to the closest enemy, and #value2# damage to yourself</string>
+        <string lang="fr">Donne #value1# dégâts à l'ennemi le plus proche et #value2# dégâts à vous-même</string>
+        <string lang="it">Offri #value1# danni al nemico più vicino e #value2# danni a te stesso</string>
+        <string lang="de">Fügt dem engsten Feind #value1# Schadenspunkte und #value2# Schaden an</string>
+        <string lang="es">Hace #value1# puntos de daño al enemigo más cercano y #value2# puntos de daño a ti mismo</string>
+        <string lang="pt">Dá #value1# danos ao inimigo mais próximo e #value2# dano a si mesmo</string>
+    </ref>
+    <ref link="ability_damage_enemyfront_pierce_desc">
+        <string lang="en">Deals #value1# damage to the closest #pierce1# enemies</string>
+        <string lang="fr">Inflige #value1# de dégâts aux #pierce1# ennemis les plus proches</string>
+        <string lang="it">Infligge #value1# di danno ai #pierce1# nemici più vicini</string>
+        <string lang="de">Fügt den #pierce1# Feinden, die sich am wenigsten weit entfernt befinden, #value1# Schaden zu.</string>
+        <string lang="es">Provoca #value1# puntos de daños a los enemigos #pierce1# más cercanos.</string>
+        <string lang="pt">Causa #value1# de dano aos #pierce1# inimigos mais perto</string>
+    </ref>
+    <ref link="ability_damage_enemyfront_lifesteal_desc">
+        <string lang="en">Drain #value1# health from closest enemy</string>
+        <string lang="fr">Ponctionne #value1# de santé à l'ennemi le plus proche</string>
+        <string lang="it">Sottrae #value1# di salute al nemico più vicino</string>
+        <string lang="de">Entzieht dem Feind, der sich am wenigsten weit entfernt befindet, #value1# Gesundheit.</string>
+        <string lang="es">Drena #value1# puntos de salud del enemigo más cercano.</string>
+        <string lang="pt">Drena #value1# de vida do inimigo mais perto</string>
+    </ref>
+    <ref link="ability_damage_enemyback_desc">
+        <string lang="en">Deals #value1# damage to the furthest enemy</string>
+        <string lang="fr">Inflige #value1# de dégâts à l'ennemi le plus éloigné</string>
+        <string lang="it">Infligge #value1# di danno al nemico più lontano</string>
+        <string lang="de">Fügt dem Feind, der sich am weitesten entfernt befindet, #value1# Schaden zu.</string>
+        <string lang="es">Provoca #value1# puntos de daños al enemigo más alejado.</string>
+        <string lang="pt">Causa #value1# de dano ao inimigo mais longe</string>
+    </ref>
+    <ref link="ability_damage_enemyback_once_desc">
+        <string lang="en">Deals #value1# damage to the furthest enemy. Usable once per adventure.</string>
+        <string lang="fr">Inflige #value1# de dégâts à l'ennemi le plus éloigné. Utilisable une fois par aventure.</string>
+        <string lang="it">Infligge #value1# di danno al nemico più lontano. Utilizzabile una volta per avventura.</string>
+        <string lang="de">Fügt dem Feind, der sich am weitesten entfernt befindet, #value1# Schaden zu. Einmal pro Abenteuer verwendbar.</string>
+        <string lang="es">Provoca #value1# puntos de daños al enemigo más alejado. Utilizable una vez por aventura.</string>
+        <string lang="pt">Causa #value1# de dano ao inimigo mais longe. Usável uma vez por aventura.</string>
+    </ref>
+    <ref link="ability_damage_enemyback_bounces_desc">
+        <string lang="en">Deals #value1# damage to the furthest enemy and #bounces1# random enemies</string>
+        <string lang="fr">Inflige #value1# points de dégâts à l'ennemi le plus éloigné et à #bounces1# ennemis aléatoires</string>
+        <string lang="it">Offre #value1# danni al nemico più lontano e #bounces1# nemici casuali</string>
+        <string lang="de">Fügt dem weitesten Feind und #bounces1# zufälligen Feinden #value1# Schaden zu</string>
+        <string lang="es">Inflige #value1# de daño al enemigo más lejano y #bounces1# enemigos aleatorios</string>
+        <string lang="pt">Dá #value1# dano ao inimigo mais distante e #bounces1# inimigos aleatórios</string>
+    </ref>
+    <ref link="ability_damage_enemyback_damageself_desc">
+        <string lang="en">Deals #value1# damage to the furthest enemy, and #value2# damage to yourself</string>
+        <string lang="fr">Inflige #value1# dégâts à l'ennemi le plus éloigné et #value2# dégâts à vous-même</string>
+        <string lang="it">Offri #value1# danni al nemico più lontano e #value2# danni a te stesso</string>
+        <string lang="de">Fügt dem stärksten Feind #value1# Schadenspunkte und #value2# Schaden an sich selbst</string>
+        <string lang="es">Hace #value1# puntos de daño al enemigo más lejano y #value2# puntos de daño a ti mismo</string>
+        <string lang="pt">Dá #value1# dano ao inimigo mais distante e #value2# dano a si mesmo</string>
+    </ref>
+   <ref link="ability_damage_enemyweakest_desc">
+        <string lang="en">Deals #value1# damage to the weakest enemy</string>
+        <string lang="fr">Inflige #value1# de dégâts à l'ennemi le plus faible</string>
+        <string lang="it">Infligge #value1# di danno al nemico più debole</string>
+        <string lang="de">Fügt dem Feind, der sich schwächste entfernt befindet, #value1# Schaden zu.</string>
+        <string lang="es">Provoca #value1# puntos de daños al enemigo más débil.</string>
+        <string lang="pt">Causa #value1# de dano ao inimigo mais fraco</string>
+    </ref>
+    <ref link="ability_damage_enemyteam_desc">
+        <string lang="en">Deals #value1# damage to all enemies</string>
+        <string lang="fr">Inflige #value1# de dégâts à tous les ennemis</string>
+        <string lang="it">Infligge #value1# di danno a tutti i nemici</string>
+        <string lang="de">Fügt allen Feinden #value1# Schaden zu.</string>
+        <string lang="es">Provoca #value1# puntos de daños a todos los enemigos.</string>
+        <string lang="pt">Causa #value1# de dano a todos os inimigos</string>
+    </ref>
+    <ref link="ability_damage_enemyteam_select_desc">
+        <string lang="en">Deals #value1# damage to target enemy</string>
+        <string lang="fr">Inflige #value1# de dégâts à la cible ennemie</string>
+        <string lang="it">Infligge #value1# di danno al nemico bersaglio</string>
+        <string lang="de">Fügt dem Feind, der als Ziel ausgewählt ist, #value1# Schaden zu.</string>
+        <string lang="es">Provoca #value1# puntos de daños al enemigo objetivo.</string>
+        <string lang="pt">Causa #value1# de dano ao alvo escolhido</string>
+    </ref>
+    <ref link="ability_damage_enemyteam_select_once_desc">
+        <string lang="en">Deals #value1# damage to target enemy. Usable once per adventure.</string>
+        <string lang="fr">Inflige #value1# de dégâts à la cible ennemie. Utilisable une fois par aventure.</string>
+        <string lang="it">Infligge #value1# di danno al nemico bersaglio. Utilizzabile una volta per avventura.</string>
+        <string lang="de">Fügt dem Feind, der als Ziel ausgewählt ist, #value1# Schaden zu. Einmal pro Abenteuer verwendbar.</string>
+        <string lang="es">Provoca #value1# puntos de daños al enemigo objetivo. Utilizable una vez por aventura.</string>
+        <string lang="pt">Causa #value1# de dano ao alvo escolhido. Usável uma vez por aventura.</string>
+    </ref>
+    <ref link="ability_damage_enemyteam_select_damageself_desc">
+        <string lang="en">Deals #value1# damage to target enemy, and #value2# damage to yourself</string>
+        <string lang="fr">Inflige #value1# points de dégâts à l'ennemi cible et #value2# dégâts à vous-même</string>
+        <string lang="it">Offri #value1# danni al nemico bersaglio e #value2# danni a te stesso</string>
+        <string lang="de">Fügt dem Feind #value1# Schadenspunkte und #value2# Schaden zu</string>
+        <string lang="es">Hace #value1# puntos de daño al enemigo objetivo y #value2# puntos de daño a ti mismo</string>
+        <string lang="pt">Dá #value1# danos ao alvo inimigo e #value2# dano a si mesmo</string>
+    </ref>
+    <ref link="ability_damage_enemyteam_random_desc">
+        <string lang="en">Deals #value1# damage to a random enemy</string>
+        <string lang="fr">Inflige #value1# de dégâts à un ennemi aléatoire</string>
+        <string lang="it">Infligge #value1# di danno a un nemico casuale</string>
+        <string lang="de">Fügt einem zufällig ausgewählten Feind #value1# Schaden zu.</string>
+        <string lang="es">Provoca #value1# puntos de daños a un enemigo al azar.</string>
+        <string lang="pt">Causa #value1# de dano a um inimigo aleatório</string>
+    </ref>
+    <ref link="ability_damage_enemyteam_random_bounces_desc">
+        <string lang="en">Deals #value1# damage to a random enemy and #bounces1# additional enemies</string>
+        <string lang="fr">Inflige #value1# points de dégâts à un ennemi aléatoire et #bounces1# ennemis supplémentaires</string>
+        <string lang="it">Concede #value1# danni a un nemico casuale e #bounces1# nemici aggiuntivi</string>
+        <string lang="de">Fügt einem zufälligen Feind #value1# Schaden zu und #bounces1# zusätzliche Feinde</string>
+        <string lang="es">Inflige #value1# de daño a un enemigo aleatorio y #bounces1# enemigos adicionales</string>
+        <string lang="pt">Dá #value1# dano a um inimigo aleatório e #bounces1# inimigos adicionais</string>
+    </ref>
+    <ref link="ability_damage_enemyteam_lifesteal_desc">
+        <string lang="en">Drain #value1# health from all enemies</string>
+        <string lang="fr">Ponctionne #value1# de santé à tous les ennemis</string>
+        <string lang="it">Sottrae #value1# di salute a tutti i nemici</string>
+        <string lang="de">Entzieht allen Feinden #value1# Gesundheit.</string>
+        <string lang="es">Drena #value1# puntos de salud de todos los enemigos.</string>
+        <string lang="pt">Drena #value1# de vida de todos os inimigos</string>
+    </ref>
+    <ref link="ability_heal_self_desc">
+        <string lang="en">Heals self for #value1#</string>
+        <string lang="fr">Se guérit pour #value1#</string>
+        <string lang="it">Cura il sé per #value1# anni</string>
+        <string lang="de">Heilt sich für #value1#</string>
+        <string lang="es">Cura a sí mismo por #value1#</string>
+        <string lang="pt">Cura-se por #value1#</string>
+    </ref>
+    <ref link="ability_heal_selfteam_desc">
+        <string lang="en">Heals teammates for #value1#</string>
+        <string lang="fr">Soigne les coéquipiers à hauteur de #value1#</string>
+        <string lang="it">Cura i compagni di #value1#</string>
+        <string lang="de">Heilt #value1# Trefferpunkte von Gruppenmitgliedern.</string>
+        <string lang="es">Cura a los compañeros de equipo por un valor de #value1#.</string>
+        <string lang="pt">Cura os aliados em #value1#</string>
+    </ref>
+    <ref link="ability_heal_selfteam_select_desc">
+        <string lang="en">Heals target teammate for #value1#</string>
+        <string lang="fr">Soigne le coéquipier visé à hauteur de #value1#</string>
+        <string lang="it">Cura il compagno bersaglio di #value1#</string>
+        <string lang="de">Heilt #value1# Trefferpunkte des Gruppenmitglieds, das als Ziel ausgewählt ist.</string>
+        <string lang="es">Cura al compañero de equipo objetivo por un valor de #value1#.</string>
+        <string lang="pt">Cura o aliado escolhido em #value1#</string>
+    </ref>
+    <ref link="ability_heal_selfteam_split_desc">
+        <string lang="en">Spread heal teammates for #value1#</string>
+        <string lang="fr">Prodigue des soins aux coéquipiers à hauteur de #value1#</string>
+        <string lang="it">Cura ad area i compagni di #value1#</string>
+        <string lang="de">Heilt #value1# Trefferpunkte von Gruppenmitgliedern per Spread-Heilung.</string>
+        <string lang="es">Extiende curación entre los compañeros de equipo por un valor de #value1#.</string>
+        <string lang="pt">Espalha #value1# de cura entre aliados</string>
+    </ref>
+    <ref link="ability_heal_selfteam_split_once_desc">
+        <string lang="en">Spread heal teammates for #value1#. Usable once per adventure.</string>
+        <string lang="fr">Prodigue des soins aux coéquipiers à hauteur de #value1#. Utilisable une fois par aventure.</string>
+        <string lang="it">Cura ad area i compagni di #value1#. Utilizzabile una volta per avventura.</string>
+        <string lang="de">Heilt #value1# Trefferpunkte von Gruppenmitgliedern per Spread-Heilung. Einmal pro Abenteuer verwendbar.</string>
+        <string lang="es">Extiende curación entre los compañeros de equipo por un valor de #value1#. Utilizable una vez por aventura.</string>
+        <string lang="pt">Espalha #value1# de cura entre aliados. Usável uma vez por aventura.</string>
+    </ref>
+    <ref link="ability_set_resurrect_desc">
+        <string lang="en">Resurrect a fallen teammate for #value1#. Usable once per adventure.</string>
+        <string lang="fr">Ressusciter un coéquipier tombé pour #value1#. Utilisable une fois par aventure.</string>
+        <string lang="it">Resurre un compagno di squadra caduto per #value1#. Utilizzabile una volta per avventura.</string>
+        <string lang="de">Rette einen gefallenen Teamkameraden für #value1#. Einmal pro Abenteuer verwendbar.</string>
+        <string lang="es">Resucita a un compañero de equipo caído por #value1#. Utilizable una vez por aventura.</string>
+        <string lang="pt">Ressuscitar um companheiro de equipe caído para #value1#. Usável uma vez por aventura.</string>
+    </ref>
+    
+    
+    <ref link="ability_player_empty_1_name">
+        <string lang="en">1-Bit Punch</string>
+        <string lang="fr">Coup de poing</string>
+        <string lang="it">Pugno a 1 bit</string>
+        <string lang="de">1-Bit-Punch</string>
+        <string lang="es">Puñetazo simple</string>
+        <string lang="pt">Soco de 1 Bit</string>
+    </ref>
+    <ref link="ability_player_sword_1_name">
+        <string lang="en">Slash</string>
+        <string lang="fr">Coup</string>
+        <string lang="it">Fendente</string>
+        <string lang="de">Schlitzen</string>
+        <string lang="es">Corte</string>
+        <string lang="pt">Corte</string>
+    </ref>
+    <ref link="ability_player_sword_2_name">
+        <string lang="en">Thrust</string>
+        <string lang="fr">Estocade</string>
+        <string lang="it">Stoccata</string>
+        <string lang="de">Hieb</string>
+        <string lang="es">Empujón</string>
+        <string lang="pt">Estocada</string>
+    </ref>
+    <ref link="ability_player_sword_3_name">
+        <string lang="en">Leap Attack</string>
+        <string lang="fr">Attaque bondissante</string>
+        <string lang="it">Attacco in balzo</string>
+        <string lang="de">Sprungangriff</string>
+        <string lang="es">Ataque con salto</string>
+        <string lang="pt">Ataque de Pulo</string>
+    </ref>
+    <ref link="ability_player_sword_4_name">
+        <string lang="en">Aerial Strike</string>
+        <string lang="fr">Frappe aérienne</string>
+        <string lang="it">Attacco in volo</string>
+        <string lang="de">Luftangriff</string>
+        <string lang="es">Golpe aéreo</string>
+        <string lang="pt">Golpe Aéreo</string>
+    </ref>
+    <ref link="ability_player_sword_5_name">
+        <string lang="en">Vampiric Touch</string>
+        <string lang="fr">Touche vampirique</string>
+        <string lang="it">Tocco vampirico</string>
+        <string lang="de">Vampirberührung</string>
+        <string lang="es">Toque vampírico</string>
+        <string lang="pt">Toque Vampírico</string>
+    </ref>
+    <ref link="ability_player_axe_1_name">
+        <string lang="en">Slash</string>
+        <string lang="fr">Coup</string>
+        <string lang="it">Fendente</string>
+        <string lang="de">Schlitzen</string>
+        <string lang="es">Corte</string>
+        <string lang="pt">Corte</string>
+    </ref>
+    <ref link="ability_player_axe_2_name">
+        <string lang="en">Aerial Assault</string>
+        <string lang="fr">Assaut aérien</string>
+        <string lang="it">Assalto in volo</string>
+        <string lang="de">Luftangriff</string>
+        <string lang="es">Asalto aéreo</string>
+        <string lang="pt">Ataque Aéreo</string>
+    </ref>
+    <ref link="ability_player_axe_3_name">
+        <string lang="en">Chop</string>
+        <string lang="fr">Coup de hache</string>
+        <string lang="it">Colpo di taglio</string>
+        <string lang="de">Hacken</string>
+        <string lang="es">Tajo</string>
+        <string lang="pt">Fatiar</string>
+    </ref>
+    <ref link="ability_player_axe_4_name">
+        <string lang="en">Dispatch</string>
+        <string lang="fr">Coup cinglant</string>
+        <string lang="it">Esecuzione</string>
+        <string lang="de">Erledigen</string>
+        <string lang="es">Polvorizado</string>
+        <string lang="pt">Despachar</string>
+    </ref>
+    <ref link="ability_player_axe_5_name">
+        <string lang="en">Vigor</string>
+        <string lang="fr">Vigueur</string>
+        <string lang="it">Vigore</string>
+        <string lang="de">Lebenskraft</string>
+        <string lang="es">Vigor</string>
+        <string lang="pt">Vigor</string>
+    </ref>
+    <ref link="ability_player_spear_1_name">
+        <string lang="en">Slash</string>
+        <string lang="fr">Coup</string>
+        <string lang="it">Fendente</string>
+        <string lang="de">Schlitzen</string>
+        <string lang="es">Corte</string>
+        <string lang="pt">Corte</string>
+    </ref>
+    <ref link="ability_player_spear_2_name">
+        <string lang="en">Skewer</string>
+        <string lang="fr">Embrochage</string>
+        <string lang="it">Trafiggi</string>
+        <string lang="de">Aufspießen</string>
+        <string lang="es">Pincho</string>
+        <string lang="pt">No Espeto</string>
+    </ref>
+    <ref link="ability_player_spear_3_name">
+        <string lang="en">Impale</string>
+        <string lang="fr">Empalement</string>
+        <string lang="it">Impala</string>
+        <string lang="de">Pfählen</string>
+        <string lang="es">Empalado</string>
+        <string lang="pt">Empalar</string>
+    </ref>
+    <ref link="ability_player_spear_4_name">
+        <string lang="en">Blitz</string>
+        <string lang="fr">Attaque éclair</string>
+        <string lang="it">Blitz</string>
+        <string lang="de">Blitz</string>
+        <string lang="es">Bombardeo</string>
+        <string lang="pt">Blitz</string>
+    </ref>
+    <ref link="ability_player_spear_5_name">
+        <string lang="en">Strike</string>
+        <string lang="fr">Frappe</string>
+        <string lang="it">Colpo</string>
+        <string lang="de">Schlag</string>
+        <string lang="es">Golpe</string>
+        <string lang="pt">Golpe comum</string>
+    </ref>
+    <ref link="ability_player_bow_1_name">
+        <string lang="en">Impact</string>
+        <string lang="fr">Impact</string>
+        <string lang="it">Impatto</string>
+        <string lang="de">Einschlag</string>
+        <string lang="es">Impacto</string>
+        <string lang="pt">Impacto</string>
+    </ref>
+    <ref link="ability_player_bow_2_name">
+        <string lang="en">Bullseye</string>
+        <string lang="fr">Tir dans le mille</string>
+        <string lang="it">Centro perfetto</string>
+        <string lang="de">Volltreffer</string>
+        <string lang="es">Diana</string>
+        <string lang="pt">Na Mira</string>
+    </ref>
+    <ref link="ability_player_bow_3_name">
+        <string lang="en">True Shot</string>
+        <string lang="fr">Tir infaillible</string>
+        <string lang="it">Colpo sicuro</string>
+        <string lang="de">Zielsicher</string>
+        <string lang="es">Tiro certero</string>
+        <string lang="pt">Tiro Perfeito</string>
+    </ref>
+    <ref link="ability_player_bow_4_name">
+        <string lang="en">Snipe</string>
+        <string lang="fr">Tir de précision</string>
+        <string lang="it">Tiro a distanza</string>
+        <string lang="de">Scharfschütze</string>
+        <string lang="es">Disparo</string>
+        <string lang="pt">Tiro de Elite</string>
+    </ref>
+    <ref link="ability_player_bow_5_name">
+        <string lang="en">Draining Shot</string>
+        <string lang="fr">Tir de ponction</string>
+        <string lang="it">Colpo rubavita</string>
+        <string lang="de">Entziehender Schuss</string>
+        <string lang="es">Tiro de drenaje</string>
+        <string lang="pt">Tiro Sugador</string>
+    </ref>
+    <ref link="ability_player_crossbow_1_name">
+        <string lang="en">Impact</string>
+        <string lang="fr">Impact</string>
+        <string lang="it">Impatto</string>
+        <string lang="de">Einschlag</string>
+        <string lang="es">Impacto</string>
+        <string lang="pt">Impacto</string>
+    </ref>
+    <ref link="ability_player_crossbow_2_name">
+        <string lang="en">Bullseye</string>
+        <string lang="fr">Tir dans le mille</string>
+        <string lang="it">Centro perfetto</string>
+        <string lang="de">Volltreffer</string>
+        <string lang="es">Diana</string>
+        <string lang="pt">Na Mira</string>
+    </ref>
+    <ref link="ability_player_crossbow_3_name">
+        <string lang="en">True Shot</string>
+        <string lang="fr">Tir infaillible</string>
+        <string lang="it">Colpo sicuro</string>
+        <string lang="de">Zielsicher</string>
+        <string lang="es">Tiro certero</string>
+        <string lang="pt">Tiro Perfeito</string>
+    </ref>
+    <ref link="ability_player_crossbow_4_name">
+        <string lang="en">Snipe</string>
+        <string lang="fr">Tir de précision</string>
+        <string lang="it">Tiro a distanza</string>
+        <string lang="de">Scharfschütze</string>
+        <string lang="es">Disparo</string>
+        <string lang="pt">Tiro de Elite</string>
+    </ref>
+    <ref link="ability_player_crossbow_5_name">
+        <string lang="en">Draining Shot</string>
+        <string lang="fr">Tir de ponction</string>
+        <string lang="it">Colpo rubavita</string>
+        <string lang="de">Entziehender Schuss</string>
+        <string lang="es">Tiro de drenaje</string>
+        <string lang="pt">Tiro Sugador</string>
+    </ref>
+    <ref link="ability_player_staff_1_name">
+        <string lang="en">Fireball</string>
+        <string lang="fr">Boule de feu</string>
+        <string lang="it">Palla di fuoco</string>
+        <string lang="de">Feuerball</string>
+        <string lang="es">Bola de fuego</string>
+        <string lang="pt">Bola de Fogo</string>
+    </ref>
+    <ref link="ability_player_staff_2_name">
+        <string lang="en">Eruption</string>
+        <string lang="fr">Éruption</string>
+        <string lang="it">Eruzione</string>
+        <string lang="de">Eruption</string>
+        <string lang="es">Erupción</string>
+        <string lang="pt">Erupção</string>
+    </ref>
+    <ref link="ability_player_staff_3_name">
+        <string lang="en">Rejuvinate</string>
+        <string lang="fr">Jouvence</string>
+        <string lang="it">Rinnovamento</string>
+        <string lang="de">Verjüngen</string>
+        <string lang="es">Rejuvenecimiento</string>
+        <string lang="pt">Rejuvenescimento</string>
+    </ref>
+    <ref link="ability_player_staff_4_name">
+        <string lang="en">Fire Storm</string>
+        <string lang="fr">Déluge de feu</string>
+        <string lang="it">Tempesta di fuoco</string>
+        <string lang="de">Feuersturm</string>
+        <string lang="es">Tormenta de fuego</string>
+        <string lang="pt">Tempestade de Fogo</string>
+    </ref>
+    <ref link="ability_player_staff_5_name">
+        <string lang="en">Flamestrike</string>
+        <string lang="fr">Frappe enflammée</string>
+        <string lang="it">Vampa</string>
+        <string lang="de">Flammenhieb</string>
+        <string lang="es">Golpe llameante</string>
+        <string lang="pt">Abalo Flamejante</string>
+    </ref>
+    
+    
+    
+    <ref link="ability_player_lasergun_1_name">
+        <string lang="en">Photon Blast</string>
+    </ref>
+    <ref link="ability_player_lasergun_2_name">
+        <string lang="en">Charge Shot</string>
+    </ref>
+    <ref link="ability_player_lasergun_3_name">
+        <string lang="en">Gigawat Beam</string>
+    </ref>
+    <ref link="ability_player_lasergun_4_name">
+        <string lang="en">Megabit Discharge</string>
+    </ref>
+    <ref link="ability_player_lasergun_5_name">
+        <string lang="en">Emp Pulse</string>
+    </ref>
+    
+    
+    
+    <ref link="ability_set_unity_1_name">
+        <string lang="en">Unity</string>
+        <string lang="fr">Unité</string>
+        <string lang="it">Unione</string>
+        <string lang="de">Einheit</string>
+        <string lang="es">Unidad</string>
+        <string lang="pt">Unidade</string>
+    </ref>
+    <ref link="ability_set_resurrect_1_name">
+        <string lang="en">Defibrillator</string>
+        <string lang="fr">Défibrillateur</string>
+        <string lang="it">Defibrillatore</string>
+        <string lang="de">Defibrillator</string>
+        <string lang="es">Desfibrilador</string>
+        <string lang="pt">Desfibrilador</string>
+    </ref>
+    <ref link="ability_npc_basic_melee_name">
+        <string lang="en">Attack</string>
+        <string lang="fr">Attaque</string>
+        <string lang="it">Attacco</string>
+        <string lang="de">Angriff</string>
+        <string lang="es">Ataque</string>
+        <string lang="pt">Ataque</string>
+    </ref>
+    <ref link="ability_npc_basic_arrow_name">
+        <string lang="en">Impact</string>
+        <string lang="fr">Impact</string>
+        <string lang="it">Impatto</string>
+        <string lang="de">Einschlag</string>
+        <string lang="es">Impacto</string>
+        <string lang="pt">Impacto</string>
+    </ref>
+    <ref link="ability_npc_goblin_1_name">
+        <string lang="en">Scratch</string>
+        <string lang="fr">Griffure</string>
+        <string lang="it">Graffio</string>
+        <string lang="de">Kratzen</string>
+        <string lang="es">Rasgón</string>
+        <string lang="pt">Arranhão</string>
+    </ref>
+    <ref link="ability_npc_goblin_2_name">
+        <string lang="en">Healing Light</string>
+        <string lang="fr">Lumière cicatrisante</string>
+        <string lang="it">Luce curativa</string>
+        <string lang="de">Heilendes Licht</string>
+        <string lang="es">Luz sanadora</string>
+        <string lang="pt">Luz Curandeira</string>
+    </ref>
+    <ref link="ability_npc_goblin_3_name">
+        <string lang="en">Target</string>
+        <string lang="fr">Cible</string>
+        <string lang="it">Bersaglio</string>
+        <string lang="de">Ziel</string>
+        <string lang="es">Objetivo</string>
+        <string lang="pt">Alvo</string>
+    </ref>
+    <ref link="ability_npc_goblin_4_name">
+        <string lang="en">Fire Blast</string>
+        <string lang="fr">Explosion de feu</string>
+        <string lang="it">Fiammata</string>
+        <string lang="de">Feuerexplosion</string>
+        <string lang="es">Explosión de fuego</string>
+        <string lang="pt">Explosão de Fogo</string>
+    </ref>
+    <ref link="ability_npc_ogre_1_name">
+        <string lang="en">Rage</string>
+        <string lang="fr">Rage</string>
+        <string lang="it">Furia</string>
+        <string lang="de">Zorn</string>
+        <string lang="es">Ira</string>
+        <string lang="pt">Raiva</string>
+    </ref>
+    <ref link="ability_npc_ogre_2_name">
+        <string lang="en">Isolate</string>
+        <string lang="fr">Isolement</string>
+        <string lang="it">Isola</string>
+        <string lang="de">Isolieren</string>
+        <string lang="es">Confinamiento</string>
+        <string lang="pt">Isolamento</string>
+    </ref>
+    <ref link="ability_npc_elfghost_1_name">
+        <string lang="en">Cleanse</string>
+        <string lang="fr">Purification</string>
+        <string lang="it">Purifica</string>
+        <string lang="de">Säubern</string>
+        <string lang="es">Limpieza</string>
+        <string lang="pt">Purificação</string>
+    </ref>
+    <ref link="ability_npc_bat_1_name">
+        <string lang="en">Feast</string>
+        <string lang="fr">Festin</string>
+        <string lang="it">Banchetto</string>
+        <string lang="de">Festmahl</string>
+        <string lang="es">Festín</string>
+        <string lang="pt">Banquete</string>
+    </ref>
+    <ref link="ability_npc_grimreaper_1_name">
+        <string lang="en">Death Stare</string>
+        <string lang="fr">Regard de la mort</string>
+        <string lang="it">Sguardo mortale</string>
+        <string lang="de">Todesblick</string>
+        <string lang="es">Mirada mortal</string>
+        <string lang="pt">Olhar Mortífero</string>
+    </ref>
+    <ref link="ability_npc_grimreaper_2_name">
+        <string lang="en">Death Touch</string>
+        <string lang="fr">Contact de la mort</string>
+        <string lang="it">Tocco mortale</string>
+        <string lang="de">Todeshand</string>
+        <string lang="es">Toque mortal</string>
+        <string lang="pt">Toque Mortífero</string>
+    </ref>
+    <ref link="ability_npc_grimreaper_3_name">
+        <string lang="en">Scythe Swipe</string>
+        <string lang="fr">Fauchage</string>
+        <string lang="it">Cala la falce</string>
+        <string lang="de">Sensenschwung</string>
+        <string lang="es">Golpe de guadaña</string>
+        <string lang="pt">Arrastão de Foice</string>
+    </ref>
+    <ref link="ability_npc_tree_1_name">
+        <string lang="en">Paper Cut</string>
+        <string lang="fr">Découpage</string>
+        <string lang="it">Taglietto</string>
+        <string lang="de">Papierschnitt</string>
+        <string lang="es">Corte de papel</string>
+        <string lang="pt">Corte de Papel</string>
+    </ref>
+    <ref link="ability_npc_mushroom_1_name">
+        <string lang="en">Gamble</string>
+        <string lang="fr">Pari</string>
+        <string lang="it">Sorte</string>
+        <string lang="de">Glücksspiel</string>
+        <string lang="es">Apuesta</string>
+        <string lang="pt">Aposta</string>
+    </ref>
+    <ref link="ability_npc_mushroom_2_name">
+        <string lang="en">Shrump Bump</string>
+        <string lang="fr">Choc de Shrump</string>
+        <string lang="it">Bum bum Shrump</string>
+        <string lang="de">Shrump-Angriff</string>
+        <string lang="es">Golpe de Shrump</string>
+        <string lang="pt">Pancada do Shrump</string>
+    </ref>
+    <ref link="ability_npc_slime_1_name">
+        <string lang="en">Slimed</string>
+        <string lang="fr">Contact visqueux</string>
+        <string lang="it">Slime</string>
+        <string lang="de">Schleimer</string>
+        <string lang="es">Babosa</string>
+        <string lang="pt">Gosmento</string>
+    </ref>
+    <ref link="ability_npc_slime_2_name">
+        <string lang="en">Bob Bait</string>
+        <string lang="fr">Bob l'appât</string>
+        <string lang="it">Esca</string>
+        <string lang="de">Bob-Köder</string>
+        <string lang="es">Bob el Cebo</string>
+        <string lang="pt">Isca do Bob</string>
+    </ref>
+    <ref link="ability_npc_forestking_1_name">
+        <string lang="en">Leaf Swarm</string>
+        <string lang="fr">Nuée de feuilles</string>
+        <string lang="it">Sciame di foglie</string>
+        <string lang="de">Blattschwarm</string>
+        <string lang="es">Hojarasca</string>
+        <string lang="pt">Enxame de Folhas</string>
+    </ref>
+    <ref link="ability_npc_forestking_2_name">
+        <string lang="en">Heal</string>
+        <string lang="fr">Guérison</string>
+        <string lang="it">Cura</string>
+        <string lang="de">Heilen</string>
+        <string lang="es">Curación</string>
+        <string lang="pt">Cura</string>
+    </ref>
+    <ref link="ability_npc_forestking_3_name">
+        <string lang="en">Vine Barrage</string>
+        <string lang="fr">Barrage de plantes grimpantes</string>
+        <string lang="it">Bordata di liane</string>
+        <string lang="de">Efeu-Feuer</string>
+        <string lang="es">Cortina de parra</string>
+        <string lang="pt">Paredão de Videiras</string>
+    </ref>
+    <ref link="ability_npc_skeleton_1_name">
+        <string lang="en">Bone Smack</string>
+        <string lang="fr">Gifle osseuse</string>
+        <string lang="it">Osso-schiaffo</string>
+        <string lang="de">Knochenkracher</string>
+        <string lang="es">Cachete óseo</string>
+        <string lang="pt">Batida Óssea</string>
+    </ref>
+    <ref link="ability_npc_elfgoblin_1_name">
+        <string lang="en">Straight Shot</string>
+        <string lang="fr">Tir direct</string>
+        <string lang="it">Colpo secco</string>
+        <string lang="de">Gerader Schuss</string>
+        <string lang="es">Tiro directo</string>
+        <string lang="pt">Tiro Certeiro</string>
+    </ref>
+    <ref link="ability_npc_elfwizard_1_name">
+        <string lang="en">Fire Storm</string>
+        <string lang="fr">Déluge de feu</string>
+        <string lang="it">Tempesta di fuoco</string>
+        <string lang="de">Feuersturm</string>
+        <string lang="es">Tormenta de fuego</string>
+        <string lang="pt">Tempestade de Fogo</string>
+    </ref>
+    <ref link="ability_npc_elfwizard_2_name">
+        <string lang="en">Recharge</string>
+        <string lang="fr">Rechargement</string>
+        <string lang="it">Ricarica</string>
+        <string lang="de">Aufladen</string>
+        <string lang="es">Recarga</string>
+        <string lang="pt">Recarregar</string>
+    </ref>
+    <ref link="ability_npc_elfking_1_name">
+        <string lang="en">Quick Shot</string>
+        <string lang="fr">Tir rapide</string>
+        <string lang="it">Colpo rapido</string>
+        <string lang="de">Schneller Schuss</string>
+        <string lang="es">Tiro rápido</string>
+        <string lang="pt">Tiro Rápido</string>
+    </ref>
+    <ref link="ability_npc_elfking_2_name">
+        <string lang="en">Royal Decree</string>
+        <string lang="fr">Décret royal</string>
+        <string lang="it">Regio decreto</string>
+        <string lang="de">Königliches Dekret</string>
+        <string lang="es">Decreto real</string>
+        <string lang="pt">Decreto Real</string>
+    </ref>
+    <ref link="ability_npc_elfking_3_name">
+        <string lang="en">King's Rage</string>
+        <string lang="fr">Rage du roi</string>
+        <string lang="it">Furia del Re</string>
+        <string lang="de">Königlicher Zorn</string>
+        <string lang="es">Ira del rey</string>
+        <string lang="pt">Raiva do Rei</string>
+    </ref>
+    <ref link="ability_npc_snowtree_1_name">
+        <string lang="en">Snow Impact</string>
+        <string lang="fr">Impact de neige</string>
+        <string lang="it">Colpo di neve</string>
+        <string lang="de">Schneeball</string>
+        <string lang="es">Impacto de nieve</string>
+        <string lang="pt">Impacto da Neve</string>
+    </ref>
+    <ref link="ability_npc_penguin_1_name">
+        <string lang="en">Snow Barrage</string>
+        <string lang="fr">Barrage de neige</string>
+        <string lang="it">Bordata di neve</string>
+        <string lang="de">Schneesturm</string>
+        <string lang="es">Cortina de nieve</string>
+        <string lang="pt">Barragem de Neve</string>
+    </ref>
+    <ref link="ability_npc_penguin_2_name">
+        <string lang="en">Cold Heal</string>
+        <string lang="fr">Froide guérison</string>
+        <string lang="it">Cura gelida</string>
+        <string lang="de">Kalte Heilung</string>
+        <string lang="es">Sanación gélida</string>
+        <string lang="pt">Cura a Frio</string>
+    </ref>
+    <ref link="ability_npc_snowturkey_1_name">
+        <string lang="en">Rake</string>
+        <string lang="fr">Ratissage</string>
+        <string lang="it">Infilza</string>
+        <string lang="de">Rechen</string>
+        <string lang="es">Arañar</string>
+        <string lang="pt">Garfar</string>
+    </ref>
+    <ref link="ability_npc_snowturkey_2_name">
+        <string lang="en">Gobble</string>
+        <string lang="fr">Glouglou</string>
+        <string lang="it">Gobble</string>
+        <string lang="de">Kollern</string>
+        <string lang="es">Glup</string>
+        <string lang="pt">Gluglu</string>
+    </ref>
+    <ref link="ability_npc_snowbeast_1_name">
+        <string lang="en">Slam</string>
+        <string lang="fr">Placage</string>
+        <string lang="it">Schianto</string>
+        <string lang="de">Kracher</string>
+        <string lang="es">Choque</string>
+        <string lang="pt">Pancada</string>
+    </ref>
+    <ref link="ability_npc_snowbeast_2_name">
+        <string lang="en">Feast</string>
+        <string lang="fr">Festin</string>
+        <string lang="it">Banchetto</string>
+        <string lang="de">Festmahl</string>
+        <string lang="es">Festín</string>
+        <string lang="pt">Banquete</string>
+    </ref>
+    <ref link="ability_npc_snowbeast_3_name">
+        <string lang="en">Gnaw</string>
+        <string lang="fr">Rongement</string>
+        <string lang="it">Rosicchia</string>
+        <string lang="de">Nagen</string>
+        <string lang="es">Roer</string>
+        <string lang="pt">Roer</string>
+    </ref>
+    <ref link="ability_npc_toxicgramps_1_name">
+        <string lang="en">Cane Smack</string>
+        <string lang="fr">Coup de bâton</string>
+        <string lang="it">Bastonata</string>
+        <string lang="de">Stockschlag</string>
+        <string lang="es">Golpe de caña</string>
+        <string lang="pt">Batida de Bengala</string>
+    </ref>
+    <ref link="ability_npc_toxicgramps_2_name">
+        <string lang="en">Health Stomp</string>
+        <string lang="fr">Piétinement de santé</string>
+        <string lang="it">Pestone curativo</string>
+        <string lang="de">Heilungsstampfer</string>
+        <string lang="es">Pisotón de salud</string>
+        <string lang="pt">Esmaga-vida</string>
+    </ref>
+    <ref link="ability_npc_toxicslug_1_name">
+        <string lang="en">Blight</string>
+        <string lang="fr">Rouille</string>
+        <string lang="it">Pestilenza</string>
+        <string lang="de">Pest</string>
+        <string lang="es">Desgracia</string>
+        <string lang="pt">Praga</string>
+    </ref>
+    <ref link="ability_npc_toxicslime_1_name">
+        <string lang="en">Toxic Sludge</string>
+        <string lang="fr">Boue toxique</string>
+        <string lang="it">Fanghi tossici</string>
+        <string lang="de">Giftschleim</string>
+        <string lang="es">Fango tóxico</string>
+        <string lang="pt">Lama Tóxica</string>
+    </ref>
+    <ref link="ability_npc_toxicbeast_1_name">
+        <string lang="en">Infect</string>
+        <string lang="fr">Infect</string>
+        <string lang="it">Infezione</string>
+        <string lang="de">Infizieren</string>
+        <string lang="es">Infección</string>
+        <string lang="pt">Infecção</string>
+    </ref>
+    <ref link="ability_npc_toxicbeast_2_name">
+        <string lang="en">Ooze</string>
+        <string lang="fr">Exsudat</string>
+        <string lang="it">Liquame</string>
+        <string lang="de">Eiter</string>
+        <string lang="es">Flujo</string>
+        <string lang="pt">Chorume</string>
+    </ref>
+    <ref link="ability_npc_toxicbeast_3_name">
+        <string lang="en">Putrefy</string>
+        <string lang="fr">Putréfaction</string>
+        <string lang="it">Putrefazione</string>
+        <string lang="de">Fäulnis</string>
+        <string lang="es">Putrefacción</string>
+        <string lang="pt">Putrefazer</string>
+    </ref>
+    <ref link="ability_npc_orcwarrior_1_name">
+        <string lang="en">Bromm Smash</string>
+        <string lang="fr">Frappe de Bromm</string>
+        <string lang="it">Bromm spacca</string>
+        <string lang="de">Bromm-Kracher</string>
+        <string lang="es">Mamporro de Bromm</string>
+        <string lang="pt">Esmagamento do Bromm</string>
+    </ref>
+    <ref link="ability_npc_orcarcher_1_name">
+        <string lang="en">Precision Shot</string>
+        <string lang="fr">Tir de précision</string>
+        <string lang="it">Colpo di precisione</string>
+        <string lang="de">Präzisionsschuss</string>
+        <string lang="es">Tiro preciso</string>
+        <string lang="pt">Tiro de Precisão</string>
+    </ref>
+    <ref link="ability_npc_orcshaman_1_name">
+        <string lang="en">Orb Toss</string>
+        <string lang="fr">Lancer d'orbe</string>
+        <string lang="it">Lancia sfera</string>
+        <string lang="de">Kugelwurf</string>
+        <string lang="es">Lanzaesferas</string>
+        <string lang="pt">Arremesso de Orbe</string>
+    </ref>
+    <ref link="ability_npc_orcshaman_2_name">
+        <string lang="en">Heal</string>
+        <string lang="fr">Guérison</string>
+        <string lang="it">Cura</string>
+        <string lang="de">Heilen</string>
+        <string lang="es">Curación</string>
+        <string lang="pt">Cura</string>
+    </ref>
+    <ref link="ability_npc_golem_1_name">
+        <string lang="en">Quick Punch</string>
+        <string lang="fr">Coup de poing éclair</string>
+        <string lang="it">Pugno rapido</string>
+        <string lang="de">Schneller Schlag</string>
+        <string lang="es">Puñetazo veloz</string>
+        <string lang="pt">Soco Rápido</string>
+    </ref>
+    <ref link="ability_npc_golem_2_name">
+        <string lang="en">Flex</string>
+        <string lang="fr">Flexion</string>
+        <string lang="it">Bicipiti</string>
+        <string lang="de">Flex</string>
+        <string lang="es">Flexión</string>
+        <string lang="pt">Musculatura</string>
+    </ref>
+    <ref link="ability_npc_golem_3_name">
+        <string lang="en">Fury</string>
+        <string lang="fr">Fureur</string>
+        <string lang="it">Furia</string>
+        <string lang="de">Zorn</string>
+        <string lang="es">Furia</string>
+        <string lang="pt">Fúria</string>
+    </ref>
+    <ref link="ability_npc_sanddino_1_name">
+        <string lang="en">Bite</string>
+        <string lang="fr">Morsure</string>
+        <string lang="it">Morso</string>
+        <string lang="de">Beißen</string>
+        <string lang="es">Bocado</string>
+        <string lang="pt">Mordida</string>
+    </ref>
+    <ref link="ability_npc_sanddino_2_name">
+        <string lang="en">Jump</string>
+        <string lang="fr">Saut</string>
+        <string lang="it">Salto</string>
+        <string lang="de">Sprung</string>
+        <string lang="es">Salto</string>
+        <string lang="pt">Saltar</string>
+    </ref>
+    <ref link="ability_npc_sandscorpion_1_name">
+        <string lang="en">Life Steal</string>
+        <string lang="fr">Vol de vie</string>
+        <string lang="it">Rubavita</string>
+        <string lang="de">Lebensraub</string>
+        <string lang="es">Robavidas</string>
+        <string lang="pt">Furta-vida</string>
+    </ref>
+    <ref link="ability_npc_sandsnake_1_name">
+        <string lang="en">Nourish</string>
+        <string lang="fr">Nourrissage</string>
+        <string lang="it">Nutrimento</string>
+        <string lang="de">Nähren</string>
+        <string lang="es">Sustento</string>
+        <string lang="pt">Bem-nutrido</string>
+    </ref>
+    <ref link="ability_npc_sandworm_1_name">
+        <string lang="en">Rip</string>
+        <string lang="fr">Déchiquetage</string>
+        <string lang="it">Strappo</string>
+        <string lang="de">Reißen</string>
+        <string lang="es">Desgarrar</string>
+        <string lang="pt">Rasgo</string>
+    </ref>
+    <ref link="ability_npc_sandworm_2_name">
+        <string lang="en">Harvest</string>
+        <string lang="fr">Récolte</string>
+        <string lang="it">Mietitura</string>
+        <string lang="de">Ernte</string>
+        <string lang="es">Cosecha</string>
+        <string lang="pt">Colheita</string>
+    </ref>
+    <ref link="ability_npc_sandworm_3_name">
+        <string lang="en">Mangle</string>
+        <string lang="fr">Broyage</string>
+        <string lang="it">Stritola</string>
+        <string lang="de">Quetschen</string>
+        <string lang="es">Rodillo</string>
+        <string lang="pt">Mutilação</string>
+    </ref>
+    <ref link="ability_npc_skinman_1_name">
+        <string lang="en">Barf</string>
+        <string lang="fr">Vomissure</string>
+        <string lang="it">Vomito</string>
+        <string lang="de">Spucken</string>
+        <string lang="es">Pota</string>
+        <string lang="pt">Golfada</string>
+    </ref>
+    <ref link="ability_npc_tiki_1_name">
+        <string lang="en">Flame Toss</string>
+        <string lang="fr">Lancer de flammes</string>
+        <string lang="it">Lancia fiamma</string>
+        <string lang="de">Flammenwurf</string>
+        <string lang="es">Lanzallamas</string>
+        <string lang="pt">Arremesso de Chamas</string>
+    </ref>
+    <ref link="ability_npc_tiki_2_name">
+        <string lang="en">Health Beam</string>
+        <string lang="fr">Faisceau de santé</string>
+        <string lang="it">Raggio curativo</string>
+        <string lang="de">Heilungsstrahl</string>
+        <string lang="es">Rayo de salud</string>
+        <string lang="pt">Raio de Vida</string>
+    </ref>
+    <ref link="ability_npc_melvins_1_name">
+        <string lang="en">Body Slam</string>
+        <string lang="fr">Placage corporel</string>
+        <string lang="it">Schiacciata</string>
+        <string lang="de">Bodenwurf</string>
+        <string lang="es">Golpe corporal</string>
+        <string lang="pt">Jogo de Corpo</string>
+    </ref>
+    <ref link="ability_npc_melvins_2_name">
+        <string lang="en">Leech</string>
+        <string lang="fr">Sangsue</string>
+        <string lang="it">Sanguisuga</string>
+        <string lang="de">Absaugen</string>
+        <string lang="es">Sanguijuela</string>
+        <string lang="pt">Sanguessuga</string>
+    </ref>
+    <ref link="ability_npc_demoncrab_1_name">
+        <string lang="en">Strike</string>
+        <string lang="fr">Frappe</string>
+        <string lang="it">Colpo</string>
+        <string lang="de">Schlag</string>
+        <string lang="es">Golpe</string>
+        <string lang="pt">Golpe comum</string>
+    </ref>
+    <ref link="ability_npc_demoncrab_2_name">
+        <string lang="en">Sap</string>
+        <string lang="fr">Extraction de sève</string>
+        <string lang="it">Prosciuga</string>
+        <string lang="de">Knüppeln</string>
+        <string lang="es">Debilidad</string>
+        <string lang="pt">Sugar</string>
+    </ref>
+    <ref link="ability_npc_demoncrab_3_name">
+        <string lang="en">Pounce</string>
+        <string lang="fr">Bond</string>
+        <string lang="it">Balzo</string>
+        <string lang="de">Anspringen</string>
+        <string lang="es">Abalanzado</string>
+        <string lang="pt">Pinote</string>
+    </ref>
+    <ref link="ability_npc_skeletonknight_1_name">
+        <string lang="en">Swing</string>
+        <string lang="fr">Balancement</string>
+        <string lang="it">Sciabolata</string>
+        <string lang="de">Schwingen</string>
+        <string lang="es">Giratorio</string>
+        <string lang="pt">Guinada</string>
+    </ref>
+    <ref link="ability_npc_skeletonknight_2_name">
+        <string lang="en">Maim</string>
+        <string lang="fr">Mutilation</string>
+        <string lang="it">Mutilazione</string>
+        <string lang="de">Verstümmeln</string>
+        <string lang="es">Mutilación</string>
+        <string lang="pt">Aleijar</string>
+    </ref>
+    <ref link="ability_npc_skeletonwarrior_1_name">
+        <string lang="en">Assault</string>
+        <string lang="fr">Assaut</string>
+        <string lang="it">Assalto</string>
+        <string lang="de">Angriff</string>
+        <string lang="es">Asalto</string>
+        <string lang="pt">Ataque</string>
+    </ref>
+    <ref link="ability_npc_skeletonarcher_1_name">
+        <string lang="en">Pierce</string>
+        <string lang="fr">Transpercement</string>
+        <string lang="it">Trapassa</string>
+        <string lang="de">Durchbohren</string>
+        <string lang="es">Perforación</string>
+        <string lang="pt">Perfurar</string>
+    </ref>
+    <ref link="ability_npc_skeletonmystic_1_name">
+        <string lang="en">Magic Strike</string>
+        <string lang="fr">Frappe magique</string>
+        <string lang="it">Attacco magico</string>
+        <string lang="de">Zauberangriff</string>
+        <string lang="es">Golpe mágico</string>
+        <string lang="pt">Golpe Mágico</string>
+    </ref>
+    <ref link="ability_npc_skeletonmystic_2_name">
+        <string lang="en">Regenerate</string>
+        <string lang="fr">Régénération</string>
+        <string lang="it">Rigenerazione</string>
+        <string lang="de">Regenerieren</string>
+        <string lang="es">Regeneración</string>
+        <string lang="pt">Regeneração</string>
+    </ref>
+    <ref link="ability_npc_skeletonmystic_3_name">
+        <string lang="en">Bloodlust</string>
+        <string lang="fr">Soif de sang</string>
+        <string lang="it">Sete di sangue</string>
+        <string lang="de">Blutlust</string>
+        <string lang="es">Sed de sangre</string>
+        <string lang="pt">Sangue Fervendo</string>
+    </ref>
+    <ref link="ability_npc_darkgoblin_1_name">
+        <string lang="en">Pounce</string>
+        <string lang="fr">Bond</string>
+        <string lang="it">Balzo</string>
+        <string lang="de">Anspringen</string>
+        <string lang="es">Abalanzado</string>
+        <string lang="pt">Pinote</string>
+    </ref>
+    <ref link="ability_npc_darkgoblin_2_name">
+        <string lang="en">Vampiric Touch</string>
+        <string lang="fr">Touche vampirique</string>
+        <string lang="it">Tocco vampirico</string>
+        <string lang="de">Vampirberührung</string>
+        <string lang="es">Toque vampírico</string>
+        <string lang="pt">Toque Vampírico</string>
+    </ref>
+    <ref link="ability_npc_darkgoblin_3_name">
+        <string lang="en">Warm Heal</string>
+        <string lang="fr">Chaude guérison</string>
+        <string lang="it">Cura calda</string>
+        <string lang="de">Warme Heilung</string>
+        <string lang="es">Sanación cálida</string>
+        <string lang="pt">Cura Morna</string>
+    </ref>
+    <ref link="ability_npc_darkgoblin_4_name">
+        <string lang="en">Wombo</string>
+    </ref>
+    <ref link="ability_npc_darkwarrior_1_name">
+        <string lang="en">Soul Steal</string>
+        <string lang="fr">Vol d'âme</string>
+        <string lang="it">Ruba anima</string>
+        <string lang="de">Seelenraub</string>
+        <string lang="es">Robaalmas</string>
+        <string lang="pt">Furt'alma</string>
+    </ref>
+    <ref link="ability_npc_darkwarrior_2_name">
+        <string lang="en">Crush</string>
+        <string lang="fr">Écrasement</string>
+        <string lang="it">Morsa</string>
+        <string lang="de">Zertrümmern</string>
+        <string lang="es">Aplastamiento</string>
+        <string lang="pt">Esmagamento</string>
+    </ref>
+    <ref link="ability_npc_darkwarrior_3_name">
+        <string lang="en">Strike</string>
+        <string lang="fr">Frappe</string>
+        <string lang="it">Colpo</string>
+        <string lang="de">Schlag</string>
+        <string lang="es">Golpe</string>
+        <string lang="pt">Golpe comum</string>
+    </ref>
+    <ref link="ability_npc_darkarcher_1_name">
+        <string lang="en">Eruption</string>
+        <string lang="fr">Éruption</string>
+        <string lang="it">Eruzione</string>
+        <string lang="de">Eruption</string>
+        <string lang="es">Erupción</string>
+        <string lang="pt">Erupção</string>
+    </ref>
+    <ref link="ability_npc_darkarcher_2_name">
+        <string lang="en">Pinpoint</string>
+        <string lang="fr">Localisation</string>
+        <string lang="it">Alta precisione</string>
+        <string lang="de">Präzisionsschuss</string>
+        <string lang="es">Señal</string>
+        <string lang="pt">Alfinetada</string>
+    </ref>
+    <ref link="ability_npc_darkarcher_3_name">
+        <string lang="en">Dark Pact</string>
+        <string lang="fr">Pacte noir</string>
+        <string lang="it">Patto oscuro</string>
+        <string lang="de">Dunkler Pakt</string>
+        <string lang="es">Pacto oscuro</string>
+        <string lang="pt">Pacto das Trevas</string>
+    </ref>
+    <ref link="ability_npc_darkwizard_1_name">
+        <string lang="en">Vivification</string>
+        <string lang="fr">Vivification</string>
+        <string lang="it">Reviviscenza</string>
+        <string lang="de">Belebung</string>
+        <string lang="es">Vivificación</string>
+        <string lang="pt">Vivificação</string>
+    </ref>
+    <ref link="ability_npc_darkwizard_2_name">
+        <string lang="en">Flame Burst</string>
+        <string lang="fr">Embrasement</string>
+        <string lang="it">Getto di fiamme</string>
+        <string lang="de">Flammenschwall</string>
+        <string lang="es">Explosión de llamas</string>
+        <string lang="pt">Rajada Flamejante</string>
+    </ref>
+    <ref link="ability_npc_darkwizard_3_name">
+        <string lang="en">Immolation</string>
+        <string lang="fr">Immolation</string>
+        <string lang="it">Rogo</string>
+        <string lang="de">Opfer</string>
+        <string lang="es">Inmolación</string>
+        <string lang="pt">Imolação</string>
+    </ref>
+    <ref link="ability_npc_darkking_1_name">
+        <string lang="en">Death Touch</string>
+        <string lang="fr">Contact de la mort</string>
+        <string lang="it">Tocco mortale</string>
+        <string lang="de">Todeshand</string>
+        <string lang="es">Toque mortal</string>
+        <string lang="pt">Toque Mortífero</string>
+    </ref>
+    <ref link="ability_npc_darkking_2_name">
+        <string lang="en">Harvest</string>
+        <string lang="fr">Récolte</string>
+        <string lang="it">Mietitura</string>
+        <string lang="de">Ernte</string>
+        <string lang="es">Cosecha</string>
+        <string lang="pt">Colheita</string>
+    </ref>
+    <ref link="ability_npc_darkking_3_name">
+        <string lang="en">Eliminate</string>
+        <string lang="fr">Élimination</string>
+        <string lang="it">Eliminazione</string>
+        <string lang="de">Eliminieren</string>
+        <string lang="es">Eliminación</string>
+        <string lang="pt">Eliminação</string>
+    </ref>
+    <ref link="ability_npc_darkking_4_name">
+        <string lang="en">Cleave</string>
+        <string lang="fr">Clivage</string>
+        <string lang="it">Sgualembro</string>
+        <string lang="de">Hackebeil</string>
+        <string lang="es">Partición</string>
+        <string lang="pt">Trespassar</string>
+    </ref>
+    <ref link="ability_npc_ogre_bat_1_name">
+        <string lang="en">Reaping</string>
+        <string lang="fr">Moisson</string>
+        <string lang="it">Recisione</string>
+        <string lang="de">Ernten</string>
+        <string lang="es">Siega</string>
+        <string lang="pt">Ceifeira</string>
+    </ref>
+    <ref link="ability_npc_ogre_bat_2_name">
+        <string lang="en">Isolate</string>
+        <string lang="fr">Isolement</string>
+        <string lang="it">Isola</string>
+        <string lang="de">Isolieren</string>
+        <string lang="es">Confinamiento</string>
+        <string lang="pt">Isolamento</string>
+    </ref>
+    <ref link="ability_npc_tree_toxicslime_1_name">
+        <string lang="en">Slime Cut</string>
+        <string lang="fr">Coupe visqueuse</string>
+        <string lang="it">Taglio slime</string>
+        <string lang="de">Schleimschnitt</string>
+        <string lang="es">Cortecieno</string>
+        <string lang="pt">Corte Gosmento</string>
+    </ref>
+    <ref link="ability_npc_penguin_grimreaper_1_name">
+        <string lang="en">Death Touch</string>
+        <string lang="fr">Contact de la mort</string>
+        <string lang="it">Tocco mortale</string>
+        <string lang="de">Todeshand</string>
+        <string lang="es">Toque mortal</string>
+        <string lang="pt">Toque Mortífero</string>
+    </ref>
+    <ref link="ability_npc_penguin_grimreaper_2_name">
+        <string lang="en">Cold Heal</string>
+        <string lang="fr">Froide guérison</string>
+        <string lang="it">Cura gelida</string>
+        <string lang="de">Kalte Heilung</string>
+        <string lang="es">Sanación gélida</string>
+        <string lang="pt">Cura a Frio</string>
+    </ref>
+    <ref link="ability_npc_penguin_grimreaper_3_name">
+        <string lang="en">Scythe Swipe</string>
+        <string lang="fr">Fauchage</string>
+        <string lang="it">Cala la falce</string>
+        <string lang="de">Sensenschwung</string>
+        <string lang="es">Golpe de guadaña</string>
+        <string lang="pt">Arrastão de Foice</string>
+    </ref>
+    <ref link="ability_npc_bat_elfghost_1_name">
+        <string lang="en">Feast</string>
+        <string lang="fr">Festin</string>
+        <string lang="it">Banchetto</string>
+        <string lang="de">Festmahl</string>
+        <string lang="es">Festín</string>
+        <string lang="pt">Banquete</string>
+    </ref>
+    <ref link="ability_npc_melvins_snowturkey_1_name">
+        <string lang="en">Beak Slam</string>
+        <string lang="fr">Coup de bec</string>
+        <string lang="it">Colpo di becco</string>
+        <string lang="de">Schnabelhieb</string>
+        <string lang="es">Choque de picos</string>
+        <string lang="pt">Bicada</string>
+    </ref>
+    <ref link="ability_npc_melvins_snowturkey_2_name">
+        <string lang="en">Gobble Gobble</string>
+        <string lang="fr">Glouglou</string>
+        <string lang="it">Gobble gobble</string>
+        <string lang="de">Trut-trut</string>
+        <string lang="es">Glup glup</string>
+        <string lang="pt">Gluglu Gluglu</string>
+    </ref>
+    <ref link="ability_npc_toxicgramps_mushroom_1_name">
+        <string lang="en">Health Stomp</string>
+        <string lang="fr">Piétinement de santé</string>
+        <string lang="it">Pestone curativo</string>
+        <string lang="de">Heilungsstampfer</string>
+        <string lang="es">Pisotón de salud</string>
+        <string lang="pt">Esmaga-vida</string>
+    </ref>
+    <ref link="ability_npc_toxicgramps_mushroom_2_name">
+        <string lang="en">Earth Slam</string>
+        <string lang="fr">Placage terrestre</string>
+        <string lang="it">Schianto di terra</string>
+        <string lang="de">Erdkracher</string>
+        <string lang="es">Choque de tierra</string>
+        <string lang="pt">Treme-chão</string>
+    </ref>
+    <ref link="ability_npc_demoncrab_golem_1_name">
+        <string lang="en">Strike</string>
+        <string lang="fr">Frappe</string>
+        <string lang="it">Colpo</string>
+        <string lang="de">Schlag</string>
+        <string lang="es">Golpe</string>
+        <string lang="pt">Golpe comum</string>
+    </ref>
+    <ref link="ability_npc_demoncrab_golem_2_name">
+        <string lang="en">Surge</string>
+        <string lang="fr">Poussée</string>
+        <string lang="it">Carica</string>
+        <string lang="de">Schwall</string>
+        <string lang="es">Descarga</string>
+        <string lang="pt">Surto</string>
+    </ref>
+    <ref link="ability_npc_demoncrab_golem_3_name">
+        <string lang="en">Sap</string>
+        <string lang="fr">Extraction de sève</string>
+        <string lang="it">Prosciuga</string>
+        <string lang="de">Knüppeln</string>
+        <string lang="es">Debilidad</string>
+        <string lang="pt">Sugar</string>
+    </ref>
+    <ref link="ability_npc_elfwizard_slime_1_name">
+        <string lang="en">Recharge</string>
+        <string lang="fr">Rechargement</string>
+        <string lang="it">Ricarica</string>
+        <string lang="de">Aufladen</string>
+        <string lang="es">Recarga</string>
+        <string lang="pt">Recarregar</string>
+    </ref>
+    <ref link="ability_npc_elfwizard_slime_2_name">
+        <string lang="en">Slime Snipe</string>
+        <string lang="fr">Tir visqueux</string>
+        <string lang="it">Tiro slime</string>
+        <string lang="de">Schleimschuss</string>
+        <string lang="es">Choque de cieno</string>
+        <string lang="pt">Gosma de Elite</string>
+    </ref>
+    <ref link="ability_npc_goblin_robot_1_name">
+        <string lang="en">Terra Punch</string>
+        <string lang="fr">Coup de poing de Terra</string>
+        <string lang="it">Pugno di Terra</string>
+        <string lang="de">Terra-Schlag</string>
+        <string lang="es">Puñoterra</string>
+        <string lang="pt">Soco Terrestre</string>
+    </ref>
+    <ref link="ability_npc_goblin_robot_2_name">
+        <string lang="en">Shockwave</string>
+        <string lang="fr">Onde de choc</string>
+        <string lang="it">Onda d'urto</string>
+        <string lang="de">Schockwelle</string>
+        <string lang="es">Onda expansiva</string>
+        <string lang="pt">Onda de Choque</string>
+    </ref>
+    <ref link="ability_npc_goblin_robot_3_name">
+        <string lang="en">Recharge</string>
+        <string lang="fr">Rechargement</string>
+        <string lang="it">Ricarica</string>
+        <string lang="de">Aufladen</string>
+        <string lang="es">Recarga</string>
+        <string lang="pt">Recarregar</string>
+    </ref>
+    <ref link="ability_npc_goblin_robot_4_name">
+        <string lang="en">Rocket Punch</string>
+        <string lang="fr">Coup de poing fusée</string>
+        <string lang="it">Pugno a razzo</string>
+        <string lang="de">Raketenschlag</string>
+        <string lang="es">Puñocohete</string>
+        <string lang="pt">Soco Foguete</string>
+    </ref>
+    <ref link="ability_npc_snowbeast_robot_1_name">
+        <string lang="en">Overdrive</string>
+        <string lang="fr">Vitesse surmultipliée</string>
+        <string lang="it">Overdrive</string>
+        <string lang="de">Überlastung</string>
+        <string lang="es">Atodamarcha</string>
+        <string lang="pt">Curto Circuito</string>
+    </ref>
+    <ref link="ability_npc_snowbeast_robot_2_name">
+        <string lang="en">Power Drain</string>
+        <string lang="fr">Ponction d'énergie</string>
+        <string lang="it">Depotenzia</string>
+        <string lang="de">Kraftentzug</string>
+        <string lang="es">Drenaje de potencia</string>
+        <string lang="pt">Dreno Energético</string>
+    </ref>
+    <ref link="ability_npc_snowbeast_robot_3_name">
+        <string lang="en">Giga Chomp</string>
+        <string lang="fr">Giga-mastication</string>
+        <string lang="it">Giga-gnam</string>
+        <string lang="de">Riesenbiss</string>
+        <string lang="es">Gigapisotón</string>
+        <string lang="pt">Gigadentada</string>
+    </ref>
+    <ref link="ability_npc_sanddino_robot_1_name">
+        <string lang="en">Binary Bite</string>
+        <string lang="fr">Morsure binaire</string>
+        <string lang="it">Morso binario</string>
+        <string lang="de">Binärbiss</string>
+        <string lang="es">Mordisco binario</string>
+        <string lang="pt">Mordida Binária</string>
+    </ref>
+    <ref link="ability_npc_sanddino_robot_2_name">
+        <string lang="en">Mecha Slam</string>
+        <string lang="fr">Méca-placage</string>
+        <string lang="it">Mecha-schianto</string>
+        <string lang="de">Mecha-Kracher</string>
+        <string lang="es">Mecagolpe</string>
+        <string lang="pt">Mecha-esmagamento</string>
+    </ref>
+    <ref link="ability_npc_skinman_slime_1_name">
+        <string lang="en">Barf</string>
+        <string lang="fr">Vomissure</string>
+        <string lang="it">Vomito</string>
+        <string lang="de">Spucken</string>
+        <string lang="es">Pota</string>
+        <string lang="pt">Golfada</string>
+    </ref>
+    <ref link="ability_npc_skinman_slime_2_name">
+        <string lang="en">Vomit</string>
+        <string lang="fr">Vomi</string>
+        <string lang="it">Rigetto</string>
+        <string lang="de">Erbrechen</string>
+        <string lang="es">Vómito</string>
+        <string lang="pt">Vômito</string>
+    </ref>
+    <ref link="ability_npc_orcarcher_sandsnake_1_name">
+        <string lang="en">Venom Shot</string>
+        <string lang="fr">Tir venimeux</string>
+        <string lang="it">Colpo venefico</string>
+        <string lang="de">Giftschuss</string>
+        <string lang="es">Inyección de veneno</string>
+        <string lang="pt">Tiro Venenoso</string>
+    </ref>
+    <ref link="ability_npc_tiki_orcshaman_1_name">
+        <string lang="en">Flame Strike</string>
+        <string lang="fr">Frappe enflammée</string>
+        <string lang="it">Vampata</string>
+        <string lang="de">Flammenschlag</string>
+        <string lang="es">Golpe llameante</string>
+        <string lang="pt">Abalo Flamejante</string>
+    </ref>
+    <ref link="ability_npc_tiki_orcshaman_2_name">
+        <string lang="en">Heal</string>
+        <string lang="fr">Guérison</string>
+        <string lang="it">Cura</string>
+        <string lang="de">Heilen</string>
+        <string lang="es">Curación</string>
+        <string lang="pt">Cura</string>
+    </ref>
+    <ref link="ability_npc_toxicslug_skeletonwarrior_1_name">
+        <string lang="en">Impale</string>
+        <string lang="fr">Empalement</string>
+        <string lang="it">Impala</string>
+        <string lang="de">Pfählen</string>
+        <string lang="es">Empalado</string>
+        <string lang="pt">Empalar</string>
+    </ref>
+    <ref link="ability_npc_elfgoblin_sandscorpion_1_name">
+        <string lang="en">Pincer Shot</string>
+        <string lang="fr">Pincement</string>
+        <string lang="it">Colpo di chela</string>
+        <string lang="de">Zangenschuss</string>
+        <string lang="es">Tiro de pinzas</string>
+        <string lang="pt">Disparo de Pinça</string>
+    </ref>
+    <ref link="ability_npc_forestking_skeleton_1_name">
+        <string lang="en">Bone Smack</string>
+        <string lang="fr">Gifle osseuse</string>
+        <string lang="it">Osso-schiaffo</string>
+        <string lang="de">Knochenkracher</string>
+        <string lang="es">Cachete óseo</string>
+        <string lang="pt">Batida Óssea</string>
+    </ref>
+    <ref link="ability_npc_forestking_skeleton_2_name">
+        <string lang="en">Heal</string>
+        <string lang="fr">Guérison</string>
+        <string lang="it">Cura</string>
+        <string lang="de">Heilen</string>
+        <string lang="es">Curación</string>
+        <string lang="pt">Cura</string>
+    </ref>
+    <ref link="ability_npc_forestking_skeleton_3_name">
+        <string lang="en">Grim Barrage</string>
+        <string lang="fr">Barrage sinistre</string>
+        <string lang="it">Bordata tetra</string>
+        <string lang="de">Düstere Salve</string>
+        <string lang="es">Cortina macabra</string>
+        <string lang="pt">Barragem Macabra</string>
+    </ref>
+    <ref link="ability_npc_snowtree_skeletonarcher_1_name">
+        <string lang="en">Let 'em Loose</string>
+        <string lang="fr">Déferlement</string>
+        <string lang="it">Scagliate!</string>
+        <string lang="de">Lass sie fliegen</string>
+        <string lang="es">Liberado</string>
+        <string lang="pt">Deixa Eles Brincá</string>
+    </ref>
+    <ref link="ability_npc_darkarcher_elfking_1_name">
+        <string lang="en">Quick Shot</string>
+        <string lang="fr">Tir rapide</string>
+        <string lang="it">Colpo rapido</string>
+        <string lang="de">Schneller Schuss</string>
+        <string lang="es">Tiro rápido</string>
+        <string lang="pt">Tiro Rápido</string>
+    </ref>
+    <ref link="ability_npc_darkarcher_elfking_2_name">
+        <string lang="en">Dark Pact</string>
+        <string lang="fr">Pacte noir</string>
+        <string lang="it">Patto oscuro</string>
+        <string lang="de">Dunkler Pakt</string>
+        <string lang="es">Pacto oscuro</string>
+        <string lang="pt">Pacto das Trevas</string>
+    </ref>
+    <ref link="ability_npc_darkarcher_elfking_3_name">
+        <string lang="en">Pinpoint</string>
+        <string lang="fr">Localisation</string>
+        <string lang="it">Alta precisione</string>
+        <string lang="de">Präzisionsschuss</string>
+        <string lang="es">Señal</string>
+        <string lang="pt">Alfinetada</string>
+    </ref>
+    <ref link="ability_npc_skeletonknight_sanddino_1_name">
+        <string lang="en">Hack</string>
+        <string lang="fr">Massacre</string>
+        <string lang="it">Mannaia</string>
+        <string lang="de">Hacken</string>
+        <string lang="es">Troceado</string>
+        <string lang="pt">Esquartejar</string>
+    </ref>
+    <ref link="ability_npc_skeletonknight_sanddino_2_name">
+        <string lang="en">Maim</string>
+        <string lang="fr">Mutilation</string>
+        <string lang="it">Mutilazione</string>
+        <string lang="de">Verstümmeln</string>
+        <string lang="es">Mutilación</string>
+        <string lang="pt">Aleijar</string>
+    </ref>
+    <ref link="ability_npc_darkwizard_ogre_1_name">
+        <string lang="en">Vivification</string>
+        <string lang="fr">Vivification</string>
+        <string lang="it">Reviviscenza</string>
+        <string lang="de">Belebung</string>
+        <string lang="es">Vivificación</string>
+        <string lang="pt">Vivificação</string>
+    </ref>
+    <ref link="ability_npc_darkwizard_ogre_2_name">
+        <string lang="en">Burning Rage</string>
+        <string lang="fr">Rage brûlante</string>
+        <string lang="it">Furia bruciante</string>
+        <string lang="de">Brennender Zorn</string>
+        <string lang="es">Ira ardiente</string>
+        <string lang="pt">Ira Ardente</string>
+    </ref>
+    <ref link="ability_npc_darkwizard_ogre_3_name">
+        <string lang="en">Flame Blast</string>
+        <string lang="fr">Explosion de flammes</string>
+        <string lang="it">Gran fiammata</string>
+        <string lang="de">Flammenschlag</string>
+        <string lang="es">Explosión de llamas</string>
+        <string lang="pt">Explosão Flamejante</string>
+    </ref>
+    <ref link="ability_npc_sandworm_orcwarrior_1_name">
+        <string lang="en">Rip</string>
+        <string lang="fr">Déchiquetage</string>
+        <string lang="it">Strappo</string>
+        <string lang="de">Reißen</string>
+        <string lang="es">Desgarro</string>
+        <string lang="pt">Rasgo</string>
+    </ref>
+    <ref link="ability_npc_sandworm_orcwarrior_2_name">
+        <string lang="en">Harvest</string>
+        <string lang="fr">Récolte</string>
+        <string lang="it">Mietitura</string>
+        <string lang="de">Ernte</string>
+        <string lang="es">Cosecha</string>
+        <string lang="pt">Colheita</string>
+    </ref>
+    <ref link="ability_npc_sandworm_orcwarrior_3_name">
+        <string lang="en">Domdom Smash</string>
+        <string lang="fr">Frappe de Domdom</string>
+        <string lang="it">Domdom spacca</string>
+        <string lang="de">Domdom-Kracher</string>
+        <string lang="es">Golpe Domdom</string>
+        <string lang="pt">Esmagamento do Dumdum</string>
+    </ref>
+    <ref link="ability_npc_toxicslime_skeletonmystic_1_name">
+        <string lang="en">Noxious Strike</string>
+        <string lang="fr">Frappe toxique</string>
+        <string lang="it">Attacco mefitico</string>
+        <string lang="de">Giftiger Hieb</string>
+        <string lang="es">Golpe dañino</string>
+        <string lang="pt">Golpe Nocivo</string>
+    </ref>
+    <ref link="ability_npc_toxicslime_skeletonmystic_2_name">
+        <string lang="en">Regenerate</string>
+        <string lang="fr">Régénération</string>
+        <string lang="it">Rigenerazione</string>
+        <string lang="de">Regenerieren</string>
+        <string lang="es">Regeneración</string>
+        <string lang="pt">Regeneração</string>
+    </ref>
+    <ref link="ability_npc_toxicslime_skeletonmystic_3_name">
+        <string lang="en">Poison Spit</string>
+        <string lang="fr">Crachat empoisonné</string>
+        <string lang="it">Sputo venefico</string>
+        <string lang="de">Giftspucke</string>
+        <string lang="es">Saliva venenosa</string>
+        <string lang="pt">Peçonhento</string>
+    </ref>
+    <ref link="ability_npc_toxicbeast_darkwarrior_1_name">
+        <string lang="en">Crush</string>
+        <string lang="fr">Écrasement</string>
+        <string lang="it">Morsa</string>
+        <string lang="de">Zertrümmern</string>
+        <string lang="es">Aplastamiento</string>
+        <string lang="pt">Esmagamento</string>
+    </ref>
+    <ref link="ability_npc_toxicbeast_darkwarrior_2_name">
+        <string lang="en">Chomp</string>
+        <string lang="fr">Mastication</string>
+        <string lang="it">Ganasce</string>
+        <string lang="de">Beißen</string>
+        <string lang="es">Pisotón</string>
+        <string lang="pt">Dentada</string>
+    </ref>
+    <ref link="ability_npc_toxicbeast_darkwarrior_3_name">
+        <string lang="en">Body Slam</string>
+        <string lang="fr">Placage corporel</string>
+        <string lang="it">Schiacciata</string>
+        <string lang="de">Bodenwurf</string>
+        <string lang="es">Golpe corporal</string>
+        <string lang="pt">Jogo de Corpo</string>
+    </ref>
+    <ref link="ability_npc_darkking_darkgoblin_1_name">
+        <string lang="en">Cleave</string>
+        <string lang="fr">Clivage</string>
+        <string lang="it">Sgualembro</string>
+        <string lang="de">Hackebeil</string>
+        <string lang="es">Partición</string>
+        <string lang="pt">Trespassar</string>
+    </ref>
+    <ref link="ability_npc_darkking_darkgoblin_2_name">
+        <string lang="en">Death Touch</string>
+        <string lang="fr">Contact de la mort</string>
+        <string lang="it">Tocco mortale</string>
+        <string lang="de">Todeshand</string>
+        <string lang="es">Toque mortal</string>
+        <string lang="pt">Toque Mortífero</string>
+    </ref>
+    <ref link="ability_npc_darkking_darkgoblin_3_name">
+        <string lang="en">Harvest</string>
+        <string lang="fr">Récolte</string>
+        <string lang="it">Mietitura</string>
+        <string lang="de">Ernte</string>
+        <string lang="es">Cosecha</string>
+        <string lang="pt">Colheita</string>
+    </ref>
+    <ref link="ability_npc_darkking_darkgoblin_4_name">
+        <string lang="en">Warm Heal</string>
+        <string lang="fr">Chaude guérison</string>
+        <string lang="it">Cura calda</string>
+        <string lang="de">Warme Heilung</string>
+        <string lang="es">Sanación cálida</string>
+        <string lang="pt">Cura Morna</string>
+    </ref>
+    <ref link="ability_npc_dinorider_1_name">
+        <string lang="en">Dino Slam</string>
+        <string lang="fr">Placage de Dino</string>
+        <string lang="it">Dino-schianto</string>
+        <string lang="de">Dino-Kracher</string>
+        <string lang="es">Choque Dino</string>
+        <string lang="pt">Dino-esmagamento</string>
+    </ref>
+    <ref link="ability_npc_dinorider_2_name">
+        <string lang="en">Bite</string>
+        <string lang="fr">Morsure</string>
+        <string lang="it">Morso</string>
+        <string lang="de">Beißen</string>
+        <string lang="es">Bocado</string>
+        <string lang="pt">Mordida</string>
+    </ref>
+    <ref link="ability_npc_dactyl_1_name">
+        <string lang="en">Sap</string>
+        <string lang="fr">Extraction de sève</string>
+        <string lang="it">Prosciuga</string>
+        <string lang="de">Knüppeln</string>
+        <string lang="es">Debilidad</string>
+        <string lang="pt">Sugar</string>
+    </ref>
+    <ref link="ability_npc_cavemen_1_name">
+        <string lang="en">Boulder Toss</string>
+        <string lang="fr">Lancer de rocher</string>
+        <string lang="it">Lancia macigno</string>
+        <string lang="de">Felsenwurf</string>
+        <string lang="es">Lanzapiedras</string>
+        <string lang="pt">Arremesso de Rochas</string>
+    </ref>
+    <ref link="ability_npc_trex_1_name">
+        <string lang="en">Intimidate</string>
+        <string lang="fr">Intimidation</string>
+        <string lang="it">Intimidazione</string>
+        <string lang="de">Einschüchtern</string>
+        <string lang="es">Intimidación</string>
+        <string lang="pt">Intimidação</string>
+    </ref>
+    <ref link="ability_npc_trex_2_name">
+        <string lang="en">Inspire</string>
+        <string lang="fr">Inspiration</string>
+        <string lang="it">Ispirazione</string>
+        <string lang="de">Inspirieren</string>
+        <string lang="es">Inspiración</string>
+        <string lang="pt">Inspiração</string>
+    </ref>
+    <ref link="ability_npc_trex_3_name">
+        <string lang="en">Furious Scratch</string>
+        <string lang="fr">Furieuse griffure</string>
+        <string lang="it">Graffio furioso</string>
+        <string lang="de">Zorniges Kratzen</string>
+        <string lang="es">Rasguño furioso</string>
+        <string lang="pt">Arranhão Furioso</string>
+    </ref>
+    <ref link="ability_npc_octobrain_1_name">
+        <string lang="en">Pummel</string>
+        <string lang="fr">Passage à tabac</string>
+        <string lang="it">Pestaggio</string>
+        <string lang="de">Boxen</string>
+        <string lang="es">Zurra</string>
+        <string lang="pt">Surra</string>
+    </ref>
+    <ref link="ability_npc_sewerspider_1_name">
+        <string lang="en">Venom Spit</string>
+        <string lang="fr">Crachat venimeux</string>
+        <string lang="it">Sputo venefico</string>
+        <string lang="de">Giftspeichel</string>
+        <string lang="es">Baba venenosa</string>
+        <string lang="pt">Cospe-veneno</string>
+    </ref>
+    <ref link="ability_npc_sewerrat_1_name">
+        <string lang="en">Belly Flop</string>
+        <string lang="fr">Affaissement</string>
+        <string lang="it">Spanciata</string>
+        <string lang="de">Bauchklatscher</string>
+        <string lang="es">Panzazo</string>
+        <string lang="pt">Barrigada</string>
+    </ref>
+    <ref link="ability_npc_sewerrat_2_name">
+        <string lang="en">Shred</string>
+        <string lang="fr">Lacération</string>
+        <string lang="it">Dilania</string>
+        <string lang="de">Zerreißen</string>
+        <string lang="es">Triturar</string>
+        <string lang="pt">Retalhar</string>
+    </ref>
+    <ref link="ability_npc_sewerfrog_1_name">
+        <string lang="en">Taste</string>
+        <string lang="fr">Goût</string>
+        <string lang="it">Assaggio</string>
+        <string lang="de">Schmecken</string>
+        <string lang="es">Sabor</string>
+        <string lang="pt">Mordidinha</string>
+    </ref>
+    <ref link="ability_npc_sewerfrog_2_name">
+        <string lang="en">Slam</string>
+        <string lang="fr">Placage</string>
+        <string lang="it">Schianto</string>
+        <string lang="de">Kracher</string>
+        <string lang="es">Choque</string>
+        <string lang="pt">Pancada</string>
+    </ref>
+    <ref link="ability_npc_sewerfrog_3_name">
+        <string lang="en">Quake</string>
+        <string lang="fr">Séisme</string>
+        <string lang="it">Terremoto</string>
+        <string lang="de">Beben</string>
+        <string lang="es">Temblor</string>
+        <string lang="pt">Estrondo</string>
+    </ref>
+    <ref link="ability_npc_demondog_1_name">
+        <string lang="en">Crush</string>
+        <string lang="fr">Écrasement</string>
+        <string lang="it">Morsa</string>
+        <string lang="de">Zertrümmern</string>
+        <string lang="es">Aplastamiento</string>
+        <string lang="pt">Esmagamento</string>
+    </ref>
+    <ref link="ability_npc_demondog_2_name">
+        <string lang="en">Devour</string>
+        <string lang="fr">Engloutissement</string>
+        <string lang="it">Divora</string>
+        <string lang="de">Verschlingen</string>
+        <string lang="es">Devorado</string>
+        <string lang="pt">Devorar</string>
+    </ref>
+    <ref link="ability_npc_daedricarcher_1_name">
+        <string lang="en">Snipe</string>
+        <string lang="fr">Tir de précision</string>
+        <string lang="it">Tiro a distanza</string>
+        <string lang="de">Scharfschütze</string>
+        <string lang="es">Disparo</string>
+        <string lang="pt">Tiro de Elite</string>
+    </ref>
+    <ref link="ability_npc_daedricarcher_2_name">
+        <string lang="en">Pinpoint</string>
+        <string lang="fr">Localisation</string>
+        <string lang="it">Alta precisione</string>
+        <string lang="de">Präzisionsschuss</string>
+        <string lang="es">Señal</string>
+        <string lang="pt">Alfinetada</string>
+    </ref>
+    <ref link="ability_npc_golum_1_name">
+        <string lang="en">Leap Attack</string>
+        <string lang="fr">Attaque bondissante</string>
+        <string lang="it">Attacco in balzo</string>
+        <string lang="de">Sprungangriff</string>
+        <string lang="es">Ataque con salto</string>
+        <string lang="pt">Ataque de Pulo</string>
+    </ref>
+    <ref link="ability_npc_daedriclord_1_name">
+        <string lang="en">Skewer</string>
+        <string lang="fr">Embrochage</string>
+        <string lang="it">Trafiggi</string>
+        <string lang="de">Aufspießen</string>
+        <string lang="es">Pincho</string>
+        <string lang="pt">No Espeto</string>
+    </ref>
+    <ref link="ability_npc_daedriclord_2_name">
+        <string lang="en">Impale</string>
+        <string lang="fr">Empalement</string>
+        <string lang="it">Impala</string>
+        <string lang="de">Pfählen</string>
+        <string lang="es">Empalado</string>
+        <string lang="pt">Empalar</string>
+    </ref>
+    <ref link="ability_npc_daedriclord_3_name">
+        <string lang="en">Dark Eruption</string>
+        <string lang="fr">Sombre éruption</string>
+        <string lang="it">Eruzione oscura</string>
+        <string lang="de">Dunkle Eruption</string>
+        <string lang="es">Erupción oscura</string>
+        <string lang="pt">Erupção das Trevas</string>
+    </ref>
+    <ref link="ability_npc_mimic_1_name">
+        <string lang="en">Greed</string>
+        <string lang="fr">Cupidité</string>
+        <string lang="it">Avidità</string>
+        <string lang="de">Gier</string>
+        <string lang="es">Codicia</string>
+        <string lang="pt">Ganância</string>
+    </ref>
+    <ref link="ability_npc_mimic_2_name">
+        <string lang="en">Shred</string>
+        <string lang="fr">Lacération</string>
+        <string lang="it">Dilania</string>
+        <string lang="de">Zerreißen</string>
+        <string lang="es">Triturado</string>
+        <string lang="pt">Retalhar</string>
+    </ref>
+    <ref link="ability_npc_mimic_3_name">
+        <string lang="en">Wealth</string>
+        <string lang="fr">Richesse</string>
+        <string lang="it">Ricchezza</string>
+        <string lang="de">Reichtum</string>
+        <string lang="es">Riqueza</string>
+        <string lang="pt">Riqueza</string>
+    </ref>
+    <ref link="ability_npc_mimic_4_name">
+        <string lang="en">Avarice</string>
+        <string lang="fr">Avarice</string>
+        <string lang="it">Avarizia</string>
+        <string lang="de">Habgier</string>
+        <string lang="es">Avaricia</string>
+        <string lang="pt">Avareza</string>
+    </ref>
+    <ref link="ability_npc_cyclops_1_name">
+        <string lang="en">Hack</string>
+        <string lang="fr">Massacre</string>
+        <string lang="it">Mannaia</string>
+        <string lang="de">Hacken</string>
+        <string lang="es">Troceado</string>
+        <string lang="pt">Esquartejar</string>
+    </ref>
+    <ref link="ability_npc_cyclops_2_name">
+        <string lang="en">Osmose</string>
+    </ref>
+    <ref link="ability_npc_cyclops_3_name">
+        <string lang="en">Healing Light</string>
+        <string lang="fr">Lumière cicatrisante</string>
+        <string lang="it">Luce curativa</string>
+        <string lang="de">Heilendes Licht</string>
+        <string lang="es">Luz sanadora</string>
+        <string lang="pt">Luz Curandeira</string>
+    </ref>
+    <ref link="ability_npc_hyperarcher_1_name">
+        <string lang="en">Radiant Shot</string>
+        <string lang="fr">Tir rayonnant</string>
+        <string lang="it">Colpo radioso</string>
+        <string lang="de">Strahlender Schuss</string>
+        <string lang="es">Tiro radiante</string>
+        <string lang="pt">Tiro Radiante</string>
+    </ref>
+    <ref link="ability_npc_hyperarcher_2_name">
+        <string lang="en">Kick</string>
+        <string lang="fr">Coup de pied</string>
+        <string lang="it">Calcio</string>
+        <string lang="de">Treten</string>
+        <string lang="es">Patada</string>
+        <string lang="pt">Chute</string>
+    </ref>
+    <ref link="ability_npc_hyperarcher_3_name">
+        <string lang="en">Shining Strike</string>
+        <string lang="fr">Frappe éclatante</string>
+        <string lang="it">Attacco lucente</string>
+        <string lang="de">Glänzender Schlag</string>
+        <string lang="es">Golpe brillante</string>
+        <string lang="pt">Golpe Brilhante</string>
+    </ref>
+    <ref link="ability_npc_driffin_1_name">
+        <string lang="en">Beam</string>
+        <string lang="fr">Faisceau</string>
+        <string lang="it">Raggio</string>
+        <string lang="de">Strahl</string>
+        <string lang="es">Rayo</string>
+        <string lang="pt">Raio</string>
+    </ref>
+    <ref link="ability_npc_driffin_2_name">
+        <string lang="en">Flutter</string>
+        <string lang="fr">Palpitation</string>
+        <string lang="it">Batter d'ali</string>
+        <string lang="de">Flattern</string>
+        <string lang="es">Aleteo</string>
+        <string lang="pt">Palpitação</string>
+    </ref>
+    <ref link="ability_npc_driffin_3_name">
+        <string lang="en">Heave</string>
+        <string lang="fr">Lancer</string>
+        <string lang="it">Scaglia</string>
+        <string lang="de">Stemmen</string>
+        <string lang="es">Arrastre</string>
+        <string lang="pt">Agito</string>
+    </ref>
+    <ref link="ability_npc_hyperlord_1_name">
+        <string lang="en">Slice</string>
+        <string lang="fr">Découpe</string>
+        <string lang="it">Affetta</string>
+        <string lang="de">Schneiden</string>
+        <string lang="es">Tajada</string>
+        <string lang="pt">Fatiar</string>
+    </ref>
+    <ref link="ability_npc_hyperlord_2_name">
+        <string lang="en">Eliminate</string>
+        <string lang="fr">Élimination</string>
+        <string lang="it">Eliminazione</string>
+        <string lang="de">Eliminieren</string>
+        <string lang="es">Eliminación</string>
+        <string lang="pt">Eliminação</string>
+    </ref>
+    <ref link="ability_npc_hyperlord_3_name">
+        <string lang="en">Destroy</string>
+        <string lang="fr">Destruction</string>
+        <string lang="it">Distruzione</string>
+        <string lang="de">Zerstören</string>
+        <string lang="es">Destrucción</string>
+        <string lang="pt">Destruição</string>
+    </ref>
+    <ref link="ability_npc_hyperlord_4_name">
+        <string lang="en">Restore</string>
+        <string lang="fr">Restauration</string>
+        <string lang="it">Ripristino</string>
+        <string lang="de">Wiederherstellen</string>
+        <string lang="es">Restablecimiento</string>
+        <string lang="pt">Restauração</string>
+    </ref>
+    <ref link="ability_npc_octobrain_cavemen_1_name">
+        <string lang="en">Double Time</string>
+        <string lang="fr">Dédoublement temporel</string>
+        <string lang="it">Tempo doppio</string>
+        <string lang="de">Eilschritt</string>
+        <string lang="es">Tiempo doble</string>
+        <string lang="pt">Dobradinha</string>
+    </ref>
+    <ref link="ability_npc_sewerfrog_driffin_1_name">
+        <string lang="en">Taste</string>
+        <string lang="fr">Goût</string>
+        <string lang="it">Assaggio</string>
+        <string lang="de">Schmecken</string>
+        <string lang="es">Sabor</string>
+        <string lang="pt">Mordidinha</string>
+    </ref>
+    <ref link="ability_npc_sewerfrog_driffin_2_name">
+        <string lang="en">Savor</string>
+        <string lang="fr">Saveur</string>
+        <string lang="it">Assapora</string>
+        <string lang="de">Genießen</string>
+        <string lang="es">Degustación</string>
+        <string lang="pt">Saborear</string>
+    </ref>
+    <ref link="ability_npc_sewerfrog_driffin_3_name">
+        <string lang="en">Slam</string>
+        <string lang="fr">Placage</string>
+        <string lang="it">Schianto</string>
+        <string lang="de">Kracher</string>
+        <string lang="es">Choque</string>
+        <string lang="pt">Pancada</string>
+    </ref>
+    <ref link="ability_npc_daedriclord_hyperarcher_1_name">
+        <string lang="en">Radiant Strike</string>
+        <string lang="fr">Frappe rayonnante</string>
+        <string lang="it">Attacco radioso</string>
+        <string lang="de">Strahlender Schlag</string>
+        <string lang="es">Golpe radiante</string>
+        <string lang="pt">Golpe Radiante</string>
+    </ref>
+    <ref link="ability_npc_daedriclord_hyperarcher_2_name">
+        <string lang="en">Impale</string>
+        <string lang="fr">Empalement</string>
+        <string lang="it">Impala</string>
+        <string lang="de">Pfählen</string>
+        <string lang="es">Empalado</string>
+        <string lang="pt">Empalar</string>
+    </ref>
+    <ref link="ability_npc_daedriclord_hyperarcher_3_name">
+        <string lang="en">Radiant Eruption</string>
+        <string lang="fr">Éruption rayonnante</string>
+        <string lang="it">Eruzione radiosa</string>
+        <string lang="de">Strahlende Eruption</string>
+        <string lang="es">Erupción radiante</string>
+        <string lang="pt">Erupção Radiante</string>
+    </ref>
+    <ref link="ability_npc_dinorider_cyclops_1_name">
+        <string lang="en">Dino Slam</string>
+        <string lang="fr">Placage de Dino</string>
+        <string lang="it">Dino-schianto</string>
+        <string lang="de">Dino-Kracher</string>
+        <string lang="es">Choque Dino</string>
+        <string lang="pt">Dino-esmagamento</string>
+    </ref>
+    <ref link="ability_npc_dinorider_cyclops_2_name">
+        <string lang="en">Chomp</string>
+        <string lang="fr">Mastication</string>
+        <string lang="it">Ganasce</string>
+        <string lang="de">Beißen</string>
+        <string lang="es">Pisotón</string>
+        <string lang="pt">Dentada</string>
+    </ref>
+    <ref link="ability_npc_dinorider_cyclops_3_name">
+        <string lang="en">Healing Slam</string>
+        <string lang="fr">Placage thérapeutique</string>
+        <string lang="it">Schianto curativo</string>
+        <string lang="de">Heilender Kracher</string>
+        <string lang="es">Choque sanador</string>
+        <string lang="pt">Pancada Curandeira</string>
+    </ref>
+    <ref link="ability_npc_daedricarcher_skinman_1_name">
+        <string lang="en">Snipe</string>
+        <string lang="fr">Tir de précision</string>
+        <string lang="it">Tiro a distanza</string>
+        <string lang="de">Scharfschütze</string>
+        <string lang="es">Disparo</string>
+        <string lang="pt">Tiro de Elite</string>
+    </ref>
+    <ref link="ability_npc_daedricarcher_skinman_2_name">
+        <string lang="en">Pinpoint</string>
+        <string lang="fr">Localisation</string>
+        <string lang="it">Alta precisione</string>
+        <string lang="de">Präzisionsschuss</string>
+        <string lang="es">Señal</string>
+        <string lang="pt">Alfinetada</string>
+    </ref>
+    <ref link="ability_npc_dactyl_mushroom_1_name">
+        <string lang="en">Sap</string>
+        <string lang="fr">Extraction de sève</string>
+        <string lang="it">Prosciuga</string>
+        <string lang="de">Knüppeln</string>
+        <string lang="es">Debilidad</string>
+        <string lang="pt">Sugar</string>
+    </ref>
+    <ref link="ability_npc_dactyl_mushroom_2_name">
+        <string lang="en">Terra Bump</string>
+        <string lang="fr">Choc de Terra</string>
+        <string lang="it">Urto di Terra</string>
+        <string lang="de">Terra-Bumm</string>
+        <string lang="es">Golpeterra</string>
+        <string lang="pt">Pancada da Terra</string>
+    </ref>
+    <ref link="ability_npc_mimic_hyperlord_1_name">
+        <string lang="en">Greed</string>
+        <string lang="fr">Cupidité</string>
+        <string lang="it">Avidità</string>
+        <string lang="de">Gier</string>
+        <string lang="es">Codicia</string>
+        <string lang="pt">Ganância</string>
+    </ref>
+    <ref link="ability_npc_mimic_hyperlord_2_name">
+        <string lang="en">Shred</string>
+        <string lang="fr">Lacération</string>
+        <string lang="it">Dilania</string>
+        <string lang="de">Zerreißen</string>
+        <string lang="es">Triturado</string>
+        <string lang="pt">Retalhar</string>
+    </ref>
+    <ref link="ability_npc_mimic_hyperlord_3_name">
+        <string lang="en">Wealth</string>
+        <string lang="fr">Richesse</string>
+        <string lang="it">Ricchezza</string>
+        <string lang="de">Reichtum</string>
+        <string lang="es">Riqueza</string>
+        <string lang="pt">Riqueza</string>
+    </ref>
+    <ref link="ability_npc_mimic_hyperlord_4_name">
+        <string lang="en">Avidity</string>
+        <string lang="fr">Avidité</string>
+        <string lang="it">Cupidigia</string>
+        <string lang="de">Begierde</string>
+        <string lang="es">Avidiez</string>
+        <string lang="pt">Avidez</string>
+    </ref>
+    <ref link="ability_npc_demoncrab_legendary_1_name">
+        <string lang="en">Vivification</string>
+        <string lang="fr">Vivification</string>
+        <string lang="it">Reviviscenza</string>
+        <string lang="de">Belebung</string>
+        <string lang="es">Vivificación</string>
+        <string lang="pt">Vivificação</string>
+    </ref>
+    <ref link="ability_npc_demoncrab_legendary_2_name">
+        <string lang="en">Strike</string>
+        <string lang="fr">Frappe</string>
+        <string lang="it">Colpo</string>
+        <string lang="de">Schlag</string>
+        <string lang="es">Golpe</string>
+        <string lang="pt">Golpe comum</string>
+    </ref>
+    <ref link="ability_npc_demoncrab_legendary_3_name">
+        <string lang="en">Pounce</string>
+        <string lang="fr">Bond</string>
+        <string lang="it">Balzo</string>
+        <string lang="de">Anspringen</string>
+        <string lang="es">Abalanzado</string>
+        <string lang="pt">Pinote</string>
+    </ref>
+    <ref link="ability_npc_demoncrab_legendary_4_name">
+        <string lang="en">Sap</string>
+        <string lang="fr">Extraction de sève</string>
+        <string lang="it">Prosciuga</string>
+        <string lang="de">Knüppeln</string>
+        <string lang="es">Debilidad</string>
+        <string lang="pt">Sugar</string>
+    </ref>
+    <ref link="ability_npc_penguin_legendary_1_name">
+        <string lang="en">Scythe Swipe</string>
+        <string lang="fr">Fauchage</string>
+        <string lang="it">Cala la falce</string>
+        <string lang="de">Sensenschwung</string>
+        <string lang="es">Golpe de guadaña</string>
+        <string lang="pt">Arrastão de Foice</string>
+    </ref>
+    <ref link="ability_npc_penguin_legendary_2_name">
+        <string lang="en">Prismatic Strike</string>
+        <string lang="fr">Frappe prismatique</string>
+        <string lang="it">Attacco prismatico</string>
+        <string lang="de">Prismatischer Schlag</string>
+        <string lang="es">Golpe prismático</string>
+        <string lang="pt">Golpe Prismático</string>
+    </ref>
+    <ref link="ability_npc_penguin_legendary_3_name">
+        <string lang="en">Prismatic Heal</string>
+        <string lang="fr">Soin prismatique</string>
+        <string lang="it">Cura prismatica</string>
+        <string lang="de">Prismatische Heilung</string>
+        <string lang="es">Sanación prismática</string>
+        <string lang="pt">Cura Prismática</string>
+    </ref>
+    <ref link="ability_npc_penguin_legendary_4_name">
+        <string lang="en">Death Touch</string>
+        <string lang="fr">Contact de la mort</string>
+        <string lang="it">Tocco mortale</string>
+        <string lang="de">Todeshand</string>
+        <string lang="es">Toque mortal</string>
+        <string lang="pt">Toque Mortífero</string>
+    </ref>
+    <ref link="ability_npc_snowbeast_legendary_1_name">
+        <string lang="en">Slam</string>
+        <string lang="fr">Placage</string>
+        <string lang="it">Schianto</string>
+        <string lang="de">Kracher</string>
+        <string lang="es">Choque</string>
+        <string lang="pt">Pancada</string>
+    </ref>
+    <ref link="ability_npc_snowbeast_legendary_2_name">
+        <string lang="en">Feast</string>
+        <string lang="fr">Festin</string>
+        <string lang="it">Banchetto</string>
+        <string lang="de">Festmahl</string>
+        <string lang="es">Festín</string>
+        <string lang="pt">Banquete</string>
+    </ref>
+    <ref link="ability_npc_snowbeast_legendary_3_name">
+        <string lang="en">Inspire</string>
+        <string lang="fr">Inspiration</string>
+        <string lang="it">Ispirazione</string>
+        <string lang="de">Inspirieren</string>
+        <string lang="es">Inspiración</string>
+        <string lang="pt">Inspiração</string>
+    </ref>
+    <ref link="ability_npc_snowbeast_legendary_4_name">
+        <string lang="en">Gnaw</string>
+        <string lang="fr">Rongement</string>
+        <string lang="it">Rosicchia</string>
+        <string lang="de">Nagen</string>
+        <string lang="es">Roído</string>
+        <string lang="pt">Roer</string>
+    </ref>
+    
+    
+    <ref link="ability_npc_overgrowngoatmenz_1_name">
+        <string lang="en">Impale</string>
+        <string lang="fr">Empalement</string>
+        <string lang="it">Impala</string>
+        <string lang="de">Pfählen</string>
+        <string lang="es">Empalado</string>
+        <string lang="pt">Empalar</string>
+    </ref>
+    
+    
+    <ref link="ability_npc_overgrownfetish_1_name">
+        <string lang="en">Mojo</string>
+    </ref>
+    <ref link="ability_npc_overgrownfetish_2_name">
+        <string lang="en">Mumbo Jumbo</string>
+        <string lang="fr">Pas de Blabla</string>
+        <string lang="it">Mumbo Jumbo</string>
+        <string lang="de">Hokuspokus</string>
+        <string lang="es">Mumbo Jumbo</string>
+        <string lang="pt">Mumbo Jumbo</string>
+    </ref>
+    
+    
+    <ref link="ability_npc_overgrowntotemz_1_name">
+        <string lang="en">Head Bump</string>
+        <string lang="fr">Head Bump</string>
+        <string lang="it">Head Bump</string>
+        <string lang="de">Kopf Bump</string>
+        <string lang="es">Cabeza Bump</string>
+        <string lang="pt">Head Bump</string>
+    </ref>
+    <ref link="ability_npc_overgrowntotemz_2_name">
+        <string lang="en">Whammy</string>
+        <string lang="fr">Whammy</string>
+        <string lang="it">Malocchio</string>
+        <string lang="de">Whammy</string>
+        <string lang="es">Whammy</string>
+        <string lang="pt">Whammy!</string>
+    </ref>
+    
+    
+    <ref link="ability_npc_overgrownbeast_1_name">
+        <string lang="en">Chomp</string>
+        <string lang="fr">Mastication</string>
+        <string lang="it">Ganasce</string>
+        <string lang="de">Beißen</string>
+        <string lang="es">Pisotón</string>
+        <string lang="pt">Dentada</string>
+    </ref>
+    <ref link="ability_npc_overgrownbeast_2_name">
+        <string lang="en">Slice</string>
+        <string lang="fr">Découpe</string>
+        <string lang="it">Affetta</string>
+        <string lang="de">Schneiden</string>
+        <string lang="es">Tajada</string>
+        <string lang="pt">Fatiar</string>
+    </ref>
+    <ref link="ability_npc_overgrownbeast_3_name">
+        <string lang="en">Devour</string>
+        <string lang="fr">Engloutissement</string>
+        <string lang="it">Divora</string>
+        <string lang="de">Verschlingen</string>
+        <string lang="es">Devorado</string>
+        <string lang="pt">Devorar</string>
+    </ref>
+    
+    
+    <ref link="ability_npc_snowwalrus_1_name">
+        <string lang="en">Purge</string>
+        <string lang="fr">Purge</string>
+        <string lang="it">Pulisci</string>
+        <string lang="de">Bereinigen</string>
+        <string lang="es">Eliminar</string>
+        <string lang="pt">Limpar</string>
+    </ref>
+    <ref link="ability_npc_snowwalrus_2_name">
+        <string lang="en">Barf</string>
+        <string lang="fr">Vomissure</string>
+        <string lang="it">Vomito</string>
+        <string lang="de">Spucken</string>
+        <string lang="es">Pota</string>
+        <string lang="pt">Golfada</string>
+    </ref>
+    
+    
+    <ref link="ability_npc_owlbuff_1_name">
+        <string lang="en">Slam</string>
+        <string lang="fr">Placage</string>
+        <string lang="it">Schianto</string>
+        <string lang="de">Kracher</string>
+        <string lang="es">Choque</string>
+        <string lang="pt">Pancada</string>
+    </ref>
+    
+    
+    <ref link="ability_npc_penguinsuit_1_name">
+        <string lang="en">Bonk!</string>
+    </ref>
+    <ref link="ability_npc_penguinsuit_2_name">
+        <string lang="en">Heal Trauma</string>
+        <string lang="fr">Lésion cranio-cérébrale</string>
+        <string lang="it">Lesione craniocerebrale</string>
+        <string lang="de">Kopfverletzung</string>
+        <string lang="es">Trauma Craneocerebral</string>
+        <string lang="pt">Lesão Craniocerebral</string>
+    </ref>
+    
+    
+    <ref link="ability_npc_snowliche_1_name">
+        <string lang="en">Breeze</string>
+        <string lang="fr">Brise</string>
+        <string lang="it">Brezza</string>
+        <string lang="de">Brise</string>
+        <string lang="es">Brisa</string>
+        <string lang="pt">Breeze</string>
+    </ref>
+    <ref link="ability_npc_snowliche_2_name">
+        <string lang="en">Shiver</string>
+        <string lang="fr">Trembler</string>
+        <string lang="it">Rabbrividire</string>
+        <string lang="de">Schauder</string>
+        <string lang="es">Tiritar</string>
+        <string lang="pt">Calafrio</string>
+    </ref>
+    <ref link="ability_npc_snowliche_3_name">
+        <string lang="en">Death Touch</string>
+        <string lang="fr">Contact de la mort</string>
+        <string lang="it">Tocco mortale</string>
+        <string lang="de">Todeshand</string>
+        <string lang="es">Toque mortal</string>
+        <string lang="pt">Toque Mortífero</string>
+    </ref>
+    
+    
+    <ref link="ability_npc_templebirdo_1_name">
+        <string lang="en">Arcane Strike</string>
+        <string lang="fr">Arcane Strike</string>
+        <string lang="it">Sciopero Arcano</string>
+        <string lang="de">Arkaner Streik</string>
+        <string lang="es">Huelga arcana</string>
+        <string lang="pt">Arcane Strike</string>
+    </ref>
+    <ref link="ability_npc_templebirdo_2_name">
+        <string lang="en">Illumina</string>
+    </ref>
+    
+    
+    <ref link="ability_npc_templebeast_1_name">
+        <string lang="en">Oof!</string>
+    </ref>
+    <ref link="ability_npc_templebeast_2_name">
+        <string lang="en">Ug!</string>
+    </ref>
+    
+    
+    <ref link="ability_npc_templemummy_1_name">
+        <string lang="en">Horrify</string>
+        <string lang="fr">Horrifier</string>
+        <string lang="it">Inorridire</string>
+        <string lang="de">Entsetzen</string>
+        <string lang="es">En horrify</string>
+        <string lang="pt">Horrorizar</string>
+    </ref>
+    
+    
+    
+    <ref link="ability_npc_templeguardian_1_name">
+        <string lang="en">Reconstitute</string>
+        <string lang="fr">Reconstruction</string>
+        <string lang="it">Ricostruzione</string>
+        <string lang="de">Rekonstituieren</string>
+        <string lang="es">Reconstrucción</string>
+        <string lang="pt">Reconstrução</string>
+    </ref>
+    <ref link="ability_npc_templeguardian_2_name">
+        <string lang="en">Blinding Light</string>
+        <string lang="fr">La lumière aveuglante</string>
+        <string lang="it">Luce accecante</string>
+        <string lang="de">Blendendes Licht</string>
+        <string lang="es">Luz cegadora</string>
+        <string lang="pt">Luz ofuscante</string>
+    </ref>
+    <ref link="ability_npc_templeguardian_3_name">
+        <string lang="en">Healing Light</string>
+        <string lang="fr">Lumière de guérison</string>
+        <string lang="it">Luce di guarigione</string>
+        <string lang="de">Heilendes Licht</string>
+        <string lang="es">Luz curativa</string>
+        <string lang="pt">Luz de cura</string>
+    </ref>
+    
+    
+    
+    <ref link="ability_npc_pirategoblin_1_name">
+        <string lang="en">Restore</string>
+        <string lang="fr">Restauration</string>
+        <string lang="it">Ripristino</string>
+        <string lang="de">Wiederherstellen</string>
+        <string lang="es">Restablecimiento</string>
+        <string lang="pt">Restauração</string>
+    </ref>
+    <ref link="ability_npc_pirategoblin_2_name">
+        <string lang="en">Plunder</string>
+        <string lang="fr">Pillage</string>
+        <string lang="it">Saccheggio</string>
+        <string lang="de">Plünderung</string>
+        <string lang="es">Saqueo</string>
+        <string lang="pt">Pilhagem</string>
+    </ref>
+    <ref link="ability_npc_pirategoblin_3_name">
+        <string lang="en">Hard Headed</string>
+        <string lang="fr">Têtu</string>
+        <string lang="it">Gabadost</string>
+        <string lang="de">Dickköpfig</string>
+        <string lang="es">Cabeza Dura</string>
+        <string lang="pt">Hard Headed</string>
+    </ref>
+    <ref link="ability_npc_pirategoblin_4_name">
+        <string lang="en">Cheap Shot</string>
+        <string lang="fr">Bon Marché</string>
+        <string lang="it">Economico</string>
+        <string lang="de">Billig</string>
+        <string lang="es">Barato</string>
+        <string lang="pt">Barato</string>
+    </ref>
+    
+    
+    
+    <ref link="ability_npc_pirateoctopus_1_name">
+        <string lang="en">Inspire</string>
+        <string lang="fr">Inspiration</string>
+        <string lang="it">Ispirazione</string>
+        <string lang="de">Inspirieren</string>
+        <string lang="es">Inspiración</string>
+        <string lang="pt">Inspiração</string>
+    </ref>
+    <ref link="ability_npc_pirateoctopus_2_name">
+        <string lang="en">Bone Smack</string>
+        <string lang="fr">Gifle osseuse</string>
+        <string lang="it">Osso-schiaffo</string>
+        <string lang="de">Knochenkracher</string>
+        <string lang="es">Cachete óseo</string>
+        <string lang="pt">Batida Óssea</string>
+    </ref>
+    <ref link="ability_npc_pirateoctopus_3_name">
+        <string lang="en">Blimey</string>
+        <string lang="fr">Mince Alors</string>
+        <string lang="it">Accidenti</string>
+        <string lang="de">O je!</string>
+        <string lang="es">Blimey</string>
+        <string lang="pt">Caramba!</string>
+    </ref>
+    
+    
+    
+    <ref link="ability_npc_piratecannoneer_1_name">
+        <string lang="en">Broadside</string>
+        <string lang="fr">Dépliants</string>
+        <string lang="it">Volantini</string>
+        <string lang="de">Flugblätter</string>
+        <string lang="es">Impresos Sueltos</string>
+        <string lang="pt">Impressos Avulsos</string>
+    </ref>
+    <ref link="ability_npc_piratecannoneer_2_name">
+        <string lang="en">Hail-Shot</string>
+        <string lang="fr">Grêle-Shot</string>
+        <string lang="it">Grandine-Shot</string>
+        <string lang="de">Hagel-Shot</string>
+        <string lang="es">Granizo-Shot</string>
+        <string lang="pt">Granizo-Shot</string>
+    </ref>
+    <ref link="ability_npc_piratecannoneer_3_name">
+        <string lang="en">Bullseye</string>
+        <string lang="fr">Tir dans le mille</string>
+        <string lang="it">Centro perfetto</string>
+        <string lang="de">Volltreffer</string>
+        <string lang="es">Diana</string>
+        <string lang="pt">Na Mira</string>
+    </ref>
+    
+    
+    
+    <ref link="ability_npc_piratebomber_1_name">
+        <string lang="en">Close Quarters</string>
+        <string lang="fr">Étroit</string>
+        <string lang="it">Close Quarters</string>
+        <string lang="de">Hautnah</string>
+        <string lang="es">Cerca de cuartos</string>
+        <string lang="pt">Quartos próximos</string>
+    </ref>
+    <ref link="ability_npc_piratebomber_2_name">
+        <string lang="en">Collateral Damage</string>
+        <string lang="fr">Dommage Collatéral</string>
+        <string lang="it">Danni Collaterali</string>
+        <string lang="de">Begleitschaden</string>
+        <string lang="es">Colateral</string>
+        <string lang="pt">danos Colaterais</string>
+    </ref>
+    <ref link="ability_npc_piratebomber_3_name">
+        <string lang="en">Mutiny</string>
+        <string lang="fr">Mutinerie</string>
+        <string lang="it">Ammutinamento</string>
+        <string lang="de">Meuterei</string>
+        <string lang="es">Motín</string>
+        <string lang="pt">motim</string>
+    </ref>
+    
+    
+    
+    <ref link="ability_npc_piratewoodbeard_1_name">
+        <string lang="en">Walk the Plank</string>
+        <string lang="fr">Marcher sur la planche</string>
+        <string lang="it">Gettate a mare</string>
+        <string lang="de">Die Planke</string>
+        <string lang="es">Caminar por la plancha</string>
+        <string lang="pt">Caminhar na prancha</string>
+    </ref>
+    <ref link="ability_npc_piratewoodbeard_2_name">
+        <string lang="en">Flog</string>
+    </ref>
+    <ref link="ability_npc_piratewoodbeard_3_name">
+        <string lang="en">Pillage</string>
+        <string lang="fr">Pillage</string>
+        <string lang="it">Saccheggio</string>
+        <string lang="de">Plünderung</string>
+        <string lang="es">Saqueo</string>
+        <string lang="pt">Pilhagem</string>
+    </ref>
+    <ref link="ability_npc_piratewoodbeard_4_name">
+        <string lang="en">Execute</string>
+        <string lang="fr">Exécuter</string>
+        <string lang="it">Esegui</string>
+        <string lang="de">Durchführen</string>
+        <string lang="es">Ejecutar</string>
+        <string lang="pt">Executar</string>
+    </ref>
+    
+    
+    
+    <ref link="ability_npc_snowliche_snowwalrus_1_name">
+        <string lang="en">Rancid Recovery</string>
+        <string lang="fr">Récupération de la Rance</string>
+        <string lang="it">Recupero rancido</string>
+        <string lang="de">Ranzig Recovery</string>
+        <string lang="es">Recuperación de rancio</string>
+        <string lang="pt">Recuperação de rançosa</string>
+    </ref>
+    <ref link="ability_npc_snowliche_snowwalrus_2_name">
+        <string lang="en">Bile</string>
+        <string lang="fr">Bile</string>
+        <string lang="it">Bile</string>
+        <string lang="de">Galle</string>
+        <string lang="es">Bilis</string>
+        <string lang="pt">Bílis</string>
+    </ref>
+    <ref link="ability_npc_snowliche_snowwalrus_3_name">
+        <string lang="en">Toxicity</string>
+        <string lang="fr">Toxicité</string>
+        <string lang="it">Tossicità</string>
+        <string lang="de">Toxizität</string>
+        <string lang="es">Toxicidad</string>
+        <string lang="pt">Toxicidade</string>
+    </ref>
+    
+    
+    
+    <ref link="ability_npc_templeguardian_pirateoctopus_1_name">
+        <string lang="en">Sustain</string>
+        <string lang="fr">Soutenir</string>
+        <string lang="it">Sostenere</string>
+        <string lang="de">Nachhaltigkeit</string>
+        <string lang="es">Sostener</string>
+        <string lang="pt">Sustentar</string>
+    </ref>
+    <ref link="ability_npc_templeguardian_pirateoctopus_2_name">
+        <string lang="en">Tremor</string>
+        <string lang="fr">Tremblement</string>
+        <string lang="it">Tremore</string>
+        <string lang="de">Schuetteln</string>
+        <string lang="es">Temblores</string>
+        <string lang="pt">Tremor</string>
+    </ref>
+    <ref link="ability_npc_templeguardian_pirateoctopus_3_name">
+        <string lang="en">Surge</string>
+        <string lang="fr">Surtension</string>
+        <string lang="it">Sovracorrente</string>
+        <string lang="de">Überspannung</string>
+        <string lang="es">Sobretensión</string>
+        <string lang="pt">Ondas</string>
+    </ref>
+    
+    
+    
+    <ref link="ability_npc_sewerrat_piratecannoneer_1_name">
+        <string lang="en">Open Fire</string>
+        <string lang="fr">Ouvrez le feu</string>
+        <string lang="it">Fuoco</string>
+        <string lang="de">Offenes feuer</string>
+        <string lang="es">Abrir fuego</string>
+        <string lang="pt">Abrir fogo</string>
+    </ref>
+    <ref link="ability_npc_sewerrat_piratecannoneer_2_name">
+        <string lang="en">Bombard</string>
+        <string lang="fr">Bombarder</string>
+        <string lang="it">Bombarda</string>
+        <string lang="de">Bombarda</string>
+        <string lang="es">Bombarda</string>
+        <string lang="pt">Bombarda</string>
+    </ref>
+    <ref link="ability_npc_sewerrat_piratecannoneer_3_name">
+        <string lang="en">Snipe</string>
+        <string lang="fr">Tir de précision</string>
+        <string lang="it">Tiro a distanza</string>
+        <string lang="de">Scharfschütze</string>
+        <string lang="es">Disparo</string>
+        <string lang="pt">Tiro de Elite</string>
+    </ref>
+    
+    
+    
+    <ref link="ability_npc_grimreaper_overgrownfetish_1_name">
+        <string lang="en">Mojo</string>
+    </ref>
+    <ref link="ability_npc_grimreaper_overgrownfetish_2_name">
+        <string lang="en">Mumbo Jumbo</string>
+        <string lang="fr">Pas de Blabla</string>
+        <string lang="it">Mumbo Jumbo</string>
+        <string lang="de">Hokuspokus</string>
+        <string lang="es">Mumbo Jumbo</string>
+        <string lang="pt">Mumbo Jumbo</string>
+    </ref>
+    <ref link="ability_npc_grimreaper_overgrownfetish_3_name">
+        <string lang="en">Scythe Swipe</string>
+        <string lang="fr">Fauchage</string>
+        <string lang="it">Cala la falce</string>
+        <string lang="de">Sensenschwung</string>
+        <string lang="es">Golpe de guadaña</string>
+        <string lang="pt">Arrastão de Foice</string>
+    </ref>
+    
+    
+        
+    <ref link="ability_npc_trex_overgrowngoatmenz_1_name">
+        <string lang="en">Intimidation</string>
+        <string lang="fr">Intimidation</string>
+        <string lang="it">Intimidazione</string>
+        <string lang="de">Einschüchtern</string>
+        <string lang="es">Intimidación</string>
+        <string lang="pt">Intimidação</string>
+    </ref>
+    <ref link="ability_npc_trex_overgrowngoatmenz_2_name">
+        <string lang="en">Inspire</string>
+        <string lang="fr">Inspiration</string>
+        <string lang="it">Ispirazione</string>
+        <string lang="de">Inspirieren</string>
+        <string lang="es">Inspiración</string>
+        <string lang="pt">Inspiração</string>
+    </ref>
+    <ref link="ability_npc_trex_overgrowngoatmenz_3_name">
+        <string lang="en">Scratch</string>
+        <string lang="fr">Griffure</string>
+        <string lang="it">Graffio</string>
+        <string lang="de">Kratzen</string>
+        <string lang="es">Rasgón</string>
+        <string lang="pt">Arranhão</string>
+    </ref>
+    
+    
+    
+    <ref link="ability_npc_hyperlord_piratewoodbeard_1_name">
+        <string lang="en">Slice</string>
+        <string lang="fr">Découpe</string>
+        <string lang="it">Affetta</string>
+        <string lang="de">Schneiden</string>
+        <string lang="es">Tajada</string>
+        <string lang="pt">Fatiar</string>
+    </ref>
+    <ref link="ability_npc_hyperlord_piratewoodbeard_2_name">
+        <string lang="en">Eliminate</string>
+        <string lang="fr">Élimination</string>
+        <string lang="it">Eliminazione</string>
+        <string lang="de">Eliminieren</string>
+        <string lang="es">Eliminación</string>
+        <string lang="pt">Eliminação</string>
+    </ref>
+    <ref link="ability_npc_hyperlord_piratewoodbeard_3_name">
+        <string lang="en">Harvest</string>
+        <string lang="fr">Récolte</string>
+        <string lang="it">Mietitura</string>
+        <string lang="de">Ernte</string>
+        <string lang="es">Cosecha</string>
+        <string lang="pt">Colheita</string>
+    </ref>
+    <ref link="ability_npc_hyperlord_piratewoodbeard_4_name">
+        <string lang="en">Destruction</string>
+        <string lang="fr">Destruction</string>
+        <string lang="it">Distruzione</string>
+        <string lang="de">Vernichtung</string>
+        <string lang="es">Destrucción</string>
+        <string lang="pt">Destruição</string>
+    </ref>
+    
+    
+    
+    <ref link="ability_npc_pirategoblin_darkking_1_name">
+        <string lang="en">Revitalize</string>
+        <string lang="fr">Revitaliser</string>
+        <string lang="it">Ravvivare</string>
+        <string lang="de">Revitalisieren</string>
+        <string lang="es">Revitalizar</string>
+        <string lang="pt">Revitalizar</string>
+    </ref>
+    <ref link="ability_npc_pirategoblin_darkking_2_name">
+        <string lang="en">Harvest</string>
+        <string lang="fr">Récolte</string>
+        <string lang="it">Mietitura</string>
+        <string lang="de">Ernte</string>
+        <string lang="es">Cosecha</string>
+        <string lang="pt">Colheita</string>
+    </ref>
+    <ref link="ability_npc_pirategoblin_darkking_3_name">
+        <string lang="en">Hard Headed</string>
+        <string lang="fr">Têtu</string>
+        <string lang="it">Gabadost</string>
+        <string lang="de">Dickköpfig</string>
+        <string lang="es">Cabeza Dura</string>
+        <string lang="pt">Hard Headed</string>
+    </ref>
+    <ref link="ability_npc_pirategoblin_darkking_4_name">
+        <string lang="en">Demonic Leap</string>
+        <string lang="fr">Démoniaque</string>
+        <string lang="it">Leap demoniaco</string>
+        <string lang="de">Dämonischer Sprung</string>
+        <string lang="es">Demoníaco</string>
+        <string lang="pt">Salto demoníaco</string>
+    </ref>
+    
+    
+    
+    <ref link="ability_npc_templeguardian_legendary_1_name">
+        <string lang="en">Sustain</string>
+        <string lang="fr">Soutenir</string>
+        <string lang="it">Sostenere</string>
+        <string lang="de">Nachhaltigkeit</string>
+        <string lang="es">Sostener</string>
+        <string lang="pt">Sustentar</string>
+    </ref>
+    <ref link="ability_npc_templeguardian_legendary_2_name">
+        <string lang="en">Tremor</string>
+        <string lang="fr">Tremblement</string>
+        <string lang="it">Tremore</string>
+        <string lang="de">Schuetteln</string>
+        <string lang="es">Temblores</string>
+        <string lang="pt">Tremor</string>
+    </ref>
+    <ref link="ability_npc_templeguardian_legendary_3_name">
+        <string lang="en">Soul Tap</string>
+        <string lang="fr">Robinet de l’âme</string>
+        <string lang="it">Rubinetto di anima</string>
+        <string lang="de">Seele-Tap</string>
+        <string lang="es">Grifo de alma</string>
+        <string lang="pt">Toque de alma</string>
+    </ref>
+    <ref link="ability_npc_templeguardian_legendary_4_name">
+        <string lang="en">Surge</string>
+        <string lang="fr">Surtension</string>
+        <string lang="it">Sovracorrente</string>
+        <string lang="de">Überspannung</string>
+        <string lang="es">Sobretensión</string>
+        <string lang="pt">Ondas</string>
+    </ref>
+    
+    
+    
+    <ref link="ability_npc_darkarcher_legendary_1_name">
+        <string lang="en">Quick Shot</string>
+        <string lang="fr">Tir rapide</string>
+        <string lang="it">Colpo rapido</string>
+        <string lang="de">Schneller Schuss</string>
+        <string lang="es">Tiro rápido</string>
+        <string lang="pt">Tiro Rápido</string>
+    </ref>
+    <ref link="ability_npc_darkarcher_legendary_2_name">
+        <string lang="en">Dark Pact</string>
+        <string lang="fr">Pacte noir</string>
+        <string lang="it">Patto oscuro</string>
+        <string lang="de">Dunkler Pakt</string>
+        <string lang="es">Pacto oscuro</string>
+        <string lang="pt">Pacto das Trevas</string>
+    </ref>
+    <ref link="ability_npc_darkarcher_legendary_3_name">
+        <string lang="en">Pinpoint</string>
+        <string lang="fr">Localisation</string>
+        <string lang="it">Alta precisione</string>
+        <string lang="de">Präzisionsschuss</string>
+        <string lang="es">Señal</string>
+        <string lang="pt">Alfinetada</string>
+    </ref>
+    <ref link="ability_npc_darkarcher_legendary_4_name">
+        <string lang="en">Restore</string>
+        <string lang="fr">Restauration</string>
+        <string lang="it">Ripristino</string>
+        <string lang="de">Wiederherstellen</string>
+        <string lang="es">Restablecimiento</string>
+        <string lang="pt">Restauração</string>
+    </ref>
+    
+    
+    
+    <ref link="ability_npc_golum_zombie_1_name">
+        <string lang="en">Leap Attack</string>
+        <string lang="fr">Attaque bondissante</string>
+        <string lang="it">Attacco in balzo</string>
+        <string lang="de">Sprungangriff</string>
+        <string lang="es">Ataque con salto</string>
+        <string lang="pt">Ataque de Pulo</string>
+    </ref>
+    <ref link="ability_npc_golum_zombie_2_name">
+        <string lang="en">Bone Smack</string>
+        <string lang="fr">Gifle osseuse</string>
+        <string lang="it">Osso-schiaffo</string>
+        <string lang="de">Knochenkracher</string>
+        <string lang="es">Cachete óseo</string>
+        <string lang="pt">Batida Óssea</string>
+    </ref>
+    
+    
+    <ref link="ability_npc_owlbuff_zombie_1_name">
+        <string lang="en">Slam</string>
+        <string lang="fr">Placage</string>
+        <string lang="it">Schianto</string>
+        <string lang="de">Kracher</string>
+        <string lang="es">Choque</string>
+        <string lang="pt">Pancada</string>
+    </ref>
+    <ref link="ability_npc_owlbuff_zombie_2_name">
+        <string lang="en">Healing Slam</string>
+        <string lang="fr">Placage thérapeutique</string>
+        <string lang="it">Schianto curativo</string>
+        <string lang="de">Heilender Kracher</string>
+        <string lang="es">Choque sanador</string>
+        <string lang="pt">Pancada Curandeira</string>
+    </ref>
+    
+    
+    <ref link="ability_npc_tree_zombie_1_name">
+        <string lang="en">Reaping</string>
+        <string lang="fr">Moisson</string>
+        <string lang="it">Recisione</string>
+        <string lang="de">Ernten</string>
+        <string lang="es">Siega</string>
+        <string lang="pt">Ceifeira</string>
+    </ref>
+    <ref link="ability_npc_tree_zombie_2_name">
+        <string lang="en">Paper Cut</string>
+        <string lang="fr">Découpage</string>
+        <string lang="it">Taglietto</string>
+        <string lang="de">Papierschnitt</string>
+        <string lang="es">Corte de papel</string>
+        <string lang="pt">Corte de Papel</string>
+    </ref>
+    
+    
+    <ref link="ability_npc_ogre_zombie_1_name">
+        <string lang="en">Reaping</string>
+        <string lang="fr">Moisson</string>
+        <string lang="it">Recisione</string>
+        <string lang="de">Ernten</string>
+        <string lang="es">Siega</string>
+        <string lang="pt">Ceifeira</string>
+    </ref>
+    <ref link="ability_npc_ogre_zombie_2_name">
+        <string lang="en">Bombard</string>
+        <string lang="fr">Bombarder</string>
+        <string lang="it">Bombarda</string>
+        <string lang="de">Bombarda</string>
+        <string lang="es">Bombarda</string>
+        <string lang="pt">Bombarda</string>
+    </ref>
+    <ref link="ability_npc_ogre_zombie_3_name">
+        <string lang="en">Isolate</string>
+        <string lang="fr">Isolement</string>
+        <string lang="it">Isola</string>
+        <string lang="de">Isolieren</string>
+        <string lang="es">Confinamiento</string>
+        <string lang="pt">Isolamento</string>
+    </ref>
+    
+    
+    <ref link="ability_npc_sanddino_zombie_1_name">
+        <string lang="en">Consume</string>
+        <string lang="fr">Consommer</string>
+        <string lang="it">Consumare</string>
+        <string lang="de">Verbrauchen</string>
+        <string lang="es">Consumir</string>
+        <string lang="pt">Consumir</string>
+    </ref>
+    <ref link="ability_npc_sanddino_zombie_2_name">
+        <string lang="en">Bite</string>
+        <string lang="fr">Morsure</string>
+        <string lang="it">Morso</string>
+        <string lang="de">Beißen</string>
+        <string lang="es">Bocado</string>
+        <string lang="pt">Mordida</string>
+    </ref>
+    <ref link="ability_npc_sanddino_zombie_3_name">
+        <string lang="en">Jump</string>
+        <string lang="fr">Saut</string>
+        <string lang="it">Salto</string>
+        <string lang="de">Sprung</string>
+        <string lang="es">Salto</string>
+        <string lang="pt">Saltar</string>
+    </ref>
+    
+    
+    <ref link="ability_npc_snowturkey_zombie_1_name">
+        <string lang="en">Rake</string>
+        <string lang="fr">Ratissage</string>
+        <string lang="it">Infilza</string>
+        <string lang="de">Rechen</string>
+        <string lang="es">Arañar</string>
+        <string lang="pt">Garfar</string>
+    </ref>
+    <ref link="ability_npc_snowturkey_zombie_2_name">
+        <string lang="en">Healing Shout</string>
+        <string lang="fr">Cri de guérison</string>
+        <string lang="it">Grido di guarigione</string>
+        <string lang="de">Heilenden Schrei</string>
+        <string lang="es">Grito de sanación</string>
+        <string lang="pt">Shing de cura</string>
+    </ref>
+    <ref link="ability_npc_snowturkey_zombie_3_name">
+        <string lang="en">Gobble</string>
+        <string lang="fr">Glouglou</string>
+        <string lang="it">Gobble</string>
+        <string lang="de">Kollern</string>
+        <string lang="es">Glup</string>
+        <string lang="pt">Gluglu</string>
+    </ref>
+    
+    
+    <ref link="ability_npc_toxicbeast_zombie_1_name">
+        <string lang="en">Infect</string>
+        <string lang="fr">Infect</string>
+        <string lang="it">Infezione</string>
+        <string lang="de">Infizieren</string>
+        <string lang="es">Infección</string>
+        <string lang="pt">Infecção</string>
+    </ref>
+    <ref link="ability_npc_toxicbeast_zombie_2_name">
+        <string lang="en">Ooze</string>
+        <string lang="fr">Exsudat</string>
+        <string lang="it">Liquame</string>
+        <string lang="de">Eiter</string>
+        <string lang="es">Flujo</string>
+        <string lang="pt">Chorume</string>
+    </ref>
+    <ref link="ability_npc_toxicbeast_zombie_3_name">
+        <string lang="en">Devour</string>
+        <string lang="fr">Engloutissement</string>
+        <string lang="it">Divora</string>
+        <string lang="de">Verschlingen</string>
+        <string lang="es">Devorado</string>
+        <string lang="pt">Devorar</string>
+    </ref>
+    <ref link="ability_npc_toxicbeast_zombie_4_name">
+        <string lang="en">Putrefy</string>
+        <string lang="fr">Putréfaction</string>
+        <string lang="it">Putrefazione</string>
+        <string lang="de">Fäulnis</string>
+        <string lang="es">Putrefacción</string>
+        <string lang="pt">Putrefazer</string>
+    </ref>
+    
+    
+    <ref link="ability_npc_darkwarrior_zombie_1_name">
+        <string lang="en">Soul Steal</string>
+        <string lang="fr">Vol d'âme</string>
+        <string lang="it">Ruba anima</string>
+        <string lang="de">Seelenraub</string>
+        <string lang="es">Robaalmas</string>
+        <string lang="pt">Furt'alma</string>
+    </ref>
+    <ref link="ability_npc_darkwarrior_zombie_2_name">
+        <string lang="en">Pinpoint</string>
+        <string lang="fr">Localisation</string>
+        <string lang="it">Alta precisione</string>
+        <string lang="de">Präzisionsschuss</string>
+        <string lang="es">Señal</string>
+        <string lang="pt">Alfinetada</string>
+    </ref>
+    <ref link="ability_npc_darkwarrior_zombie_3_name">
+        <string lang="en">Crush</string>
+        <string lang="fr">Écrasement</string>
+        <string lang="it">Morsa</string>
+        <string lang="de">Zertrümmern</string>
+        <string lang="es">Aplastamiento</string>
+        <string lang="pt">Esmagamento</string>
+    </ref>
+    <ref link="ability_npc_darkwarrior_zombie_4_name">
+        <string lang="en">Strike</string>
+        <string lang="fr">Frappe</string>
+        <string lang="it">Colpo</string>
+        <string lang="de">Schlag</string>
+        <string lang="es">Golpe</string>
+        <string lang="pt">Golpe comum</string>
+    </ref>
+    
+    
+    <ref link="ability_npc_lardo_zombie_1_name">
+        <string lang="en">Slam</string>
+        <string lang="fr">Placage</string>
+        <string lang="it">Schianto</string>
+        <string lang="de">Kracher</string>
+        <string lang="es">Choque</string>
+        <string lang="pt">Pancada</string>
+    </ref>
+    <ref link="ability_npc_lardo_zombie_2_name">
+        <string lang="en">Barf</string>
+        <string lang="fr">Vomissure</string>
+        <string lang="it">Vomito</string>
+        <string lang="de">Spucken</string>
+        <string lang="es">Pota</string>
+        <string lang="pt">Golfada</string>
+    </ref>
+    <ref link="ability_npc_lardo_zombie_3_name">
+        <string lang="en">Smash</string>
+        <string lang="fr">Fracasser</string>
+        <string lang="it">Distruggere</string>
+        <string lang="de">Smash</string>
+        <string lang="es">Aplastar</string>
+        <string lang="pt">Esmagar</string>
+    </ref>
+    <ref link="ability_npc_lardo_zombie_4_name">
+        <string lang="en">Restore</string>
+        <string lang="fr">Restauration</string>
+        <string lang="it">Ripristino</string>
+        <string lang="de">Wiederherstellen</string>
+        <string lang="es">Restablecimiento</string>
+        <string lang="pt">Restauração</string>
+    </ref>
+    
+    
+    
+    
+    <ref link="ability_npc_fantasyghost_1_name">
+        <string lang="en">Pogo</string>
+    </ref>
+    
+    
+    
+    <ref link="ability_npc_robomech_0_name">
+        <string lang="en">Pew Pew</string>
+    </ref>
+    <ref link="ability_npc_robomech_1_name">
+        <string lang="en">Chaos Cannon</string>
+        <string lang="fr">Chaos Cannon</string>
+        <string lang="it">Caos Cannon</string>
+        <string lang="de">Chaos-Kanone</string>
+        <string lang="es">Cañón del caos</string>
+        <string lang="pt">Caos Cannon</string>
+    </ref>
+    <ref link="ability_npc_robomech_3_name">
+        <string lang="en">Target Acquired</string>
+        <string lang="fr">Cible acquise</string>
+        <string lang="it">Bersaglio acquisito</string>
+        <string lang="de">Ziel erworben</string>
+        <string lang="es">Objetivo localizado</string>
+        <string lang="pt">Alvo adquirido</string>
+    </ref>
+    
+    
+</data>

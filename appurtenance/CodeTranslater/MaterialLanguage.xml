@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+    <ref link="material_trade_desc">
+        <string lang="en">Used for trading in at the crafter</string>
+        <string lang="fr">À vendre chez l'artisan</string>
+        <string lang="it">Si può commerciare dall'artigiano</string>
+        <string lang="de">Wird zum Eintauschen beim Handwerker verwendet</string>
+        <string lang="es">Se utiliza para comerciar en la artesanía.</string>
+        <string lang="pt">Usado para trocas no artesão</string>
+    </ref>
+    <ref link="material_upgrade_desc">
+        <string lang="en">Used for upgrading equipment at the crafter</string>
+        <string lang="fr">Permet d'améliorer des équipements chez l'artisan</string>
+        <string lang="it">Si usa per potenziare equipaggiamento dall'artigiano</string>
+        <string lang="de">Wird zum Upgraden von Ausrüstung beim Handwerker verwendet</string>
+        <string lang="es">Se utiliza para mejorar equipamiento en la artesanía.</string>
+        <string lang="pt">Usado para evoluir equipamentos no artesão</string>
+    </ref>
+    <ref link="material_fusion_desc">
+        <string lang="en">Used with familiar fusion schematics</string>
+        <string lang="fr">S'utilise avec des schémas de fusion de familiers</string>
+        <string lang="it">Si usa con i progetti di fusione famigli</string>
+        <string lang="de">Wird mit Schutzgeist-Fusionsbauplänen verwendet</string>
+        <string lang="es">Se utiliza con los esquemas de fusión de compañeros.</string>
+        <string lang="pt">Usado para fórmulas de fusão de familiares</string>
+    </ref>
+    <ref link="material_1_name">
+        <string lang="en">Bronze Coin</string>
+        <string lang="fr">Pièce de bronze</string>
+        <string lang="it">Moneta di bronzo</string>
+        <string lang="de">Bronzemünze</string>
+        <string lang="es">Moneda de bronce</string>
+        <string lang="pt">Moeda de Bronze</string>
+    </ref>
+    <ref link="material_2_name">
+        <string lang="en">Silver Coin</string>
+        <string lang="fr">Pièce d'argent</string>
+        <string lang="it">Moneta d'argento</string>
+        <string lang="de">Silbermünze</string>
+        <string lang="es">Moneda de plata</string>
+        <string lang="pt">Moeda de Prata</string>
+    </ref>
+    <ref link="material_3_name">
+        <string lang="en">Gold Coin</string>
+        <string lang="fr">Pièce d'or</string>
+        <string lang="it">Moneta d'oro</string>
+        <string lang="de">Goldmünze</string>
+        <string lang="es">Moneda de oro</string>
+        <string lang="pt">Moeda de Ouro</string>
+    </ref>
+    <ref link="material_4_name">
+        <string lang="en">Common Material</string>
+        <string lang="fr">Matériel courant</string>
+        <string lang="it">Materiale comune</string>
+        <string lang="de">Gewöhnliches Material</string>
+        <string lang="es">Material común</string>
+        <string lang="pt">Material Comum</string>
+    </ref>
+    <ref link="material_5_name">
+        <string lang="en">Rare Material</string>
+        <string lang="fr">Matériel rare</string>
+        <string lang="it">Materiale raro</string>
+        <string lang="de">Seltenes Material</string>
+        <string lang="es">Material inusual</string>
+        <string lang="pt">Material Raro</string>
+    </ref>
+    <ref link="material_6_name">
+        <string lang="en">Epic Material</string>
+        <string lang="fr">Matériel épique</string>
+        <string lang="it">Materiale epico</string>
+        <string lang="de">Episches Material</string>
+        <string lang="es">Material épico</string>
+        <string lang="pt">Material Épico</string>
+    </ref>
+    <ref link="material_7_name">
+        <string lang="en">Robot Sprocket</string>
+        <string lang="fr">Pignon de robot</string>
+        <string lang="it">Ingranaggio di robot</string>
+        <string lang="de">Roboterzahnrad</string>
+        <string lang="es">Rueda de robot</string>
+        <string lang="pt">Engrenagem Robô</string>
+    </ref>
+    <ref link="material_8_name">
+        <string lang="en">Jumbo Syrum</string>
+        <string lang="fr">Syrum géant</string>
+        <string lang="it">Siero colosso</string>
+        <string lang="de">Jumbo-Syrum</string>
+        <string lang="es">Suero grande</string>
+        <string lang="pt">Soro Jumbo</string>
+    </ref>
+    <ref link="material_9_name">
+        <string lang="en">Rune Fragment</string>
+        <string lang="fr">Fragment de rune</string>
+        <string lang="it">Frammento di runa</string>
+        <string lang="de">Runenfragment</string>
+        <string lang="es">Fragmento de runa</string>
+        <string lang="pt">Fragmento de Runa</string>
+    </ref>
+    <ref link="material_9_desc">
+        <string lang="en">Used to create Runes at the crafter</string>
+        <string lang="fr">Permet de créer des runes chez l'artisan</string>
+        <string lang="it">Si usa per creare rune dall'artigiano</string>
+        <string lang="de">Wird zum Herstellen von Runen beim Handwerker verwendet</string>
+        <string lang="es">Se utiliza para crear runas en la artesanía.</string>
+        <string lang="pt">Usado para criar Runas no artesão</string>
+    </ref>
+    <ref link="material_10_name">
+        <string lang="en">Mini Syrum</string>
+        <string lang="fr">Mini Syrum</string>
+        <string lang="it">Siero mini</string>
+        <string lang="de">Mini-Syrum</string>
+        <string lang="es">Suero pequeño</string>
+        <string lang="pt">Soro Mini</string>
+    </ref>
+    <ref link="material_11_name">
+        <string lang="en">Hyper Shard</string>
+        <string lang="fr">Hyper tesson</string>
+        <string lang="it">Iper-frammento</string>
+        <string lang="de">Hypersplitter</string>
+        <string lang="es">Hiperfragmento</string>
+        <string lang="pt">Hipercristal</string>
+    </ref>
+    <ref link="material_12_name">
+        <string lang="en">Harmony Orb</string>
+        <string lang="fr">Orbe de l'harmonie</string>
+        <string lang="it">Sfera armonica</string>
+        <string lang="de">Harmoniekugel</string>
+        <string lang="es">Esfera de armonía</string>
+        <string lang="pt">Orbe Harmônico</string>
+    </ref>
+    <ref link="material_12_desc">
+        <string lang="en">Used for creating set items at the crafter</string>
+        <string lang="fr">Permet de créer des objets définis chez l'artisan</string>
+        <string lang="it">Si usa per creare oggetti set dall'artigiano</string>
+        <string lang="de">Wird zum Herstellen von Set-Gegenständen beim Handwerker verwendet</string>
+        <string lang="es">Se utiliza para crear objetos determinados en la artesanía.</string>
+        <string lang="pt">Usado para criar itens de conjuntos no artesão.</string>
+    </ref>
+    <ref link="material_13_name">
+        <string lang="en">Critter Jelly</string>
+        <string lang="fr">Gelée Critter</string>
+        <string lang="it">Critter Jelly</string>
+        <string lang="de">Critter Jelly</string>
+        <string lang="es">Critter Jelly</string>
+        <string lang="pt">Gelatina Critter</string>
+    </ref>
+    <ref link="material_13_desc">
+        <string lang="en">Used for upgrading Pets. Obtained by exchanging Pets.</string>
+        <string lang="fr">Utilisé pour la mise à niveau des animaux de compagnie. Obtenu en échangeant des animaux de compagnie.</string>
+        <string lang="it">Utilizzato per l'aggiornamento degli animali domestici. Ottenuto scambiando gli animali domestici.</string>
+        <string lang="de">Wird für die Aufrüstung von Haustieren verwendet. Erhalten durch den Austausch von Haustieren.</string>
+        <string lang="es">Se utiliza para actualizar mascotas. Obtenido mediante el intercambio de mascotas.</string>
+        <string lang="pt">Usado para atualizar animais de estimação. Obtido pela troca de animais de estimação.</string>
+    </ref>
+    <ref link="material_14_name">
+        <string lang="en">Component Cream</string>
+        <string lang="fr">Crème composante</string>
+        <string lang="it">Crema di componente</string>
+        <string lang="de">Komponenten-Creme</string>
+        <string lang="es">Componente Crema</string>
+        <string lang="pt">Creme Componente</string>
+    </ref>
+    <ref link="material_14_desc">
+        <string lang="en">Used for upgrading Accessories. Obtained by exchanging Accessories.</string>
+        <string lang="fr">Utilisé pour la mise à niveau des accessoires. Obtenu en échangeant des accessoires.</string>
+        <string lang="it">Utilizzato per aggiornare gli accessori. Ottenuti scambiando gli accessori.</string>
+        <string lang="de">Wird für das Upgrade von Zubehör verwendet. Erhalten durch Austausch von Zubehör.</string>
+        <string lang="es">Se utiliza para actualizar los accesorios. Obtenido mediante el intercambio de accesorios.</string>
+        <string lang="pt">Usado para atualização de acessórios. Obtido trocando acessórios.</string>
+    </ref>
+    <ref link="material_15_name">
+        <string lang="en">Doubloon</string>
+        <string lang="fr">Doublon</string>
+        <string lang="it">Doubloon</string>
+        <string lang="de">Zweifeld</string>
+        <string lang="es">Doblón</string>
+        <string lang="pt">Dobrão</string>
+    </ref>
+    <ref link="material_16_name">
+        <string lang="en">Onyx Lodestone</string>
+    </ref>
+    <ref link="material_17_name">
+        <string lang="en">Wet Brainz</string>
+        <string lang="fr">Cerveaux humides</string>
+        <string lang="it">Cervelli umidi</string>
+        <string lang="de">Nasse Gehirne</string>
+        <string lang="es">Cerebros húmedos</string>
+        <string lang="pt">Cereais Molhados</string>
+    </ref>
+    <ref link="material_18_name">
+        <string lang="en">Hobbit Foot</string>
+        <string lang="fr">Pied Hobbit</string>
+        <string lang="it">Piede Hobbit</string>
+        <string lang="de">Hobbit Fuß</string>
+        <string lang="es">Hobbit Pie</string>
+        <string lang="pt">Pé Hobbit</string>
+    </ref>
+    <ref link="material_19_name">
+        <string lang="en">Jade Lodestone</string>
+    </ref>
+    <ref link="material_20_name">
+        <string lang="en">Ninja Powah</string>
+    </ref>
+    
+    
+    <ref link="material_21_name">
+        <string lang="en">Rom Bit</string>
+    </ref>
+    <ref link="material_22_name">
+        <string lang="en">Platinum Ingot</string>
+        <string lang="fr">Lingot de platine</string>
+        <string lang="it">Ingot platino</string>
+        <string lang="de">Platinbarren</string>
+        <string lang="es">Lingote de platino</string>
+        <string lang="pt">Lingote de platina</string>
+    </ref>
+    <ref link="material_23_name">
+        <string lang="en">Orichalcum Ingot</string>
+        <string lang="fr">Lingot d'orichalque</string>
+        <string lang="it">Orichalcum Ingot</string>
+        <string lang="de">Orichalcumbarren</string>
+        <string lang="es">Lingote de oricalco</string>
+        <string lang="pt">Lingote de Orichalcum</string>
+    </ref>
+    <ref link="material_24_name">
+        <string lang="en">Dark Iron Ingot</string>
+        <string lang="fr">Lingot de fer foncé</string>
+        <string lang="it">Scalpello in ferro scuro</string>
+        <string lang="de">Dunkeleisenbarren</string>
+        <string lang="es">Lingote de hierro oscuro</string>
+        <string lang="pt">Lingote de ferro escuro</string>
+    </ref>
+    
+    
+    <ref link="material_25_name">
+        <string lang="en">Demon Juice</string>
+        <string lang="fr">Jus de démon</string>
+        <string lang="it">Succo di demone</string>
+        <string lang="de">Dämonensaft</string>
+        <string lang="es">Jugo de demonio</string>
+        <string lang="pt">Suco de Demon</string>
+    </ref>
+    
+    <ref link="material_26_name">
+        <string lang="en">Corundum Ingot</string>
+        <string lang="fr">Lingot de Corundum</string>
+        <string lang="it">Ingot Corundum</string>
+        <string lang="de">Corundumbarren</string>
+        <string lang="es">Lingote de Corundum</string>
+        <string lang="pt">Lingote de Corundum</string>
+    </ref>
+    <ref link="material_27_name">
+        <string lang="en">Cobalt Lodestone</string>
+    </ref>
+    <ref link="material_28_name">
+        <string lang="en">Ginger Snaps</string>
+        <string lang="fr">Biscuits au gingembre</string>
+        <string lang="it">Biscotti allo zenzero</string>
+        <string lang="de">Ingwer Snaps</string>
+        <string lang="es">Galletas de jengibre</string>
+        <string lang="pt">Snap de gengibre</string>
+    </ref>
+    
+    <ref link="material_29_name">
+        <string lang="en">Mount Guts</string>
+        <string lang="fr">Boyaux de Monture</string>
+        <string lang="it">Budella di Monte</string>
+        <string lang="de">Reittier Innerein</string>
+        <string lang="es">Tripas de Montar</string>
+        <string lang="pt">Montaria Tripas</string>
+    </ref>
+    <ref link="material_29_desc">
+        <string lang="en">Used to create Mounts at the crafter</string>
+        <string lang="fr">Permet de créer des Montures chez l'artisan</string>
+        <string lang="it">Si usa per creare Cavalcature dall'artigiano</string>
+        <string lang="de">Wird zum Herstellen von Reittiere beim Handwerker verwendet</string>
+        <string lang="es">Se utiliza para crear Monturas en la artesanía.</string>
+        <string lang="pt">Usado para criar Montarias no artesão</string>
+    </ref>
+    
+    <ref link="material_30_name">
+        <string lang="en">Seashells</string>
+        <string lang="fr">Coquillages</string>
+        <string lang="it">Conchiglie</string>
+        <string lang="de">Muscheln</string>
+        <string lang="es">Conchas</string>
+        <string lang="pt">Conchas</string>
+    </ref>
+    <ref link="material_30_desc">
+        <string lang="en">Used to purchase rewards at the Fishing shop</string>
+        <string lang="fr">Permet de achat des récompenses chez l'magasin de pêche</string>
+        <string lang="it">Si usa per acquista ricompense dall'negozio di pesca</string>
+        <string lang="de">Wird zum kauf von belohnungen beim Angelgeschäft verwendet</string>
+        <string lang="es">Se utiliza para compra recompensas en la tienda de pesca</string>
+        <string lang="pt">Usado para compra prêmios no loja de pesca</string>
+    </ref>
+    
+    <ref link="material_31_name">
+        <string lang="en">Ball</string>
+        <string lang="fr">Ballon</string>
+        <string lang="it">Palla</string>
+        <string lang="de">Kugel</string>
+        <string lang="es">Pelota</string>
+        <string lang="pt">Bola</string>
+    </ref>
+    <ref link="material_32_name">
+        <string lang="en">Boot</string>
+        <string lang="fr">Botte</string>
+        <string lang="it">Stivale</string>
+        <string lang="de">Stiefel</string>
+        <string lang="es">Bota</string>
+        <string lang="pt">Bota</string>
+    </ref>
+    <ref link="material_33_name">
+        <string lang="en">Seaweed</string>
+        <string lang="fr">Algue</string>
+        <string lang="it">Algas</string>
+        <string lang="de">Seetang</string>
+        <string lang="es">Algas</string>
+        <string lang="pt">Algas</string>
+    </ref>
+    <ref link="material_34_name">
+        <string lang="en">Stick</string>
+        <string lang="fr">Bâton</string>
+        <string lang="it">Bastone</string>
+        <string lang="de">Stock</string>
+        <string lang="es">Palo</string>
+        <string lang="pt">Vareta</string>
+    </ref>
+    <ref link="material_35_name">
+        <string lang="en">Tin Can</string>
+        <string lang="fr">Boîte de Conserve</string>
+        <string lang="it">Lattina</string>
+        <string lang="de">Blechdose</string>
+        <string lang="es">Lata</string>
+        <string lang="pt">Lata de Lata</string>
+    </ref>
+    
+</data>

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+    <ref link="currency_1_name">
+        <string lang="zh-cn">黄金</string>
+        <string lang="en">Gold</string>
+        <string lang="fr">Or</string>
+        <string lang="it">Oro</string>
+        <string lang="de">Gold</string>
+        <string lang="es">Oro</string>
+        <string lang="pt">Ouro</string>
+    </ref>
+    <ref link="currency_2_name">
+        <string lang="zh-cn">宝石</string>
+        <string lang="en">Gems</string>
+        <string lang="fr">Gemmes</string>
+        <string lang="it">Gemme</string>
+        <string lang="de">Edelsteine</string>
+        <string lang="es">Gemas</string>
+        <string lang="pt">Joias</string>
+    </ref>
+    <ref link="currency_3_name">
+        <string lang="zh-cn">exp</string>
+        <string lang="en">Exp</string>
+        <string lang="fr">Exp.</string>
+        <string lang="it">Esp</string>
+        <string lang="de">EP</string>
+        <string lang="es">EXP</string>
+        <string lang="pt">Exp</string>
+    </ref>
+    <ref link="currency_4_name">
+        <string lang="zh-cn">能源</string>
+        <string lang="en">Energy</string>
+        <string lang="fr">Énergie</string>
+        <string lang="it">Energia</string>
+        <string lang="de">Energie</string>
+        <string lang="es">Energía</string>
+        <string lang="pt">Energia</string>
+    </ref>
+    <ref link="currency_5_name">
+        <string lang="zh-cn">票</string>
+        <string lang="en">Tickets</string>
+        <string lang="fr">Tickets</string>
+        <string lang="it">Biglietti</string>
+        <string lang="de">Tickets</string>
+        <string lang="es">Boletos</string>
+        <string lang="pt">Tíquetes</string>
+    </ref>
+    <ref link="currency_6_name">
+        <string lang="zh-cn">统计点</string>
+        <string lang="en">Stat Point</string>
+        <string lang="fr">Point de stats</string>
+        <string lang="it">Punto statistiche</string>
+        <string lang="de">Wertepunkt</string>
+        <string lang="es">Punto estadísticas</string>
+        <string lang="pt">Ponto de Atributo</string>
+    </ref>
+    <ref link="currency_7_name">
+        <string lang="zh-cn">荣誉</string>
+        <string lang="en">Honor</string>
+        <string lang="fr">Honneur</string>
+        <string lang="it">Onore</string>
+        <string lang="de">Ehre</string>
+        <string lang="es">Honor</string>
+        <string lang="pt">Honra</string>
+    </ref>
+    <ref link="currency_7_desc">
+        <string lang="zh-cn">你获得的荣誉等于 ^ 10% ^% 的所有公会 exp, 你赚</string>
+        <string lang="en">You gain honor equal to ^10^% of all guild exp you earn</string>
+        <string lang="fr">Ton honneur est égal à ^10^% de toute l'exp. de guilde que tu as acquise</string>
+        <string lang="it">Guadagni onore pari al ^10^% di tutta l'esperienza di gilda ottenuta</string>
+        <string lang="de">Du erhältst Ehre in Höhe von ^10^% aller Gilden-EP, die du sammelst.</string>
+        <string lang="es">Ganas honor equivalente al ^10^% de toda la EXP del gremio que ganes.</string>
+        <string lang="pt">Você ganha honra proporcional à ^10^% da exp. de guilda recebida</string>
+    </ref>
+    <ref link="currency_8_name">
+        <string lang="zh-cn">碎片</string>
+        <string lang="en">Shards</string>
+        <string lang="fr">Tessons</string>
+        <string lang="it">Frammenti</string>
+        <string lang="de">Splitter</string>
+        <string lang="es">Fragmentos</string>
+        <string lang="pt">Cristais</string>
+    </ref>
+    <ref link="currency_9_name">
+        <string lang="zh-cn">令 牌</string>
+        <string lang="en">Tokens</string>
+        <string lang="fr">Jetons</string>
+        <string lang="it">Gettoni</string>
+        <string lang="de">Tokens</string>
+        <string lang="es">Fichas</string>
+        <string lang="pt">Fichas</string>
+    </ref>
+    <ref link="currency_10_name">
+        <string lang="zh-cn">徽章</string>
+        <string lang="en">Badges</string>
+        <string lang="fr">Badges</string>
+        <string lang="it">Badge</string>
+        <string lang="de">Abzeichen</string>
+        <string lang="es">Insignias</string>
+        <string lang="pt">Distintivos</string>
+    </ref>
+    <ref link="currency_11_name">
+        <string lang="zh-cn">公会雄鹿</string>
+        <string lang="en">Guild Bucks</string>
+        <string lang="fr">Guildes Bucks</string>
+        <string lang="it">Gilde Bucks</string>
+        <string lang="de">Gildenböcke</string>
+        <string lang="es">Bucks del gremio</string>
+        <string lang="pt">Guilda Bucks</string>
+    </ref>
+    <ref link="currency_11_desc">
+        <string lang="zh-cn">公会雄鹿是通过参加 gvg 获得的, 公会领袖可以花 gb 为公会会员支付奖金优惠</string>
+        <string lang="en">Guild Bucks are earned by participating in GvG. Guild leaders can spend GB on bonus perks for guild members</string>
+        <string lang="fr">Guilde Bucks sont gagnés en participant en GcG. Guild dirigeants peuvent passer GB sur les avantages de la prime pour les membres de la Guilde</string>
+        <string lang="it">Gilda Bucks sono guadagnati partecipando a GvG. Guild leader possono spendere GB per bonus vantaggi per i membri della Gilda</string>
+        <string lang="de">Gilde Dollar verdient durch die Teilnahme an GvG. Guild Führer können ausgeben GB Bonus Vergünstigungen für Gildenmitglieder</string>
+        <string lang="es">Bucks de gremio se ganan participando en GcG. gremio líderes gastar GB en beneficios de bonificación para miembros del gremio</string>
+        <string lang="pt">Guild dólares são ganhos através da participação em GvG. Guild líderes podem gastar GB em bônus regalias para membros da guild</string>
+    </ref>
+</data>

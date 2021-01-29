@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+  <ref link="shop_tab_primary_name">
+    <string lang="en">Featured</string>
+    <string lang="fr">Présentés</string>
+    <string lang="it">In evidenza</string>
+    <string lang="de">Vorgeschlagen</string>
+    <string lang="es">Destacado</string>
+    <string lang="pt">Em destaque</string>
+  </ref>
+  <ref link="shop_tab_1_name">
+    <string lang="en">Gear</string>
+    <string lang="fr">Matériel</string>
+    <string lang="it">Equipaggiamento</string>
+    <string lang="de">Ausrüstung</string>
+    <string lang="es">Equipamiento</string>
+    <string lang="pt">Equipamento</string>
+  </ref>
+  <ref link="shop_tab_2_name">
+    <string lang="en">Boosts</string>
+    <string lang="fr">Boosts</string>
+    <string lang="it">Boost</string>
+    <string lang="de">Boosts</string>
+    <string lang="es">Potenciadores</string>
+    <string lang="pt">Reforços</string>
+  </ref>
+  <ref link="shop_tab_3_name">
+    <string lang="en">Other</string>
+    <string lang="fr">Autres</string>
+    <string lang="it">Altro</string>
+    <string lang="de">Sonstige</string>
+    <string lang="es">Otros</string>
+    <string lang="pt">Outros</string>
+  </ref>
+</data>

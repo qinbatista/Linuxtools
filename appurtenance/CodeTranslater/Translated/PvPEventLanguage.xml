@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+    <ref link="pvp_event_1_name">
+        <string lang="zh-cn">阿 尔 法</string>
+        <string lang="en">Alpha</string>
+    </ref>
+    <ref link="pvp_event_2_name">
+        <string lang="zh-cn">试用版</string>
+        <string lang="en">Beta</string>
+    </ref>
+    <ref link="pvp_event_3_name">
+        <string lang="zh-cn">永恒</string>
+        <string lang="en">Eternal</string>
+        <string lang="fr">Éternel</string>
+        <string lang="it">Eterno</string>
+        <string lang="de">Ewigkeit</string>
+        <string lang="es">Eterno</string>
+        <string lang="pt">Eternidade</string>
+    </ref>
+    <ref link="pvp_event_4_name">
+        <string lang="zh-cn">蛇</string>
+        <string lang="en">Serpent</string>
+        <string lang="fr">Serpent</string>
+        <string lang="it">Serpente</string>
+        <string lang="de">Schlange</string>
+        <string lang="es">Serpiente</string>
+        <string lang="pt">Serpente</string>
+    </ref>
+    <ref link="pvp_event_5_name">
+        <string lang="zh-cn">正式</string>
+        <string lang="en">Formal</string>
+        <string lang="fr">Formel</string>
+        <string lang="it">Formale</string>
+        <string lang="de">Formell</string>
+        <string lang="es">Formal</string>
+        <string lang="pt">Formal</string>
+    </ref>
+    <ref link="pvp_event_6_name">
+        <string lang="zh-cn">主人</string>
+        <string lang="en">Master</string>
+        <string lang="fr">Maître</string>
+        <string lang="it">Maestro</string>
+        <string lang="de">Meister</string>
+        <string lang="es">Maestro</string>
+        <string lang="pt">Magistral</string>
+    </ref>
+    <ref link="pvp_event_7_name">
+        <string lang="zh-cn">严峻</string>
+        <string lang="en">Grim</string>
+        <string lang="fr">Sinistre</string>
+        <string lang="it">Tetro</string>
+        <string lang="de">Gevatter</string>
+        <string lang="es">La</string>
+        <string lang="pt">Macabro</string>
+    </ref>
+    <ref link="pvp_event_8_name">
+        <string lang="zh-cn">死神</string>
+        <string lang="en">Reaper</string>
+        <string lang="fr">Faucheur</string>
+        <string lang="it">Mietitore</string>
+        <string lang="de">Tod</string>
+        <string lang="es">Parca</string>
+        <string lang="pt">Ceifador</string>
+    </ref>
+    <ref link="pvp_event_9_name">
+        <string lang="zh-cn">镜子</string>
+        <string lang="en">Mirror</string>
+        <string lang="fr">Miroir</string>
+        <string lang="it">Specchio</string>
+        <string lang="de">Spiegel</string>
+        <string lang="es">Espejo</string>
+        <string lang="pt">Espelho</string>
+    </ref>
+    <ref link="pvp_event_10_name">
+        <string lang="zh-cn">阿斯塔纳</string>
+        <string lang="en">Astaroth</string>
+    </ref>
+    <ref link="pvp_event_11_name">
+        <string lang="zh-cn">奥拉</string>
+        <string lang="en">Ora</string>
+    </ref>
+    <ref link="pvp_event_12_name">
+        <string lang="zh-cn">德杰</string>
+        <string lang="en">Dej</string>
+    </ref>
+    <ref link="pvp_event_13_name">
+        <string lang="zh-cn">昆迪</string>
+        <string lang="en">Quindi</string>
+    </ref>
+    <ref link="pvp_event_14_name">
+        <string lang="zh-cn">达尔</string>
+        <string lang="en">Dar</string>
+    </ref>
+    <ref link="pvp_event_15_name">
+        <string lang="zh-cn">齐尔克</string>
+        <string lang="en">Zyrk</string>
+    </ref>
+    <ref link="pvp_event_16_name">
+        <string lang="zh-cn">菲尔</string>
+        <string lang="en">Phir</string>
+    </ref>
+    <ref link="pvp_event_17_name">
+        <string lang="zh-cn">奥戈克</string>
+        <string lang="en">Ogok</string>
+    </ref>
+    <ref link="pvp_event_18_name">
+        <string lang="zh-cn">昆迪</string>
+        <string lang="en">Quindi</string>
+    </ref>
+    <ref link="pvp_event_19_name">
+        <string lang="zh-cn">伊旭</string>
+        <string lang="en">Ixu</string>
+    </ref>
+    <ref link="pvp_event_20_name">
+        <string lang="zh-cn">诺盖</string>
+        <string lang="en">Nokai</string>
+    </ref>
+    <ref link="pvp_event_21_name">
+        <string lang="zh-cn">神秘</string>
+        <string lang="en">Mystery</string>
+        <string lang="fr">Mystère</string>
+        <string lang="it">Mistero</string>
+        <string lang="de">Überraschung</string>
+        <string lang="es">Misterio</string>
+        <string lang="pt">Mistério</string>
+    </ref>
+    <ref link="pvp_event_22_name">
+        <string lang="zh-cn">奥拉</string>
+        <string lang="en">Ora</string>
+    </ref>
+    <ref link="pvp_event_23_name">
+        <string lang="zh-cn">弗林</string>
+        <string lang="en">Vryn</string>
+    </ref>
+    <ref link="pvp_event_24_name">
+        <string lang="zh-cn">皮尔</string>
+        <string lang="en">Pire</string>
+    </ref>
+    <ref link="pvp_event_25_name">
+        <string lang="zh-cn">原始</string>
+        <string lang="en">Primal</string>
+        <string lang="fr">Primitif</string>
+        <string lang="it">Primitivo</string>
+        <string lang="de">Urinstinkt</string>
+        <string lang="es">Primitivo</string>
+        <string lang="pt">Primal</string>
+    </ref>
+    <ref link="pvp_event_26_name">
+        <string lang="zh-cn">烦恼</string>
+        <string lang="en">Vex</string>
+    </ref>
+    <ref link="pvp_event_27_name">
+        <string lang="zh-cn">神秘</string>
+        <string lang="en">Mystery</string>
+        <string lang="fr">Mystère</string>
+        <string lang="it">Mistero</string>
+        <string lang="de">Überraschung</string>
+        <string lang="es">Misterio</string>
+        <string lang="pt">Mistério</string>
+    </ref>
+    <ref link="pvp_event_28_name">
+        <string lang="zh-cn">考恩</string>
+        <string lang="en">Kaun</string>
+    </ref>
+    <ref link="pvp_event_29_name">
+        <string lang="zh-cn">齐尔克</string>
+        <string lang="en">Zyrk</string>
+    </ref>
+    <ref link="pvp_event_30_name">
+        <string lang="zh-cn">奥戈克</string>
+        <string lang="en">Ogok</string>
+    </ref>
+    <ref link="pvp_event_31_name">
+        <string lang="zh-cn">神秘</string>
+        <string lang="en">Mystery</string>
+        <string lang="fr">Mystère</string>
+        <string lang="it">Mistero</string>
+        <string lang="de">Überraschung</string>
+        <string lang="es">Misterio</string>
+        <string lang="pt">Mistério</string>
+    </ref>
+    <ref link="pvp_event_32_name">
+        <string lang="zh-cn">诺盖</string>
+        <string lang="en">Nokai</string>
+    </ref>
+    <ref link="pvp_event_33_name">
+        <string lang="zh-cn">元</string>
+        <string lang="en">Meta</string>
+    </ref>
+    <ref link="pvp_event_34_name">
+        <string lang="zh-cn">遗产</string>
+        <string lang="en">Legacy</string>
+        <string lang="fr">Héritage</string>
+        <string lang="it">Patrimonio</string>
+        <string lang="de">Erbe</string>
+        <string lang="es">Legado</string>
+        <string lang="pt">Legado</string>
+    </ref>
+    <ref link="pvp_event_35_name">
+        <string lang="zh-cn">熟悉</string>
+        <string lang="en">Familiar</string>
+        <string lang="fr">Compagnon</string>
+        <string lang="it">Famiglio</string>
+        <string lang="de">Vertrauter</string>
+        <string lang="es">Familiar</string>
+        <string lang="pt">Familiar</string>
+    </ref>
+    <ref link="pvp_event_38_name">
+        <string lang="zh-cn">双</string>
+        <string lang="en">Dual</string>
+        <string lang="fr">Double</string>
+        <string lang="it">Doppio</string>
+        <string lang="de">Dual</string>
+        <string lang="es">Doble</string>
+        <string lang="pt">Dual</string>
+    </ref>
+    <ref link="pvp_event_39_name">
+        <string lang="zh-cn">三合 会</string>
+        <string lang="en">Triad</string>
+        <string lang="fr">Triade</string>
+        <string lang="it">Triade</string>
+        <string lang="de">Triad</string>
+        <string lang="es">Tríada</string>
+        <string lang="pt">Tríade</string>
+    </ref>
+    <ref link="pvp_event_40_name">
+        <string lang="zh-cn">四</string>
+        <string lang="en">Quad</string>
+        <string lang="fr">Quad</string>
+        <string lang="it">Quad</string>
+        <string lang="de">Quad</string>
+        <string lang="es">Patio</string>
+        <string lang="pt">Quad</string>
+    </ref>
+    <ref link="pvp_event_41_name">
+        <string lang="zh-cn">主要</string>
+        <string lang="en">Major</string>
+    </ref>
+    <ref link="pvp_event_43_name">
+        <string lang="zh-cn">b. i. t。</string>
+        <string lang="en">B.I.T.</string>
+    </ref>
+    <ref link="pvp_event_46_name">
+        <string lang="zh-cn">强大</string>
+        <string lang="en">Mighty</string>
+        <string lang="fr">Puissant</string>
+        <string lang="it">Potente</string>
+        <string lang="de">Mighty</string>
+        <string lang="es">Poderoso</string>
+        <string lang="pt">Poderoso</string>
+    </ref>
+    <ref link="pvp_event_51_name">
+        <string lang="zh-cn">科尔</string>
+        <string lang="en">Kor</string>
+    </ref>
+    <ref link="pvp_event_52_name">
+        <string lang="zh-cn">神秘宠物</string>
+        <string lang="en">Mystery Pet</string>
+        <string lang="fr">Mystère Animal domestique</string>
+        <string lang="it">Mistero Mascotte</string>
+        <string lang="de">Überraschung Begleiter</string>
+        <string lang="es">Misterio Mascota</string>
+        <string lang="pt">Mistério Mascote</string>
+    </ref>
+    <ref link="pvp_event_53_name">
+        <string lang="zh-cn">神秘配件</string>
+        <string lang="en">Mystery Accessory</string>
+        <string lang="fr">Mystère Accessoire</string>
+        <string lang="it">Mistero Accessorio</string>
+        <string lang="de">Überraschung Accessoire</string>
+        <string lang="es">Misterio Accesorio</string>
+        <string lang="pt">Mistério Acessório</string>
+    </ref>
+    <ref link="pvp_event_54_name">
+        <string lang="zh-cn">神秘项目</string>
+        <string lang="en">Mystery Item</string>
+        <string lang="fr">Mystère Article</string>
+        <string lang="it">Mistero Articolo</string>
+        <string lang="de">Überraschung Artikel</string>
+        <string lang="es">Misterio ít</string>
+        <string lang="pt">Mistério Item</string>
+    </ref>
+    <ref link="pvp_event_55_name">
+        <string lang="zh-cn">Isa</string>
+        <string lang="en">Isa</string>
+    </ref>
+    <ref link="pvp_event_62_name">
+        <string lang="zh-cn">沃伊克</string>
+        <string lang="en">Voik</string>
+    </ref>
+</data>

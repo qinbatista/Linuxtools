@@ -1,0 +1,1 @@
+.\dex2jar.bat .\classes.dex

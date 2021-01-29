@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+    <ref link="enchant_t1_name">
+        <string lang="en">Toadstool</string>
+    </ref>
+    <ref link="enchant_t2_name">
+        <string lang="en">Eye of Newt</string>
+        <string lang="fr">Œil de Triton</string>
+        <string lang="it">Occhio di Newt</string>
+        <string lang="de">Auge von Newt</string>
+        <string lang="es">Ojo de Tritón</string>
+        <string lang="pt">Olho de Newt</string>
+    </ref>
+    <ref link="enchant_t3_name">
+        <string lang="en">Bufa Toad</string>
+        <string lang="fr">Bufa Toad</string>
+        <string lang="it">Bufa Toad</string>
+        <string lang="de">Bufa Kröte</string>
+        <string lang="es">Sapo Bufa</string>
+        <string lang="pt">Bufa Sapo</string>
+    </ref>
+    <ref link="enchant_t4_name">
+        <string lang="en">Morpho Wings</string>
+        <string lang="fr">Morpho Wings</string>
+        <string lang="it">Morpho Wings</string>
+        <string lang="de">Morpho Flügel</string>
+        <string lang="es">Alas de Morpho</string>
+        <string lang="pt">Morpho Wings</string>
+    </ref>
+    <ref link="enchant_t5_name">
+        <string lang="en">Fenny's Fork</string>
+        <string lang="fr">Fenny's Fork</string>
+        <string lang="it">Fenny's Fork</string>
+        <string lang="de">Fenny's Gabel</string>
+        <string lang="es">Tenedor de Fenny</string>
+        <string lang="pt">Fenny's Fork</string>
+    </ref>
+    <ref link="enchant_t6_name">
+        <string lang="en">Dodobeak</string>
+    </ref>
+</data>

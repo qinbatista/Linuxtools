@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+    <ref link="gvg_help_desc">
+        <string lang="en">- Guild vs Guild is the first group event in where you and your other guild mates compete against other guilds to find out who is the strongest.!break!!break!- When you enter a battle, you and your selected teammates will all be scaled to a power level similar to your own while the opposite team will be scaled to the player you selected as your opponent.!break!!break!- Rewards for this event are set up somewhat similar to the PvP event. There are specific rankings for each player that enters into GvG as well as rankings for the entire guild. The rewards earned for the guild are not items for individual users. They end up in a specific guild inventory that can be accessed by anyone with powers to edit the guild. Guild Bucks can only be spent by guild leaders.</string>
+        <string lang="fr">- Guilde contre guilde est le premier événement de groupe dans lequel vous et vos autres camarades de guilde font concurrence contre d'autres corporations pour découvrir qui est le plus fort.!break!!break!- Lorsque vous entrez dans une bataille, vous et vos coéquipiers sélectionnés seront intégrés à un niveau de puissance similaire à celui de votre choix, tandis que l'équipe adverse sera mise à l'échelle sur le joueur que vous avez sélectionné comme adversaire.!break!!break!- Les récompenses pour cet événement sont configurées de manière similaire à celle de l'événement PvP. Il existe des classements spécifiques pour chaque joueur qui entre dans GvG ainsi que des classements pour toute la guilde. Les récompenses gagnées pour la guilde ne sont pas des objets pour les utilisateurs individuels. Ils se retrouvent dans un inventaire de guilde spécifique auquel on peut accéder par n'importe qui ayant le pouvoir de modifier la guilde. Guild Bucks ne peut être dépensé que par les chefs de guilde.</string>
+        <string lang="it">- Gilda contro gilda è il primo evento di gruppo in cui ti e gli altri compagni di gilda competono contro altre gilde per scoprire chi è il più forte.!break!!break!- Quando entri in una battaglia, voi ei tuoi compagni di squadra selezionati saranno tutti scalati ad un livello di potenza simile al tuo mentre il team opposto sarà scalato al giocatore che hai scelto come tuo avversario.!break!!break!- Le ricompense per questo evento sono state impostate in qualche modo simili all'evento PvP. Ci sono posizioni specifiche per ogni giocatore che entra in GvG e classifica per l'intera gilda. I premi guadagnati per la gilda non sono elementi per singoli utenti. Hanno finito in un inventario specifico della gilda che è accessibile da chiunque abbia poteri di modifica della gilda. Guild Bucks può essere speso solo dai leader delle gilde.</string>
+        <string lang="de">- Gilde vs Gilde ist die erste Gruppenveranstaltung, in der Sie und Ihre anderen Gildenkameraden gegen andere Gilden konkurrieren, um herauszufinden, wer am stärksten ist.!break!!break!- Wenn du eine Schlacht eingibst, wirst du und deine ausgewählten Teamkollegen alle auf eine Leistungsstufe skaliert, die deinem eigenen ähnlich ist, während das gegenüberliegende Team auf den Spieler skaliert wird, den du als Gegner ausgewählt hast.!break!!break!- Belohnungen für diese Veranstaltung sind etwas ähneln wie das PvP-Event. Es gibt spezifische Ranglisten für jeden Spieler, der in GvG eintritt, sowie Ranglisten für die gesamte Gilde. Die für die Gilde verdienten Prämien sind keine Gegenstände für einzelne Benutzer. Sie enden in einem bestimmten Gildeninventar, das von jedermann mit Befugnissen zugegriffen werden kann, um die Gilde zu bearbeiten. Guild Bucks können nur von Gildenführern ausgegeben werden.</string>
+        <string lang="es">- Gremio contra gremio es el primer evento de grupo en el que tú y tus otros compañeros de gremio compiten contra otros gremios para descubrir quién es el más fuerte.!break!!break!- Cuando entras en una batalla, tú y tus compañeros de equipo seleccionados serán escalados a un nivel de potencia similar al tuyo, mientras que el equipo contrario será escalado al jugador que seleccionaste como tu oponente.!break!!break!- Los premios para este evento se configuran de manera similar al evento PvP. Hay clasificaciones específicas para cada jugador que entra en GvG, así como las clasificaciones de todo el gremio. Las recompensas ganadas por el gremio no son artículos para usuarios individuales. Ellos terminan en un inventario de gremio específico que puede ser accedido por cualquier persona con poderes para editar el gremio. Los Guild Bucks sólo pueden ser gastados por líderes de gremios.</string>
+        <string lang="pt">- Guilda x Guilda é o primeiro evento de grupo em que você e seus outros companheiros de aliança competem contra outras guildas para descobrir quem é o mais forte.!break!!break!- Quando você entrar em uma batalha, você e seus companheiros de equipe selecionados serão dimensionados para um nível de poder semelhante ao seu, enquanto a equipe oposta será escalada para o jogador que você selecionou como oponente.!break!!break!- Recompensas para este evento são configuradas de forma semelhante ao evento PvP. Existem rankings específicos para cada jogador que entra no GvG, bem como rankings para toda a aliança. Os prémios obtidos pela guilda não são itens para usuários individuais. Eles terminam em um inventário de guilda específico que pode ser acessado por qualquer pessoa com poderes para editar a guild. Guild Bucks só pode ser gasto pelos líderes da aliança.</string>
+    </ref>
+    <ref link="gvg_next_name">
+        <string lang="en">Next</string>
+        <string lang="fr">Prochain</string>
+        <string lang="it">Il prossimo</string>
+        <string lang="de">Nächster</string>
+        <string lang="es">Siguiente</string>
+        <string lang="pt">Próximo</string>
+    </ref>
+    <ref link="gvg_event_1_name">
+        <string lang="en">Raider</string>
+        <string lang="fr">Raider</string>
+        <string lang="it">Bandito</string>
+        <string lang="de">Raider</string>
+        <string lang="es">Asaltante</string>
+        <string lang="pt">Corsário</string>
+    </ref>
+    <ref link="gvg_event_2_name">
+        <string lang="en">Colonial</string>
+        <string lang="fr">Colonial</string>
+        <string lang="it">Coloniale</string>
+        <string lang="de">Kolonialen</string>
+        <string lang="es">Colonial</string>
+        <string lang="pt">Colonial</string>
+    </ref>
+    <ref link="gvg_event_3_name">
+        <string lang="en">Malevolent</string>
+        <string lang="fr">Malveillant</string>
+        <string lang="it">Malevolo</string>
+        <string lang="de">Bösartig</string>
+        <string lang="es">Malévolo</string>
+        <string lang="pt">Malévolo</string>
+    </ref>
+    <ref link="gvg_event_5_name">
+        <string lang="en">Souleater</string>
+        <string lang="fr">Mangeur d'âme</string>
+        <string lang="it">Divoratore di anime</string>
+        <string lang="de">Seelenfresser</string>
+        <string lang="es">Devorador de Almas</string>
+        <string lang="pt">Devorador de Almas</string>
+    </ref>
+    <ref link="gvg_event_9_name">
+        <string lang="en">Spooky</string>
+    </ref>
+    <ref link="gvg_event_10_name">
+        <string lang="en">Rombo</string>
+    </ref>
+    <ref link="gvg_event_12_name">
+        <string lang="en">Festive</string>
+        <string lang="fr">De fête</string>
+        <string lang="it">Festivo</string>
+        <string lang="de">Festlich</string>
+        <string lang="es">Festivo</string>
+        <string lang="pt">Festivo</string>
+    </ref>
+    <ref link="gvg_event_14_name">
+        <string lang="en">Fishing</string>
+        <string lang="fr">Pêche</string>
+        <string lang="it">Pesca</string>
+        <string lang="de">Angeln</string>
+        <string lang="es">Pescar</string>
+        <string lang="pt">Pescaria</string>
+    </ref>
+</data>

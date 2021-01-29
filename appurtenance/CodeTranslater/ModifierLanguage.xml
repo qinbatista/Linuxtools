@@ -1,0 +1,1269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+    <ref link="modifier_1_name">
+        <string lang="en">Block Chance</string>
+        <string lang="fr">Chances de blocage</string>
+        <string lang="it">Chance di parata</string>
+        <string lang="de">Blockchance</string>
+        <string lang="es">Probabilidad de bloqueo</string>
+        <string lang="pt">Chance de Bloqueio</string>
+    </ref>
+    <ref link="modifier_1_short_desc">
+        <string lang="en">#value1#% Block Chance</string>
+        <string lang="fr">#value1#% Chances de blocage</string>
+        <string lang="it">#value1#% Chance di parata</string>
+        <string lang="de">#value1#% Blockchance</string>
+        <string lang="es">#value1#% Probabilidad de bloqueo</string>
+        <string lang="pt">#value1#% Chance de Bloqueio</string>
+    </ref>
+    <ref link="modifier_1_long_desc">
+        <string lang="en">Increases chance to block attacks by #value1#%</string>
+        <string lang="fr">Accroît de #value1#% les chances de bloquer les attaques</string>
+        <string lang="it">Aumenta di #value1#% le chance di parare gli attacchi</string>
+        <string lang="de">Erhöht die Chance, Angriffe abzublocken, um #value1#%.</string>
+        <string lang="es">Aumenta la probabilidad de ataques de bloqueo en un #value1#%.</string>
+        <string lang="pt">Aumenta a chance de bloquear ataques em #value1#%.</string>
+    </ref>
+    <ref link="modifier_2_name">
+        <string lang="en">Block Bonus</string>
+        <string lang="fr">Bonus de blocage</string>
+        <string lang="it">Bonus parata</string>
+        <string lang="de">Blockbonus</string>
+        <string lang="es">Bonificación de bloqueo</string>
+        <string lang="pt">Bônus de Bloqueio</string>
+    </ref>
+    <ref link="modifier_2_short_desc">
+        <string lang="en">#value1#% Block Bonus</string>
+        <string lang="fr">#value1#% Bonus de blocage</string>
+        <string lang="it">#value1#% Bonus parata</string>
+        <string lang="de">#value1#% Blockbonus</string>
+        <string lang="es">#value1#% Bonificación de bloqueo</string>
+        <string lang="pt">#value1#% Bônus de Bloqueio</string>
+    </ref>
+    <ref link="modifier_2_long_desc">
+        <string lang="en">Increases the amount of damage blocked by #value1#%</string>
+        <string lang="fr">Accroît les dégâts bloqués de #value1#%</string>
+        <string lang="it">Aumenta di #value1#% la quantità di danni parati</string>
+        <string lang="de">Erhöht die Menge an geblocktem Schaden um #value1#%.</string>
+        <string lang="es">Aumenta la cantidad de bloqueo de daños en un #value1#%.</string>
+        <string lang="pt">Aumenta a quantidade de dano bloqueado em #value1#%.</string>
+    </ref>
+    <ref link="modifier_3_name">
+        <string lang="en">Evade Chance</string>
+        <string lang="fr">Chances d'esquive</string>
+        <string lang="it">Chance di schivata</string>
+        <string lang="de">Ausweichchance</string>
+        <string lang="es">Probabilidad de esquivar</string>
+        <string lang="pt">Chance de Esquiva</string>
+    </ref>
+    <ref link="modifier_3_short_desc">
+        <string lang="en">#value1#% Evade Chance</string>
+        <string lang="fr">#value1#% Chances d'esquive</string>
+        <string lang="it">#value1#% Chance di schivata</string>
+        <string lang="de">#value1#% Ausweichchance</string>
+        <string lang="es">#value1#% Probabilidad de esquivar</string>
+        <string lang="pt">#value1#% Chance de Esquiva</string>
+    </ref>
+    <ref link="modifier_3_long_desc">
+        <string lang="en">Increases chance to evade attacks by #value1#%</string>
+        <string lang="fr">Accroît de #value1#% les chances d'esquiver les attaques</string>
+        <string lang="it">Aumenta di #value1#% le chance di schivare gli attacchi</string>
+        <string lang="de">Erhöht die Chance, Angriffen auszuweichen, um #value1#%.</string>
+        <string lang="es">Aumenta la probabilidad de ataques esquivos en un #value1#%.</string>
+        <string lang="pt">Aumenta a chance de esquivar ataques em #value1#%.</string>
+    </ref>
+    <ref link="modifier_4_name">
+        <string lang="en">Critical Chance</string>
+        <string lang="fr">Chances de coup critique</string>
+        <string lang="it">Chance di critico</string>
+        <string lang="de">Kritisch-Chance</string>
+        <string lang="es">Probabilidad de impacto crítico</string>
+        <string lang="pt">Chance de Crítico</string>
+    </ref>
+    <ref link="modifier_4_short_desc">
+        <string lang="en">#value1#% Crit Chance</string>
+        <string lang="fr">#value1#% Chances de coup critique</string>
+        <string lang="it">#value1#% Chance di critico</string>
+        <string lang="de">#value1#% Kritisch-Chance</string>
+        <string lang="es">#value1#% Probabilidad de impacto crítico</string>
+        <string lang="pt">#value1#% Chance de Crítico</string>
+    </ref>
+    <ref link="modifier_4_long_desc">
+        <string lang="en">Increases chance to critical hit by #value1#%</string>
+        <string lang="fr">Accroît de #value1#% les chances de porter un coup critique</string>
+        <string lang="it">Aumenta di #value1#% le chance di sferrare un colpo critico</string>
+        <string lang="de">Erhöht die Chance auf Kritische Treffer um #value1#%.</string>
+        <string lang="es">Aumenta la probabilidad de lograr un impacto crítico en un #value1#%.</string>
+        <string lang="pt">Aumenta a chance de acertos críticos em #value1#%.</string>
+    </ref>
+    <ref link="modifier_5_name">
+        <string lang="en">Critical Damage</string>
+        <string lang="fr">Dégâts des coups critiques</string>
+        <string lang="it">Danno critico</string>
+        <string lang="de">Kritischer Schaden</string>
+        <string lang="es">Daño critico</string>
+        <string lang="pt">Dano Crítico</string>
+    </ref>
+    <ref link="modifier_5_short_desc">
+        <string lang="en">#value1#% Crit Damage</string>
+        <string lang="fr">#value1#% Dégâts des coups critiques</string>
+        <string lang="it">#value1#% Danno critico</string>
+        <string lang="de">#value1#% Kritischer Schaden</string>
+        <string lang="es">#value1#% Daño critico</string>
+        <string lang="pt">#value1#% Dano Crítico</string>
+    </ref>
+    <ref link="modifier_5_long_desc">
+        <string lang="en">Increases critical hit damage and healing by #value1#%</string>
+        <string lang="fr">Accroît de #value1#% les dégâts et les soins relatifs aux coups critiques</string>
+        <string lang="it">Aumenta di #value1#% il danno e la cura dei colpi critici</string>
+        <string lang="de">Erhöht kritischen Schaden und kritische Heilung um #value1#%</string>
+        <string lang="es">Aumenta los daños del impacto crítico y la curación en un #value1#%.</string>
+        <string lang="pt">Aumenta a chance de cura e dano crítico em #value1#%.</string>
+    </ref>
+    <ref link="modifier_6_name">
+        <string lang="en">Item Find</string>
+        <string lang="fr">Découverte d'objets</string>
+        <string lang="it">Trova-oggetti</string>
+        <string lang="de">Gegenstände finden</string>
+        <string lang="es">Hallazgo de objetos</string>
+        <string lang="pt">Encontrar Itens</string>
+    </ref>
+    <ref link="modifier_6_short_desc">
+        <string lang="en">#value1#% Item Find</string>
+        <string lang="fr">#value1#% Découverte d'objets</string>
+        <string lang="it">#value1#% Trova-oggetti</string>
+        <string lang="de">#value1#% Gegenstände finden</string>
+        <string lang="es">#value1#% Hallazgo de objetos</string>
+        <string lang="pt">#value1#% Encontrar Itens</string>
+    </ref>
+    <ref link="modifier_6_long_desc">
+        <string lang="en">Increases chance to find powerful items from battles and treasures by #value1#%</string>
+        <string lang="fr">Accroît de #value1#% les chances de découvrir de puissants objets lors des combats et dans les coffres aux trésors</string>
+        <string lang="it">Aumenta le chance di trovare oggetti potenti in battaglie e tesori di #value1#%</string>
+        <string lang="de">Erhöht die Chance, in Schlachten und Schätzen mächtige Gegenstände zu finden, um #value1#%.</string>
+        <string lang="es">Aumenta la probabilidad de encontrar objetos poderosos en batallas y tesoros en un #value1#%.</string>
+        <string lang="pt">Aumenta a chance de encontrar itens poderosos nas batalhas e tesouros em #value1#%.</string>
+    </ref>
+    <ref link="modifier_7_name">
+        <string lang="en">Experience</string>
+        <string lang="fr">Expérience</string>
+        <string lang="it">Esperienza</string>
+        <string lang="de">Erfahrung</string>
+        <string lang="es">Experiencia</string>
+        <string lang="pt">Experiência</string>
+    </ref>
+    <ref link="modifier_7_short_desc">
+        <string lang="en">#value1#% Experience</string>
+        <string lang="fr">#value1#% Expérience</string>
+        <string lang="it">#value1#% Esperienza</string>
+        <string lang="de">#value1#% Erfahrung</string>
+        <string lang="es">#value1#% Experiencia</string>
+        <string lang="pt">#value1#% Experiência</string>
+    </ref>
+    <ref link="modifier_7_long_desc">
+        <string lang="en">Increases the amount of experience gained from battles by #value1#%</string>
+        <string lang="fr">Accroît de #value1#% l'expérience acquise lors des combats</string>
+        <string lang="it">Aumenta l'esperienza che ottieni in battaglia di #value1#%</string>
+        <string lang="de">Erhöht die in Schlachten gesammelte Erfahrung um #value1#%.</string>
+        <string lang="es">Aumenta la cantidad de experiencia conseguida en batallas en un #value1#%.</string>
+        <string lang="pt">Aumenta a quantidade de experiência das batalhas em #value1#%.</string>
+    </ref>
+    <ref link="modifier_8_name">
+        <string lang="en">Gold Find</string>
+        <string lang="fr">Découverte d'or</string>
+        <string lang="it">Trova-oro</string>
+        <string lang="de">Gold finden</string>
+        <string lang="es">Hallazgo de oro</string>
+        <string lang="pt">Encontrar Ouro</string>
+    </ref>
+    <ref link="modifier_8_short_desc">
+        <string lang="en">#value1#% Gold Find</string>
+        <string lang="fr">#value1#% Découverte d'or</string>
+        <string lang="it">#value1#% Trova-oro</string>
+        <string lang="de">#value1#% Gold finden</string>
+        <string lang="es">#value1#% Hallazgo de oro</string>
+        <string lang="pt">#value1#% Encontrar Ouro</string>
+    </ref>
+    <ref link="modifier_8_long_desc">
+        <string lang="en">Increases the amount of gold gained from battles and treasures by #value1#%</string>
+        <string lang="fr">Accroît de #value1#% la quantité d'or découverte lors des combats et dans les coffres aux trésors</string>
+        <string lang="it">Aumenta l'oro guadagnato in battaglie e tesori di #value1#%</string>
+        <string lang="de">Erhöht die Menge an Gold, das du aus Schlachten und Schätzen sammelst, um #value1#%.</string>
+        <string lang="es">Aumenta la cantidad de oro conseguido en batallas y tesoros en un #value1#%.</string>
+        <string lang="pt">Aumenta a quantidade de experiência das batalhas e tesouros em #value1#%.</string>
+    </ref>
+    <ref link="modifier_9_name">
+        <string lang="en">Movement Speed</string>
+        <string lang="fr">Vitesse de déplacement</string>
+        <string lang="it">Velocità di movimento</string>
+        <string lang="de">Bewegungsgeschwindigkeit</string>
+        <string lang="es">Velocidad de movimiento</string>
+        <string lang="pt">Movimentação</string>
+    </ref>
+    <ref link="modifier_9_short_desc">
+        <string lang="en">#value1#% Movement Speed</string>
+        <string lang="fr">#value1#% Vitesse de déplacement</string>
+        <string lang="it">#value1#% Velocità di movimento</string>
+        <string lang="de">#value1#% Bewegungsgeschwindigkeit</string>
+        <string lang="es">#value1#% Velocidad de movimiento</string>
+        <string lang="pt">#value1#% Movimentação</string>
+    </ref>
+    <ref link="modifier_9_long_desc">
+        <string lang="en">Increases movement speed in dungeons and towns by #value1#%</string>
+        <string lang="fr">Accroît de #value1#% la vitesse de déplacement dans les villes et donjons</string>
+        <string lang="it">Aumenta la velocità di movimento in dungeon e città di #value1#%</string>
+        <string lang="de">Erhöht die Bewegungsgeschwindigkeit in Verliesen und Städten um #value1#%.</string>
+        <string lang="es">Aumenta la velocidad de movimiento en mazmorras y ciudades en un #value1#%.</string>
+        <string lang="pt">Acelera a movimentação nas masmorras e cidades em #value1#%.</string>
+    </ref>
+    <ref link="modifier_10_name">
+        <string lang="en">Zone Item Find</string>
+        <string lang="fr">Découverte d'objets dans les zones</string>
+        <string lang="it">Trova-oggetti zona</string>
+        <string lang="de">Gegenstände finden in Zonen</string>
+        <string lang="es">Hallazgo de objetos en zonas</string>
+        <string lang="pt">Encontrar Itens em Zonas</string>
+    </ref>
+    <ref link="modifier_10_short_desc">
+        <string lang="en">#value1#% Zone Item Find</string>
+        <string lang="fr">#value1#% Découverte d'objets dans les zones</string>
+        <string lang="it">#value1#% Trova-oggetti zona</string>
+        <string lang="de">#value1#% Gegenstände finden in Zonen</string>
+        <string lang="es">#value1#% Hallazgo de objetos en zonas</string>
+        <string lang="pt">#value1#% Encontrar Itens em Zonas</string>
+    </ref>
+    <ref link="modifier_10_long_desc">
+        <string lang="en">While in zones, increases chance to find powerful items from battles and treasures by #value1#%</string>
+        <string lang="fr">Accroît de #value1#% les chances de découvrir de puissants objets lors des combats et dans les coffres aux trésors des zones</string>
+        <string lang="it">Nelle zone, aumenta le chance di trovare oggetti potenti in battaglie e tesori di #value1#%</string>
+        <string lang="de">Erhöht in Zonen die Chance, in Schlachten und Schätzen mächtige Gegenstände zu finden, um #value1#%.</string>
+        <string lang="es">En las zonas, aumenta la probabilidad de encontrar objetos poderosos en batallas y tesoros en un #value1#%.</string>
+        <string lang="pt">Enquanto estiver em uma zona, aumenta a chance de encontrar itens poderosos nas batalhas e tesouros em #value1#%.</string>
+    </ref>
+    <ref link="modifier_11_name">
+        <string lang="en">Zone Experience</string>
+        <string lang="fr">Expérience dans les zones</string>
+        <string lang="it">Esperienza zona</string>
+        <string lang="de">Zonenerfahrung</string>
+        <string lang="es">Experiencia de zona</string>
+        <string lang="pt">Experiência em Zonas</string>
+    </ref>
+    <ref link="modifier_11_short_desc">
+        <string lang="en">#value1#% Zone Experience</string>
+        <string lang="fr">#value1#% Expérience dans les zones</string>
+        <string lang="it">#value1#% Esperienza zona</string>
+        <string lang="de">#value1#% Zonenerfahrung</string>
+        <string lang="es">#value1#% Experiencia de zona</string>
+        <string lang="pt">#value1#% Experiência em Zonas</string>
+    </ref>
+    <ref link="modifier_11_long_desc">
+        <string lang="en">While in zones, increases the amount of experience gained from battles by #value1#%</string>
+        <string lang="fr">Accroît de #value1#% l'expérience acquise lors des combats dans les zones</string>
+        <string lang="it">Nelle zone, aumenta l'esperienza che ottieni in battaglia di #value1#%</string>
+        <string lang="de">Erhöht in Zonen die in Schlachten gesammelte Erfahrung um #value1#%.</string>
+        <string lang="es">En las zonas, aumenta la cantidad de experiencia conseguida en batallas en un #value1#%.</string>
+        <string lang="pt">Enquanto estiver em uma zona, aumenta a quantidade de experiência das batalhas em #value1#%.</string>
+    </ref>
+    <ref link="modifier_12_name">
+        <string lang="en">Zone Gold Find</string>
+        <string lang="fr">Découverte d'or dans les zones</string>
+        <string lang="it">Trova-oro zona</string>
+        <string lang="de">Gold finden in Zonen</string>
+        <string lang="es">Hallazgo de oro en zonas</string>
+        <string lang="pt">Encontrar Ouro em Zonas</string>
+    </ref>
+    <ref link="modifier_12_short_desc">
+        <string lang="en">#value1#% Zone Gold Find</string>
+        <string lang="fr">#value1#% Découverte d'or dans les zones</string>
+        <string lang="it">#value1#% Trova-oro zona</string>
+        <string lang="de">#value1#% Gold finden in Zonen</string>
+        <string lang="es">#value1#% Hallazgo de oro en zonas</string>
+        <string lang="pt">#value1#% Encontrar Ouro em Zonas</string>
+    </ref>
+    <ref link="modifier_12_long_desc">
+        <string lang="en">While in zones, increases the amount of gold gained from battles and treasures by #value1#%</string>
+        <string lang="fr">Accroît de #value1#% la quantité d'or acquise lors des combats et dans les coffres aux trésors des zones</string>
+        <string lang="it">Nelle zone, aumenta l'oro guadagnato in battaglie e tesori di #value1#%</string>
+        <string lang="de">Erhöht in Zonen die Menge an Gold, das du aus Schlachten und Schätzen sammelst, um #value1#%.</string>
+        <string lang="es">En las zonas, aumenta la cantidad de oro conseguido en batallas en un #value1#%.</string>
+        <string lang="pt">Enquanto estiver em uma zona, aumenta a quantidade de ouro das batalhas e tesouros em #value1#%.</string>
+    </ref>
+    <ref link="modifier_13_name">
+        <string lang="en">PvP Item Find</string>
+        <string lang="fr">Découverte d'objets en mode JcJ</string>
+        <string lang="it">Trova-oggetti PvP</string>
+        <string lang="de">Gegenstände finden im PvP</string>
+        <string lang="es">Hallazgo de objetos en JcJ</string>
+        <string lang="pt">Encontrar Itens em JxJ</string>
+    </ref>
+    <ref link="modifier_13_short_desc">
+        <string lang="en">#value1#% PvP Item Find</string>
+        <string lang="fr">#value1#% Découverte d'objets en mode JcJ</string>
+        <string lang="it">#value1#% Trova-oggetti PvP</string>
+        <string lang="de">#value1#% Gegenstände finden im PvP</string>
+        <string lang="es">#value1#% Hallazgo de objetos en JcJ</string>
+        <string lang="pt">#value1#% Encontrar Itens em JxJ</string>
+    </ref>
+    <ref link="modifier_13_long_desc">
+        <string lang="en">While in pvp, increases chance to find powerful items from battles by #value1#%</string>
+        <string lang="fr">Accroît de #value1#% les chances de découvrir de puissants objets lors des combats en mode JcJ</string>
+        <string lang="it">In PvP, aumenta le chance di trovare oggetti potenti in battaglia di #value1#%</string>
+        <string lang="de">Erhöht im PvP die Chance, in Schlachten mächtige Gegenstände zu finden, um #value1#%.</string>
+        <string lang="es">En JcJ, aumenta la probabilidad de encontrar objetos poderosos en batallas en un #value1#%.</string>
+        <string lang="pt">Aumenta a chance de encontrar itens poderosos nas batalhas e tesouros JxJ em #value1#%.</string>
+    </ref>
+    <ref link="modifier_14_name">
+        <string lang="en">PvP Experience</string>
+        <string lang="fr">Expérience JcJ</string>
+        <string lang="it">Esperienza PvP</string>
+        <string lang="de">PvP-Erfahrung</string>
+        <string lang="es">Experiencia JcJ</string>
+        <string lang="pt">Experiência em JxJ</string>
+    </ref>
+    <ref link="modifier_14_short_desc">
+        <string lang="en">#value1#% PvP Experience</string>
+        <string lang="fr">#value1#% Expérience JcJ</string>
+        <string lang="it">#value1#% Esperienza PvP</string>
+        <string lang="de">#value1#% PvP-Erfahrung</string>
+        <string lang="es">#value1#% Experiencia JcJ</string>
+        <string lang="pt">#value1#% Experiência em JxJ</string>
+    </ref>
+    <ref link="modifier_14_long_desc">
+        <string lang="en">While in pvp, increases the amount of experience gained from battles by #value1#%</string>
+        <string lang="fr">Accroît de #value1#% l'expérience acquise lors des combats en mode JcJ</string>
+        <string lang="it">In PvP, aumenta l'esperienza che ottieni in battaglia di #value1#%</string>
+        <string lang="de">Erhöht im PvP die in Schlachten gesammelte Erfahrung um #value1#%.</string>
+        <string lang="es">En JcJ, aumenta la cantidad de experiencia conseguida en batallas en un #value1#%.</string>
+        <string lang="pt">Aumenta a quantidade de experiência das batalhas JxJ em #value1#%.</string>
+    </ref>
+    <ref link="modifier_15_name">
+        <string lang="en">PvP Gold Find</string>
+        <string lang="fr">Découverte d'or en mode JcJ</string>
+        <string lang="it">Trova-oro PvP</string>
+        <string lang="de">Gold finden im PvP</string>
+        <string lang="es">Hallazgo de oro en JcJ</string>
+        <string lang="pt">Encontrar Ouro em JxJ</string>
+    </ref>
+    <ref link="modifier_15_short_desc">
+        <string lang="en">#value1#% PvP Gold Find</string>
+        <string lang="fr">#value1#% Découverte d'or en mode JcJ</string>
+        <string lang="it">#value1#% Trova-oro PvP</string>
+        <string lang="de">#value1#% Gold finden im PvP</string>
+        <string lang="es">#value1#% Hallazgo de oro en JcJ</string>
+        <string lang="pt">#value1#% Encontrar Ouro em JxJ</string>
+    </ref>
+    <ref link="modifier_15_long_desc">
+        <string lang="en">While in pvp, increases the amount of gold gained from battles by #value1#%</string>
+        <string lang="fr">Accroît de #value1#% la quantité d'or acquise lors des combats en mode JcJ</string>
+        <string lang="it">In PvP, aumenta l'oro che ottieni in battaglia di #value1#%</string>
+        <string lang="de">Erhöht im PvP die Menge an Gold, das du aus Schlachten sammelst, um #value1#%.</string>
+        <string lang="es">En JcJ, aumenta la cantidad de oro conseguido en batallas en un #value1#%.</string>
+        <string lang="pt">Aumenta a quantidade de ouro das batalhas JxJ em #value1#%.</string>
+    </ref>
+    <ref link="modifier_16_name">
+        <string lang="en">Life Steal</string>
+        <string lang="fr">Vol de vie</string>
+        <string lang="it">Rubavita</string>
+        <string lang="de">Lebensraub</string>
+        <string lang="es">Robavidas</string>
+        <string lang="pt">Furta-vida</string>
+    </ref>
+    <ref link="modifier_16_short_desc">
+        <string lang="en">#value1#% Life Steal</string>
+        <string lang="fr">#value1#% Vol de vie</string>
+        <string lang="it">#value1#% Rubavita</string>
+        <string lang="de">#value1#% Lebensraub</string>
+        <string lang="es">#value1#% Robavidas</string>
+        <string lang="pt">#value1#% Furta-vida</string>
+    </ref>
+    <ref link="modifier_16_long_desc">
+        <string lang="en">Convert #value1#% of damage dealt into health</string>
+        <string lang="fr">Transforme #value1#% des dégâts infligés en santé</string>
+        <string lang="it">Converti #value1#% del danno in salute</string>
+        <string lang="de">Wandelt #value1#% des verursachten Schadens in Gesundheit um.</string>
+        <string lang="es">Convierte en salud un #value1#% de daños infringidos.</string>
+        <string lang="pt">Converte #value1#% do dano causado em vida.</string>
+    </ref>
+    <ref link="modifier_17_name">
+        <string lang="en">Damage Bonus</string>
+        <string lang="fr">Bonus de dégâts</string>
+        <string lang="it">Bonus danno</string>
+        <string lang="de">Schadensbonus</string>
+        <string lang="es">Bonificación de daños</string>
+        <string lang="pt">Bônus de Dano</string>
+    </ref>
+    <ref link="modifier_17_short_desc">
+        <string lang="en">#value1#% Damage</string>
+        <string lang="fr">#value1#% Bonus de dégâts</string>
+        <string lang="it">#value1#% Bonus danno</string>
+        <string lang="de">#value1#% Schadensbonus</string>
+        <string lang="es">#value1#% Bonificación de daños</string>
+        <string lang="pt">#value1#% Bônus de Dano</string>
+    </ref>
+    <ref link="modifier_17_long_desc">
+        <string lang="en">Increases damage and healing by #value1#%</string>
+        <string lang="fr">Accroît de #value1#% les dégâts et les soins</string>
+        <string lang="it">Aumenta di #value1#% il danno e la cura</string>
+        <string lang="de">Erhöht Schaden und Heilung um #value1#%.</string>
+        <string lang="es">Aumenta los daños y la curación en un #value1#%.</string>
+        <string lang="pt">Aumenta a cura e dano em #value1#%.</string>
+    </ref>
+    <ref link="modifier_18_name">
+        <string lang="en">Health Bonus</string>
+        <string lang="fr">Bonus de santé</string>
+        <string lang="it">Bonus salute</string>
+        <string lang="de">Gesundheitsbonus</string>
+        <string lang="es">Bonificación de salud</string>
+        <string lang="pt">Bônus de Vida</string>
+    </ref>
+    <ref link="modifier_18_short_desc">
+        <string lang="en">#value1#% Health</string>
+        <string lang="fr">#value1#% Bonus de santé</string>
+        <string lang="it">#value1#% Bonus salute</string>
+        <string lang="de">#value1#% Gesundheitsbonus</string>
+        <string lang="es">#value1#% Bonificación de salud</string>
+        <string lang="pt">#value1#% Bônus de Vida</string>
+    </ref>
+    <ref link="modifier_18_long_desc">
+        <string lang="en">Increases health by #value1#%</string>
+        <string lang="fr">Accroît la santé de #value1#%</string>
+        <string lang="it">Aumenta la salute di #value1#%</string>
+        <string lang="de">Erhöht die Gesundheit um #value1#%.</string>
+        <string lang="es">Aumenta la salud en un #value1#%.</string>
+        <string lang="pt">Aumenta a vida em #value1#%.</string>
+    </ref>
+    <ref link="modifier_19_name">
+        <string lang="en">Speed Bonus</string>
+        <string lang="fr">Bonus de vitesse</string>
+        <string lang="it">Bonus velocità</string>
+        <string lang="de">Geschwindigkeitsbonus</string>
+        <string lang="es">Bonificación de velocidad</string>
+        <string lang="pt">Bônus de Velocidade</string>
+    </ref>
+    <ref link="modifier_19_short_desc">
+        <string lang="en">#value1#% Speed</string>
+        <string lang="fr">#value1#% Bonus de vitesse</string>
+        <string lang="it">#value1#% Bonus velocità</string>
+        <string lang="de">#value1#% Geschwindigkeitsbonus</string>
+        <string lang="es">#value1#% Bonificación de velocidad</string>
+        <string lang="pt">#value1#% Bônus de Velocidade</string>
+    </ref>
+    <ref link="modifier_19_long_desc">
+        <string lang="en">Increases combat speed by #value1#%</string>
+        <string lang="fr">Accroît la vitesse de combat de #value1#%</string>
+        <string lang="it">Aumenta la velocità di combattimento di #value1#%</string>
+        <string lang="de">Erhöht die Kampfgeschwindigkeit um #value1#%.</string>
+        <string lang="es">Aumenta la velocidad de combate en un #value1#%.</string>
+        <string lang="pt">Aumenta a velocidade do combate em #value1#%.</string>
+    </ref>
+    <ref link="modifier_20_name">
+        <string lang="en">Capture Rate</string>
+        <string lang="fr">Taux de capture</string>
+        <string lang="it">Chance di cattura</string>
+        <string lang="de">Schutzgeistrate</string>
+        <string lang="es">Tasa de captura</string>
+        <string lang="pt">Taxa de Captura</string>
+    </ref>
+    <ref link="modifier_20_short_desc">
+        <string lang="en">#value1#% Capture Rate</string>
+        <string lang="fr">#value1#% Taux de capture</string>
+        <string lang="it">#value1#% Chance di cattura</string>
+        <string lang="de">#value1#% Schutzgeistrate</string>
+        <string lang="es">#value1#% Tasa de captura</string>
+        <string lang="pt">#value1#% Taxa de Captura</string>
+    </ref>
+    <ref link="modifier_20_long_desc">
+        <string lang="en">Increases chance for powerful familiars to want to join your team by #value1#%</string>
+        <string lang="fr">Accroît de #value1#% tes chances d'attirer de puissants familiers dans ton équipe</string>
+        <string lang="it">Aumenta le chance che i famigli potenti vogliano unirsi alla tua squadra di #value1#%</string>
+        <string lang="de">Erhöht die Chance, dass mächtige Schutzgeister deiner Gruppe beitreten wollen, um #value1#%.</string>
+        <string lang="es">Aumenta las probabilidades de que compañeros poderosos quieran unirse a tu equipo en un #value1#%.</string>
+        <string lang="pt">Aumenta a chance dos familiares poderosos pedirem para entrar no seu time em #value1#%.</string>
+    </ref>
+    <ref link="modifier_21_name">
+        <string lang="en">Damage Enrage</string>
+        <string lang="fr">Dommage Enrage</string>
+        <string lang="it">Damage Enrage</string>
+        <string lang="de">Schadensbrüchigkeit</string>
+        <string lang="es">Daño enérgico</string>
+        <string lang="pt">Enrage de danos</string>
+    </ref>
+    <ref link="modifier_21_short_desc">
+        <string lang="en">#value1#% Damage Enrage</string>
+        <string lang="fr">#value1#% Dommage Enrage</string>
+        <string lang="it">#value1#% Damage Enrage</string>
+        <string lang="de">#value1#% Schadensbrüchigkeit</string>
+        <string lang="es">#value1#% Daño enérgico</string>
+        <string lang="pt">#value1#% Enrage de danos</string>
+    </ref>
+    <ref link="modifier_21_long_desc">
+        <string lang="en">Convert #value1#% of all damage received to your Enrage meter</string>
+        <string lang="fr">Convertir #value1#% de tous les dégâts reçus à votre compteur Enrage</string>
+        <string lang="it">Convertire il #value1#% di tutti i danni ricevuti al vostro contatore di Enrage</string>
+        <string lang="de">Konvertiere #value1#% aller Schäden, die du deinem Enrage-Meter erhalten hast</string>
+        <string lang="es">Convierta #value1#% de todos los daños recibidos en su medidor Enrage</string>
+        <string lang="pt">Converta #value1#% de todos os danos recebidos ao seu medidor de Enrage</string>
+    </ref>
+    <ref link="modifier_22_name">
+        <string lang="en">Loot Bonus</string>
+        <string lang="fr">Butins bonus</string>
+        <string lang="it">Bonus bottino</string>
+        <string lang="de">Beutebonus</string>
+        <string lang="es">Bonificación de botín</string>
+        <string lang="pt">Bônus de Saque</string>
+    </ref>
+    <ref link="modifier_22_short_desc">
+        <string lang="en">#value1#X Loot</string>
+        <string lang="fr">#value1#X Butin</string>
+        <string lang="it">#value1#X Bottino</string>
+        <string lang="de">#value1#X Beutebonus</string>
+        <string lang="es">#value1#X Botín</string>
+        <string lang="pt">#value1#X Saque</string>
+    </ref>
+    <ref link="modifier_22_long_desc">
+        <string lang="en">Items will drop at #value1#X rate</string>
+        <string lang="fr">Les objets sont abandonnés au taux de #value1#X</string>
+        <string lang="it">#value1#x chance di generazione oggetti</string>
+        <string lang="de">Gegenstände werden mit #value1#X-facher Rate fallengelassen.</string>
+        <string lang="es">Los objetos caerán a una velocidad #value1#X.</string>
+        <string lang="pt">Aumenta frequência de itens em #value1#X.</string>
+    </ref>
+    <ref link="modifier_23_name">
+        <string lang="en">Point Bonus</string>
+        <string lang="fr">Points bonus</string>
+        <string lang="it">Bonus punti</string>
+        <string lang="de">Punktebonus</string>
+        <string lang="es">Bonificación de puntos</string>
+        <string lang="pt">Bônus de Pontuação</string>
+    </ref>
+    <ref link="modifier_23_short_desc">
+        <string lang="en">#value1#X Points</string>
+        <string lang="fr">#value1#X Points</string>
+        <string lang="it">#value1#X Punti</string>
+        <string lang="de">#value1#X Punkte</string>
+        <string lang="es">#value1#X Puntos</string>
+        <string lang="pt">#value1#X Pontuação</string>
+    </ref>
+    <ref link="modifier_23_long_desc">
+        <string lang="en">Points increased by #value1#X</string>
+        <string lang="fr">Multiplie les points par #value1#</string>
+        <string lang="it">#value1#x punti</string>
+        <string lang="de">Punkte werden um das #value1#X-fache erhöht.</string>
+        <string lang="es">Los puntos aumentan #value1#X.</string>
+        <string lang="pt">Aumenta os pontos em #value1#X.</string>
+    </ref>
+    <ref link="modifier_24_name">
+        <string lang="en">Target Change</string>
+        <string lang="fr">Changement de cible</string>
+        <string lang="it">Cambio bersaglio</string>
+        <string lang="de">Zielwechsel</string>
+        <string lang="es">Cambio de objetivo</string>
+        <string lang="pt">Mudança de Alvo</string>
+    </ref>
+    <ref link="modifier_24_short_desc">
+        <string lang="en">#value1# Targets</string>
+        <string lang="fr">#value1# Cibles</string>
+        <string lang="it">#value1# Bersaglio</string>
+        <string lang="de">#value1# Zielen</string>
+        <string lang="es">#value1# Objetivos</string>
+        <string lang="pt">#value1# Alvos</string>
+    </ref>
+    <ref link="modifier_24_long_desc">
+        <string lang="en">#value1# targets to choose from</string>
+        <string lang="fr">Choix de #value1# cibles</string>
+        <string lang="it">#value1# bersagli tra cui scegliere</string>
+        <string lang="de">#value1# Ziele, aus denen du wählen kannst.</string>
+        <string lang="es">#value1# objetivos entre los que elegir.</string>
+        <string lang="pt">#value1# alvos para escolher.</string>
+    </ref>
+    <ref link="modifier_25_name">
+        <string lang="en">Deflect Chance</string>
+        <string lang="fr">Chances de déviation</string>
+        <string lang="it">Chance di deflessione</string>
+        <string lang="de">Abwehrchance</string>
+        <string lang="es">Probabilidad de desvío</string>
+        <string lang="pt">Chance de Deflexão</string>
+    </ref>
+    <ref link="modifier_25_short_desc">
+        <string lang="en">#value1#% Deflect Chance</string>
+        <string lang="fr">#value1#% Chances de déviation</string>
+        <string lang="it">#value1#% Chance di deflessione</string>
+        <string lang="de">#value1#% Abwehrchance</string>
+        <string lang="es">#value1#% Probabilidad de desvío</string>
+        <string lang="pt">#value1#% Chance de Deflexão</string>
+    </ref>
+    <ref link="modifier_25_long_desc">
+        <string lang="en">Increases chance to deflect attacks by #value1#%</string>
+        <string lang="fr">Accroît de #value1#% les chances de dévier les attaques</string>
+        <string lang="it">Aumenta di #value1#% le chance di deflettere gli attacchi</string>
+        <string lang="de">Erhöht die Chance, Angriffe abzuwehren, um #value1#%.</string>
+        <string lang="es">Aumenta la probabilidad de desviar ataques en un #value1#%.</string>
+        <string lang="pt">Aumenta a chance de defletir ataques em #value1#%.</string>
+    </ref>
+    <ref link="modifier_26_name">
+        <string lang="en">Dual Strike</string>
+        <string lang="fr">Double frappe</string>
+        <string lang="it">Colpo doppio</string>
+        <string lang="de">Doppelschlag</string>
+        <string lang="es">Ataque doble</string>
+        <string lang="pt">Ataque Duplo</string>
+    </ref>
+    <ref link="modifier_26_short_desc">
+        <string lang="en">#value1#% Dual Strike</string>
+        <string lang="fr">#value1#% Double frappe</string>
+        <string lang="it">#value1#% Colpo doppio</string>
+        <string lang="de">#value1#% Doppelschlag</string>
+        <string lang="es">#value1#% Ataque doble</string>
+        <string lang="pt">#value1#% Ataque Duplo</string>
+    </ref>
+    <ref link="modifier_26_long_desc">
+        <string lang="en">#value1#% chance for skills to trigger twice</string>
+        <string lang="fr">Les compétences ont #value1#% de chances de se déclencher deux fois</string>
+        <string lang="it">#value1#% di chance di doppia attivazione delle abilità</string>
+        <string lang="de">#value1#% Chance, dass Skills zweimal ausgelöst werden.</string>
+        <string lang="es">#value1#% de probabilidad de que las habilidades se activen dos veces.</string>
+        <string lang="pt">Chance de #value1#% de ativar habilidades duas vezes.</string>
+    </ref>
+    <ref link="modifier_27_name">
+        <string lang="en">Empower Chance</string>
+        <string lang="fr">Chances de coup Habiliter</string>
+        <string lang="it">Chance di autorizzare</string>
+        <string lang="de">Ermächtigen-Chance</string>
+        <string lang="es">Probabilidad de impacto Autorizar</string>
+        <string lang="pt">Chance de Capacitar</string>
+    </ref>
+    <ref link="modifier_27_short_desc">
+        <string lang="en">#value1#% Empower Chance</string>
+        <string lang="fr">#value1#% Chances de coup Habiliter</string>
+        <string lang="it">#value1#% Chance di autorizzare</string>
+        <string lang="de">#value1#% Ermächtigen-Chance</string>
+        <string lang="es">#value1#% Probabilidad de impacto Autorizar</string>
+        <string lang="pt">#value1#% Chance de Capacitar</string>
+    </ref>
+    <ref link="modifier_27_long_desc">
+        <string lang="en">#value1#% chance for skills to be twice as powerful</string>
+        <string lang="fr">#value1#% de chances de compétences pour être deux fois plus puissant</string>
+        <string lang="it">#value1#% possibilità per le competenze di essere il doppio di potenza</string>
+        <string lang="de">#value1#% Chance für Fähigkeiten, doppelt so mächtig zu sein</string>
+        <string lang="es">#value1#% de probabilidad de que las habilidades sean dos veces más poderosas</string>
+        <string lang="pt">#value1#% de chance de habilidades serem duas vezes mais poderosas</string>
+    </ref>
+    <ref link="modifier_28_name">
+        <string lang="en">Meterless Chance</string>
+        <string lang="fr">Chances d'économie de PC</string>
+        <string lang="it">Chance di 0 PA</string>
+        <string lang="de">Null-SP-Chance</string>
+        <string lang="es">Probabilidad de ahorro de PH</string>
+        <string lang="pt">Chance de não usar Medidor</string>
+    </ref>
+    <ref link="modifier_28_short_desc">
+        <string lang="en">#value1#% Meterless Chance</string>
+        <string lang="fr">#value1#% Chances d'économie de PC</string>
+        <string lang="it">#value1#% Chance di 0 PA</string>
+        <string lang="de">#value1#% Null-SP-Chance</string>
+        <string lang="es">#value1#% Probabilidad de ahorro de PH</string>
+        <string lang="pt">#value1#% Chance de não usar Medidor</string>
+    </ref>
+    <ref link="modifier_28_long_desc">
+        <string lang="en">#value1#% chance for skills to not spend SP</string>
+        <string lang="fr">Les compétences ont #value1#% de chances de ne pas utiliser de PC</string>
+        <string lang="it">#value1#% di chance di attivazione abilità senza spendere PA</string>
+        <string lang="de">#value1#% Chance, dass Skills keine SP verbrauchen.</string>
+        <string lang="es">#value1#% de probabilidad de que las habilidades no consuman PH.</string>
+        <string lang="pt">Chance de #value1#% das habilidades não consumirem PH.</string>
+    </ref>
+    <ref link="modifier_32_name">
+        <string lang="en">Damage Reduction</string>
+        <string lang="fr">Réduction de dégats</string>
+        <string lang="it">Riduzione del danno</string>
+        <string lang="de">Schadensreduzierung</string>
+        <string lang="es">Reducción del daño</string>
+        <string lang="pt">Redução de danos</string>
+    </ref>
+    <ref link="modifier_32_short_desc">
+        <string lang="en">#value1#% Damage Reduction</string>
+        <string lang="fr">#value1#% Réduction de dégats</string>
+        <string lang="it">#value1#% Riduzione del danno</string>
+        <string lang="de">#value1#% Schadensreduzierung</string>
+        <string lang="es">#value1#% Reducción del daño</string>
+        <string lang="pt">#value1#% Redução de danos</string>
+    </ref>
+    <ref link="modifier_32_long_desc">
+        <string lang="en">Damage received is reduced by #value1#%</string>
+        <string lang="fr">Les dégâts reçus sont réduits de #value1#%</string>
+        <string lang="it">I danni ricevuti sono ridotti del #value1#%</string>
+        <string lang="de">Der erhaltene Schaden wird um #value1#%</string>
+        <string lang="es">Los daños recibidos se reducen en un #value1#%</string>
+        <string lang="pt">Os danos recebidos são reduzidos em #value1#%</string>
+    </ref>
+    <ref link="modifier_34_name">
+        <string lang="en">SP Drain</string>
+        <string lang="fr">Ponction de PC</string>
+        <string lang="it">Ruba-PA</string>
+        <string lang="de">SP-Entzug</string>
+        <string lang="es">Drenaje de PH</string>
+        <string lang="pt">Dreno de PHs</string>
+    </ref>
+    <ref link="modifier_34_short_desc">
+        <string lang="en">#value1#% SP Drain</string>
+        <string lang="fr">#value1#% Ponction de PC</string>
+        <string lang="it">#value1#% Ruba-PA</string>
+        <string lang="de">#value1#% SP-Entzug</string>
+        <string lang="es">#value1#% Drenaje de PH</string>
+        <string lang="pt">#value1#% Dreno de PHs</string>
+    </ref>
+    <ref link="modifier_34_long_desc">
+        <string lang="en">Drain #value1#% of SP from target</string>
+        <string lang="fr">Ponctionne #value1#% des PC de la cible</string>
+        <string lang="it">Ruba #value1#% dei PA del bersaglio</string>
+        <string lang="de">Entziehe dem Ziel #value1#% SP.</string>
+        <string lang="es">Drena un #value1#% de PH del objetivo.</string>
+        <string lang="pt">Drena #value1#% dos PHs do alvo.</string>
+    </ref>
+    <ref link="modifier_35_name">
+        <string lang="en">Ricochet Chance</string>
+        <string lang="fr">Chances de ricochet</string>
+        <string lang="it">Chance di rimbalzo</string>
+        <string lang="de">Querschläger-Chance</string>
+        <string lang="es">Probabilidad de rebote</string>
+        <string lang="pt">Chance de Ricochete</string>
+    </ref>
+    <ref link="modifier_35_short_desc">
+        <string lang="en">#value1#% Ricochet Chance</string>
+        <string lang="fr">#value1#% Chances de ricochet</string>
+        <string lang="it">#value1#% Chance di rimbalzo</string>
+        <string lang="de">#value1#% Querschläger-Chance</string>
+        <string lang="es">#value1#% Probabilidad de rebote</string>
+        <string lang="pt">#value1#% Chance de Ricochete</string>
+    </ref>
+    <ref link="modifier_35_long_desc">
+        <string lang="en">#value1#% chance for projectiles to ricochet to a nearby enemy</string>
+        <string lang="fr">Les projectiles ont #value1#% de chances de ricocher sur un ennemi environnant</string>
+        <string lang="it">#value1#% di chance che i proiettili rimbalzino verso un nemico vicino</string>
+        <string lang="de">#value1#% Chance, dass Geschosse als Querschläger einen Gegner in der Nähe treffen.</string>
+        <string lang="es">#value1#% de probabilidad de que los proyectiles reboten sobre un enemigo cercano.</string>
+        <string lang="pt">Chance de #value1#% dos projéteis ricochetearem para outro inimigo perto.</string>
+    </ref>
+    <ref link="modifier_36_name">
+        <string lang="en">Redirect Chance</string>
+        <string lang="fr">Chances de redirection</string>
+        <string lang="it">Chance di deviazione</string>
+        <string lang="de">Umleitungschance</string>
+        <string lang="es">Probabilidad de redirección</string>
+        <string lang="pt">Chance de Redirecionar</string>
+    </ref>
+    <ref link="modifier_36_short_desc">
+        <string lang="en">#value1#% Redirect Chance</string>
+        <string lang="fr">#value1#% Chances de redirection</string>
+        <string lang="it">#value1#% Chance di deviazione</string>
+        <string lang="de">#value1#% Umleitungschance</string>
+        <string lang="es">#value1#% Probabilidad de redirección</string>
+        <string lang="pt">#value1#% Chance de Redirecionar</string>
+    </ref>
+    <ref link="modifier_36_long_desc">
+        <string lang="en">#value1#% chance for attacks on teammates to redirect to you</string>
+        <string lang="fr">Les attaques visant tes coéquipiers ont #value1#% de chances d'être redirigées vers toi</string>
+        <string lang="it">#value1#% di chance che gli attacchi verso i compagni vengano deviati su di te</string>
+        <string lang="de">#value1#% Chance, dass Angriffe auf Gruppenmitglieder auf dich umgeleitet werden.</string>
+        <string lang="es">#value1#% de probabilidad de que los ataques sobre los compañeros de equipo se redirijan a ti.</string>
+        <string lang="pt">Chance de #value1#% de redirecionar ataques aos aliados para você.</string>
+    </ref>
+    <ref link="modifier_37_short_desc">
+        <string lang="en">#value1# Max Energy</string>
+        <string lang="fr">#value1# Max Énergie</string>
+        <string lang="it">#value1# Max Energia</string>
+        <string lang="de">#value1# Max Energie</string>
+        <string lang="es">#value1# Energía Max</string>
+        <string lang="pt">#value1# Max Energia</string>
+    </ref>
+    <ref link="modifier_37_long_desc">
+        <string lang="en">Energy capacity increased by #value1#</string>
+        <string lang="fr">Capacité d'énergie augmentée de #value1#</string>
+        <string lang="it">La capacità Energia è aumentata di #value1#</string>
+        <string lang="de">Die Energie erhöhte sich um #value1#</string>
+        <string lang="es">Capacidad Energía aumentada en #value1#</string>
+        <string lang="pt">Capacidade de Energia aumentada em #value1#</string>
+    </ref>
+    <ref link="modifier_38_short_desc">
+        <string lang="en">#value1# Max Tickets</string>
+        <string lang="fr">#value1# Max Tickets</string>
+        <string lang="it">#value1# Max Biglietti</string>
+        <string lang="de">#value1# Max Tickets</string>
+        <string lang="es">#value1# Boletos Max</string>
+        <string lang="pt">#value1# Max Tíquetes</string>
+    </ref>
+    <ref link="modifier_38_long_desc">
+        <string lang="en">Tickets capacity increased by #value1#</string>
+        <string lang="fr">Capacité tickets augmentée de #value1#</string>
+        <string lang="it">La capacità Biglietti è aumentata di #value1#</string>
+        <string lang="de">Die Tickets erhöhte sich um #value1#</string>
+        <string lang="es">Capacidad Boletos aumentada en #value1#</string>
+        <string lang="pt">Capacidade de Tíquetes aumentada em #value1#</string>
+    </ref>
+    <ref link="modifier_39_short_desc">
+        <string lang="en">#value1# Max Shards</string>
+        <string lang="fr">#value1# Max Tessons</string>
+        <string lang="it">#value1# Max Frammenti</string>
+        <string lang="de">#value1# Max Splitter</string>
+        <string lang="es">#value1# Fragmentos Max</string>
+        <string lang="pt">#value1# Max Cristais</string>
+    </ref>
+    <ref link="modifier_39_long_desc">
+        <string lang="en">Shards capacity increased by #value1#</string>
+        <string lang="fr">Capacité Tessons augmentée de #value1#</string>
+        <string lang="it">La capacità Frammenti è aumentata di #value1#</string>
+        <string lang="de">Die Splitter erhöhte sich um #value1#</string>
+        <string lang="es">Capacidad Fragmentos aumentada en #value1#</string>
+        <string lang="pt">Capacidade de Cristais aumentada em #value1#</string>
+    </ref>
+    <ref link="modifier_40_short_desc">
+        <string lang="en">#value1# Max Tokens</string>
+        <string lang="fr">#value1# Max Jetons</string>
+        <string lang="it">#value1# Max Gettoni</string>
+        <string lang="de">#value1# Max Tokens</string>
+        <string lang="es">#value1# Fichas Max</string>
+        <string lang="pt">#value1# Max Fichas</string>
+    </ref>
+    <ref link="modifier_40_long_desc">
+        <string lang="en">Tokens capacity increased by #value1#</string>
+        <string lang="fr">Capacité Jetons augmentée de #value1#</string>
+        <string lang="it">La capacità Gettoni è aumentata di #value1#</string>
+        <string lang="de">Die Tokens erhöhte sich um #value1#</string>
+        <string lang="es">Capacidad Fichas aumentada en #value1#</string>
+        <string lang="pt">Capacidade de Fichas aumentada em #value1#</string>
+    </ref>
+    <ref link="modifier_41_short_desc">
+        <string lang="en">#value1# Max Badges</string>
+        <string lang="fr">#value1# Max Badges</string>
+        <string lang="it">#value1# Max Badge</string>
+        <string lang="de">#value1# Max Abzeichen</string>
+        <string lang="es">#value1# Insignias Max</string>
+        <string lang="pt">#value1# Max Distintivos</string>
+    </ref>
+    <ref link="modifier_41_long_desc">
+        <string lang="en">Badges capacity increased by #value1#</string>
+        <string lang="fr">Capacité Badges augmentée de #value1#</string>
+        <string lang="it">La capacità Badge è aumentata di #value1#</string>
+        <string lang="de">Die Abzeichen erhöhte sich um #value1#</string>
+        <string lang="es">Capacidad Insignias aumentada en #value1#</string>
+        <string lang="pt">Capacidade de Distintivos aumentada em #value1#</string>
+    </ref>
+    <ref link="modifier_42_short_desc">
+        <string lang="en">#value1# Guild Members</string>
+        <string lang="fr">#value1# Membres de la guilde</string>
+        <string lang="it">#value1# Membri della gilda</string>
+        <string lang="de">#value1# Gildenmitglieder</string>
+        <string lang="es">#value1# Miembros del gremio</string>
+        <string lang="pt">#value1# Membros da Guild</string>
+    </ref>
+    <ref link="modifier_42_long_desc">
+        <string lang="en">Guild member capacity increased by #value1#</string>
+        <string lang="fr">La capacité des membres de la guilde a augmenté de #value1#</string>
+        <string lang="it">La capacità dei membri della gilda è aumentata di #value1#</string>
+        <string lang="de">Die Kapazität des Gildenmitglieds erhöhte sich um #value1#</string>
+        <string lang="es">La capacidad del miembro del gremio aumentó #value1#</string>
+        <string lang="pt">Capacidade do membro da Guild aumentou #value1#</string>
+    </ref>
+     
+    <ref link="modifier_43_name">
+        <string lang="en">Absorb Chance</string>
+        <string lang="fr">Chances de absorber</string>
+        <string lang="it">Chance di assorbire</string>
+        <string lang="de">Absorbieren</string>
+        <string lang="es">Probabilidad de absorber</string>
+        <string lang="pt">Chance de absorver</string>
+    </ref>
+    <ref link="modifier_43_short_desc">
+        <string lang="en">#value1#% Absorb Chance</string>
+        <string lang="fr">#value1#% Chances de absorber</string>
+        <string lang="it">#value1#% Chance di assorbire</string>
+        <string lang="de">#value1#% Absorbieren</string>
+        <string lang="es">#value1#% Probabilidad de absorber</string>
+        <string lang="pt">#value1#% Chance de absorver</string>
+    </ref>
+    <ref link="modifier_43_long_desc">
+        <string lang="en">Increases chance to absorb attacks by #value1#%</string>
+        <string lang="fr">Accroît de #value1#% les chances de absorber les attaques</string>
+        <string lang="it">Aumenta di #value1#% le chance di assorbire gli attacchi</string>
+        <string lang="de">Erhöht die Chance, Angriffe absorbieren um #value1#%.</string>
+        <string lang="es">Aumenta la probabilidad de absorber ataques en un #value1#%.</string>
+        <string lang="pt">Aumenta a chance de absorver ataques em #value1#%.</string>
+    </ref>
+    
+    
+    <ref link="modifier_51_name">
+        <string lang="en">Team Enrage</string>
+        <string lang="fr">Équipe Enrage</string>
+        <string lang="it">Team Enrage</string>
+        <string lang="de">Team Wut</string>
+        <string lang="es">Team Enrage</string>
+        <string lang="pt">Team Enrage</string>
+    </ref>
+    <ref link="modifier_51_short_desc">
+        <string lang="en">#value1#% Team Enrage</string>
+        <string lang="fr">#value1#% Équipe Enrage</string>
+        <string lang="it">#value1#% Team Enrage</string>
+        <string lang="de">#value1#% Team Wut</string>
+        <string lang="es">#value1#% Team Enrage</string>
+        <string lang="pt">#value1#% Team Enrage</string>
+    </ref>
+    <ref link="modifier_51_long_desc">
+        <string lang="en">Convert #value1#% of all team damage received to your Enrage meter</string>
+        <string lang="fr">Convertir #value1#% de tous les dégâts d'équipe reçus avec votre compteur Enrage</string>
+        <string lang="it">Converti #value1#% di tutti i danni di squadra ricevuti al tuo metro Enrage</string>
+        <string lang="de">Konvertiere #value1#% des gesamten Teamschadens, den du in deinen Enrage-Zähler erhalten hast</string>
+        <string lang="es">Convierta #value1#% de todos los daños del equipo recibidos a su medidor de Enrage</string>
+        <string lang="pt">Converta #value1#% de todos os danos da equipe recebidos ao seu medidor de incêndio</string>
+    </ref>
+    
+    
+    
+    
+    
+    
+    
+    <ref link="modifier_52_name">
+        <string lang="en">Quad Strike</string>
+        <string lang="fr">Quatre frappe</string>
+        <string lang="it">Colpo quadrilatero</string>
+        <string lang="de">Quad-Streik</string>
+        <string lang="es">Ataque cuatro</string>
+        <string lang="pt">Ataque quatro</string>
+    </ref>
+    <ref link="modifier_52_short_desc">
+        <string lang="en">#value1#% Quad Strike</string>
+        <string lang="fr">#value1#% Quatre frappe</string>
+        <string lang="it">#value1#% Colpo quadrilatero</string>
+        <string lang="de">#value1#% Quad-Streik</string>
+        <string lang="es">#value1#% Ataque cuatro</string>
+        <string lang="pt">#value1#% Ataque quatro</string>
+    </ref>
+    <ref link="modifier_52_long_desc">
+        <string lang="en">#value1#% chance for skills to trigger four times</string>
+        <string lang="fr">Les compétences ont #value1#% de chances de se déclencher quatre fois</string>
+        <string lang="it">#value1#% di chance di quattro volte attivazione delle abilità</string>
+        <string lang="de">#value1#% Chance, dass Skills vier Mal ausgelöst werden.</string>
+        <string lang="es">#value1#% de probabilidad de que las habilidades se activen cuatro veces.</string>
+        <string lang="pt">Chance de #value1#% de ativar habilidades quatro vezes.</string>
+    </ref>
+    
+    
+    
+    
+    
+    <ref link="modifier_53_name">
+        <string lang="en">Fishing Distance</string>
+        <string lang="fr">Distance de pêche</string>
+        <string lang="it">Distanza di pesca</string>
+        <string lang="de">Angelentfernung</string>
+        <string lang="es">Distancia de pesca</string>
+        <string lang="pt">Distância de pesca</string>
+    </ref>
+    <ref link="modifier_53_short_desc">
+        <string lang="en">#value1#% Fishing Distance</string>
+        <string lang="fr">#value1#% Distance de pêche</string>
+        <string lang="it">#value1#% Distanza di pesca</string>
+        <string lang="de">#value1#% Angelentfernung</string>
+        <string lang="es">#value1#% Distancia de pesca</string>
+        <string lang="pt">#value1#% Distância de pesca</string>
+    </ref>
+    <ref link="modifier_53_long_desc">
+        <string lang="en">Increases maximum fishing distance by #value1#%</string>
+        <string lang="fr">augmente la distance de pêche maximale par #value1#%</string>
+        <string lang="it">#value1#% aumenta la distanza massima di pesca</string>
+        <string lang="de">erhöht die maximale Fangentfernung durch #value1#%</string>
+        <string lang="es">aumenta la distancia máxima de pesca por #value1#%</string>
+        <string lang="pt">aumenta a distância máxima de pesca por #value1#%</string>
+    </ref>
+    
+    
+    
+    <ref link="modifier_54_name">
+        <string lang="en">Catch Meter Size</string>
+        <string lang="fr">Attraper la taille du compteur</string>
+        <string lang="it">Prendere dimensioni del contatore</string>
+        <string lang="de">Fang Metergröße</string>
+        <string lang="es">Tomar el tamaño del medidor</string>
+        <string lang="pt">Pegar o tamanho do medidor</string>
+    </ref>
+    <ref link="modifier_54_short_desc">
+        <string lang="en">#value1#% Catch Meter Size</string>
+        <string lang="fr">#value1#% Attraper la taille du compteur</string>
+        <string lang="it">#value1#% Prendere dimensioni del contatore</string>
+        <string lang="de">#value1#% Fang Metergröße</string>
+        <string lang="es">#value1#% Tomar el tamaño del medidor</string>
+        <string lang="pt">#value1#% Pegar o tamanho do medidor</string>
+    </ref>
+    <ref link="modifier_54_long_desc">
+        <string lang="en">Increases the size of the catch meter by #value1#%</string>
+        <string lang="fr">Augmente la taille du compteur de prises par #value1#%</string>
+        <string lang="it">#value1#% aumenta le dimensioni del misuratore di cattura</string>
+        <string lang="de">Erhöht die Größe des Fangmessers von #value1#%</string>
+        <string lang="es">Aumenta el tamaño del medidor de captura por #value1#%</string>
+        <string lang="pt">Aumenta o tamanho do medidor de captura por #value1#%</string>
+    </ref>
+    
+    
+    
+    <ref link="modifier_55_name">
+        <string lang="en">Fish Find</string>
+        <string lang="fr">Découverte d'poisson</string>
+        <string lang="it">Trova-Pesce</string>
+        <string lang="de">Fisch finden</string>
+        <string lang="es">Hallazgo de Pescado</string>
+        <string lang="pt">Encontrar Peixe</string>
+    </ref>
+    <ref link="modifier_55_short_desc">
+        <string lang="en">#value1#% Fish Find</string>
+        <string lang="fr">#value1#% Découverte d'poisson</string>
+        <string lang="it">#value1#% Trova-Pesce</string>
+        <string lang="de">#value1#% Fisch finden</string>
+        <string lang="es">#value1#% Hallazgo de Pescado</string>
+        <string lang="pt">#value1#% Encontrar Peixe</string>
+    </ref>
+    <ref link="modifier_55_long_desc">
+        <string lang="en">Increases the chance to find valuable fish by #value1#%</string>
+        <string lang="fr">Augmente la chance de trouver du poisson précieux par #value1#%</string>
+        <string lang="it">Aumenta la possibilità di trovare pesce prezioso da #value1#%</string>
+        <string lang="de">Erhöht die Chance, wertvollen Fisch von #value1#% zu finden</string>
+        <string lang="es">Aumenta la posibilidad de encontrar peces valiosos por #value1#%</string>
+        <string lang="pt">Aumenta a chance de encontrar peixes valiosos por #value1#%</string>
+    </ref>
+    
+    
+    
+    
+    <ref link="modifier_56_name">
+        <string lang="en">World Boss Item Find</string>
+        <string lang="fr">Découverte d'objets en mode Boss du Monde</string>
+        <string lang="it">Trova-oggetti World Boss</string>
+        <string lang="de">Gegenstände finden im World Boss</string>
+        <string lang="es">Hallazgo de objetos en Mundo Jefe</string>
+        <string lang="pt">Encontrar Itens em Chefe Do Mundo</string>
+    </ref>
+    <ref link="modifier_56_short_desc">
+        <string lang="en">#value1#% World Boss Item Find</string>
+        <string lang="fr">#value1#% Découverte d'objets en mode Boss du Monde</string>
+        <string lang="it">#value1#% Trova-oggetti World Boss</string>
+        <string lang="de">#value1#% Gegenstände finden im World Boss</string>
+        <string lang="es">#value1#% Hallazgo de objetos en Mundo Jefe</string>
+        <string lang="pt">#value1#% Encontrar Itens em Chefe Do Mundo</string>
+    </ref>
+    <ref link="modifier_56_long_desc">
+        <string lang="en">While in World Boss, increases chance to find powerful items from battles by #value1#%</string>
+        <string lang="fr">Accroît de #value1#% les chances de découvrir de puissants objets lors des combats en mode Boss du Monde</string>
+        <string lang="it">In World Boss, aumenta le chance di trovare oggetti potenti in battaglia di #value1#%</string>
+        <string lang="de">Erhöht im World Boss die Chance, in Schlachten mächtige Gegenstände zu finden, um #value1#%.</string>
+        <string lang="es">En Mundo Jefe, aumenta la probabilidad de encontrar objetos poderosos en batallas en un #value1#%.</string>
+        <string lang="pt">Aumenta a chance de encontrar itens poderosos nas batalhas e tesouros Chefe Do Mundo em #value1#%.</string>
+    </ref>
+    <ref link="modifier_57_name">
+        <string lang="en">World Boss Experience</string>
+        <string lang="fr">Expérience Boss du Monde</string>
+        <string lang="it">Esperienza World Boss</string>
+        <string lang="de">World Boss-Erfahrung</string>
+        <string lang="es">Experiencia Mundo Jefe</string>
+        <string lang="pt">Experiência em Chefe Do Mundo</string>
+    </ref>
+    <ref link="modifier_57_short_desc">
+        <string lang="en">#value1#% World Boss Experience</string>
+        <string lang="fr">#value1#% Expérience Boss du Monde</string>
+        <string lang="it">#value1#% Esperienza World Boss</string>
+        <string lang="de">#value1#% World Boss-Erfahrung</string>
+        <string lang="es">#value1#% Experiencia Mundo Jefe</string>
+        <string lang="pt">#value1#% Experiência em Chefe Do Mundo</string>
+    </ref>
+    <ref link="modifier_57_long_desc">
+        <string lang="en">While in World Boss, increases the amount of experience gained from battles by #value1#%</string>
+        <string lang="fr">Accroît de #value1#% l'expérience acquise lors des combats en mode Boss du Monde</string>
+        <string lang="it">In World Boss, aumenta l'esperienza che ottieni in battaglia di #value1#%</string>
+        <string lang="de">Erhöht im World Boss die in Schlachten gesammelte Erfahrung um #value1#%.</string>
+        <string lang="es">En Mundo Jefe, aumenta la cantidad de experiencia conseguida en batallas en un #value1#%.</string>
+        <string lang="pt">Aumenta a quantidade de experiência das batalhas Chefe Do Mundo em #value1#%.</string>
+    </ref>
+    <ref link="modifier_58_name">
+        <string lang="en">World Boss Gold Find</string>
+        <string lang="fr">Découverte d'or en mode Boss du Monde</string>
+        <string lang="it">Trova-oro World Boss</string>
+        <string lang="de">Gold finden im World Boss</string>
+        <string lang="es">Hallazgo de oro en Mundo Jefe</string>
+        <string lang="pt">Encontrar Ouro em Chefe Do Mundo</string>
+    </ref>
+    <ref link="modifier_58_short_desc">
+        <string lang="en">#value1#% World Boss Gold Find</string>
+        <string lang="fr">#value1#% Découverte d'or en mode Boss du Monde</string>
+        <string lang="it">#value1#% Trova-oro World Boss</string>
+        <string lang="de">#value1#% Gold finden im World Boss</string>
+        <string lang="es">#value1#% Hallazgo de oro en Mundo Jefe</string>
+        <string lang="pt">#value1#% Encontrar Ouro em Chefe Do Mundo</string>
+    </ref>
+    <ref link="modifier_58_long_desc">
+        <string lang="en">While in World Boss, increases the amount of gold gained from battles by #value1#%</string>
+        <string lang="fr">Accroît de #value1#% la quantité d'or acquise lors des combats en mode Boss du Monde</string>
+        <string lang="it">In World Boss, aumenta l'oro che ottieni in battaglia di #value1#%</string>
+        <string lang="de">Erhöht im World Boss die Menge an Gold, das du aus Schlachten sammelst, um #value1#%.</string>
+        <string lang="es">En Mundo Jefe, aumenta la cantidad de oro conseguido en batallas en un #value1#%.</string>
+        <string lang="pt">Aumenta a quantidade de ouro das batalhas Chefe Do Mundo em #value1#%.</string>
+    </ref>
+    
+    
+    
+    <ref link="modifier_59_name">
+        <string lang="en">Gauntlet Item Find</string>
+        <string lang="fr">Découverte d'objets en mode Défi</string>
+        <string lang="it">Trova-oggetti Cimento</string>
+        <string lang="de">Gegenstände finden im Spießrutenlauf</string>
+        <string lang="es">Hallazgo de objetos en Duelo</string>
+        <string lang="pt">Encontrar Itens em Coliseu</string>
+    </ref>
+    <ref link="modifier_59_short_desc">
+        <string lang="en">#value1#% Gauntlet Item Find</string>
+        <string lang="fr">#value1#% Découverte d'objets en mode Défi</string>
+        <string lang="it">#value1#% Trova-oggetti Cimento</string>
+        <string lang="de">#value1#% Gegenstände finden im Spießrutenlauf</string>
+        <string lang="es">#value1#% Hallazgo de objetos en Duelo</string>
+        <string lang="pt">#value1#% Encontrar Itens em Coliseu</string>
+    </ref>
+    <ref link="modifier_59_long_desc">
+        <string lang="en">While in Gauntlet, increases chance to find powerful items from battles by #value1#%</string>
+        <string lang="fr">Accroît de #value1#% les chances de découvrir de puissants objets lors des combats en mode Défi</string>
+        <string lang="it">In Cimento, aumenta le chance di trovare oggetti potenti in battaglia di #value1#%</string>
+        <string lang="de">Erhöht im Spießrutenlauf die Chance, in Schlachten mächtige Gegenstände zu finden, um #value1#%.</string>
+        <string lang="es">En Duelo, aumenta la probabilidad de encontrar objetos poderosos en batallas en un #value1#%.</string>
+        <string lang="pt">Aumenta a chance de encontrar itens poderosos nas batalhas e tesouros Coliseu em #value1#%.</string>
+    </ref>
+    
+    
+    <ref link="modifier_60_name">
+        <string lang="en">Gauntlet Experience</string>
+        <string lang="fr">Expérience Défi</string>
+        <string lang="it">Esperienza Cimento</string>
+        <string lang="de">Spießrutenlauf-Erfahrung</string>
+        <string lang="es">Experiencia Duelo</string>
+        <string lang="pt">Experiência em Coliseu</string>
+    </ref>
+    <ref link="modifier_60_short_desc">
+        <string lang="en">#value1#% Gauntlet Experience</string>
+        <string lang="fr">#value1#% Expérience Défi</string>
+        <string lang="it">#value1#% Esperienza Cimento</string>
+        <string lang="de">#value1#% Spießrutenlauf-Erfahrung</string>
+        <string lang="es">#value1#% Experiencia Duelo</string>
+        <string lang="pt">#value1#% Experiência em Coliseu</string>
+    </ref>
+    <ref link="modifier_60_long_desc">
+        <string lang="en">While in Gauntlet, increases the amount of experience gained from battles by #value1#%</string>
+        <string lang="fr">Accroît de #value1#% l'expérience acquise lors des combats en mode Défi</string>
+        <string lang="it">In Cimento, aumenta l'esperienza che ottieni in battaglia di #value1#%</string>
+        <string lang="de">Erhöht im Spießrutenlauf die in Schlachten gesammelte Erfahrung um #value1#%.</string>
+        <string lang="es">En Duelo, aumenta la cantidad de experiencia conseguida en batallas en un #value1#%.</string>
+        <string lang="pt">Aumenta a quantidade de experiência das batalhas Coliseu em #value1#%.</string>
+    </ref>
+    
+    
+    <ref link="modifier_61_name">
+        <string lang="en">Gauntlet Gold Find</string>
+        <string lang="fr">Découverte d'or en mode Défi</string>
+        <string lang="it">Trova-oro Cimento</string>
+        <string lang="de">Gold finden im Spießrutenlauf</string>
+        <string lang="es">Hallazgo de oro en Duelo</string>
+        <string lang="pt">Encontrar Ouro em Coliseu</string>
+    </ref>
+    <ref link="modifier_61_short_desc">
+        <string lang="en">#value1#% Gauntlet Gold Find</string>
+        <string lang="fr">#value1#% Découverte d'or en mode Défi</string>
+        <string lang="it">#value1#% Trova-oro Cimento</string>
+        <string lang="de">#value1#% Gold finden im Spießrutenlauf</string>
+        <string lang="es">#value1#% Hallazgo de oro en Duelo</string>
+        <string lang="pt">#value1#% Encontrar Ouro em Coliseu</string>
+    </ref>
+    <ref link="modifier_61_long_desc">
+        <string lang="en">While in Gauntlet, increases the amount of gold gained from battles by #value1#%</string>
+        <string lang="fr">Accroît de #value1#% la quantité d'or acquise lors des combats en mode Défi</string>
+        <string lang="it">In Cimento, aumenta l'oro che ottieni in battaglia di #value1#%</string>
+        <string lang="de">Erhöht im Spießrutenlauf die Menge an Gold, das du aus Schlachten sammelst, um #value1#%.</string>
+        <string lang="es">Duelo, aumenta la cantidad de oro conseguido en batallas en un #value1#%.</string>
+        <string lang="pt">Aumenta a quantidade de ouro das batalhas Coliseu em #value1#%.</string>
+    </ref>
+    
+    
+    <ref link="modifier_62_name">
+        <string lang="en">Raid Item Find</string>
+        <string lang="fr">Découverte d'objets en mode Raid</string>
+        <string lang="it">Trova-oggetti Raid</string>
+        <string lang="de">Gegenstände finden im Raid</string>
+        <string lang="es">Hallazgo de objetos en Asalto</string>
+        <string lang="pt">Encontrar Itens em Raide</string>
+    </ref>
+    <ref link="modifier_62_short_desc">
+        <string lang="en">#value1#% Raid Item Find</string>
+        <string lang="fr">#value1#% Découverte d'objets en mode Raid</string>
+        <string lang="it">#value1#% Trova-oggetti Raid</string>
+        <string lang="de">#value1#% Gegenstände finden im Raid</string>
+        <string lang="es">#value1#% Hallazgo de objetos en Asalto</string>
+        <string lang="pt">#value1#% Encontrar Itens em Raide</string>
+    </ref>
+    <ref link="modifier_62_long_desc">
+        <string lang="en">While in Raid, increases chance to find powerful items from battles by #value1#%</string>
+        <string lang="fr">Accroît de #value1#% les chances de découvrir de puissants objets lors des combats en mode Raid</string>
+        <string lang="it">In Raid, aumenta le chance di trovare oggetti potenti in battaglia di #value1#%</string>
+        <string lang="de">Erhöht im Raid die Chance, in Schlachten mächtige Gegenstände zu finden, um #value1#%.</string>
+        <string lang="es">En Asalto, aumenta la probabilidad de encontrar objetos poderosos en batallas en un #value1#%.</string>
+        <string lang="pt">Aumenta a chance de encontrar itens poderosos nas batalhas e tesouros Raide em #value1#%.</string>
+    </ref>
+    
+    
+    <ref link="modifier_63_name">
+        <string lang="en">Raid Experience</string>
+        <string lang="fr">Expérience Raid</string>
+        <string lang="it">Esperienza Raid</string>
+        <string lang="de">Raid-Erfahrung</string>
+        <string lang="es">Experiencia Asalto</string>
+        <string lang="pt">Experiência em Raide</string>
+    </ref>
+    <ref link="modifier_63_short_desc">
+        <string lang="en">#value1#% Raid Experience</string>
+        <string lang="fr">#value1#% Expérience Raid</string>
+        <string lang="it">#value1#% Esperienza Raid</string>
+        <string lang="de">#value1#% Raid-Erfahrung</string>
+        <string lang="es">#value1#% Experiencia Asalto</string>
+        <string lang="pt">#value1#% Experiência em Raide</string>
+    </ref>
+    <ref link="modifier_63_long_desc">
+        <string lang="en">While in Raid, increases the amount of experience gained from battles by #value1#%</string>
+        <string lang="fr">Accroît de #value1#% l'expérience acquise lors des combats en mode Raid</string>
+        <string lang="it">In Raid, aumenta l'esperienza che ottieni in battaglia di #value1#%</string>
+        <string lang="de">Erhöht im Raid die in Schlachten gesammelte Erfahrung um #value1#%.</string>
+        <string lang="es">En Asalto, aumenta la cantidad de experiencia conseguida en batallas en un #value1#%.</string>
+        <string lang="pt">Aumenta a quantidade de experiência das batalhas Raide em #value1#%.</string>
+    </ref>
+    
+    
+    <ref link="modifier_64_name">
+        <string lang="en">Raid Gold Find</string>
+        <string lang="fr">Découverte d'or en mode Raid</string>
+        <string lang="it">Trova-oro Raid</string>
+        <string lang="de">Gold finden im Raid</string>
+        <string lang="es">Hallazgo de oro en Asalto</string>
+        <string lang="pt">Encontrar Ouro em Raide</string>
+    </ref>
+    <ref link="modifier_64_short_desc">
+        <string lang="en">#value1#% Raid Gold Find</string>
+        <string lang="fr">#value1#% Découverte d'or en mode Raid</string>
+        <string lang="it">#value1#% Trova-oro Raid</string>
+        <string lang="de">#value1#% Gold finden im Raid</string>
+        <string lang="es">#value1#% Hallazgo de oro en Asalto</string>
+        <string lang="pt">#value1#% Encontrar Ouro em Raide</string>
+    </ref>
+    <ref link="modifier_64_long_desc">
+        <string lang="en">While in Raid, increases the amount of gold gained from battles by #value1#%</string>
+        <string lang="fr">Accroît de #value1#% la quantité d'or acquise lors des combats en mode Raid</string>
+        <string lang="it">In Raid, aumenta l'oro che ottieni in battaglia di #value1#%</string>
+        <string lang="de">Erhöht im Raid die Menge an Gold, das du aus Schlachten sammelst, um #value1#%.</string>
+        <string lang="es">Asalto, aumenta la cantidad de oro conseguido en batallas en un #value1#%.</string>
+        <string lang="pt">Aumenta a quantidade de ouro das batalhas Raide em #value1#%.</string>
+    </ref>
+    
+    
+    
+    
+</data>

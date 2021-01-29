@@ -1,0 +1,1079 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+    <ref link="zone_difficulty_normal_name">
+        <string lang="en">Normal</string>
+        <string lang="fr">Normal</string>
+        <string lang="it">Normale</string>
+        <string lang="de">Normal</string>
+        <string lang="es">Normal</string>
+        <string lang="pt">Normal</string>
+    </ref>
+    <ref link="zone_difficulty_hard_name">
+        <string lang="en">Hard</string>
+        <string lang="fr">Difficile</string>
+        <string lang="it">Difficile</string>
+        <string lang="de">Schwer</string>
+        <string lang="es">Difícil</string>
+        <string lang="pt">Difícil</string>
+    </ref>
+    <ref link="zone_difficulty_heroic_name">
+        <string lang="en">Heroic</string>
+        <string lang="fr">Héroïque</string>
+        <string lang="it">Eroico</string>
+        <string lang="de">Heldenhaft</string>
+        <string lang="es">Heroico</string>
+        <string lang="pt">Heroica</string>
+    </ref>
+    <ref link="zone_notification_complete_name">
+        <string lang="en">Cleared</string>
+        <string lang="fr">Terminé</string>
+        <string lang="it">Superato</string>
+        <string lang="de">Geräumt</string>
+        <string lang="es">Superado</string>
+        <string lang="pt">Concluída</string>
+    </ref>
+    <ref link="zone_notification_complete_shop_desc">
+        <string lang="en">New equipment available in the shop!</string>
+        <string lang="fr">Nouveaux équipements disponibles à la boutique !</string>
+        <string lang="it">Nuovo equipaggiamento disponibile in negozio!</string>
+        <string lang="de">Neue Ausrüstung im Shop verfügbar!</string>
+        <string lang="es">¡Nuevo equipamiento disponible en la tienda!</string>
+        <string lang="pt">Novo equipamento disponível na loja!</string>
+    </ref>
+    <ref link="zone_notification_complete_raid_desc">
+        <string lang="en">A new raid has been unlocked!</string>
+        <string lang="fr">Un nouveau raid a été déverrouillé !</string>
+        <string lang="it">È stato sbloccato un nuovo raid!</string>
+        <string lang="de">Ein neuer Raid wurde freigeschaltet!</string>
+        <string lang="es">¡Se ha desbloqueado un nuevo asalto!</string>
+        <string lang="pt">Um novo raide foi desbloqueado!</string>
+    </ref>
+    <ref link="zone_node_clear_desc">
+        <string lang="en">Clear the dungeon of all enemies</string>
+        <string lang="fr">Élimine tous les ennemis du donjon</string>
+        <string lang="it">Elimina tutti i nemici nel dungeon</string>
+        <string lang="de">Räume das Verlies von allen Feinden.</string>
+        <string lang="es">Elimina a todos los enemigos de la mazmorra.</string>
+        <string lang="pt">Limpe a masmorra de todos os inimigos.</string>
+    </ref>
+    <ref link="zone_1_name">
+        <string lang="en">Bit Valley</string>
+        <string lang="fr">Bit Valley</string>
+        <string lang="it">Valle Bit</string>
+        <string lang="de">Bit Valley</string>
+        <string lang="es">Valle Bit</string>
+        <string lang="pt">Vale Bit</string>
+    </ref>
+    <ref link="zone_1_node_1_name">
+        <string lang="en">!familiar!10!familiar!'s Lair</string>
+        <string lang="fr">Repaire de !familiar!10!familiar!</string>
+        <string lang="it">Tana di !familiar!10!familiar!</string>
+        <string lang="de">Versteck von !familiar!10!familiar!</string>
+        <string lang="es">Guarida de !familiar!10!familiar!</string>
+        <string lang="pt">Lar de !familiar!10!familiar!</string>
+    </ref>
+    <ref link="zone_1_node_1_desc">
+        <string lang="en">Find and defeat !familiar!10!familiar!</string>
+        <string lang="fr">Trouve et élimine !familiar!10!familiar!</string>
+        <string lang="it">Trova e sconfiggi !familiar!10!familiar!</string>
+        <string lang="de">Finde und besiege !familiar!10!familiar!.</string>
+        <string lang="es">Encuentra y derrota a !familiar!10!familiar!</string>
+        <string lang="pt">Encontre e derrote !familiar!10!familiar!.</string>
+    </ref>
+    <ref link="zone_1_node_2_name">
+        <string lang="en">!familiar!20!familiar! Crypt</string>
+        <string lang="fr">Crypte de !familiar!20!familiar!</string>
+        <string lang="it">Cripta di !familiar!20!familiar!</string>
+        <string lang="de">Gruft von !familiar!20!familiar!</string>
+        <string lang="es">!familiar!20!familiar! Cripta</string>
+        <string lang="pt">Cripta de !familiar!20!familiar!</string>
+    </ref>
+    <ref link="zone_1_node_2_desc">
+        <string lang="en">Find and defeat King !familiar!20!familiar!</string>
+        <string lang="fr">Trouve et élimine le roi !familiar!20!familiar!</string>
+        <string lang="it">Trova e sconfiggi il Re !familiar!20!familiar!</string>
+        <string lang="de">Finde und besiege König !familiar!20!familiar!.</string>
+        <string lang="es">Encuentra y derrota al rey !familiar!20!familiar!</string>
+        <string lang="pt">Encontre e derrote o Rei !familiar!20!familiar!.</string>
+    </ref>
+    <ref link="zone_1_node_3_name">
+        <string lang="en">Fallen Tower</string>
+        <string lang="fr">Tour conquise</string>
+        <string lang="it">Torre caduta</string>
+        <string lang="de">Gefallener Turm</string>
+        <string lang="es">Torre derribada</string>
+        <string lang="pt">Torre em Ruínas</string>
+    </ref>
+    <ref link="zone_1_node_4_name">
+        <string lang="en">!familiar!40!familiar! Crossing</string>
+        <string lang="fr">Traversée de !familiar!40!familiar!</string>
+        <string lang="it">Crocicchio di !familiar!40!familiar!</string>
+        <string lang="de">Kreuzung von !familiar!40!familiar!</string>
+        <string lang="es">!familiar!40!familiar! Cruce</string>
+        <string lang="pt">Cruzamento de !familiar!40!familiar!</string>
+    </ref>
+    <ref link="zone_1_node_4_desc">
+        <string lang="en">Find and defeat !familiar!40!familiar!</string>
+        <string lang="fr">Trouve et élimine !familiar!40!familiar!</string>
+        <string lang="it">Trova e sconfiggi !familiar!40!familiar!</string>
+        <string lang="de">Finde und besiege !familiar!40!familiar!.</string>
+        <string lang="es">Encuentra y derrota a !familiar!40!familiar!</string>
+        <string lang="pt">Encontre e derrote !familiar!40!familiar!.</string>
+    </ref>
+    <ref link="zone_1_node_5_name">
+        <string lang="en">!familiar!70!familiar! Forest</string>
+        <string lang="fr">Forêt de !familiar!70!familiar!</string>
+        <string lang="it">Foresta di !familiar!70!familiar!</string>
+        <string lang="de">Wald von !familiar!70!familiar!</string>
+        <string lang="es">!familiar!70!familiar! Bosque</string>
+        <string lang="pt">Floresta de !familiar!70!familiar!</string>
+    </ref>
+    <ref link="zone_1_node_5_desc">
+        <string lang="en">Clear the !familiar!70!familiar! forest</string>
+        <string lang="fr">Nettoie la forêt de !familiar!70!familiar!</string>
+        <string lang="it">Libera la foresta da !familiar!70!familiar!</string>
+        <string lang="de">Räume den Wald von !familiar!70!familiar!.</string>
+        <string lang="es">Despeja el bosque de !familiar!70!familiar!</string>
+        <string lang="pt">Limpe a Floresta de !familiar!70!familiar!.</string>
+    </ref>
+    <ref link="zone_1_node_6_name">
+        <string lang="en">Pallet Route</string>
+        <string lang="fr">Route de la palette</string>
+        <string lang="it">Via di commercio</string>
+        <string lang="de">Pallettenweg</string>
+        <string lang="es">Ruta de Plataformas</string>
+        <string lang="pt">Rota de Pallet</string>
+    </ref>
+    <ref link="zone_1_node_6_desc">
+        <string lang="en">Find and defeat Team !familiar!50!familiar!</string>
+        <string lang="fr">Trouve et élimine l'équipe !familiar!50!familiar!</string>
+        <string lang="it">Trova e sconfiggi la squadra di !familiar!50!familiar!</string>
+        <string lang="de">Finde und besiege !familiar!50!familiar!.</string>
+        <string lang="es">Encuentra y derrota al equipo !familiar!50!familiar!</string>
+        <string lang="pt">Encontre e derrote o Time !familiar!50!familiar!.</string>
+    </ref>
+    <ref link="zone_1_node_7_name">
+        <string lang="en">!familiar!80!familiar! Path</string>
+        <string lang="fr">Chemin de !familiar!80!familiar!</string>
+        <string lang="it">Sentiero di !familiar!80!familiar!</string>
+        <string lang="de">Pfad von !familiar!80!familiar!</string>
+        <string lang="es">!familiar!80!familiar! Camino</string>
+        <string lang="pt">Caminho de !familiar!80!familiar!</string>
+    </ref>
+    <ref link="zone_1_node_7_desc">
+        <string lang="en">Clear the forest of all enemies</string>
+        <string lang="fr">Élimine tous les ennemis de la forêt</string>
+        <string lang="it">Elimina tutti i nemici nella foresta</string>
+        <string lang="de">Räume den Wald von allen Feinden.</string>
+        <string lang="es">Elimina a todos los enemigos del bosque.</string>
+        <string lang="pt">Limpe a floresta de todos os inimigos.</string>
+    </ref>
+    <ref link="zone_1_node_8_name">
+        <string lang="en">!familiar!80!familiar!'s Heart</string>
+        <string lang="fr">Cœur de !familiar!80!familiar!</string>
+        <string lang="it">Cuore di !familiar!80!familiar!</string>
+        <string lang="de">Herz von !familiar!80!familiar!</string>
+        <string lang="es">Corazón de !familiar!80!familiar!</string>
+        <string lang="pt">Coração de !familiar!80!familiar!</string>
+    </ref>
+    <ref link="zone_1_node_8_desc">
+        <string lang="en">Find and defeat !familiar!80!familiar!</string>
+        <string lang="fr">Trouve et élimine !familiar!80!familiar!</string>
+        <string lang="it">Trova e sconfiggi !familiar!80!familiar!</string>
+        <string lang="de">Finde und besiege !familiar!80!familiar!.</string>
+        <string lang="es">Encuentra y derrota a !familiar!80!familiar!</string>
+        <string lang="pt">Encontre e derrote !familiar!80!familiar!.</string>
+    </ref>
+    <ref link="zone_1_node_9_name">
+        <string lang="en">Decaying Ruins</string>
+        <string lang="fr">Ruines</string>
+        <string lang="it">Rovine in degrado</string>
+        <string lang="de">Verfallene Ruinen</string>
+        <string lang="es">Ruinas Decadentes</string>
+        <string lang="pt">Ruínas Decadentes</string>
+    </ref>
+    <ref link="zone_1_node_10_name">
+        <string lang="en">!familiar!110!familiar!'s Vault</string>
+        <string lang="fr">Chambre forte de !familiar!110!familiar!</string>
+        <string lang="it">Sepolcro di !familiar!110!familiar!</string>
+        <string lang="de">Tresor von !familiar!110!familiar!</string>
+        <string lang="es">Panteón de !familiar!110!familiar!</string>
+        <string lang="pt">Alcova de !familiar!110!familiar!</string>
+    </ref>
+    <ref link="zone_1_node_10_desc">
+        <string lang="en">Find and defeat !familiar!110!familiar! The Great</string>
+        <string lang="fr">Trouve et élimine !familiar!110!familiar! le Grand</string>
+        <string lang="it">Trova e sconfiggi il Grande !familiar!110!familiar!</string>
+        <string lang="de">Finde und besiege defeat !familiar!110!familiar! den Großen.</string>
+        <string lang="es">Encuentra y derrota a !familiar!110!familiar! El Grande</string>
+        <string lang="pt">Encontre e derrote !familiar!110!familiar!, o Grande.</string>
+    </ref>
+    <ref link="zone_1_node_11_name">
+        <string lang="en">Decrepit Tomb</string>
+        <string lang="fr">Tombeau délabré</string>
+        <string lang="it">Tomba decrepita</string>
+        <string lang="de">Verfallenes Grab</string>
+        <string lang="es">Tumba decrépita</string>
+        <string lang="pt">Tumba Decrépita</string>
+    </ref>
+    <ref link="zone_1_node_12_name">
+        <string lang="en">!familiar!120!familiar!'s Tomb</string>
+        <string lang="fr">Tombeau de !familiar!120!familiar!</string>
+        <string lang="it">Tomba di !familiar!120!familiar!</string>
+        <string lang="de">Grab von !familiar!120!familiar!</string>
+        <string lang="es">Tumba de !familiar!120!familiar!</string>
+        <string lang="pt">Tumba de !familiar!120!familiar!</string>
+    </ref>
+    <ref link="zone_1_node_12_desc">
+        <string lang="en">Find and defeat !familiar!120!familiar!</string>
+        <string lang="fr">Trouve et élimine !familiar!120!familiar!</string>
+        <string lang="it">Trova e sconfiggi !familiar!120!familiar!</string>
+        <string lang="de">Finde und besiege !familiar!120!familiar!.</string>
+        <string lang="es">Encuentra y derrota a !familiar!120!familiar!</string>
+        <string lang="pt">Encontre e derrote !familiar!120!familiar!.</string>
+    </ref>
+    <ref link="zone_1_node_13_name">
+        <string lang="en">Grim Valley</string>
+        <string lang="fr">Sinistre vallée</string>
+        <string lang="it">Valle tetra</string>
+        <string lang="de">Düstertal</string>
+        <string lang="es">Valle Macabro</string>
+        <string lang="pt">Vale Macabro</string>
+    </ref>
+    <ref link="zone_2_name">
+        <string lang="en">Wintermarsh</string>
+        <string lang="fr">Marais hivernaux</string>
+        <string lang="it">Acquitrino d'inverno</string>
+        <string lang="de">Wintermarsch</string>
+        <string lang="es">Ciénaga Invernal</string>
+        <string lang="pt">Pântanos Invernais</string>
+    </ref>
+    <ref link="zone_2_node_1_name">
+        <string lang="en">!familiar!140!familiar! Icecap</string>
+        <string lang="fr">Calotte glaciaire de !familiar!140!familiar!</string>
+        <string lang="it">Calotta di !familiar!140!familiar!</string>
+        <string lang="de">Eiskappe von !familiar!140!familiar!</string>
+        <string lang="es">!familiar!140!familiar! Casquete Glaciar</string>
+        <string lang="pt">Geleira de !familiar!140!familiar!</string>
+    </ref>
+    <ref link="zone_2_node_1_desc">
+        <string lang="en">Find and defeat King !familiar!140!familiar!</string>
+        <string lang="fr">Trouve et élimine le roi !familiar!140!familiar!</string>
+        <string lang="it">Trova e sconfiggi il Re !familiar!140!familiar!</string>
+        <string lang="de">Finde und besiege König !familiar!140!familiar!.</string>
+        <string lang="es">Encuentra y derrota al rey !familiar!140!familiar!</string>
+        <string lang="pt">Encontre e derrote o Rei !familiar!140!familiar!.</string>
+    </ref>
+    <ref link="zone_2_node_2_name">
+        <string lang="en">!familiar!150!familiar! Isle</string>
+        <string lang="fr">Île de !familiar!150!familiar!</string>
+        <string lang="it">Isola di !familiar!150!familiar!</string>
+        <string lang="de">Insel von !familiar!150!familiar!</string>
+        <string lang="es">!familiar!150!familiar! Isla</string>
+        <string lang="pt">Ilha de !familiar!150!familiar!</string>
+    </ref>
+    <ref link="zone_2_node_2_desc">
+        <string lang="en">Find and defeat King !familiar!150!familiar!</string>
+        <string lang="fr">Trouve et élimine le roi !familiar!150!familiar!</string>
+        <string lang="it">Trova e sconfiggi il Re !familiar!150!familiar!</string>
+        <string lang="de">Finde und besiege König !familiar!150!familiar!.</string>
+        <string lang="es">Encuentra y derrota al rey !familiar!150!familiar!</string>
+        <string lang="pt">Encontre e derrote o Rei !familiar!150!familiar!.</string>
+    </ref>
+    <ref link="zone_2_node_3_name">
+        <string lang="en">Chill Haven</string>
+        <string lang="fr">Havre glacial</string>
+        <string lang="it">Portofreddo</string>
+        <string lang="de">Frosthafen</string>
+        <string lang="es">Albergue Gélido</string>
+        <string lang="pt">Refúgio Fresquinho</string>
+    </ref>
+    <ref link="zone_2_node_3_desc">
+        <string lang="en">End the !familiar!140!familiar! / !familiar!150!familiar! alliance!</string>
+        <string lang="fr">Mets fin à l'alliance !familiar!140!familiar! / !familiar!150!familiar!</string>
+        <string lang="it">Poni fine all'alleanza tra !familiar!140!familiar! e !familiar!150!familiar!!</string>
+        <string lang="de">Beende die Allianz zwischen !familiar!140!familiar! und !familiar!150!familiar!.</string>
+        <string lang="es">Acaba con !familiar!140!familiar! / ¡Alianza de !familiar!150!familiar!!</string>
+        <string lang="pt">Acabe com a aliança de !familiar!140!familiar! / !familiar!150!familiar!</string>
+    </ref>
+    <ref link="zone_2_node_4_name">
+        <string lang="en">!familiar!160!familiar!'s Tundra</string>
+        <string lang="fr">Toundra de !familiar!160!familiar!</string>
+        <string lang="it">Tundra dello !familiar!160!familiar!</string>
+        <string lang="de">Tundra von !familiar!160!familiar!</string>
+        <string lang="es">Tundra de !familiar!160!familiar!</string>
+        <string lang="pt">Tundra de !familiar!160!familiar!</string>
+    </ref>
+    <ref link="zone_2_node_4_desc">
+        <string lang="en">Find and defeat !familiar!160!familiar!</string>
+        <string lang="fr">Trouve et élimine !familiar!160!familiar!</string>
+        <string lang="it">Trova e sconfiggi lo !familiar!160!familiar!</string>
+        <string lang="de">Finde und besiege !familiar!160!familiar!.</string>
+        <string lang="es">Encuentra y derrota a !familiar!160!familiar!</string>
+        <string lang="pt">Encontre e derrote !familiar!160!familiar!.</string>
+    </ref>
+    <ref link="zone_2_node_5_name">
+        <string lang="en">Toxic Wasteland</string>
+        <string lang="fr">Désert toxique</string>
+        <string lang="it">Deserto tossico</string>
+        <string lang="de">Giftwüste</string>
+        <string lang="es">Páramo Tóxico</string>
+        <string lang="pt">Deserto Tóxico</string>
+    </ref>
+    <ref link="zone_2_node_6_name">
+        <string lang="en">!familiar!180!familiar! Chamber</string>
+        <string lang="fr">Chambre de !familiar!180!familiar!</string>
+        <string lang="it">Camera di !familiar!180!familiar!</string>
+        <string lang="de">Kammer von !familiar!180!familiar!</string>
+        <string lang="es">!familiar!180!familiar! Cámara</string>
+        <string lang="pt">Câmara de !familiar!180!familiar!</string>
+    </ref>
+    <ref link="zone_2_node_6_desc">
+        <string lang="en">Find and defeat the giant !familiar!180!familiar!</string>
+        <string lang="fr">Trouve et élimine le !familiar!180!familiar! géant</string>
+        <string lang="it">Trova e sconfiggi lo !familiar!180!familiar! gigante</string>
+        <string lang="de">Finde und besiege den riesigen !familiar!180!familiar!.</string>
+        <string lang="es">Encuentra y derrota al gigante !familiar!180!familiar!</string>
+        <string lang="pt">Encontre e derrote o gigante !familiar!180!familiar!.</string>
+    </ref>
+    <ref link="zone_2_node_7_name">
+        <string lang="en">Noxious Pipeline</string>
+        <string lang="fr">Pipeline toxique</string>
+        <string lang="it">Tubature mefitiche</string>
+        <string lang="de">Giftige Pipeline</string>
+        <string lang="es">Tubería Tóxica</string>
+        <string lang="pt">Tubulação Envenenada</string>
+    </ref>
+    <ref link="zone_2_node_8_name">
+        <string lang="en">!familiar!200!familiar!'s Gutter</string>
+        <string lang="fr">Caniveau de !familiar!200!familiar!</string>
+        <string lang="it">Fogna di !familiar!200!familiar!</string>
+        <string lang="de">Gosse von !familiar!200!familiar!</string>
+        <string lang="es">Alcantarilla de !familiar!200!familiar!</string>
+        <string lang="pt">Sarjeta de !familiar!200!familiar!</string>
+    </ref>
+    <ref link="zone_2_node_8_desc">
+        <string lang="en">Find and defeat !familiar!200!familiar!</string>
+        <string lang="fr">Trouve et élimine !familiar!200!familiar!</string>
+        <string lang="it">Trova e sconfiggi !familiar!200!familiar!</string>
+        <string lang="de">Finde und besiege !familiar!200!familiar!.</string>
+        <string lang="es">Encuentra y derrota a !familiar!200!familiar!</string>
+        <string lang="pt">Encontre e derrote !familiar!200!familiar!.</string>
+    </ref>
+    <ref link="zone_2_node_9_name">
+        <string lang="en">!familiar!230!familiar!'s Lair</string>
+        <string lang="fr">Repaire de !familiar!230!familiar!</string>
+        <string lang="it">Tana di !familiar!230!familiar!</string>
+        <string lang="de">Versteck von !familiar!230!familiar!</string>
+        <string lang="es">Guarida de !familiar!230!familiar!</string>
+        <string lang="pt">Lar de !familiar!230!familiar!</string>
+    </ref>
+    <ref link="zone_2_node_9_desc">
+        <string lang="en">Find and defeat the !familiar!230!familiar! gang</string>
+        <string lang="fr">Trouve et élimine le gang de !familiar!230!familiar!</string>
+        <string lang="it">Trova e sconfiggi la gang di !familiar!230!familiar!</string>
+        <string lang="de">Finde und besiege die Bande von !familiar!230!familiar!.</string>
+        <string lang="es">Encuentra y derrota a la banda de !familiar!230!familiar!</string>
+        <string lang="pt">Encontre e derrote a gangue de !familiar!230!familiar!.</string>
+    </ref>
+    <ref link="zone_2_node_10_name">
+        <string lang="en">Orc Tower</string>
+        <string lang="fr">Tour de l'Orc</string>
+        <string lang="it">Torre degli orchi</string>
+        <string lang="de">Ork-Turm</string>
+        <string lang="es">Torre de los Orcos</string>
+        <string lang="pt">Torre Orc</string>
+    </ref>
+    <ref link="zone_2_node_11_name">
+        <string lang="en">!familiar!210!familiar!'s Hideout</string>
+        <string lang="fr">Cachette de !familiar!210!familiar!</string>
+        <string lang="it">Nascondiglio di !familiar!210!familiar!</string>
+        <string lang="de">Versteck von !familiar!210!familiar!</string>
+        <string lang="es">Refugio de !familiar!210!familiar!</string>
+        <string lang="pt">Esconderijo de !familiar!210!familiar!</string>
+    </ref>
+    <ref link="zone_2_node_11_desc">
+        <string lang="en">Find and defeat Jumbo !familiar!210!familiar!</string>
+        <string lang="fr">Trouve et élimine Jumbo !familiar!210!familiar!</string>
+        <string lang="it">Trova e sconfiggi il !familiar!210!familiar! colossale</string>
+        <string lang="de">Finde und besiege Jumbo !familiar!210!familiar!.</string>
+        <string lang="es">Encuentra y derrota al jumbo !familiar!210!familiar!</string>
+        <string lang="pt">Encontre e derrote !familiar!210!familiar! Jumbo.</string>
+    </ref>
+    <ref link="zone_2_node_12_name">
+        <string lang="en">!familiar!240!familiar!'s Cell</string>
+        <string lang="fr">Cellule de !familiar!240!familiar!</string>
+        <string lang="it">Cella di !familiar!240!familiar!</string>
+        <string lang="de">Zelle von !familiar!240!familiar!</string>
+        <string lang="es">Celda de !familiar!240!familiar!</string>
+        <string lang="pt">Cela de !familiar!240!familiar!</string>
+    </ref>
+    <ref link="zone_2_node_12_desc">
+        <string lang="en">Find and defeat !familiar!240!familiar!</string>
+        <string lang="fr">Trouve et élimine !familiar!240!familiar!</string>
+        <string lang="it">Trova e sconfiggi !familiar!240!familiar!</string>
+        <string lang="de">Finde und besiege !familiar!240!familiar!.</string>
+        <string lang="es">Encuentra y derrota a !familiar!240!familiar!</string>
+        <string lang="pt">Encontre e derrote !familiar!240!familiar!.</string>
+    </ref>
+    <ref link="zone_2_node_13_name">
+        <string lang="en">Deathmarsh</string>
+        <string lang="fr">Marais de la mort</string>
+        <string lang="it">Paludi morte</string>
+        <string lang="de">Todesmarsch</string>
+        <string lang="es">Ciénaga de la Muerte</string>
+        <string lang="pt">Várzea da Morte</string>
+    </ref>
+    <ref link="zone_3_name">
+        <string lang="en">Lakehaven</string>
+        <string lang="fr">Lac paisible</string>
+        <string lang="it">Portolago</string>
+        <string lang="de">Seehafen</string>
+        <string lang="es">Albergue del Lago</string>
+        <string lang="pt">Lagoa do Retiro</string>
+    </ref>
+    <ref link="zone_3_node_1_name">
+        <string lang="en">Jah Koo</string>
+    </ref>
+    <ref link="zone_3_node_2_name">
+        <string lang="en">!familiar!250!familiar! Dunes</string>
+        <string lang="fr">Dunes de !familiar!250!familiar!</string>
+        <string lang="it">Dune di !familiar!250!familiar!</string>
+        <string lang="de">Dünen von !familiar!250!familiar!</string>
+        <string lang="es">!familiar!250!familiar! Dunas</string>
+        <string lang="pt">Dunas de !familiar!250!familiar!</string>
+    </ref>
+    <ref link="zone_3_node_2_desc">
+        <string lang="en">Find and defeat King !familiar!250!familiar!</string>
+        <string lang="fr">Trouve et élimine le roi !familiar!250!familiar!</string>
+        <string lang="it">Trova e sconfiggi la Regina !familiar!250!familiar!</string>
+        <string lang="de">Finde und besiege König !familiar!250!familiar!.</string>
+        <string lang="es">Encuentra y derrota al rey !familiar!250!familiar!</string>
+        <string lang="pt">Encontre e derrote o Rei !familiar!250!familiar!.</string>
+    </ref>
+    <ref link="zone_3_node_3_name">
+        <string lang="en">Dusty Ridge</string>
+        <string lang="fr">Crête poussiéreuse</string>
+        <string lang="it">Crinale polveroso</string>
+        <string lang="de">Staubkamm</string>
+        <string lang="es">Risco Polvoriento</string>
+        <string lang="pt">Desfiladeiro Empoeirado</string>
+    </ref>
+    <ref link="zone_3_node_4_name">
+        <string lang="en">!familiar!280!familiar! Wasteland</string>
+        <string lang="fr">Désert de !familiar!280!familiar!</string>
+        <string lang="it">Deserto di !familiar!280!familiar!</string>
+        <string lang="de">Ödland von !familiar!280!familiar!</string>
+        <string lang="es">!familiar!280!familiar! Páramo</string>
+        <string lang="pt">Terra arrasada de !familiar!280!familiar!</string>
+    </ref>
+    <ref link="zone_3_node_4_desc">
+        <string lang="en">Find and defeat !familiar!280!familiar!</string>
+        <string lang="fr">Trouve et élimine !familiar!280!familiar!</string>
+        <string lang="it">Trova e sconfiggi !familiar!280!familiar!</string>
+        <string lang="de">Finde und besiege !familiar!280!familiar!.</string>
+        <string lang="es">Encuentra y derrota a !familiar!280!familiar!</string>
+        <string lang="pt">Encontre e derrote !familiar!280!familiar!.</string>
+    </ref>
+    <ref link="zone_3_node_5_name">
+        <string lang="en">!familiar!290!familiar!'s Catacomb</string>
+        <string lang="fr">Catacombe de !familiar!290!familiar!</string>
+        <string lang="it">Catacomba di !familiar!290!familiar!</string>
+        <string lang="de">Katakomben von !familiar!290!familiar!</string>
+        <string lang="es">Catacumba de !familiar!290!familiar!</string>
+        <string lang="pt">Catacumba de !familiar!290!familiar!</string>
+    </ref>
+    <ref link="zone_3_node_5_desc">
+        <string lang="en">Find and defeat King !familiar!290!familiar!</string>
+        <string lang="fr">Trouve et élimine le roi !familiar!290!familiar!</string>
+        <string lang="it">Trova e sconfiggi il Re !familiar!290!familiar!</string>
+        <string lang="de">Finde und besiege König !familiar!290!familiar!.</string>
+        <string lang="es">Encuentra y derrota al rey !familiar!290!familiar!</string>
+        <string lang="pt">Encontre e derrote o Rei !familiar!290!familiar!.</string>
+    </ref>
+    <ref link="zone_3_node_6_name">
+        <string lang="en">!familiar!300!familiar! Crypt</string>
+        <string lang="fr">Crypte de !familiar!300!familiar!</string>
+        <string lang="it">Cripta di !familiar!300!familiar!</string>
+        <string lang="de">Gruft von !familiar!300!familiar!</string>
+        <string lang="es">!familiar!300!familiar! Cripta</string>
+        <string lang="pt">Cripta de !familiar!300!familiar!</string>
+    </ref>
+    <ref link="zone_3_node_6_desc">
+        <string lang="en">Find and defeat King !familiar!300!familiar!</string>
+        <string lang="fr">Trouve et élimine le roi !familiar!300!familiar!</string>
+        <string lang="it">Trova e sconfiggi il Re !familiar!300!familiar!</string>
+        <string lang="de">Finde und besiege König !familiar!300!familiar!.</string>
+        <string lang="es">Encuentra y derrota al rey !familiar!300!familiar!</string>
+        <string lang="pt">Encontre e derrote o Rei !familiar!300!familiar!.</string>
+    </ref>
+    <ref link="zone_3_node_7_name">
+        <string lang="en">!familiar!310!familiar! Grotto</string>
+        <string lang="fr">Grotte de !familiar!310!familiar!</string>
+        <string lang="it">Grotta di !familiar!310!familiar!</string>
+        <string lang="de">Grotte von !familiar!310!familiar!</string>
+        <string lang="es">!familiar!310!familiar! Gruta</string>
+        <string lang="pt">Gruta de !familiar!310!familiar!</string>
+    </ref>
+    <ref link="zone_3_node_8_name">
+        <string lang="en">!familiar!320!familiar!'s Chamber</string>
+        <string lang="fr">Chambre de !familiar!320!familiar!</string>
+        <string lang="it">Camera di !familiar!320!familiar!</string>
+        <string lang="de">Kammer von !familiar!320!familiar!</string>
+        <string lang="es">Cámara de !familiar!320!familiar!</string>
+        <string lang="pt">Câmara de !familiar!320!familiar!</string>
+    </ref>
+    <ref link="zone_3_node_8_desc">
+        <string lang="en">Find and defeat !familiar!320!familiar!</string>
+        <string lang="fr">Trouve et élimine !familiar!320!familiar!</string>
+        <string lang="it">Trova e sconfiggi !familiar!320!familiar!</string>
+        <string lang="de">Finde und besiege !familiar!320!familiar!.</string>
+        <string lang="es">Encuentra y derrota a !familiar!320!familiar!</string>
+        <string lang="pt">Encontre e derrote !familiar!320!familiar!.</string>
+    </ref>
+    <ref link="zone_3_node_9_name">
+        <string lang="en">!familiar!330!familiar! Tower</string>
+        <string lang="fr">Tour de !familiar!330!familiar!</string>
+        <string lang="it">Torre di !familiar!330!familiar!</string>
+        <string lang="de">Turm von !familiar!330!familiar!</string>
+        <string lang="es">!familiar!330!familiar! Torre</string>
+        <string lang="pt">Torre de !familiar!330!familiar!</string>
+    </ref>
+    <ref link="zone_3_node_9_desc">
+        <string lang="en">Find and defeat King !familiar!330!familiar!</string>
+        <string lang="fr">Trouve et élimine le roi !familiar!330!familiar!</string>
+        <string lang="it">Trova e sconfiggi il Re !familiar!330!familiar!</string>
+        <string lang="de">Finde und besiege König !familiar!330!familiar!.</string>
+        <string lang="es">Encuentra y derrota al rey !familiar!330!familiar!</string>
+        <string lang="pt">Encontre e derrote o Rei !familiar!330!familiar!.</string>
+    </ref>
+    <ref link="zone_3_node_10_name">
+        <string lang="en">Fort !familiar!340!familiar!</string>
+        <string lang="fr">Fort de !familiar!340!familiar!</string>
+        <string lang="it">Forte !familiar!340!familiar!</string>
+        <string lang="de">Festung von !familiar!340!familiar!</string>
+        <string lang="es">Fuerte !familiar!340!familiar!</string>
+        <string lang="pt">Forte de !familiar!340!familiar!</string>
+    </ref>
+    <ref link="zone_3_node_10_desc">
+        <string lang="en">Find and defeat King !familiar!340!familiar!</string>
+        <string lang="fr">Trouve et élimine le roi !familiar!340!familiar!</string>
+        <string lang="it">Trova e sconfiggi il Re !familiar!340!familiar!</string>
+        <string lang="de">Finde und besiege König !familiar!340!familiar!.</string>
+        <string lang="es">Encuentra y derrota al rey !familiar!340!familiar!</string>
+        <string lang="pt">Encontre e derrote o Rei !familiar!340!familiar!.</string>
+    </ref>
+    <ref link="zone_3_node_11_name">
+        <string lang="en">Undead Stronghold</string>
+        <string lang="fr">Bastion de morts-vivants</string>
+        <string lang="it">Roccaforte dei morti viventi</string>
+        <string lang="de">Untotenfestung</string>
+        <string lang="es">Baluarte de los Muertos Vivientes</string>
+        <string lang="pt">Baluarte dos Mortos-vivos</string>
+    </ref>
+    <ref link="zone_3_node_12_name">
+        <string lang="en">!familiar!360!familiar!'s Fortress</string>
+        <string lang="fr">Forteresse de !familiar!360!familiar!</string>
+        <string lang="it">Fortezza di !familiar!360!familiar!</string>
+        <string lang="de">Festung von !familiar!360!familiar!</string>
+        <string lang="es">Fortaleza de !familiar!360!familiar!</string>
+        <string lang="pt">Fortaleza de !familiar!360!familiar!</string>
+    </ref>
+    <ref link="zone_3_node_12_desc">
+        <string lang="en">Find and defeat !familiar!360!familiar!</string>
+        <string lang="fr">Trouve et élimine !familiar!360!familiar!</string>
+        <string lang="it">Trova e sconfiggi !familiar!360!familiar!</string>
+        <string lang="de">Finde und besiege !familiar!360!familiar!.</string>
+        <string lang="es">Encuentra y derrota a !familiar!360!familiar!</string>
+        <string lang="pt">Encontre e derrote !familiar!360!familiar!.</string>
+    </ref>
+    <ref link="zone_3_node_13_name">
+        <string lang="en">Corpse Haven</string>
+        <string lang="fr">Havre des cadavres</string>
+        <string lang="it">Portocadavere</string>
+        <string lang="de">Leichenhafen</string>
+        <string lang="es">Albergue Cadáver</string>
+        <string lang="pt">Refúgio dos Cadáveres</string>
+    </ref>
+    <ref link="zone_4_name">
+        <string lang="en">Ashvale</string>
+    </ref>
+    <ref link="zone_4_node_1_name">
+        <string lang="en">!familiar!1000!familiar!'s Path</string>
+        <string lang="fr">Chemin de !familiar!1000!familiar!</string>
+        <string lang="it">Sentiero di !familiar!1000!familiar!</string>
+        <string lang="de">Pfad von !familiar!1000!familiar!</string>
+        <string lang="es">Camino de !familiar!1000!familiar!</string>
+        <string lang="pt">Caminho de !familiar!1000!familiar!</string>
+    </ref>
+    <ref link="zone_4_node_1_desc">
+        <string lang="en">Find and defeat !familiar!1000!familiar!</string>
+        <string lang="fr">Trouve et élimine !familiar!1000!familiar!</string>
+        <string lang="it">Trova e sconfiggi !familiar!1000!familiar!</string>
+        <string lang="de">Finde und besiege !familiar!1000!familiar!.</string>
+        <string lang="es">Encuentra y derrota a !familiar!1000!familiar!</string>
+        <string lang="pt">Encontre e derrote !familiar!1000!familiar!.</string>
+    </ref>
+    <ref link="zone_4_node_2_name">
+        <string lang="en">!familiar!1010!familiar!'s Field</string>
+        <string lang="fr">Champ de !familiar!1010!familiar!</string>
+        <string lang="it">Piana di !familiar!1010!familiar!</string>
+        <string lang="de">Feld von !familiar!1010!familiar!</string>
+        <string lang="es">Campo de !familiar!1010!familiar!</string>
+        <string lang="pt">Campo de !familiar!1010!familiar!</string>
+    </ref>
+    <ref link="zone_4_node_2_desc">
+        <string lang="en">Find and defeat the !familiar!1010!familiar! Lord</string>
+        <string lang="fr">Trouve et élimine le seigneur !familiar!1010!familiar!</string>
+        <string lang="it">Trova e sconfiggi Lady !familiar!1010!familiar!</string>
+        <string lang="de">Finde und besiege den Fürsten !familiar!230!familiar!.</string>
+        <string lang="es">Encuentra y derrota a !familiar!1010!familiar! Señor</string>
+        <string lang="pt">Encontre e derrote o Senhor !familiar!1010!familiar!.</string>
+    </ref>
+    <ref link="zone_4_node_3_name">
+        <string lang="en">Rocky Steppes</string>
+        <string lang="fr">Steppes rocailleuses</string>
+        <string lang="it">Steppe rocciose</string>
+        <string lang="de">Felssteppe</string>
+        <string lang="es">Estepas rocosas</string>
+        <string lang="pt">Estepes Rochosas</string>
+    </ref>
+    <ref link="zone_4_node_4_name">
+        <string lang="en">!familiar!1030!familiar!'s Plateau</string>
+        <string lang="fr">Plateau de !familiar!1030!familiar!</string>
+        <string lang="it">Altopiano di !familiar!1030!familiar!</string>
+        <string lang="de">Plateau von !familiar!1030!familiar!</string>
+        <string lang="es">Meseta de !familiar!1030!familiar!</string>
+        <string lang="pt">Platô de !familiar!1030!familiar!</string>
+    </ref>
+    <ref link="zone_4_node_4_desc">
+        <string lang="en">Find and defeat !familiar!1030!familiar!</string>
+        <string lang="fr">Trouve et élimine !familiar!1030!familiar!</string>
+        <string lang="it">Trova e sconfiggi !familiar!1030!familiar!</string>
+        <string lang="de">Finde und besiege !familiar!1030!familiar!.</string>
+        <string lang="es">Encuentra y derrota a !familiar!1030!familiar!</string>
+        <string lang="pt">Encontre e derrote !familiar!1030!familiar!.</string>
+    </ref>
+    <ref link="zone_4_node_5_name">
+        <string lang="en">Corrupted Channel</string>
+        <string lang="fr">Canal souillé</string>
+        <string lang="it">Canale contaminato</string>
+        <string lang="de">Verdorbener Kanal</string>
+        <string lang="es">Canal corrupto</string>
+        <string lang="pt">Canal Corrompido</string>
+    </ref>
+    <ref link="zone_4_node_6_name">
+        <string lang="en">!familiar!1040!familiar!'s Vault</string>
+        <string lang="fr">Chambre forte de !familiar!1040!familiar!</string>
+        <string lang="it">Sepolcro di !familiar!1040!familiar!</string>
+        <string lang="de">Tresor von !familiar!1040!familiar!</string>
+        <string lang="es">Panteón de !familiar!1040!familiar!</string>
+        <string lang="pt">Alcova de !familiar!1040!familiar!</string>
+    </ref>
+    <ref link="zone_4_node_6_desc">
+        <string lang="en">Find and defeat King !familiar!1040!familiar!</string>
+        <string lang="fr">Trouve et élimine le roi !familiar!1040!familiar!</string>
+        <string lang="it">Trova e sconfiggi il Re !familiar!1040!familiar!</string>
+        <string lang="de">Finde und besiege König !familiar!1040!familiar!.</string>
+        <string lang="es">Encuentra y derrota al rey !familiar!1040!familiar!</string>
+        <string lang="pt">Encontre e derrote o Rei !familiar!1040!familiar!.</string>
+    </ref>
+    <ref link="zone_4_node_7_name">
+        <string lang="en">Rotten Passage</string>
+        <string lang="fr">Passage putride</string>
+        <string lang="it">Sentiero putrido</string>
+        <string lang="de">Verfaulter Gang</string>
+        <string lang="es">Paso Podrido</string>
+        <string lang="pt">Passagem Pútrida</string>
+    </ref>
+    <ref link="zone_4_node_8_name">
+        <string lang="en">!familiar!1070!familiar!'s Corridor</string>
+        <string lang="fr">Corridor de !familiar!1070!familiar!</string>
+        <string lang="it">Corridoio di !familiar!1070!familiar!</string>
+        <string lang="de">Gang von !familiar!1070!familiar!</string>
+        <string lang="es">Pasillo de !familiar!1070!familiar!</string>
+        <string lang="pt">Corredor de !familiar!1070!familiar!</string>
+    </ref>
+    <ref link="zone_4_node_8_desc">
+        <string lang="en">Find and defeat !familiar!1070!familiar!</string>
+        <string lang="fr">Trouve et élimine !familiar!1070!familiar!</string>
+        <string lang="it">Trova e sconfiggi !familiar!1070!familiar!</string>
+        <string lang="de">Finde und besiege !familiar!1070!familiar!.</string>
+        <string lang="es">Encuentra y derrota a !familiar!1070!familiar!</string>
+        <string lang="pt">Encontre e derrote !familiar!1070!familiar!.</string>
+    </ref>
+    <ref link="zone_4_node_9_name">
+        <string lang="en">!familiar!1100!familiar! Depths</string>
+        <string lang="fr">Profondeurs de !familiar!1100!familiar!</string>
+        <string lang="it">Abissi di !familiar!1100!familiar!</string>
+        <string lang="de">Tiefen von !familiar!1100!familiar!</string>
+        <string lang="es">!familiar!1100!familiar! Abismo</string>
+        <string lang="pt">Profundezas de !familiar!1100!familiar!</string>
+    </ref>
+    <ref link="zone_4_node_9_desc">
+        <string lang="en">Clear the dungeon of the !familiar!1100!familiar! infestation</string>
+        <string lang="fr">Nettoie le donjon infesté de !familiar!1100!familiar!</string>
+        <string lang="it">Elimina l'infestazione di !familiar!1100!familiar! nel dungeon</string>
+        <string lang="de">Befreie das Verlies von !familiar!1100!familiar!.</string>
+        <string lang="es">Acaba con la plaga de !familiar!1100!familiar! en la mazmorra.</string>
+        <string lang="pt">Limpe a masmorra da infestação de !familiar!1100!familiar!.</string>
+    </ref>
+    <ref link="zone_4_node_10_name">
+        <string lang="en">!familiar!1080!familiar!'s Cavern</string>
+        <string lang="fr">Caverne de !familiar!1080!familiar!</string>
+        <string lang="it">Caverna di !familiar!1080!familiar!</string>
+        <string lang="de">Höhle von !familiar!1080!familiar!</string>
+        <string lang="es">Caverna de !familiar!1080!familiar!</string>
+        <string lang="pt">Caverna de !familiar!1080!familiar!</string>
+    </ref>
+    <ref link="zone_4_node_10_desc">
+        <string lang="en">Find and defeat Mega !familiar!1080!familiar!</string>
+        <string lang="fr">Trouve et élimine Mega !familiar!1080!familiar!</string>
+        <string lang="it">Trova e sconfiggi il Mega !familiar!1080!familiar!</string>
+        <string lang="de">Finde und besiege Mega-!familiar!1080!familiar!.</string>
+        <string lang="es">Encuentra y derrota al mega !familiar!1080!familiar!</string>
+        <string lang="pt">Encontre e derrote Mega !familiar!1080!familiar!.</string>
+    </ref>
+    <ref link="zone_4_node_11_name">
+        <string lang="en">Ember Pass</string>
+        <string lang="fr">Col des charbons ardents</string>
+        <string lang="it">Passo delle braci</string>
+        <string lang="de">Glutpass</string>
+        <string lang="es">Paso de las Brasas</string>
+        <string lang="pt">Passo Flamejante</string>
+    </ref>
+    <ref link="zone_4_node_12_name">
+        <string lang="en">!familiar!1110!familiar! Pit</string>
+        <string lang="fr">Fosse de !familiar!1110!familiar!</string>
+        <string lang="it">Fossa di !familiar!1110!familiar!</string>
+        <string lang="de">Grube von !familiar!1110!familiar!</string>
+        <string lang="es">!familiar!1110!familiar! Foso</string>
+        <string lang="pt">Fosso de !familiar!1110!familiar!</string>
+    </ref>
+    <ref link="zone_4_node_12_desc">
+        <string lang="en">Find and defeat !familiar!1110!familiar!</string>
+        <string lang="fr">Trouve et élimine !familiar!1110!familiar!</string>
+        <string lang="it">Trova e sconfiggi !familiar!1110!familiar!</string>
+        <string lang="de">Finde und besiege !familiar!1110!familiar!.</string>
+        <string lang="es">Encuentra y derrota a !familiar!1110!familiar!</string>
+        <string lang="pt">Encontre e derrote !familiar!1110!familiar!.</string>
+    </ref>
+    <ref link="zone_4_node_13_name">
+        <string lang="en">Bonevale</string>
+    </ref>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <ref link="zone_5_name">
+        <string lang="en">Aramore</string>
+    </ref>
+    <ref link="zone_5_node_1_name">
+        <string lang="en">Forsaken Jungle</string>
+        <string lang="fr">Forsaken Jungle</string>
+        <string lang="it">Jungle Forsaken</string>
+        <string lang="de">Verlassener Dschungel</string>
+        <string lang="es">Selva abandonada</string>
+        <string lang="pt">Jungle Forsaken</string>
+    </ref>
+    <ref link="zone_5_node_2_name">
+        <string lang="en">Deadwood Hollow</string>
+    </ref>
+    <ref link="zone_5_node_3_name">
+        <string lang="en">Shattered Woods</string>
+        <string lang="fr">Bois brisé</string>
+        <string lang="it">Boschi sconnessi</string>
+        <string lang="de">Zerschmettertes Holz</string>
+        <string lang="es">Bosques destrozados</string>
+        <string lang="pt">Madeiras quebradas</string>
+    </ref>
+    <ref link="zone_5_node_3_desc">
+        <string lang="en">Find and defeat King !familiar!1520!familiar!</string>
+        <string lang="fr">Trouve et élimine le roi !familiar!1520!familiar!</string>
+        <string lang="it">Trova e sconfiggi il Re !familiar!1520!familiar!</string>
+        <string lang="de">Finde und besiege König !familiar!1520!familiar!.</string>
+        <string lang="es">Encuentra y derrota al rey !familiar!1520!familiar!</string>
+        <string lang="pt">Encontre e derrote o Rei !familiar!1520!familiar!.</string>
+    </ref>
+    <ref link="zone_5_node_4_name">
+        <string lang="en">!familiar!1530!familiar!'s Vault</string>
+        <string lang="fr">Chambre forte de !familiar!1530!familiar!</string>
+        <string lang="it">Sepolcro di !familiar!1530!familiar!</string>
+        <string lang="de">Tresor von !familiar!1530!familiar!</string>
+        <string lang="es">Panteón de !familiar!1530!familiar!</string>
+        <string lang="pt">Alcova de !familiar!1530!familiar!</string>
+    </ref>
+    <ref link="zone_5_node_4_desc">
+        <string lang="en">Find and defeat !familiar!1530!familiar!</string>
+        <string lang="fr">Trouve et élimine !familiar!1530!familiar!</string>
+        <string lang="it">Trova e sconfiggi !familiar!1530!familiar!</string>
+        <string lang="de">Finde und besiege !familiar!1530!familiar!.</string>
+        <string lang="es">Encuentra y derrota a !familiar!1530!familiar!</string>
+        <string lang="pt">Encontre e derrote !familiar!1530!familiar!.</string>
+    </ref>
+    <ref link="zone_5_node_5_name">
+        <string lang="en">Everfrost Pass</string>
+        <string lang="fr">Pass Everfrost</string>
+        <string lang="it">Pass Everfrost</string>
+        <string lang="de">Everfrost Pass</string>
+        <string lang="es">Everfrost Pass</string>
+        <string lang="pt">Everfrost Pass</string>
+    </ref>
+    <ref link="zone_5_node_6_name">
+        <string lang="en">Frost Peak</string>
+        <string lang="fr">Peu de givre</string>
+        <string lang="it">Frost Peak</string>
+        <string lang="de">Frostspitze</string>
+        <string lang="es">Pico de escarcha</string>
+        <string lang="pt">Pico de gelo</string>
+    </ref>
+    <ref link="zone_5_node_7_name">
+        <string lang="en">Glacier Grave</string>
+        <string lang="fr">Glacier Grave</string>
+        <string lang="it">Grave del ghiacciaio</string>
+        <string lang="de">Gletscher Grab</string>
+        <string lang="es">Glaciar</string>
+        <string lang="pt">Glacier Grave</string>
+    </ref>
+    <ref link="zone_5_node_7_desc">
+        <string lang="en">Find and defeat !familiar!1550!familiar! The Great</string>
+        <string lang="fr">Trouve et élimine !familiar!1550!familiar! le Grand</string>
+        <string lang="it">Trova e sconfiggi il Grande !familiar!1550!familiar!</string>
+        <string lang="de">Finde und besiege defeat !familiar!1550!familiar! den Großen.</string>
+        <string lang="es">Encuentra y derrota a !familiar!1550!familiar! El Grande</string>
+        <string lang="pt">Encontre e derrote !familiar!1550!familiar!, o Grande.</string>
+    </ref>
+    <ref link="zone_5_node_8_name">
+        <string lang="en">!familiar!1570!familiar!'s Gauntlet</string>
+        <string lang="fr">Gantelet de !familiar!1570!familiar!</string>
+        <string lang="it">!familiar!1570!familiar! Gauntlet</string>
+        <string lang="de">!familiar!1570!familiar! Gauntlet</string>
+        <string lang="es">Guantelete de !familiar!1570!familiar!</string>
+        <string lang="pt">Gauntlet de !familiar!1570!familiar!</string>
+    </ref>
+    <ref link="zone_5_node_8_desc">
+        <string lang="en">Find and defeat !familiar!1570!familiar!</string>
+        <string lang="fr">Trouve et élimine !familiar!1570!familiar!</string>
+        <string lang="it">Trova e sconfiggi !familiar!1570!familiar!</string>
+        <string lang="de">Finde und besiege !familiar!1570!familiar!.</string>
+        <string lang="es">Encuentra y derrota a !familiar!1570!familiar!</string>
+        <string lang="pt">Encontre e derrote !familiar!1570!familiar!.</string>
+    </ref>
+    <ref link="zone_5_node_9_name">
+        <string lang="en">Solstice Shrine</string>
+        <string lang="fr">Sanctuaire du solstice</string>
+        <string lang="it">Santuario del Solstizio</string>
+        <string lang="de">Solstice Schrein</string>
+        <string lang="es">Santuario del Solsticio</string>
+        <string lang="pt">Santuário do solstício</string>
+    </ref>
+    <ref link="zone_5_node_10_name">
+        <string lang="en">Sun Crypt</string>
+        <string lang="fr">Sun Crypt</string>
+        <string lang="it">Cripta del sole</string>
+        <string lang="de">Sonne Krypta</string>
+        <string lang="es">Cripta del sol</string>
+        <string lang="pt">Sun Crypt</string>
+    </ref>
+    <ref link="zone_5_node_11_name">
+        <string lang="en">Temple of Light</string>
+        <string lang="fr">Temple de la Lumière</string>
+        <string lang="it">Tempio della Luce</string>
+        <string lang="de">Tempel des Lichts</string>
+        <string lang="es">Templo de la Luz</string>
+        <string lang="pt">Templo da Luz</string>
+    </ref>
+    <ref link="zone_5_node_11_desc">
+        <string lang="en">Find and defeat Mega !familiar!1590!familiar!</string>
+        <string lang="fr">Trouve et élimine Mega !familiar!1590!familiar!</string>
+        <string lang="it">Trova e sconfiggi il Mega !familiar!1590!familiar!</string>
+        <string lang="de">Finde und besiege Mega-!familiar!1590!familiar!.</string>
+        <string lang="es">Encuentra y derrota al mega !familiar!1590!familiar!</string>
+        <string lang="pt">Encontre e derrote Mega !familiar!1590!familiar!.</string>
+    </ref>
+    <ref link="zone_5_node_12_name">
+        <string lang="en">!familiar!1610!familiar!'s Palace</string>
+        <string lang="fr">Palais de !familiar!1610!familiar!</string>
+        <string lang="it">Palazzo di !familiar!1610!familiar!</string>
+        <string lang="de">!familiar!1610!familiar! Palace</string>
+        <string lang="es">Palacio de !familiar!1610!familiar!</string>
+        <string lang="pt">Palácio de !familiar!1610!familiar!</string>
+    </ref>
+    <ref link="zone_5_node_12_desc">
+        <string lang="en">Find and defeat !familiar!1610!familiar!</string>
+        <string lang="fr">Trouve et élimine !familiar!1610!familiar!</string>
+        <string lang="it">Trova e sconfiggi !familiar!1610!familiar!</string>
+        <string lang="de">Finde und besiege !familiar!1610!familiar!.</string>
+        <string lang="es">Encuentra y derrota a !familiar!1610!familiar!</string>
+        <string lang="pt">Encontre e derrote !familiar!1610!familiar!.</string>
+    </ref>
+    <ref link="zone_5_node_13_name">
+        <string lang="en">Necromore</string>
+    </ref>
+    
+    
+    
+    
+    <ref link="zone_6_name">
+        <string lang="en">Morgoroth</string>
+    </ref>
+    <ref link="zone_6_node_1_name">
+        <string lang="en">Sludgemallow</string>
+    </ref>
+    
+    <ref link="zone_6_node_2_name">
+        <string lang="en">Muckgate</string>
+    </ref>
+    
+    <ref link="zone_6_node_3_name">
+        <string lang="en">Gutterton</string>
+    </ref>
+    <ref link="zone_6_node_3_desc">
+        <string lang="en">End the !familiar!2210!familiar! / !familiar!2220!familiar! alliance!</string>
+        <string lang="fr">Mets fin à l'alliance !familiar!2210!familiar! / !familiar!2220!familiar!</string>
+        <string lang="it">Poni fine all'alleanza tra !familiar!2210!familiar! e !familiar!2220!familiar!</string>
+        <string lang="de">Beende die Allianz zwischen !familiar!2210!familiar! und !familiar!2220!familiar!</string>
+        <string lang="es">Acaba con !familiar!2210!familiar! / ¡Alianza de !familiar!2220!familiar!</string>
+        <string lang="pt">Acabe com a aliança de !familiar!2210!familiar! / !familiar!2220!familiar!</string>
+    </ref>
+    
+    <ref link="zone_6_node_4_name">
+        <string lang="en">!familiar!2230!familiar!'s Sewer</string>
+        <string lang="fr">L'égout de !familiar!2230!familiar!</string>
+        <string lang="it">!familiar!2230!familiar!'s Sewer</string>
+        <string lang="de">!familiar!2230!familiar! Kanal</string>
+        <string lang="es">Alcantarilla de !familiar!2230!familiar!</string>
+        <string lang="pt">!familiar!2230!familiar!'s Sewer</string>
+    </ref>
+    <ref link="zone_6_node_4_desc">
+        <string lang="en">Find and defeat !familiar!2230!familiar!</string>
+        <string lang="fr">Trouve et élimine !familiar!2230!familiar!</string>
+        <string lang="it">Trova e sconfiggi !familiar!2230!familiar!</string>
+        <string lang="de">Finde und besiege !familiar!2230!familiar!.</string>
+        <string lang="es">Encuentra y derrota a !familiar!2230!familiar!</string>
+        <string lang="pt">Encontre e derrote !familiar!2230!familiar!.</string>
+    </ref>
+    
+    <ref link="zone_6_node_5_name">
+        <string lang="en">!familiar!2240!familiar!'s Marsh</string>
+        <string lang="fr">Marais de !familiar!2240!familiar!</string>
+        <string lang="it">!familiar!2240!familiar!'s Marsh</string>
+        <string lang="de">!familiar!2240!familiar! Sumpf</string>
+        <string lang="es">Marsh de !familiar!2240!familiar!</string>
+        <string lang="pt">!familiar!2240!familiar!'s Marsh</string>
+    </ref>
+    <ref link="zone_6_node_5_desc">
+        <string lang="en">Find and defeat King !familiar!2240!familiar!</string>
+        <string lang="fr">Trouve et élimine le roi !familiar!2240!familiar!</string>
+        <string lang="it">Trova e sconfiggi il Re !familiar!2240!familiar!</string>
+        <string lang="de">Finde und besiege König !familiar!2240!familiar!.</string>
+        <string lang="es">Encuentra y derrota al rey !familiar!2240!familiar!</string>
+        <string lang="pt">Encontre e derrote o Rei !familiar!2240!familiar!.</string>
+    </ref>
+    
+    <ref link="zone_6_node_6_name">
+        <string lang="en">!familiar!2260!familiar!'s Badlands</string>
+        <string lang="fr">Badlands de !familiar!2260!familiar!</string>
+        <string lang="it">!familiar!2260!familiar!'s Badlands</string>
+        <string lang="de">!familiar!2260!familiar! Badlands</string>
+        <string lang="es">Badlands de !familiar!2260!familiar!</string>
+        <string lang="pt">Zairlands de !familiar!2260!familiar!</string>
+    </ref>
+    <ref link="zone_6_node_6_desc">
+        <string lang="en">Find and defeat King !familiar!2260!familiar!</string>
+        <string lang="fr">Trouve et élimine le roi !familiar!2260!familiar!</string>
+        <string lang="it">Trova e sconfiggi il Re !familiar!2260!familiar!</string>
+        <string lang="de">Finde und besiege König !familiar!2260!familiar!.</string>
+        <string lang="es">Encuentra y derrota al rey !familiar!2260!familiar!</string>
+        <string lang="pt">Encontre e derrote o Rei !familiar!2260!familiar!.</string>
+    </ref>
+    
+    <ref link="zone_6_node_7_name">
+        <string lang="en">!familiar!2250!familiar!'s Channel</string>
+        <string lang="fr">La chaîne de !familiar!2250!familiar!</string>
+        <string lang="it">Canale di !familiar!2250!familiar!</string>
+        <string lang="de">!familiar!2250!familiar! Kanal</string>
+        <string lang="es">El canal de !familiar!2250!familiar!</string>
+        <string lang="pt">Canal de !familiar!2250!familiar!</string>
+    </ref>
+    <ref link="zone_6_node_7_desc">
+        <string lang="en">Find and defeat King !familiar!2250!familiar!</string>
+        <string lang="fr">Trouve et élimine le roi !familiar!2250!familiar!</string>
+        <string lang="it">Trova e sconfiggi il Re !familiar!2250!familiar!</string>
+        <string lang="de">Finde und besiege König !familiar!2250!familiar!.</string>
+        <string lang="es">Encuentra y derrota al rey !familiar!2250!familiar!</string>
+        <string lang="pt">Encontre e derrote o Rei !familiar!2250!familiar!.</string>
+    </ref>
+    
+    <ref link="zone_6_node_8_name">
+        <string lang="en">Oozmire</string>
+    </ref>
+    <ref link="zone_6_node_8_desc">
+        <string lang="en">Find and defeat !familiar!2270!familiar!</string>
+        <string lang="fr">Trouve et élimine !familiar!2270!familiar!</string>
+        <string lang="it">Trova e sconfiggi !familiar!2270!familiar!</string>
+        <string lang="de">Finde und besiege !familiar!2270!familiar!.</string>
+        <string lang="es">Encuentra y derrota a !familiar!2270!familiar!</string>
+        <string lang="pt">Encontre e derrote !familiar!2270!familiar!.</string>
+    </ref>
+    
+    <ref link="zone_6_node_9_name">
+        <string lang="en">Mystic Labyrinth</string>
+        <string lang="fr">Labyrinthe mystique</string>
+        <string lang="it">Labirinto mistico</string>
+        <string lang="de">Mystisches Labyrinth</string>
+        <string lang="es">Laberinto místico</string>
+        <string lang="pt">Labyrinth Mystic</string>
+    </ref>
+    
+    <ref link="zone_6_node_10_name">
+        <string lang="en">Dark Chamber</string>
+        <string lang="fr">Chambre noire</string>
+        <string lang="it">Camera oscura</string>
+        <string lang="de">Dunkle Kammer</string>
+        <string lang="es">Cámara oscura</string>
+        <string lang="pt">Câmara escura</string>
+    </ref>
+    
+    <ref link="zone_6_node_11_name">
+        <string lang="en">Shadow Tunnels</string>
+        <string lang="fr">Tunnels de l'ombre</string>
+        <string lang="it">Tunnel Shadow</string>
+        <string lang="de">Schatten-Tunnel</string>
+        <string lang="es">Túneles sombríos</string>
+        <string lang="pt">Túneis de sombra</string>
+    </ref>
+    <ref link="zone_6_node_11_desc">
+        <string lang="en">Find and defeat the !familiar!2300!familiar! Lord</string>
+        <string lang="fr">Trouve et élimine le seigneur !familiar!2300!familiar!</string>
+        <string lang="it">Trova e sconfiggi Lady !familiar!2300!familiar!</string>
+        <string lang="de">Finde und besiege den Fürsten !familiar!230!familiar!.</string>
+        <string lang="es">Encuentra y derrota a !familiar!2300!familiar! Señor</string>
+        <string lang="pt">Encontre e derrote o Senhor !familiar!2300!familiar!.</string>
+    </ref>
+    
+    <ref link="zone_6_node_12_name">
+        <string lang="en">!familiar!2310!familiar!'s Catacomb</string>
+        <string lang="fr">Catacombe de !familiar!2310!familiar!</string>
+        <string lang="it">Catacomba di !familiar!2310!familiar!</string>
+        <string lang="de">Katakomben von !familiar!2310!familiar!</string>
+        <string lang="es">Catacumba de !familiar!2310!familiar!</string>
+        <string lang="pt">Catacumba de !familiar!2310!familiar!</string>
+    </ref>
+    <ref link="zone_6_node_12_desc">
+        <string lang="en">Find and defeat !familiar!2310!familiar!</string>
+        <string lang="fr">Trouve et élimine !familiar!2310!familiar!</string>
+        <string lang="it">Trova e sconfiggi !familiar!2310!familiar!</string>
+        <string lang="de">Finde und besiege !familiar!2310!familiar!.</string>
+        <string lang="es">Encuentra y derrota a !familiar!2310!familiar!</string>
+        <string lang="pt">Encontre e derrote !familiar!2310!familiar!.</string>
+    </ref>
+    <ref link="zone_6_node_13_name">
+        <string lang="en">Demiroth</string>
+    </ref>
+</data>

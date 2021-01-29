@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+    <ref link="raid_1_name">
+        <string lang="en">Astaroth's Awakening</string>
+        <string lang="fr">Le réveil d'Astaroth</string>
+        <string lang="it">Risveglio di Astaroth</string>
+        <string lang="de">Astaroths Erwachen</string>
+        <string lang="es">Despertar de Astaroth</string>
+        <string lang="pt">Despertar de Astaroth</string>
+    </ref>
+    <ref link="raid_1_desc">
+        <string lang="en">Defeat the dark lord and collect his *legendary* gear!</string>
+        <string lang="fr">Battez le Seigneur des ténèbres et récupérez son matériel *legendary* !</string>
+        <string lang="it">Sconfiggi l'Oscuro Signore e avrai il suo equipaggiamento *legendary*!</string>
+        <string lang="de">Besiege den dunklen Fürsten und sammle seine Ausrüstung der Stufe *legendary*!</string>
+        <string lang="es">¡Derrota al señor oscuro y recoge su equipamiento *legendary*!</string>
+        <string lang="pt">Derrote o Senhor das Trevas e conquiste equipamento *legendary*!</string>
+    </ref>
+    <ref link="raid_2_name">
+        <string lang="en">Hyper Dimension</string>
+        <string lang="fr">Hyper-dimension</string>
+        <string lang="it">Iper-dimensione</string>
+        <string lang="de">Hyperdimension</string>
+        <string lang="es">Hiperdimensión</string>
+        <string lang="pt">Hiperdimensão</string>
+    </ref>
+    <ref link="raid_2_desc">
+        <string lang="en">Defeat !familiar!1240!familiar! and collect his *legendary* gear!</string>
+        <string lang="fr">Battez !familiar!1240!familiar! et récupérez son matériel *legendary* !</string>
+        <string lang="it">Sconfiggi !familiar!1240!familiar! e avrai il suo equipaggiamento *legendary*!</string>
+        <string lang="de">Besiege !familiar!1240!familiar! und sammle seine Ausrüstung der Stufe *legendary*!</string>
+        <string lang="es">¡Derrota a !familiar!1240!familiar! y recoge su equipamiento *legendary*!</string>
+        <string lang="pt">Derrote !familiar!1240!familiar! e conquiste equipamento *legendary*!</string>
+    </ref>
+    <ref link="raid_3_name">
+        <string lang="en">Woodbeard's Booty</string>
+        <string lang="fr">Booty de Woodbeard</string>
+        <string lang="it">Booty di Woodbeard</string>
+        <string lang="de">Woodbeards Beute</string>
+        <string lang="es">El botín de Woodbeard</string>
+        <string lang="pt">Booty de Woodbeard</string>
+    </ref>
+    <ref link="raid_3_desc">
+        <string lang="en">Defeat !familiar!1740!familiar! and collect his *legendary* gear!</string>
+        <string lang="fr">Battez !familiar!1740!familiar! et récupérez son matériel *legendary* !</string>
+        <string lang="it">Sconfiggi !familiar!1740!familiar! e avrai il suo equipaggiamento *legendary*!</string>
+        <string lang="de">Besiege !familiar!1740!familiar! und sammle seine Ausrüstung der Stufe *legendary*!</string>
+        <string lang="es">¡Derrota a !familiar!1740!familiar! y recoge su equipamiento *legendary*!</string>
+        <string lang="pt">Derrote !familiar!1740!familiar! e conquiste equipamento *legendary*!</string>
+    </ref>
+    
+    
+    <ref link="raid_4_name">
+        <string lang="en">A Haile'of a Mistake</string>
+    </ref>
+    <ref link="raid_4_desc">
+        <string lang="en">Travel to the future! Save the land from the evil Romboz.</string>
+        <string lang="fr">Voyage vers le futur! Sauvez la terre de la Romboz maléfique.</string>
+        <string lang="it">Viaggiare al futuro! Salva la terra dal male Romboz.</string>
+        <string lang="de">Reise in die Zukunft! Rette das Land vor dem bösen Romboz.</string>
+        <string lang="es">¡Viaja al futuro! Salva a la tierra del malvado Romboz.</string>
+        <string lang="pt">Viaje para o futuro! Salve a terra do mal Romboz.</string>
+    </ref>
+    
+    
+</data>

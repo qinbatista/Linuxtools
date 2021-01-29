@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+    <ref link="rune_type_1_name">
+        <string lang="en">Major Rune</string>
+        <string lang="fr">Rune majeure</string>
+        <string lang="it">Runa maggiore</string>
+        <string lang="de">Große Rune</string>
+        <string lang="es">Runa mayor</string>
+        <string lang="pt">Runa Maior</string>
+    </ref>
+    <ref link="rune_type_2_name">
+        <string lang="en">Minor Rune</string>
+        <string lang="fr">Rune mineure</string>
+        <string lang="it">Runa minore</string>
+        <string lang="de">Kleine Rune</string>
+        <string lang="es">Runa menor</string>
+        <string lang="pt">Runa Menor</string>
+    </ref>
+    <ref link="rune_type_3_name">
+        <string lang="en">Meta Rune</string>
+        <string lang="fr">Méta-rune</string>
+        <string lang="it">Meta-runa</string>
+        <string lang="de">Meta-Rune</string>
+        <string lang="es">Metarruna</string>
+        <string lang="pt">Metarruna</string>
+    </ref>
+    <ref link="rune_major_power_name">
+        <string lang="en">Ogok Rune</string>
+        <string lang="fr">Rune Ogok</string>
+        <string lang="it">Ogok Runa</string>
+        <string lang="de">Ogok Rune</string>
+        <string lang="es">Runa Ogok</string>
+        <string lang="pt">Runa Ogok</string>
+    </ref>
+    <ref link="rune_major_stamina_name">
+        <string lang="en">Ixu Rune</string>
+        <string lang="fr">Rune Ixu</string>
+        <string lang="it">Ixu Runa</string>
+        <string lang="de">Ixu Rune</string>
+        <string lang="es">Runa Ixu</string>
+        <string lang="pt">Runa Ixu</string>
+    </ref>
+    <ref link="rune_major_agility_name">
+        <string lang="en">Ora Rune</string>
+        <string lang="fr">Rune Ora</string>
+        <string lang="it">Ora Runa</string>
+        <string lang="de">Ora Rune</string>
+        <string lang="es">Runa Ora</string>
+        <string lang="pt">Runa Ora</string>
+    </ref>
+    <ref link="rune_major_block_name">
+        <string lang="en">Nokai Rune</string>
+        <string lang="fr">Rune Nokai</string>
+        <string lang="it">Nokai Runa</string>
+        <string lang="de">Nokai Rune</string>
+        <string lang="es">Runa Nokai</string>
+        <string lang="pt">Runa Nokai</string>
+    </ref>
+    <ref link="rune_major_evade_name">
+        <string lang="en">Dej Rune</string>
+        <string lang="fr">Rune Dej</string>
+        <string lang="it">Dej Runa</string>
+        <string lang="de">Dej Rune</string>
+        <string lang="es">Runa Dej</string>
+        <string lang="pt">Runa Dej</string>
+    </ref>
+    <ref link="rune_major_deflect_name">
+        <string lang="en">Voik Rune</string>
+        <string lang="fr">Rune Voik</string>
+        <string lang="it">Voik Runa</string>
+        <string lang="de">Voik Rune</string>
+        <string lang="es">Runa Voik</string>
+        <string lang="pt">Runa Voik</string>
+    </ref>
+    <ref link="rune_major_damagereturn_name">
+        <string lang="en">Phir Rune</string>
+        <string lang="fr">Rune Phir</string>
+        <string lang="it">Phir Runa</string>
+        <string lang="de">Phir Rune</string>
+        <string lang="es">Runa Phir</string>
+        <string lang="pt">Runa Phir</string>
+    </ref>
+    <ref link="rune_minor_gold_name">
+        <string lang="en">Dar Rune</string>
+        <string lang="fr">Rune Dar</string>
+        <string lang="it">Dar Runa</string>
+        <string lang="de">Dar Rune</string>
+        <string lang="es">Runa Dar</string>
+        <string lang="pt">Runa Dar</string>
+    </ref>
+    <ref link="rune_minor_capture_name">
+        <string lang="en">Quindi Rune</string>
+        <string lang="fr">Rune Quindi</string>
+        <string lang="it">Quindi Runa</string>
+        <string lang="de">Quindi Rune</string>
+        <string lang="es">Runa Quindi</string>
+        <string lang="pt">Runa Quindi</string>
+    </ref>
+    <ref link="rune_minor_exp_name">
+        <string lang="en">Zyrk Rune</string>
+        <string lang="fr">Rune Zyrk</string>
+        <string lang="it">Zyrk Runa</string>
+        <string lang="de">Zyrk Rune</string>
+        <string lang="es">Runa Zyrk</string>
+        <string lang="pt">Runa Zyrk</string>
+    </ref>
+    <ref link="rune_minor_itemfind_name">
+        <string lang="en">Vryn Rune</string>
+        <string lang="fr">Rune Vryn</string>
+        <string lang="it">Vryn Runa</string>
+        <string lang="de">Vryn Rune</string>
+        <string lang="es">Runa Vryn</string>
+        <string lang="pt">Runa Vryn</string>
+    </ref>
+    <ref link="rune_meta_healthlowhealbonus_name">
+        <string lang="en">Kor Rune</string>
+        <string lang="fr">Rune Kor</string>
+        <string lang="it">Kor Runa</string>
+        <string lang="de">Kor Rune</string>
+        <string lang="es">Runa Kor</string>
+        <string lang="pt">Runa Kor</string>
+    </ref>
+    <ref link="rune_meta_healthlowhealbonus_desc">
+        <string lang="en">While below #value1#% health, heals received from skills are #value2#% more effective</string>
+        <string lang="fr">Lorsque la santé est inférieure à #value1#%, les soins conférés par les compétences sont #value2#% plus efficaces</string>
+        <string lang="it">Con meno di #value1#% di salute, le abilità curative hanno #value2#% di efficacia in più</string>
+        <string lang="de">Bei weniger als #value1#% Gesundheit sind Heilungen durch Skills #value2#% effektiver.</string>
+        <string lang="es">Cuando la salud está por debajo del #value1#%, las sanaciones recibidas de las habilidades son un #value2#% más eficaces.</string>
+        <string lang="pt">Quando está abaixo de #value1#% de vida, as curas das habilidades se tornam #value2#% mais eficientes.</string>
+    </ref>
+    <ref link="rune_meta_metergainbonus_name">
+        <string lang="en">Gael Rune</string>
+        <string lang="fr">Rune Gael</string>
+        <string lang="it">Gael Runa</string>
+        <string lang="de">Gael Rune</string>
+        <string lang="es">Runa Gael</string>
+        <string lang="pt">Runa Gael</string>
+    </ref>
+    <ref link="rune_meta_metergainbonus_desc">
+        <string lang="en">While at full health, SP regeneration increased by #value1#%</string>
+        <string lang="fr">Lorsque la santé est pleine, la régénération de PC est accrue de #value1#%</string>
+        <string lang="it">Se la salute è al completo, la rigenerazione di PA aumenta di #value1#%</string>
+        <string lang="de">Bei voller Gesundheit wird die SP-Regeneration um #value1#% erhöht.</string>
+        <string lang="es">Cuando la salud está al máximo, la regeneración de PH aumenta en un #value1#%.</string>
+        <string lang="pt">Quando está com a vida cheia, a sua regeneração de PH aumenta em #value1#%.</string>
+    </ref>
+    <ref link="rune_major_healthdrain_name">
+        <string lang="en">Pire Rune</string>
+        <string lang="fr">Rune Pire</string>
+        <string lang="it">Pire Runa</string>
+        <string lang="de">Pire Rune</string>
+        <string lang="es">Runa Pire</string>
+        <string lang="pt">Runa Pire</string>
+    </ref>
+    <ref link="rune_major_doubleturn_name">
+        <string lang="en">Vex Rune</string>
+        <string lang="fr">Rune Vex</string>
+        <string lang="it">Vex Runa</string>
+        <string lang="de">Vex Rune</string>
+        <string lang="es">Runa Vex</string>
+        <string lang="pt">Runa Vex</string>
+    </ref>
+    <ref link="rune_meta_meterdrain_name">
+        <string lang="en">Chet Rune</string>
+        <string lang="fr">Rune Chet</string>
+        <string lang="it">Chet Runa</string>
+        <string lang="de">Chet Rune</string>
+        <string lang="es">Runa Chet</string>
+        <string lang="pt">Runa Chet</string>
+    </ref>
+    <ref link="rune_meta_meterdrain_desc">
+        <string lang="en">Drain #value1#% SP from an opponent when you defeat them</string>
+        <string lang="fr">Ponctionne #value1#% des PC de l'adversaire que tu bats</string>
+        <string lang="it">Ruba #value1#% dei PA dell'avversario quando lo sconfiggi</string>
+        <string lang="de">Entziehe einem Gegner #value1#% SP, wenn du ihn besiegst.</string>
+        <string lang="es">Drena un #value1#% de PH de un adversario cuando lo derrotas.</string>
+        <string lang="pt">Drena #value1#% PH do adversário derrotado.</string>
+    </ref>
+    <ref link="rune_meta_damagegivefirst_name">
+        <string lang="en">Nox Rune</string>
+        <string lang="fr">Rune Nox</string>
+        <string lang="it">Nox Runa</string>
+        <string lang="de">Nox Rune</string>
+        <string lang="es">Runa Nox</string>
+        <string lang="pt">Runa Nox</string>
+    </ref>
+    <ref link="rune_meta_damagegivefirst_desc">
+        <string lang="en">Your first attack on an opponent deals #value1#% increased damage</string>
+        <string lang="fr">Ta première attaque inflige #value1#% de dégâts en plus à ton adversaire</string>
+        <string lang="it">Il tuo primo attacco a un avversario infligge #value1#% di danno in più</string>
+        <string lang="de">Dein erster Angriff gegen einen Gegner verursacht #value1#% mehr Schaden.</string>
+        <string lang="es">Tu primer ataque sobre un adversario provoca daños incrementados en un #value1#%.</string>
+        <string lang="pt">Seu primeiro ataque contra um adversário causa #value1#% a mais de dano.</string>
+    </ref>
+    <ref link="rune_meta_damagereceivefirst_name">
+        <string lang="en">Kaun Rune</string>
+        <string lang="fr">Rune Kaun</string>
+        <string lang="it">Kaun Runa</string>
+        <string lang="de">Kaun Rune</string>
+        <string lang="es">Runa Kaun</string>
+        <string lang="pt">Runa Kaun</string>
+    </ref>
+    <ref link="rune_meta_damagereceivefirst_desc">
+        <string lang="en">Your opponents first attack on you deals #value1#% reduced damage</string>
+        <string lang="fr">La première attaque de tes adversaires t'inflige #value1#% de dégâts en moins</string>
+        <string lang="it">Il primo attacco che subisci da un avversario infligge #value1#% di danno in meno</string>
+        <string lang="de">Der erste Angriff deines Gegners gegen dich verursacht #value1#% weniger Schaden.</string>
+        <string lang="es">El primer ataque de tus adversarios contra ti provoca daños reducidos en un #value1#%.</string>
+        <string lang="pt">O primeiro ataque de um adversário contra você causa #value1#% a menos de dano.</string>
+    </ref>
+    <ref link="rune_meta_redirect_name">
+        <string lang="en">Sol Rune</string>
+        <string lang="fr">Rune Sol</string>
+        <string lang="it">Sol Runa</string>
+        <string lang="de">Sol Rune</string>
+        <string lang="es">Runa Sol</string>
+        <string lang="pt">Runa Sol</string>
+    </ref>
+    <ref link="rune_meta_redirect_desc">
+        <string lang="en">Attacks on your teammates have a #value1#% chance to redirect to you</string>
+        <string lang="fr">Les attaques visant tes coéquipiers ont #value1#% de chances d'être redirigées vers toi</string>
+        <string lang="it">#value1#% di chance che gli attacchi verso i compagni vengano deviati su di te</string>
+        <string lang="de">Angriffe auf deine Gruppenmitglieder haben eine Chance von #value1#%, dass sie auf dich umgeleitet werden.</string>
+        <string lang="es">Los ataques contra tus compañeros de equipo tienen un #value1#% de probabilidades de redirigirse hacia ti.</string>
+        <string lang="pt">Ataques contra seus aliados têm #value1#% de serem redirecionados para você.</string>
+    </ref>
+    <ref link="rune_major_damagereduction_name">
+        <string lang="en">Isa Rune</string>
+        <string lang="fr">Rune Isa</string>
+        <string lang="it">Isa Runa</string>
+        <string lang="de">Isa Rune</string>
+        <string lang="es">Runa Isa</string>
+        <string lang="pt">Runa Isa</string>
+    </ref>
+    <ref link="rune_major_doublehit_name">
+        <string lang="en">Tol Rune</string>
+        <string lang="fr">Rune Tol</string>
+        <string lang="it">Tol Runa</string>
+        <string lang="de">Tol Rune</string>
+        <string lang="es">Runa Tol</string>
+        <string lang="pt">Runa Tol</string>
+    </ref>
+    <ref link="rune_major_absorb_name">
+        <string lang="en">Nul Rune</string>
+        <string lang="fr">Rune Nul</string>
+        <string lang="it">Nul Runa</string>
+        <string lang="de">Nul Rune</string>
+        <string lang="es">Runa Nul</string>
+        <string lang="pt">Runa Nul</string>
+    </ref>
+</data>
