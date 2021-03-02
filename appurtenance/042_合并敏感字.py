@@ -51,7 +51,7 @@ class TextMergeManager(object):
 	def _merge_text(self):
 		for line in self.__new_words_list:
 			if line not in self.__old_words_list:
-				self.__old_words_list.append(line)
+				self.__old_words_list.append(line+"\n")
 			else:
 				print("have line="+line)
 
@@ -63,7 +63,7 @@ class TextMergeManager(object):
 
 def main():
 	sam = TextMergeManager()
-	sam.start_merge("/Users/batista/Desktop/Untitled-1.txt","/Users/batista/Desktop/sensitivewords.txt")
+	sam.start_merge("/Users/batista/Desktop/aaa.txt","/Users/batista/Desktop/sensitivewords.txt")
 
 
 
