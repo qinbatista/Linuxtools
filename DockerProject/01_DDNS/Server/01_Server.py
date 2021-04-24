@@ -51,10 +51,13 @@ class DDNSServer:
 			with open("./MyDNSHost",'w',encoding="utf8") as file_name:
 				file_name.writelines(HostContext)
 			if self.all_distinct(HostContext):
-				with open("./MyDNSHost",'w',encoding="utf8") as file_name:
+				print("all_distinct="+str(HostContext))
+				with open("./MyDNSHost",'r+',encoding="utf8") as file_name:
 					file_name.truncate(0)
 					self.client_require_domain_name=[]
-					self.ip_list=[]
+					self.dnsmasq_conf=[]
+					self.ip_list = []
+					self.mac_list = []
 					time.sleep(3)
 			else:
 				os.system("cp "+"./MyDNSHost /etc/hosts")
@@ -93,10 +96,13 @@ class DDNSServer:
 		thread1.start()
 
 	def all_distinct(self, HostContext):
-		compare_string = []
-		for ddns_string in HostContext:
-			compare_string.append(ddns_string[ddns_string.find(" ")+1:])
-		return len(set(compare_string)) == len(compare_string)
+		if len(HostContext)>=2:
+			compare_string = []
+			for ddns_string in HostContext:
+				compare_string.append(ddns_string[ddns_string.find(" ")+1:])
+			return len(set(compare_string)) == len(compare_string)
+		else:
+			return False
 
 if __name__ == '__main__':
 	domain_name = ''
