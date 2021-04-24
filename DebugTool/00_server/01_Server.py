@@ -45,13 +45,21 @@ class DDNSServer:
 			for index,ip in enumerate(self.ip_list):
 				if self.client_require_domain_name.count(self.client_require_domain_name[index])>1:
 					self.ip_list=[]
+					self.client_require_domain_name=[]
 				else:
 					HostContext.append(ip+" "+str(self.client_require_domain_name[index])+"."+self.domain_name+"\n")
-				with open("./MyDNSHost",'w',encoding="utf8") as file:
-					file.writelines(HostContext)
+			with open("./MyDNSHost",'w',encoding="utf8") as file_name:
+				file_name.writelines(HostContext)
+			if self.all_distinct(HostContext):
+				with open("./MyDNSHost",'w',encoding="utf8") as file_name:
+					file_name.truncate(0)
+					self.client_require_domain_name=[]
+					self.ip_list=[]
+					time.sleep(3)
+			else:
 				os.system("cp "+"./MyDNSHost /etc/hosts")
 				os.system("/etc/init.d/dnsmasq restart")
-			time.sleep(10)
+				time.sleep(10)
 	def start_sync_ddns_config_thread(self):
 		print('Next refresh:'+str(self.seconds)+'s')
 		thread1 = threading.Thread(target=self.sync_ddns_host_config)
@@ -83,6 +91,12 @@ class DDNSServer:
 	def start_recive_ddns_config_thread(self):
 		thread1 = threading.Thread(target=self.recive_udp_message,name="线程1",args=("123","123"))
 		thread1.start()
+
+	def all_distinct(self, HostContext):
+		compare_string = []
+		for ddns_string in HostContext:
+			compare_string.append(ddns_string[ddns_string.find(" ")+1:])
+		return len(set(compare_string)) == len(compare_string)
 
 if __name__ == '__main__':
 	domain_name = ''
