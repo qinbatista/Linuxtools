@@ -1,8 +1,0 @@
-FROM python:3.7-slim
-ADD folder_sharing.py /
-ADD requirements.txt /
-RUN pip install --upgrade pip
-RUN pip install -r requirements.txt
-EXPOSE 9998/udp 9998/tcp
-VOLUME ["/root/download_folder"]
-CMD [ "python" ,"/folder_sharing.py"]
