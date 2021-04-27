@@ -40,7 +40,7 @@ class DDNSServer:
 		return ip
 	def sync_ddns_host_config(self):
 		while True:
-			print('sync_ddns_host_config')
+			print('sync_ddns_host_config:'+str(self.ip_list))
 			HostContext=[]
 			for index,ip in enumerate(self.ip_list):
 				if self.client_require_domain_name.count(self.client_require_domain_name[index])>1:
@@ -58,7 +58,9 @@ class DDNSServer:
 					self.dnsmasq_conf=[]
 					self.ip_list = []
 					self.mac_list = []
-					time.sleep(3)
+					time.sleep(10)
+					os.system("cp "+"./MyDNSHost /etc/hosts")
+					os.system("/etc/init.d/dnsmasq restart")
 			else:
 				os.system("cp "+"./MyDNSHost /etc/hosts")
 				os.system("/etc/init.d/dnsmasq restart")
