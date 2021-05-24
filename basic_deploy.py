@@ -7,9 +7,8 @@ def DeployServer():
 	
 	os.chdir(os.getcwd())
 	#open root
-	os.system("sudo -s")
 	#install basic tool
-	os.system("apt-get update && apt-get -y install python3 git screen  iptraf")
+	os.system("apt-get update && apt-get -y install python3 git screen iptraf")
 	#open bbr
 	os.system('echo "net.core.default_qdisc=fq" >> /etc/sysctl.conf')
 	os.system('echo "net.ipv4.tcp_congestion_control=bbr" >> /etc/sysctl.conf')
