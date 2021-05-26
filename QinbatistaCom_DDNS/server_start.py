@@ -43,15 +43,21 @@ class DDNSServer:
 			print('sync_ddns_host_config:'+str(self.ip_list))
 			HostContext=[]
 			for index,ip in enumerate(self.ip_list):
-				if self.client_require_domain_name.count(self.client_require_domain_name[index])>1:
-					self.ip_list=[]
-					self.client_require_domain_name=[]
-				else:
-					HostContext.append(ip+" "+str(self.client_require_domain_name[index])+"."+self.domain_name+"\n")
+				if len(self.client_require_domain_name)>=index:
+					if self.client_require_domain_name.count(self.client_require_domain_name[index])>1:
+						self.ip_list=[]
+						self.client_require_domain_name=[]
+						# print('no ip to write')
+					else:
+						HostContext.append(ip+" "+str(self.client_require_domain_name[index])+"."+self.domain_name+"\n")
+						# print('appened new id')
 			with open("./MyDNSHost",'w',encoding="utf8") as file_name:
+				# print('write new id')
 				file_name.writelines(HostContext)
+			# os.system("pwd")
+			# os.system("cat ./MyDNSHost")
 			if self.all_distinct(HostContext):
-				print("all_distinct="+str(HostContext))
+				# print("all_distinct="+str(HostContext))
 				with open("./MyDNSHost",'r+',encoding="utf8") as file_name:
 					file_name.truncate(0)
 					self.client_require_domain_name=[]
@@ -66,7 +72,7 @@ class DDNSServer:
 				os.system("/etc/init.d/dnsmasq restart")
 				time.sleep(10)
 	def start_sync_ddns_config_thread(self):
-		print('Next refresh:'+str(self.seconds)+'s')
+		# print('Next refresh:'+str(self.seconds)+'s')
 		thread1 = threading.Thread(target=self.sync_ddns_host_config)
 		thread1.start()
 	def recive_udp_message(self,name,args):
@@ -88,6 +94,8 @@ class DDNSServer:
 				self.mac_list[self.ip_list.index(ReciveIP)]= requir_domain_name
 			#没有相同ip有相同mac说明ip地址被改变需要重写记录
 			elif self.ip_list.count(ReciveIP)==0 and self.mac_list.count(requir_domain_name)!=0:
+				print(str(self.mac_list.index(requir_domain_name)))
+				print(str(self.ip_list))
 				self.ip_list[self.mac_list.index(requir_domain_name)]= ReciveIP
 			#有相同ip却有相同mac说明重复提交，保持不变
 			else:
@@ -100,9 +108,15 @@ class DDNSServer:
 	def all_distinct(self, HostContext):
 		if len(HostContext)>=2:
 			compare_string = []
+			set_list= []
 			for ddns_string in HostContext:
 				compare_string.append(ddns_string[ddns_string.find(" ")+1:])
-			return len(set(compare_string)) == len(compare_string)
+
+			for ip1 in compare_string:
+				if compare_string.count(ip1)>1:
+					return True
+			else:
+				return False
 		else:
 			return False
 
