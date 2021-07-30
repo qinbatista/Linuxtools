@@ -21,7 +21,7 @@ class DDNSServer:
 		with open('./dnsmasq.conf','r',encoding="utf8") as file:
 			all_the_text = file.readlines()
 			for i in all_the_text:
-				if(i.find('listen-address=')!=-1):self.dnsmasq_conf.append("listen-address = 127.0.0.1"+"\n")
+				if(i.find('listen-address=')!=-1):self.dnsmasq_conf.append("listen-address="+self.get_host_ip()+",127.0.0.1"+"\n")
 				else:self.dnsmasq_conf.append(i)
 		with open('./dnsmasq.conf','w',encoding="utf8") as file:
 			file.writelines(self.dnsmasq_conf)
@@ -36,8 +36,13 @@ class DDNSServer:
 			ip = s.getsockname()[0]
 		finally:
 			s.close()
-		print("this machine's ip:"+ip)
-		return ip
+		new_ip = input('input your public ID:')
+		if new_ip == "":
+			print("this machine's ip:"+ip)
+			return ip
+		else:
+			print("you IP have been revised as:"+new_ip)
+			return new_ip
 	def sync_ddns_host_config(self):
 		while True:
 			print('sync_ddns_host_config:'+str(self.ip_list))
