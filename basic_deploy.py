@@ -24,7 +24,7 @@ def DeployServer():
 	os.system("wget https://raw.githubusercontent.com/sivel/speedtest-cli/master/speedtest.py")
 	os.system("cp ./speedtest.py /usr/local/bin/")
 	os.system("docker run -itd -p 7000-7030:7000-7030  qinbatista/ssr")
-	os.system("docker run -itdv /root/download:/root/download -v /root/deliveried:/root/deliveried -p 10022:22 -p 18184:18184  qinbatista/download")
+	os.system("docker run -itdv /root/download:/download -p 10005:10005  qinbatista/download")
 
 if __name__ == '__main__':
 	DeployServer()
