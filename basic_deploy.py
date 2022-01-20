@@ -19,6 +19,8 @@ def DeployServer():
 	os.system("cp ./DebugTool/11_iptest/iptest.py /usr/local/bin/")
 	os.system("bash ./DebugTool/12_install_python3/install_python-x.sh")
 	os.system("python ./DebugTool/02_pip3/get-pip.py")
+	os.system("curl -fsSL https://test.docker.com -o test-docker.sh")
+	os.system("sh test-docker.sh")
 	os.system("apt-get install docker-ce docker-ce-cli containerd.io")
 	os.system("wget https://raw.githubusercontent.com/sivel/speedtest-cli/master/speedtest.py")
 	os.system("cp ./speedtest.py /usr/local/bin/")
