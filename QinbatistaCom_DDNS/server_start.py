@@ -28,8 +28,8 @@ class DDNSServer:
 					self.dnsmasq_conf.append(i)
 		with open('./dnsmasq.conf','w',encoding="utf8") as thisfile:
 			thisfile.writelines(self.dnsmasq_conf)
-		os.system(f"echo 'conf-dir=/etc/dnsmasq.d/,*.conf' >> /etc/dnsmasq.conf")
-		os.system(f'echo "user=root" >> /etc/dnsmasq.conf')
+		os.system("echo 'conf-dir=/etc/dnsmasq.d/,*.conf' >> /etc/dnsmasq.conf")
+		os.system('echo "user=root" >> /etc/dnsmasq.conf')
 		os.system("cp "+"./dnsmasq.conf /etc/dnsmasq.conf")
 		os.system("cp "+"./MyDNSHost /etc/hosts")
 	def get_host_ip(self):
